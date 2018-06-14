@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="js">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -12,6 +12,42 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <link href="//block.blokada.org/favicon.png" rel="icon">
 
+<script src="../../../../scripts/jquery@3.1.0,mark.js@8.6.0jquery.mark.min.js"></script>
+<style>
+
+#searchbar-container {
+    margin-bottom: 5px;
+	margin-top: 10px;
+	margin: 0 auto;
+	position: fixed;
+	background-color: #212121;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	left: 0;
+}
+
+#searchbar {
+	margin-top: 7px;
+	margin-bottom: 5px;
+
+}
+
+#searchbar > button {
+	width: 40px;
+	height: 35px;
+	border: 2px solid #d85101;
+	border-radius: 2px;
+	font-size: 20px;
+	    background-color: #ff5f00;
+}
+
+#bar {
+	height: 30px;
+	padding-top: 8px;
+	text-indent: 7px;
+}
+</style>
 <title>Help: Blokada</title>
 </head>
 <body class="theme-base-theme1 layout-reverse">
@@ -19,7 +55,15 @@
 <div class="content">
     <div class="container">
         <section id="main">
-
+<div id="menu-bg"><div>
+  <div id="searchbar-container">
+	<div id="searchbar">
+	  <input id="bar" type="search" placeholder="Search">
+	  <button data-search="next">&darr;</button>
+	  <button data-search="prev">&uarr;</button>
+	  <button data-search="clear">✖</button>
+	</div>
+  </div>
 <h3>Help</h3>
 <p>This site is built up with two different sections. The first gives assistance with common issues you might face while the second provides information for general questions.</p>
 

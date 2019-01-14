@@ -3,11 +3,10 @@ body {
   height: 100%;
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background: linear-gradient(to bottom, #242523 0%, #6e716b 100%);
+  background: linear-gradient(to bottom, #242523 0%, #262F37 100%);
 }
 html {
   width: 100%;
- 
 }
 h1,
 h2,

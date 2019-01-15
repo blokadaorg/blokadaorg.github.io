@@ -102,7 +102,7 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-@media (min-width: 768px) {
+@media (min-width: 2215px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -115,6 +115,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: #000;
+    font-size: 8px
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 }

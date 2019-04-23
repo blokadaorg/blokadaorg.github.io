@@ -1,4 +1,139 @@
+10
+b_goodbyeads
+blacklist
+active
+https://github.com/jerryn70/GoodbyeAds
+link
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+
+
+13
+b_energized_blu
+blacklist
+inactive
+https://github.com/EnergizedProtection/block
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts
+
+
+14
+b_energized_blu_go
+blacklist
+active
+https://github.com/EnergizedProtection/block
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts
+
+
+15
+b_energized_spark
+blacklist
+inactive
+https://github.com/EnergizedProtection/block
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
+
+
 20
+b_unified_porn
+blacklist
+inactive
+https://github.com/StevenBlack/hosts
+link
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
+
+
+21
+b_unified
+blacklist
+active
+https://github.com/StevenBlack/hosts
+link
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+
+25
+b_mvps
+blacklist
+inactive
+http://winhelp2002.mvps.org/hosts.htm
+link
+http://winhelp2002.mvps.org/hosts.txt
+
+
+30
+b_adaway
+blacklist
+inactive
+https://adaway.org
+link
+https://adaway.org/hosts.txt
+
+
+33
+b_danpollock
+blacklist
+inactive
+https://someonewhocares.org/hosts/zero/
+link
+http://someonewhocares.org/hosts/hosts
+
+
+35
+b_pgl
+blacklist
+inactive
+https://pgl.yoyo.org/adservers/
+link
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0
+
+
+37
+b_social
+blacklist
+inactive
+https://github.com/StevenBlack/hosts
+link
+https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/social/hosts
+
+
+39
+b_hphosts
+blacklist
+inactive
+https://hosts-file.net/?s=Download
+link
+https://hosts-file.net/ad_servers.txt
+
+
+40
+b_mining
+blacklist
+inactive
+https://gitlab.com/ZeroDot1/CoinBlockerLists
+link
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts
+
+
+100
+b_common_whitelist
+whitelist
+inactive
+https://github.com/anudeepND/whitelist
+link
+https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+
+
+119
+b_app_vending
+whitelist
+active
+http://blokada.org
+app
+org.blokada.origin.alarm
+
+
+120
 b_app_vending
 whitelist
 active
@@ -7,7 +142,7 @@ app
 com.android.vending
 
 
-30
+121
 b_app_downloads
 whitelist
 active
@@ -16,7 +151,7 @@ app
 com.android.providers.downloads
 
 
-40
+122
 b_app_allo
 whitelist
 active
@@ -25,7 +160,7 @@ app
 com.google.android.apps.fireball
 
 
-41
+123
 b_app_authenticator
 whitelist
 active
@@ -34,7 +169,7 @@ app
 com.google.android.apps.authenticator2
 
 
-42
+124
 b_app_gdocs
 whitelist
 active
@@ -43,7 +178,7 @@ app
 com.google.android.apps.docs
 
 
-43
+125
 b_app_duo
 whitelist
 active
@@ -52,7 +187,7 @@ app
 com.google.android.apps.tachyon
 
 
-44
+126
 b_app_gmail
 whitelist
 active
@@ -61,7 +196,7 @@ app
 com.google.android.gm
 
 
-56
+127
 b_app_gphotos
 whitelist
 active
@@ -70,7 +205,7 @@ app
 com.google.android.apps.photos
 
 
-60
+128
 b_app_signal
 whitelist
 active
@@ -79,7 +214,7 @@ app
 org.thoughtcrime.securesms
 
 
-70
+129
 b_app_plex
 whitelist
 active
@@ -88,7 +223,7 @@ app
 com.plexapp.android
 
 
-80
+130
 b_app_kdeconnect
 whitelist
 active
@@ -97,7 +232,7 @@ app
 org.kde.kdeconnect_tp
 
 
-110
+131
 b_app_waze
 whitelist
 active
@@ -106,12 +241,10 @@ app
 com.waze
 
 
-120
+132
 b_app_xda
 whitelist
 active
 http://blokada.org
 app
 com.xda.labs
-
-

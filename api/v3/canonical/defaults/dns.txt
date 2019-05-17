@@ -12,6 +12,13 @@ ipv4
 176.103.130.132;176.103.130.134
 https://adguard.com/en/adguard-dns/overview.html
 
+12
+alternate
+inactive
+ipv4
+23.253.163.53;198.101.242.72
+https://alternate-dns.com/
+
 15
 cloudflare
 inactive
@@ -47,6 +54,13 @@ ipv4
 87.118.111.215;213.187.11.62
 http://www.fooldns.com/fooldns-community/english-version/
 
+46
+fdn
+inactive
+ipv4
+80.67.169.12;80.67.169.40
+https://www.fdn.fr/
+
 50
 google
 inactive
@@ -68,12 +82,33 @@ ipv4
 208.67.222.222;208.67.220.220
 https://www.opendns.com/
 
+95
+opennicusa
+inactive
+ipv4
+63.231.92.27;66.187.76.16
+https://www.opennic.org/
+
+96
+openniceu
+inactive
+ipv4
+82.141.39.32;50.3.82.162
+https://www.opennic.org/
+
 100
 quad9
 inactive
 ipv4
 9.9.9.9;149.112.112.112
 https://www.quad9.net/
+
+105
+uncensored
+inactive
+ipv4
+91.239.100.100;89.233.43.71
+https://blog.uncensoreddns.org/
 
 110
 verisign
@@ -102,4 +137,3 @@ inactive
 ipv4
 77.88.8.7;77.88.8.3
 https://dns.yandex.com/advanced/
-

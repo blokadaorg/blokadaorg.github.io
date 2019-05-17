@@ -128,7 +128,7 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 b_app_vending
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.android.vending
 
@@ -137,7 +137,7 @@ com.android.vending
 b_app_downloads
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.android.providers.downloads
 
@@ -146,7 +146,7 @@ com.android.providers.downloads
 b_app_allo
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.apps.fireball
 
@@ -155,7 +155,7 @@ com.google.android.apps.fireball
 b_app_authenticator
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.apps.authenticator2
 
@@ -164,7 +164,7 @@ com.google.android.apps.authenticator2
 b_app_gdocs
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.apps.docs
 
@@ -173,7 +173,7 @@ com.google.android.apps.docs
 b_app_duo
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.apps.tachyon
 
@@ -182,7 +182,7 @@ com.google.android.apps.tachyon
 b_app_gmail
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.gm
 
@@ -191,7 +191,7 @@ com.google.android.gm
 b_app_gphotos
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.apps.photos
 
@@ -200,7 +200,7 @@ com.google.android.apps.photos
 b_app_playgames
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.google.android.play.games
 
@@ -209,7 +209,7 @@ com.google.android.play.games
 b_app_signal
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 org.thoughtcrime.securesms
 
@@ -218,7 +218,7 @@ org.thoughtcrime.securesms
 b_app_plex
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.plexapp.android
 
@@ -227,7 +227,7 @@ com.plexapp.android
 b_app_kdeconnect
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 org.kde.kdeconnect_tp
 
@@ -236,7 +236,7 @@ org.kde.kdeconnect_tp
 b_app_waze
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.waze
 
@@ -245,8 +245,25 @@ com.waze
 b_app_xda
 whitelist
 active
-http://blokada.org
+https://blokada.org
 app
 com.xda.labs
 
+
+130
+b_app_incallui
+whitelist
+active
+https://blokada.org
+app
+com.android.incallui
+
+
+140
+b_app_phone
+whitelist
+active
+https://blokada.org
+app
+com.android.phone
 

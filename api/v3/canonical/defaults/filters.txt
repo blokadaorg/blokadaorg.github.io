@@ -267,3 +267,20 @@ https://blokada.org
 app
 com.android.phone
 
+
+150
+b_app_telephony
+whitelist
+active
+https://blokada.org
+app
+com.android.providers.telephony
+
+
+160
+b_app_hwsysmanager
+whitelist
+inactive
+https://blokada.org
+app
+com.huawei.systemmanager

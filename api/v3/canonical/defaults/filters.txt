@@ -1,13 +1,40 @@
 10
-b_unified
+b_goodbyeads
+blacklist
+active
+https://github.com/jerryn70/GoodbyeAds
+link
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+
+
+13
+b_energized_blu
 blacklist
 inactive
-https://github.com/StevenBlack/hosts
+https://github.com/EnergizedProtection/block
 link
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts
 
 
-11
+14
+b_energized_blu_go
+blacklist
+active
+https://github.com/EnergizedProtection/block
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts
+
+
+15
+b_energized_spark
+blacklist
+inactive
+https://github.com/EnergizedProtection/block
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
+
+
+20
 b_unified_porn
 blacklist
 inactive
@@ -16,61 +43,16 @@ link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
 
 
-13
-b_energized_basic
-blacklist
-inactive
-https://github.com/AdroitAdorKhan/Energized
-link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts
-
-
-14
-b_energized_blu
+21
+b_unified
 blacklist
 active
-https://github.com/AdroitAdorKhan/Energized
+https://github.com/StevenBlack/hosts
 link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 
-15
-b_energized_blu_go
-blacklist
-inactive
-https://github.com/AdroitAdorKhan/Energized
-link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts
-
-
-16
-b_energized_spark
-blacklist
-inactive
-https://github.com/AdroitAdorKhan/Energized
-link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
-
-
-18
-b_goodbyeads
-blacklist
-inactive
-https://github.com/jerryn70/GoodbyeAds
-link
-https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
-
-
-20
-b_hphosts
-blacklist
-inactive
-https://hosts-file.net/?s=Download
-link
-https://hosts-file.net/ad_servers.txt
-
-
-30
+25
 b_mvps
 blacklist
 inactive
@@ -79,7 +61,7 @@ link
 http://winhelp2002.mvps.org/hosts.txt
 
 
-40
+30
 b_adaway
 blacklist
 inactive
@@ -88,16 +70,16 @@ link
 https://adaway.org/hosts.txt
 
 
-50
+33
 b_danpollock
 blacklist
 inactive
 https://someonewhocares.org/hosts/zero/
 link
-https://someonewhocares.org/hosts/hosts
+http://someonewhocares.org/hosts/hosts
 
 
-60
+35
 b_pgl
 blacklist
 inactive
@@ -106,7 +88,7 @@ link
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0
 
 
-70
+37
 b_social
 blacklist
 inactive
@@ -115,7 +97,16 @@ link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/social/hosts
 
 
-80
+39
+b_hphosts
+blacklist
+inactive
+https://hosts-file.net/?s=Download
+link
+https://hosts-file.net/ad_servers.txt
+
+
+40
 b_mining
 blacklist
 inactive
@@ -124,7 +115,25 @@ link
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
 
-20
+100
+b_common_whitelist
+whitelist
+inactive
+https://github.com/anudeepND/whitelist
+link
+https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+
+
+119
+b_app_vending
+whitelist
+active
+http://blokada.org
+app
+org.blokada.origin.alarm
+
+
+120
 b_app_vending
 whitelist
 active
@@ -133,7 +142,70 @@ app
 com.android.vending
 
 
-30
+121
+b_mvps
+blacklist
+inactive
+http://winhelp2002.mvps.org/hosts.htm
+link
+http://winhelp2002.mvps.org/hosts.txt
+
+
+122
+b_adaway
+blacklist
+inactive
+https://adaway.org
+link
+https://adaway.org/hosts.txt
+
+
+123
+b_danpollock
+blacklist
+inactive
+https://someonewhocares.org/hosts/zero/
+link
+https://someonewhocares.org/hosts/hosts
+
+
+124
+b_pgl
+blacklist
+inactive
+https://pgl.yoyo.org/adservers/
+link
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0
+
+
+125
+b_social
+blacklist
+inactive
+https://github.com/StevenBlack/hosts
+link
+https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/social/hosts
+
+
+126
+b_mining
+blacklist
+inactive
+https://gitlab.com/ZeroDot1/CoinBlockerLists
+link
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts
+
+
+127
+b_app_vending
+whitelist
+active
+http://blokada.org
+app
+com.android.vending
+
+
+128
 b_app_downloads
 whitelist
 active
@@ -142,7 +214,7 @@ app
 com.android.providers.downloads
 
 
-40
+129
 b_app_allo
 whitelist
 active
@@ -151,7 +223,7 @@ app
 com.google.android.apps.fireball
 
 
-41
+130
 b_app_authenticator
 whitelist
 active
@@ -160,7 +232,7 @@ app
 com.google.android.apps.authenticator2
 
 
-42
+131
 b_app_gdocs
 whitelist
 active
@@ -169,7 +241,7 @@ app
 com.google.android.apps.docs
 
 
-43
+132
 b_app_duo
 whitelist
 active
@@ -178,7 +250,7 @@ app
 com.google.android.apps.tachyon
 
 
-44
+133
 b_app_gmail
 whitelist
 active
@@ -187,7 +259,7 @@ app
 com.google.android.gm
 
 
-56
+134
 b_app_gphotos
 whitelist
 active
@@ -196,7 +268,7 @@ app
 com.google.android.apps.photos
 
 
-58
+135
 b_app_playgames
 whitelist
 active
@@ -205,7 +277,7 @@ app
 com.google.android.play.games
 
 
-60
+136
 b_app_signal
 whitelist
 active
@@ -214,7 +286,7 @@ app
 org.thoughtcrime.securesms
 
 
-70
+137
 b_app_plex
 whitelist
 active
@@ -223,7 +295,7 @@ app
 com.plexapp.android
 
 
-80
+138
 b_app_kdeconnect
 whitelist
 active
@@ -232,7 +304,7 @@ app
 org.kde.kdeconnect_tp
 
 
-110
+139
 b_app_waze
 whitelist
 active
@@ -241,7 +313,7 @@ app
 com.waze
 
 
-120
+140
 b_app_xda
 whitelist
 active

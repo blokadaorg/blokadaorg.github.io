@@ -3,7 +3,7 @@ body {
   height: 100%;
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: #1D1D1D;
+  background-color: linear-gradient(to bottom, #242523 0%, #262F37 100%);
 }
 html {
   width: 100%;
@@ -15,28 +15,22 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 30px;
+  margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
-h2 {
-  font-size: 28px;
-}
-h3 {
-  font-size: 24px;
-}
 p {
-  margin: 0 0 22px;
-  font-size: 16px;
-  line-height: 1.4;
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 @media (min-width: 768px) {
   p {
-    margin: 0 0 30px;
-    font-size: 18px;
-    line-height: 1.5;
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
   }
 }
 a {
@@ -55,10 +49,10 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #000;
+  background-color: #1D1D1D;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -115,18 +109,18 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: #000;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: #1D1D1D;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 .intro {
   display: table;
   width: 100%;
   height: auto;
-  padding: 50px 0 100px 0;
+  padding: 100px 0;
   text-align: center;
   color: white;
-  background-color: #1D1D1D;
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -219,17 +213,34 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 .download-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background-color: #000;
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+#map {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+}
+@media (min-width: 767px) {
+  .content-section {
+    padding-top: 250px;
+  }
+  .download-section {
+    padding: 100px 0;
+  }
+  #map {
+    height: 400px;
+    margin-top: 250px;
+  }
 }
 .btn {
   text-transform: uppercase;
@@ -302,11 +313,11 @@ body {
 }
 .blokada-logo {
   width: 100%;
-  max-width: 300px;
+  max-width: 360px;
 }
 @media (min-width: 768px) {
   .blokada-logo {
-    max-width: 460px;
+    max-width: 480px;
   }
 }
 .btn-feedback {
@@ -339,52 +350,4 @@ body {
   -moz-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
-}
-
-.galleria {
-  margin: 45px 0;
-}
-
-.slick div {
-  padding: 10px 5px;
-}
-
-@media (min-width: 768px) {
-  .slick div {
-    padding: 20px 30px;
-  }
-}
-
-.slick p {
-  text-align: left;
-  margin: 0;
-}
-
-.slick .author {
-  font-weight: bold;
-}
-
-.slick .comment {
-  color: #bfbfbf;
-}
-
-#fullscreen {
-  float: right;
-  position: relative;
-  z-index: 1000;
-  top: 630px;
-}
-
-#fullscreen i {
-  display: block;
-  padding: 25px 15px 5px 25px;
-  color: white;
-  filter: alpha(opacity=30);
-  opacity: .3;
-}
-
-#fullscreen i:hover {
-  cursor: pointer;
-  opacity: 1;
-  filter: alpha(opacity=100);
 }

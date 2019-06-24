@@ -1,6 +1,6 @@
 https://blokada.org/api/v3/content
 en pl_PL hu_HU ru_RU es_ES hi_IN tr_TR fr_FR ms_MY uk_UA de_DE cs_CZ it_IT pt_BR nb_NO zh_TW id_ID zh_CN bg_BG lv_LV ca_ES pt_PT
-400062401
+400062402
 4.0
-https://github.com/blokadaorg/blokada/releases/download/4.0.062401/blokada-v4.0.apk
+https://github.com/blokadaorg/blokada/releases/download/4.0.062402/blokada-v4.0.apk
 https://bitbucket.org/blokada/blokada/downloads/blokada-v4.0.apk

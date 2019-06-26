@@ -44,7 +44,7 @@
   <li><a href="#arrêter">Que puis-je faire si Blokada arrête de fonctionner après un moment ?</a></li>
   <li><a href="#mise à jour">Je n'arrive pas à installer une mise à jour, que puis-je faire ?</a></li>
   <li><a href="#notifications">Puis-je cacher la notification VPN ?</a></li>
-  <li><a href="#bug">Comment faire remonter un problème, une idée ou une suggestion ?</a></li>
+  <li><a href="#bogue">Comment faire remonter un problème, une idée ou une suggestion ?</a></li>
   <li><a href="#privé">Est-ce-que Blokada peut intercepter mes données personnelles ?</a></li>
   <li><a href="#batterie">Est-ce-que Blokada utilise beaucoup de batterie ?</a></li>
   <li><a href="#vitesse">Est-ce que Blokada va ralentir mon appareil ?</a></li>
@@ -62,7 +62,7 @@ Vous pouvez également activer plus de listes d'hôtes ou ajouter des filtres pl
 <h4><a name="whitelist">Une application ne fonctionne pas correctement.</a></h4>
 <p>Si vous pensez qu’une application ne fonctionne pas correctement, qu'elle ne charge pas son contenu ou qu'elle ne se comporte pas de manière habituelle. Allez à l’écran principal de Blokada, choisissez <i>Liste Blanche</i>, tapez sur le signe " + ", choisissez <i>App</i> et tapez son nom. Tapez sur <i>Enregistrer</i> à la fin. En effectuant cette manipulation, Blokada ne filtrera plus les URLs pour cette application.</p>
 
-<p>Veuillez noter que Blokada 3.4 et les versions antérieures faisaient apparaître un bug : les applications récemment installées n'était pas reconnues dans Blokada, par conséquent elles ne pouvaient pas être placées sur la liste blanche <i>Whitelist</i>. Ce bug a été corrigé dans la version 3.5 et les versions plus récentes.</p>
+<p>Veuillez noter que Blokada 3.4 et les versions antérieures faisaient apparaître un bogue : les applications récemment installées n'était pas reconnues dans Blokada, par conséquent elles ne pouvaient pas être placées sur la liste blanche <i>Whitelist</i>. Ce bogue a été corrigé dans la version 3.5 et les versions plus récentes.</p>
 
 <h4><a name="blacklist">Je souhaite bloquer un site particulier.</a></h4>
 <p>Vous pouvez bloquer de manière individuelle un site qui n'est pas dans la liste d'hôtes. Pour ce faire, allez dans <i>Liste noire</i> sur la page principale, tapez sur le signe + en bas de l'écran, tapez sur <i>Hôte</i> et tapez le nom d'hôte du site Web, sans les parties http et www (par exemple : <i>monexemple.com</i>).</p>
@@ -78,7 +78,7 @@ Vous pouvez également activer plus de listes d'hôtes ou ajouter des filtres pl
 <p>Si cela n’aide pas, redémarrez votre téléphone, cela résout parfois le problème.</p>
 
 <h4><a name="kill">Blokada arrête de fonctionner/ne marche plus après un moment.</a></h4>
-<p>Première chose à vérifier, activez l'option <i>Garder en vie</i> sur l'écran d'accueil de Blokada. Dans ce cas, Blokada va essayer de rester en vie, mais veuillez noter que votre système peut toujours tenter de contourner cette option et désactiver Blokada en arrière plan. Si vous avez effectué ce réglage et que vous vous rendez compte que Blokada s'arrête tout de même après un moment, vérifiez les paramètres de votre système Android et désactivez toutes les options d'optimisation de mémoire ou de batterie pour l'application Blokada. Malheureusement, ces options sont implémentés différemment chez chaque fabriquant, c’est pourquoi nous ne pouvons pas détailler de méthode générale pour le faire. Nous vous recommandons de parcourir les paramètres de votre appareil. Une autre source de problème peut se trouver dans le fait que vous utilisez une application de nettoyage de mémoire. Dans ce cas là, veillez à exclure Blokada en la mettant sur liste blanche ou sur la liste d'exclusion du nettoyeur. Si aucune des étapes reprises ci-dessus ne vous a aidé, veuillez signaler un bug (voir plus bas comment faire).</p>
+<p>Première chose à vérifier, activez l'option <i>Garder en vie</i> sur l'écran d'accueil de Blokada. Dans ce cas, Blokada va essayer de rester en vie, mais veuillez noter que votre système peut toujours tenter de contourner cette option et désactiver Blokada en arrière plan. Si vous avez effectué ce réglage et que vous vous rendez compte que Blokada s'arrête tout de même après un moment, vérifiez les paramètres de votre système Android et désactivez toutes les options d'optimisation de mémoire ou de batterie pour l'application Blokada. Malheureusement, ces options sont implémentés différemment chez chaque fabriquant, c’est pourquoi nous ne pouvons pas détailler de méthode générale pour le faire. Nous vous recommandons de parcourir les paramètres de votre appareil. Une autre source de problème peut se trouver dans le fait que vous utilisez une application de nettoyage de mémoire. Dans ce cas là, veillez à exclure Blokada en la mettant sur liste blanche ou sur la liste d'exclusion du nettoyeur. Si aucune des étapes reprises ci-dessus ne vous a aidé, veuillez signaler un bogue (voir plus bas comment faire).</p>
 
 <h4><a name="abplists">Je ne peux pas importer les listes EasyList/AdBlock Plus sur Blokada.</a></h4>
 <p>Si vous essayez d'importer une liste (EasyList, par exemple) qui fonctionne correctement avec l'extension AdBlock Plus de votre PC ou ordinateur portable, Blokada signalera une erreur. C'est parce que Blokada utilise d'autres méthodes pour bloquer les publicités. Alors qu'ABP bloque et masque des éléments ou sections du site, Blokada en est incapable car ce n'est pas un plug-in pour votre navigateur. A la place, il redirige les accès du serveur publicitaire à une adresse non-routable (0.0.0.0). En conséquence, il faut lui fournir une liste de noms d'hôtes - IP.</p>
@@ -103,9 +103,9 @@ Vous pouvez également activer plus de listes d'hôtes ou ajouter des filtres pl
 
 <p>Non configurables :</p>
 <p><ul>
-    <li><b>A jour</b>: Si vous le voyez, cela signifie que vous utilisez la version la plus récente de Blokada. Veillez à garder l'application à jour afin d'avoir moins de bugs et plus de fonctionnalités !</li>
+    <li><b>A jour</b>: Si vous le voyez, cela signifie que vous utilisez la version la plus récente de Blokada. Veillez à garder l'application à jour afin d'avoir moins de bogues et plus de fonctionnalités !</li>
     <li><b># éléments bloqués</b>: Nombre de pubs non désirées ou de traqueurs que Blokada a bloqué depuis son premier lancement</li>
-    <li><b># hôtes</b>: Nombre de serveurs bloqués qui desservent des publicités, des logiciels malveillants et autres trackers non désirés</li>
+    <li><b># domaines</b> : nombre de serveurs bloqués qui desservent des publicités, des logiciels malveillants et autres contenus non désirés</li>
 </ul></p>
 
 <h4><a name="ads">Que puis-je faire si je vois toujours quelques publicités ?</a></h4>
@@ -122,7 +122,7 @@ Vous pouvez également activer plus de listes d'hôtes ou ajouter des filtres pl
     <li>Effacez les données de l’application Blokada dans les paramètres de votre appareil (paramètres -> applications), ou réinstallez-la.</li>
     <li>Redémarrez votre appareil</li>
     <li>Il se peut que votre appareil ne soit pas supporté: Veuillez vérifier la <a href="http://go.blokada.org/issue_device">Base de données des appareils</a>.</li>
-    <li>Si aucune des étapes reprises ci-dessus ne vous a aidé, veuillez signaler un bug (voir plus bas comment faire).</li>
+    <li>Si aucune des étapes reprises ci-dessus ne vous a aidé, veuillez signaler un bogue (voir plus bas comment faire).</li>
 </ul></p>
 
  <h4><a name="DNS">Qu'est ce qu'un résolveur de DNS et lequel devrais-je choisir ?</a></h4>
@@ -131,7 +131,7 @@ Vous pouvez également activer plus de listes d'hôtes ou ajouter des filtres pl
 <h4><a name="update">Je n'arrive pas à installer une mise à jour, que puis-je faire ?</a></h4>
 <p>Avant tout, veuillez vérifier que vous possédez bien une version d'Android supérieure ou égale à la version 5.0. Les versions 4. x d'Android ou antérieures ne sont pas supportées à partir des versions 3. x de Blokada. Pour vérifier cela, rendez-vous dans les paramètres système de votre appareil, rubrique <i>A propos du téléphone/tablette</i> , cherchez ensuite <i>Version d'Android</i>.</p>
 <p>Si votre téléphone exécute Android 5.0 ou une version plus récente, veuillez redémarrer votre appareil. Cela semble étrange, mais parfois cela aide. Sinon, désinstallez puis réinstallez Blokada. Il se peut que votre appareil ne soit pas supporté. Veuillez vérifier la <a href="http://go.blokada.org/issue_device">Base de données des appareils</a>.</p>
-<p>Si aucune de ces étapes ne vous a aidé, vous pouvez nous rejoindre sur l'application "Télegram" pour obtenir de l’aide ou signaler un bug. Vous trouverez le lien du groupe sur <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>.</p>
+<p>Si aucune de ces étapes ne vous a aidé, vous pouvez nous rejoindre sur l'application "Télegram" pour obtenir de l’aide ou signaler un bogue. Vous trouverez le lien du groupe sur <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>.</p>
 
 <h4><a name="notification">Puis-je cacher la notification VPN ?</a></h4>
 <p>Malheureusement non. Certains appareils peuvent afficher une notification VPN ennuyeuse (une icône de clé ou de cadenas) si un VPN est actif et il n’est pas possible de la cacher. Si vous le pouvez, essayez de mettre à jour votre appareil vers Android 8.0 (Oreo), étant donné que les nouvelles versions d’Android ne présentent plus le VPN de cette manière.</p>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Help for Blokada DNS</h3>
+<p>ในหน้านี้มีถูกสร้างขึ้นด้วย 2 ช่วงที่ต่างกัน The first gives assistance with common issues you might face while the second provides information for general questions.</p>
+
+<h4>สถานการณ์ที่ควรทราบ</h4>
+<ol>
+  <li><a href="#whitelist">แอพไม่ทำงานตามที่หวังไว้</a></li>
+  <li><a href="#unsupported">ฉันไม่สามารถเริ่มใช้งาน Blokada หลังติดตั้งเสร็จ</a></li>
+  <li><a href="#kill">Blokada หยุดการทำงานหลังจากใช้งานได้สักพัก</li>
+</ol>
+
+<h4>คำถามทั่วไป</h4>
+<ol>
+  <li><a href="#howitworks">Blokada ทำงานอย่างไร?</a></li>
+  <li><a href="#vpn">ฉันสามารถใช้ VPN ตัวอื่นระหว่างเปิดใช้งาน Blokada ได้หรือไม?</a></li>
+  <li><a href="#options">ตัวเลือกใน Blokada มีอะไรบ้าง?</a></li>
+  <li><a href="#kill">ฉันสามารถทำอะไรได้บ้างถ้า Blokada หยุดทำงานหลังใช้ไปสักพัก?</a></li>
+  <li><a href="#update">ฉันไม่สามารถติดตั้งอัพเดตได้? ฉันต้องทำยังไง?</a></li>
+  <li><a href="#notification">ฉันสามารถซ่อนการแจ้งเตือน VPN ได้ไหม?</a></li>
+  <li><a href="#bug">ฉันจะรายงานปัญหา, ข้อเสนอแนะ หรือความคิดเห็นได้อย่างไร?</a></li>
+  <li><a href="#private">Blokada มองเห็นข้อมูลส่วนตัวของฉันหรือไม่?</a></li>
+  <li><a href="#battery">Blokada ใช้แบตเตอรี่เยอะหรือไม่?</a></li>
+  <li><a href="#speed">Blokada จะทำให้เครื่องของฉันช้าหรือเปล่า?</a></li>
+  <li><a href="#free">Blokada ฟรีจริงๆหรือเปล่า?</a></li>
+  <li><a href="#contribute">Blokada เป็นแอพที่เยี่ยมมาก ฉันสามารถสนับสนุนโครงการนี้ได้หรือไม่?</a></li>
+  <li><a href="#other">ฉันมีคำถามอื่นๆ ฉันสามารถถามได้ที่ไหน?</a></li>
+</ol>
+
+<h4><a name="whitelist">แอพไม่ทำงานตามที่หวังไว้</a></h4>
+<p>If you can see that an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please go to the main screen, choose <i>Whitelist</i>, at the bottom of the screen tap on the + sign, choose <i>App</i> and type its name. Tap on <i>Save</i> at the end. With this, Blokada won't filter the URLs in this app.</p>
+
+<h4><a name="unsupported">ฉันไม่สามารถเริ่มใช้งาน Blokada หลังติดตั้งเสร็จ</a></h4>
+<p>มีสองสาเหตุที่พบบ่อยๆในสถาณการณ์นี้ อย่างแรกลองเช็คดูว่า ถ้าคุณมีการเชื่อมต่อ VPN อยู่ และถ้าตัวเลือก <i>VPN แบบเปิดตลอด</i> นั้นถูกเปิดอยู่ ให้ทำดังนี้ ไปที่การตั้งค่าของมือถือคุณแล้วค้นหา VPN ในส่วนของระบบไร้สายและเครือข่าย แตะที่ไอคอนรูปเฟืองของ VPN ที่มีอยู่ เลือกปิดมันซะ ตัดการเชื่อมต่อจากการเชื่อมต่อ VPN ที่ใช้มีอยู่ และลองปิดและเปิดแอพ Blokada ใหม่อีกครั้ง</p>
+
+<p>ถ้าคุณไม่มีการเชื่อมต่อ VPN ตัวอื่นๆ ลองเช็คใน Blokada ว่าถ้า <i>ออนไลน์เท่านั้น</i> ถูกเปิดอยู่ ถ้าใช่ลองเช็คว่าคุณเชื่อมต่ออินเทอร์เน็ตด้วย WiFi หรือ เน็ตมือถือ Blokada จะไม่เริ่มทำงานถ้า <i>ออนไลน์เท่านั้น</i> ถูกเปิดใช้งานอยู่และคุรไม่มีการเชื่อมต่ออินเทอร์เน็ต</p>
+
+<p>ถ้าหากวิธีข้างต้นช่วยไม่ได้ รีบูตโทรศัพท์ของคุณ มันอาจจะช่วยได้บ้าง</p>
+
+<h4><a name="kill">Blokada หยุดการทำงานหลังจากใช้งานได้สักพัก</h4>
+<p>อย่างแรกคือ เปิด <i>เปิดใช้งานตลอด</i> ใน Blokada ในกรณีนี้ Blokada จะพยายามทำให้ออนไลน์ แต่จำไว้ว่าระบบของคุณจะมีผลต่อสิ่งๆนี้ ถ้าคุณตั้งไว้แบบนี้ และคุณยังพบว่า Blokada ถูกหยุดทำงานเป็นช่วงๆ เช็คการตั้งค่าระบบของคุณ และปิดทุกการเพิ่มประสิทธิภาพทั้งแบตเตอร์รี่ และแรมสำหรับ Blokada แต่น่าเสียดาย ระบบที่ผู้ใช้ใช้มันค่อนข้างแตกต่างกัน เพราะงั้นพวกเราจึงบอกไม่ได้ว่าควรไปทำที่ไหน ลองเช็คการตั้งค่ามือถือของคุณ แหล่งที่มาอื่นๆที่มีลักษณะโดนคล้ายๆกันได้บอกว่าคุณกำลังใช้ใช้แอพล้างหน่วยความจำ โปรดตั้งให้ Blokada อยู่บนรายการยกเว้น ถ้าขั้นตอนนี้ช่วยปัญหาของเคสคุณไม่ได้ โปรดรายงานข้อผิดพลาดมา (ดูด้านล่างว่าทำเช่นไร)</p>
+
+<h4><a name="howitworks">Blokada ทำงานอย่างไร?</a></h4>
+<p>Blokada เป็นชั้นกั้นบางๆระหว่างตัวการเชื่อมต่อเน็ตเวิร์ค (WiFi หรือ เน็ตมือถือ) ของคุณและแอพลิเคชั่นที่คุณใช้ To be able to change DNS servers addresses of your device, it generates a VPN connection. Blokada does not send your data anywhere, the VPN is used only to create a local connection to make apps think they should use different DNS servers. Blokada DNS does not filter your connection in any way, but depending on DNS servers you choose, they may do so.</p>
+
+<h4><a name="vpn">ฉันสามารถใช้ VPN ตัวอื่นระหว่างเปิดใช้งาน Blokada ได้หรือไม?</a></h4>
+<p>Unfortunately no, it is a system limitation; you can have only one active VPN connection at a time. If you join to an other service, Blokada will exit.</p>
+
+<h4><a name="options">ตัวเลือกใน Blokada มีอะไรบ้าง?</a></h4>
+<p>As you surely saw it, Blokada has some options on the main screen which are not detailed at the first start. Please let us do it now. You can see the following:</p>
+<p><ul>
+    <li><b>Whitelist</b>: the whitelist is the exception list, here you can define apps where Blokada won’t change DNS for. Blokada is installed with several whitelisted apps by default.</li>
+    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
+    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
+    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
+</ul></p>
+
+<p>Not configurable things:</p>
+<p><ul>
+    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+</ul></p>
+
+<h4><a name="update">ฉันไม่สามารถติดตั้งอัพเดตได้? ฉันต้องทำยังไง?</a></h4>
+<p>First of all, please check if the Android version you have is 5 or newer. Android 4 and older versions are not supported in Blokada 3.0 and newer versions. To do it, go to the Settings of your phone, scroll to <i>About phone</i> and search for <i>Android version</i></p>
+<p>If your phone runs Andriod 5 or newer, please restart your device. It sounds strange, but sometimes it helps. If that didn't solve the issue, uninstall Blokada and install it again. It can be, that your device is unsupported. Please check <a href="http://go.blokada.org/issue_device">Devices Database</a>.</p>
+<p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
+
+<h4><a name="notification">ฉันสามารถซ่อนการแจ้งเตือน VPN ได้ไหม?</a></h4>
+<p>Unfortunately no. Some devices may be displaying annoying VPN notification while VPN is active, and it is not possible to hide it. If you can, try updating your device, since newer Android versions do not have this problem.</p>
+
+<h4><a name="bug">ฉันจะรายงานปัญหา, ข้อเสนอแนะ หรือความคิดเห็นได้อย่างไร?</a></h4>
+<p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
+
+<h4><a name="private">Blokada มองเห็นข้อมูลส่วนตัวของฉันหรือไม่?</a></h4>
+<p>No. Blokada does not read or tamper with your private information. Blokada DNS does not monitor your data in any way, it simply makes your app think they should use different DNS servers. Blokada has no access to your encrypted traffic.</p>
+
+<h4><a name="battery">Blokada ใช้แบตเตอรี่เยอะหรือไม่?</a></h4>
+<p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+
+<h4><a name="speed">Blokada จะทำให้เครื่องของฉันช้าหรือเปล่า?</a></h4>
+<p>No. Depending on your settings Blokada can be quite efficient. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+
+<h4><a name="free">Blokada ฟรีจริงๆหรือเปล่า?</a></h4>
+<p>Yes! Blokada started as my hobby project, is still mostly developed by me. It's my way of giving back to the community. Blokada is fully open source and it will stay free forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (see below).</p>
+
+<h4><a name="contribute">Blokada เป็นแอพที่เยี่ยมมาก ฉันสามารถสนับสนุนโครงการนี้ได้หรือไม่?</a></h4>
+<p>There are many ways to support Blokada, financially or else. All means of help are very important for the project to exist. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
+
+<h4><a name="other">ฉันมีคำถามอื่นๆ ฉันสามารถถามได้ที่ไหน?</a></h4>
+<p>If your question is not answered here, please join to our Telegram chat channel on the <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> link, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Ajutor pentru Blokada DNS</h3>
+<p>Acest site este construit pe două secțiuni diferite. Prima oferă asistență pentru problemele comune cu care vă puteți confrunta în timp ce a doua secțiune oferă informații pentru întrebări generale.</p>
+
+<h4>Situaţii cunoscute</h4>
+<ol>
+  <li><a href="#whitelist">Aplicația nu funcționează conform așteptărilor.</a></li>
+  <li><a href="#unsupported">Nu pot porni Blokada după ce l-am instalat.</a></li>
+  <li><a href="#kill">Blokada se oprește din funcționare după o vreme.</li>
+</ol>
+
+<h4>Întrebări generale</h4>
+<ol>
+  <li><a href="#howitworks">Cum acționează Blokada?</a></li>
+  <li><a href="#vpn">Pot folosi un alt VPN în timp ce Blokada este pornit?</a></li>
+  <li><a href="#options">Care sunt opțiunile din Blokada?</a></li>
+  <li><a href="#kill">Ce pot face dacă Blokada nu mai funcţionează după un timp?</a></li>
+  <li><a href="#update">Nu pot instala o actualizare, ce pot să fac?</a></li>
+  <li><a href="#notification">Pot ascunde notificarea VPN?</a></li>
+  <li><a href="#bug">Cum pot raporta o problemă, o idee sau o sugestie?</a></li>
+  <li><a href="#private">Poate Blokada să vadă datele mele personale?</a></li>
+  <li><a href="#battery">Blokada folosește multă baterie?</a></li>
+  <li><a href="#speed">Blokada va încetini dispozitivul meu?</a></li>
+  <li><a href="#free">Chiar se poate folosi Blokada, gratis?</a></li>
+  <li><a href="#contribute">Blokada este minunat, cum pot ajuta proiectul?</a></li>
+  <li><a href="#other">Am o altă întrebare, unde pot să întreb?</a></li>
+</ol>
+
+<h4><a name="whitelist">O aplicație nu funcționează conform așteptărilor.</a></h4>
+<p>Dacă vedeți că o aplicație nu funcționează conform așteptărilor, nu se încarcă sau observați alte funcționări defectuoase, vă rugăm mergeți pe ecranul principal, alegeți <i>Excludere</i>, în partea de jos a ecranului apăsați pe +, alegeți <i>App</i> și tastați numele aplicației. Apăsaţi pe <i>Save</i> la sfârşit. Prin asta, Blokada nu va mai filtra URL-urile din această aplicație.</p>
+
+<h4><a name="unsupported">Nu pot porni Blokada după ce l-am instalat.</a></h4>
+<p>Există două cauze frecvente pentru această situație. În primul rând, vă rugăm să verificaţi dacă aveţi o conexiune VPN activă şi dacă este activată opţiunea <i>Rețea VPN activată permanent</i>. Pentru asta, mergeți la setările telefonului, căutați VPN în secțiunea rețea, apăsați pe rotița de lângă VPN. Dezactivați-o, deconectați-vă de la conexiunea VPN activă și încercați să reporniți Blokada.</p>
+
+<p>Dacă nu aveţi altă conexiune VPN, verificaţi în Blokada dacă opțiunea <i>Numai Online</i> este activată şi dacă da, verificaţi dacă sunteţi conectat la internet prin wifi sau date mobile. Blokada nu va porni în cazul în care opțiunea <i>Numai Online</i> este activată şi nu aveţi conexiune la internet.</p>
+
+<p>În cazul în care asta nu ajută, reporniţi telefonul, în unele cazuri ajută.</p>
+
+<h4><a name="kill">Blokada se oprește din funcționare după o vreme.</h4>
+<p>Ca și prim pas, bifați <i>Păstrează activ</i> în Blokada. În acest caz, Blokada va încerca să rămână online, dar rețineți că sistemul dumneavoastră poate totuși influența acest comportament. Dacă ați bifat și totusi observați că Blokada este oprit din când în când, verificați în setările de sistem și opriți toate optimizările de baterie și memorie pentru Blokada. Din păcate este diferit în fiecare sistem, Deci nu putem spune de unde se face. Vă rugăm să verificaţi setările telefonului. O altă cauză pentru un astfel de comportament poate fi o aplicație pentru curățarea memoriei. Vă rugăm să setaţi Blokada pe lista albă sau pe lista de excludere. Dacă nici unul dintre acești pași nu v-au fost de ajutor, vă rog să raportați un bug (vedeți mai jos cum).</p>
+
+<h4><a name="howitworks">Cum acționează Blokada?</a></h4>
+<p>Blokada este un strat subţire între interfaţa de reţea (wifi sau date mobile) și aplicațiile pe care le utilizaţi. Pentru a putea schimba adresele serverelor DNS ale dispozitivului, acesta generează o conexiune VPN. Blokada nu vă trimite datele nicăieri, VPN-ul este utilizat numai pentru a crea o conexiune locală pentru a face aplicațiile să creadă că trebuie să folosească servere DNS diferite. Blokada DNS nu filtrează conexiunea dumneavoastră în niciun fel, dar în funcție de serverele DNS pe care le alegeți, acestea pot filtra conexiunea.</p>
+
+<h4><a name="vpn">Pot folosi un alt VPN în timp ce Blokada este pornit?</a></h4>
+<p>Din păcate, nu, e o limitare de sistem; Puteţi avea doar o conexiune VPN activă la un moment dat. Dacă vă conectați la un alt serviciu, Blokada se dezactivează.</p>
+
+<h4><a name="options">Care sunt opțiunile din Blokada?</a></h4>
+<p>As you surely saw it, Blokada has some options on the main screen which are not detailed at the first start. Please let us do it now. You can see the following:</p>
+<p><ul>
+    <li><b>Whitelist</b>: the whitelist is the exception list, here you can define apps where Blokada won’t change DNS for. Blokada is installed with several whitelisted apps by default.</li>
+    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
+    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
+    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
+</ul></p>
+
+<p>Lucruri care nu pot fi configurate:</p>
+<p><ul>
+    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+</ul></p>
+
+<h4><a name="update">Nu pot instala o actualizare, ce pot să fac?</a></h4>
+<p>First of all, please check if the Android version you have is 5 or newer. Android 4 and older versions are not supported in Blokada 3.0 and newer versions. To do it, go to the Settings of your phone, scroll to <i>About phone</i> and search for <i>Android version</i></p>
+<p>If your phone runs Andriod 5 or newer, please restart your device. It sounds strange, but sometimes it helps. If that didn't solve the issue, uninstall Blokada and install it again. It can be, that your device is unsupported. Please check <a href="http://go.blokada.org/issue_device">Devices Database</a>.</p>
+<p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
+
+<h4><a name="notification">Can I hide the VPN notification?</a></h4>
+<p>Unfortunately no. Some devices may be displaying annoying VPN notification while VPN is active, and it is not possible to hide it. If you can, try updating your device, since newer Android versions do not have this problem.</p>
+
+<h4><a name="bug">Cum pot raporta o problemă, o idee sau o sugestie?</a></h4>
+<p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
+
+<h4><a name="private">Poate Blokada să vadă datele mele personale?</a></h4>
+<p>Nu. Blokada does not read or tamper with your private information. Blokada DNS does not monitor your data in any way, it simply makes your app think they should use different DNS servers. Blokada has no access to your encrypted traffic.</p>
+
+<h4><a name="battery">Does Blokada use a lot of battery?</a></h4>
+<p>Nu. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+
+<h4><a name="speed">Will Blokada slow down my device?</a></h4>
+<p>Nu. Depending on your settings Blokada can be quite efficient. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+
+<h4><a name="free">Is Blokada really free to use?</a></h4>
+<p>Da! Blokada started as my hobby project, is still mostly developed by me. It's my way of giving back to the community. Blokada is fully open source and it will stay free forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (see below).</p>
+
+<h4><a name="contribute">Blokada este minunat, cum pot ajuta proiectul?</a></h4>
+<p>Există multe modalități de a susține Blokada, financiar sau altceva. Toate mijloacele de ajutor sunt foarte importante pentru ca proiectul să existe. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
+
+<h4><a name="other">Am o altă întrebare, unde pot să întreb?</a></h4>
+<p>If your question is not answered here, please join to our Telegram chat channel on the <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> link, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Blokada DNS palīdzība</h3>
+<p>Šī lapa ir veidota divās daļās. Pirmā palīdz atrisināt biežāk sastopamās problēmas, otrā sniedz atbildes uz vispārīgajiem jautājumiem.</p>
+
+<h4>Zināmas situācijas</h4>
+<ol>
+  <li><a href="#whitelist">Lietotne nestrādā kā paredzēts.</a></li>
+  <li><a href="#unsupported">Pēc instalācijas nevaru aktivizēt Blokada.</a></li>
+  <li><a href="#kill">Blokada pārtrauc funkcionēt pēc kāda laika.</li>
+</ol>
+
+<h4>Vispārīgie jautājumi</h4>
+<ol>
+  <li><a href="#howitworks">Kā Blokada darbojas?</a></li>
+  <li><a href="#vpn">Vai es varu izmantot citu VPN vienlaikus ar Blokada?</a></li>
+  <li><a href="#options">Kādus uzstādījumus piedāvā Blokada?</a></li>
+  <li><a href="#kill">Ko es varu darīt, ja Blokada pēc kāda laika pārstāj darboties?</a></li>
+  <li><a href="#update">Nevaru ieinstalēt atjauninājumu, kā man rīkoties?</a></li>
+  <li><a href="#notification">Vai es varu paslēpt paziņojumu par VPN?</a></li>
+  <li><a href="#bug">Kā es varu ziņot par problēmu, ideju vai ieteikumu?</a></li>
+  <li><a href="#private">Vai Blokada var redzēt manus privātos datus?</a></li>
+  <li><a href="#battery">Vai Blokada patērē daudz akumulatora resursu?</a></li>
+  <li><a href="#speed">Vai Blokada palēlinās manu ierīci?</a></li>
+  <li><a href="#free">Vai Blokada patiešām ir bezmaksas?</a></li>
+  <li><a href="#contribute">Blokada ir lieliska, kā es varu palīdzēt projektam?</a></li>
+  <li><a href="#other">Man ir cits jautājums, kur es varu to pajautāt?</a></li>
+</ol>
+
+<h4><a name="whitelist">Lietotne nestrādā kā paredzēts.</a></h4>
+<p>Ja lietotne nestrādā kā paredzēts, neielādē tās saturu vai pieredzat kādu citu dīvainu uzvedību, dodieties uz sākuma ekrānu, spiediet uz <i>Baltais saraksts</i>, ekrāna lejasdaļā spiediet uz "+", izvēlieties <i>Lietotne</i> un ierakstiet šīs lietotnes nosaukumu. Beigās spiediet uz <i>Saglabāt</i>. Izmantojot šo pieeju, Blokada izvēlētajā lietotnē nefiltrēs adreses, ar kurām tiek veidots savienojums.</p>
+
+<h4><a name="unsupported">Pēc instalācijas nevaru aktivizēt Blokada.</a></h4>
+<p>Šajā situācijā ir divi biežāk sastopamie cēloņi. Pirmkārt, pārbaudiet, vai jums ir aktīvs VPN savienojums un, ka iestatījums <i>VPN vienmēr ieslēgts</i> ir iespējots. Lai to izdarītu, atveriet ierīces iestatījumus, tīkla sadaļā meklējiet VPN un atveriet esošā VPN iestatījumus. Atspējojiet to, atvienojieties no aktīvā VPN savienojuma un mēģiniet restartēt Blokada.</p>
+
+<p>Ja jums nav cita VPN savienojuma, Blokada uzstādījumos pārbaudiet, vai <i>Tikai tiešsaitē</i> ir iespējots, ja ir, pārbaudiet vai jums ir aktīvs vai nu wifi, vai mobilo datu interneta savienojums. Blokada netiks startēta, ja <i>Tikai tiešsaitē</i> ir iespējots un jums nav aktīva interneta savienojuma.</p>
+
+<p>Ja šie soļi neatrisina jūsu problēmu, restartējiet ierīci, reizēm tas palīdz.</p>
+
+<h4><a name="kill">Blokada pārtrauc funkcionēt pēc kāda laika.</h4>
+<p>Pirmkārt, iespējojiet uzstādījumu <i>Uzturēt dzīvu</i>. Šajā gadījumā Blokada centīsies palikt ieslēgta, taču ņemiet vērā, ka jūsu operētājsistēma šo uzstādījumu var ietekmēt. Ja pēc šī jūs joprojām redzat, ka Blokada ik pa laikam tiek apstādināta, pārbaudiet sistēmas iestatījumus un atspējojiet akumulatora un atmiņas optimizāciju priekš Blokada. Diemžēl katrā ierīcē tas ir izdarāms savādāk, tāpēc mēs nevaram sniegt norādes, kā to izdarīt. Lūdzu pārbaudiet savus ierīces iestatījumus. Cits šāda veida uzvedības avots var būt tas, ka jūs izmantojat atmiņas tīrītāju/optimizētāju. Tādā gadījumā nepieciešams pievienot Blokada izņēmuma sarakstam. Ja neviens no šiem soļiem jums nepalīdzēja, lūdzu ziņojiet par kļūdu (skatīt zemāk, kā to izdarīt).</p>
+
+<h4><a name="howitworks">Kā Blokada darbojas?</a></h4>
+<p>Blokada ir plāns slānis slānis starp jūsu ierīces tīkla interfeisu (wifi vai mobilā) un lietotnēm, ko izmantojat. Lai būtu iespēja nomainīt jūsu ierīces DNS serveru adreses, Blokada izveido VPN savienojumu. Jūsu dati nekur netiek sūtīti, VPN tiek izmantots vienīgi lai izveidotu lokālu savienojumu, lai liktu lietotnēm domāt, ka tām jāizmanto citi DNS serveri. Blokada DNS nefiltrē jūsu savienojumu nekādā veidā, bet atkarībā no izvēlētajiem DNS serveriem, tiem ir iespēja to darīt.</p>
+
+<h4><a name="vpn">Vai es varu izmantot citu VPN vienlaikus ar Blokada?</a></h4>
+<p>Diemžēl nē, tas ir sistēmas ierobežojums; vienlaikus var būt tikai viens aktīvs VPN savienojums. Ja jūs pievienojaties kādam citam VPN savienojumam, Blokada tiks deaktivizēta.</p>
+
+<h4><a name="options">Kādus uzstādījumus piedāvā Blokada?</a></h4>
+<p>Kā jūs jau redzējāt, Blokada sākuma ekrānā ir vairāki uzstādījumi, kas nav detalizēti paskaidroti. Izdarīsim to tagad. Jūs varat redzēt sekojošo:</p>
+<p><ul>
+    <li><b>Baltais saraksts</b>: izņēmuma saraksts, kur jūs varat definēt lietotnes, priekš kurām Blokada DNS nemainīs. Blokada ir instalēta ar jau dažām baltajā sarakstā iekļautām lietotnēm.</li>
+    <li><b>Uzturēt dzīvu</b>: šī opcija nodrošina, ka ierīces sistēma nevarēs izslēgt vai apstādināt Blokada. Tomēr ņemiet vērā, ka sistēma var šo uzstādījumu pārrakstīt, pārliecinieties, ka ierīces uzstādījumos esat atļāvuši Blokada strādāt fonā.</li>
+    <li><b>Tikai tiešsaitē</b>: kad iespējots, Blokada izslēgsies, ja nebūs aktīva savienouma ar internetu, un ieslēgsies, kad savienojums parādīsies. Ja atspējots, Blokada vienmēr darbosies fonā (pat ja nav aktīva interneta savienojuma). Lūdzu ņemiet vērā, ka šis uzstādījums var nestrādāt korekti uz visām ierīcēm.</li>
+    <li><b>Sākt ar OS</b>: kad iespējots, Blokada sāks darboties līdz ar ierīces operētājsistēmas ieslēgšanu. Lūdzu ņemiet vērā, ka šī opcija ir sistēmas līmeņa konfigurācija, līdz ar to, nav iespējams garantēt to, ka Blokada varēs uzsākt darbu ierīci ieslēdzot. Šajā gadījumā, lūdzu, pārbaudiet ierīces sistēmas iestatījumus. Pēc noklusējuma šis uzstādījums ir iespējots, ja vēlaties Blokada ieslēgt manuāli, atspējojiet šo uzstādījumu.</li>
+</ul></p>
+
+<p>Uzstādījumi, kas nav maināmi:</p>
+<p><ul>
+    <li><b>Atjaunināts</b>: ja to redzat, jums ir jaunākā Blokada versija. Uzturiet lietotni atjauninātu, jo tā saturēs mazāk kļūdu un vairāk funkciju!</li>
+</ul></p>
+
+<h4><a name="update">Nevaru ieinstalēt atjauninājumu, kā man rīkoties?</a></h4>
+<p>Pirmkārt, pārbaudiet, vai jūsu Android versija ir 5 vai jaunāka. Blokada 3.0 un jaunākas versijas neatbalsta Android 4 un vecākas versijas. Lai pārbaudītu, dodieties uz ierīces iestatījumiem, sameklējiet <i>Par ierīci</i> un atrodiet <i>Android versija</i></p>
+<p>Ja jūsu ierīce strādā uz Android 5 vai jaunāka, mēģiniet ierīci restartēt. Tas izklausās dīvaini, taču dažreiz tas palīdz. Ja tas neatrisina problēmu, atinstalējiet Blokada un instalējiet to vēlreiz. Var būt, ka Blokada neatbalsta jūsu ierīci. Lūdzu pārbaudiet to <a href="http://go.blokada.org/issue_device">Ierīču datubāzē</a>.</p>
+<p>Ja neviens no soļiem nelīdz, pievienojieties mūsu Telegram sarakstei <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, lai saņemtu palīdzību, vai ziņojiet par kļūdu (skatīt zemāk).</p>
+
+<h4><a name="notification">Vai es varu paslēpt paziņojumu par VPN?</a></h4>
+<p>Diemžēl nē. Dažas ierīces var rādīt paziņojumu, kamēr VPN savienojums ir aktīvs, taču to nevar paslēpt. Ja iespējams, mēģiniet atjaunināt jūsu ierīci, par cik jaunākās Android versijās šī problēma nav.</p>
+
+<h4><a name="bug">Kā es varu ziņot par problēmu, ideju vai ieteikumu?</a></h4>
+<p>Ja jūs sastopaties ar kādām problēmām, lūdzu pievienojieties mūsu Telegram sarakstei <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, kur mūsu kopiena labprāt jums palīdzēs. Varat izmantot opciju Atsauksmes, kas atrodas augšējās izvēlnes labajā stūrī, un sekojiet instrukcijai. Lūdzu sniedziet pēc iespējas vairāk informācijas, kā arī soļus, lai mēs varētu problēmu reproducēt – tas ievērojami palīdzēs jūsu problēmas novēršanai! Ja jūs esat advancēts lietotājs, aicinām izmantot "issue tracker" iekš GitHub.</p>
+
+<h4><a name="private">Vai Blokada var redzēt manus privātos datus?</a></h4>
+<p>Nē. Blokada nelasa un neaizskar jūsu privāto informāciju. Blokada DNS nepārrauga jūsu datus nekādā veidā, tā vienkārši liek citām lietotnēm domāt, ka tām jāizmanto citi DNS serveri. Blokada nevar piekļūt jūsu šifrētajai datu plūsmai.</p>
+
+<h4><a name="battery">Vai Blokada patērē daudz akumulatora resursu?</a></h4>
+<p>Nē. Atkarībā no jūsu iestatījumiem akumulatora ietekme ir minmāla un uz lielāko daļu jaunajām ierīcēm, īpaši uz Marshmallow (Android 6) vai jaunākām, jūs nepamanīsiet nekādu akumulatora patēriņu. Tomēr, dažas ierīces var piedzīvot palielinātu akumulatora patēriņu. Sīkāku informāciju skatiet <a href="http://go.blokada.org/issue_device">Ierīču datubāze</a>.</p>
+
+<h4><a name="speed">Vai Blokada palēlinās manu ierīci?</a></h4>
+<p>Nē. Atkarībā no jūsu iestatījumiem Blokada var būt diezgan efektīva. Patiesībā jūsu ierīces veikstpēja un akumulatora iespējamais lietošanas ilgums var redzami uzlaboties, jo Blokada pasargā ierīci no nevajadzīga satura ielādes. Tomēr vecāku ierīču lietotāji var izjust veikstpējas kritumu. Sīkāku informāciju skatiet <a href="http://go.blokada.org/issue_device">Ierīču datubāze</a>.</p>
+
+<h4><a name="free">Vai Blokada patiešām ir bezmaksas?</a></h4>
+<p>Jā! Blokada aizsākās kā hobija projekts, un joprojām lielākoties to attīstu es. Tas ir mans veids, kā sniegt sabiedrībai labumu. Blokada ir pilnībā atvērtā koda un tā vienmēr būs bezmaksas. Tā attīstīšana aizņem daudz laika, tāpēc lūdzu apsveriet iespēju atbalstīt projektu kādā no veidiem (skatīt zemāk).</p>
+
+<h4><a name="contribute">Blokada ir lieliska, kā es varu palīdzēt projektam?</a></h4>
+<p>Ir vairāki veidi, kā palīdzēt Blokada, financiāli vai savādāk. Visi centieni palīdzēt ir ļoti nozīmīgi, lai projekts eksistētu. <a href="contribute.html">Lūdzu dodieties uz šo mājaslapu papildus informācijai</a>, vai <a href="http://go.blokada.org/chat">pievienojieties sarakstei</a>.</p>
+
+<h4><a name="other">Man ir cits jautājums, kur es varu to pajautāt?</a></h4>
+<p>Ja jūs šeit neatradāt atbildi uz jūsu jautājumu, pievienojieties mūsu Telegram sarakstei <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, mūsu kopiena būs tur, lai jums palīdzētu. Ja jums tas nav ērti, izmantojiet opciju Atsauksmes no augšējās izvēlnes, vai, ja jums ir tehniskāks jautājums, lūdzu dodieties uz GitHub.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

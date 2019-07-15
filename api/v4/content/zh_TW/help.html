@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+<title>協助：Blokada</title>
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>協助</h3>
+<p>這個網站分為兩個部分。 第一部分提供你也許會遇到的常見問題的協助，而第二個部分提供一般問題的資訊。</p>
+
+<h4>已知狀況</h4>
+<ol>
+  <li><a href="#refresh">Blokada 阻擋了較少的廣告。</a></li>
+  <li><a href="#whitelist">應用程式無法按預期的那樣工作。</a></li>
+  <li><a href="#blacklist">我想阻擋特定的網站。</a></li>
+  <li><a href="#youtube">無法阻擋 YouTube 中的廣告！</a></li>
+  <li><a href="#unsupported">我安裝後無法啟動 Blokada。</a></li>
+  <li><a href="#kill">Blokada 在一段時間後停止運作。</li>
+  <li><a href="#abplists">我無法匯入 EasyList/AdBlock Plus 清單到 Blokada 中。</a></li>
+</ol>
+
+<h4>一般的問題</h4>
+<ol>
+  <li><a href="#howitworks">Blokada 是如何運作的？</a></li>
+  <li><a href="#vpn">Blokada 開啟時我可以用另一個 VPN 嗎？</a></li>
+  <li><a href="#options">Blokada 有哪些選項？</a></li>
+  <li><a href="#ads">若我仍看到一些廣告，我該怎麼辦？</a></li>
+  <li><a href="#DNS">什麼是 DNS，且我該選擇哪一個？</a></li>
+  <li><a href="#kill">一陣子後 Blokada 停止運作，我該怎麼辦？</a></li>
+  <li><a href="#update">我無法安裝更新，我該怎麼辦？</a></li>
+  <li><a href="#notification">我能隱藏 VPN 通知嗎？</a></li>
+  <li><a href="#bug">我該如何回報問題、想法或建議？</a></li>
+  <li><a href="#private">Blokada 能看到我的私密資料嗎？</a></li>
+  <li><a href="#battery">Blokada 會不會很耗電？</a></li>
+  <li><a href="#speed">Blokada 會拖慢我裝置嗎？</a></li>
+  <li><a href="#free">Blokada 真的是免費使用嗎？</a></li>
+  <li><a href="#contribute">Blokada 很棒，我該如何協助這個專案？</a></li>
+  <li><a href="#other">我有其他的問題，何處可以詢問？</a></li>
+</ol>
+
+<h4><a name="refresh">Blokada 阻擋了較少的廣告。</a></h4>
+<p>如果你懷疑 Blokada 阻擋的廣告比以前少，請重新整理清單。 要執行這個動作，在<i>黑名單</i>上輕點，然後在右上角的等化器圖示中，選擇<i>重新整理過濾器</i>並輕點<i>繼續</i>。 通常發生這問題的原因是因為新的伺服器加入到已存在的伺服器，且還沒辨識出來並未加入到黑名單中、或者是因為新的清單尚未下載到您的手機中，而導致其尚未被阻擋。<br>
+替代方案是啟用更多主機項目列表、或加入更多受限制的篩選器到 <i>黑名單</i> 選單中。</p>
+
+<p>請注意 Blokada 使用第三方的清單，因此若應用程式在稍早的時候可以正常運作並阻擋廣告，在沒有變更的狀況下它應該會有相同的行為。</p>
+
+<h4><a name="whitelist">應用程式運作不如預期。</a></h4>
+<p>如果你發現應用程式不如預期般運作、或者無法載入內容或遇到不正常的行為，請至主畫面，選擇<i>白名單</i>，並在螢幕下方輕觸 + 符號，選擇<i>應用程式</i>及輸入它的名稱。 輕觸在最下面的<i>儲存</i>。 做了之後，Blokada 將不會再過濾此應用程式內的網址。</p>
+
+<p>請注意，Blokada 3.4 或更早的版本有一個可能導致 Blokada 無法識別新安裝應用程式，導致沒辦法在<i>白名單</i>中設定它們的臭蟲。 這個臭蟲已經在 3.5 版本以上解決。</p>
+
+<h4><a name="blacklist">我想阻擋特定的網站。</a></h4>
+<p>您可以阻擋不在主機列表上的個別網站。 若要執行此動作，請前往主頁面上的<i>黑名單</i>選項，輕觸在螢幕底部的 + 符號、輕觸<i>主機</i>，並輸入不含 http 和 www 部分的網站主機名稱（例如：<i>myexample.com</i>）。</p>
+
+<h4><a name="youtube">將不會阻擋 YouTube 中的廣告！</a></h4>
+<p>在 YouTube 上阻擋廣告非常困難，因為 Google 使用了加密且隨機生成的主機位址來放置廣告。 因此，使用外部工具（如 Blokada）在其他應用程式上會比較容易阻擋廣告。 NewPipe 與 YouTube Vanced 都是多功能的 YouTube 官方應用程式替代品，請看看哪個比較適合您。</p>
+
+<h4><a name="unsupported">我安裝後無法啟動 Blokada。</a></h4>
+<p>此情況有兩個常見的原因。 首先，請檢查你是否已經有啟動的 VPN 連線，以及是否啟用<i>永久連線的 VPN</i> 選項。 要檢查的話，前往手機的設定，在網路部分搜尋 VPN，輕觸現有 VPN 旁的齒輪。 停用它，從啟用中的 VPN 連線中斷線，接著嘗試重新啟動 Blokada。</p>
+
+<p>若您未使用其他 VPN 連線，請檢查 Blokada 的 <i>看門狗</i> 功能是否已在「進階設定」啟用。假如已經啟用，請檢查您是否連線到 Wi-Fi 或行動數據連線。 若已啟用 <i>看門狗</i> 且未連線到網路，則 Blokada 不會啟動。</p>
+
+<p>如果這沒有幫助，嘗試重新啟動您的手機，有時也會有所幫助。</p>
+
+<h4><a name="kill">Blokada 過一段時間就會停止運作。</a></h4>
+<p>第一步，打開在 Blokada 中的<i>保持連線</i>。 在這個情況下，Blokada 將會試著保持連線，但請注意，系統仍然可以會影響到這個行為。 如果設定了這個，在之後，你仍然會看見 Blokada 被終止，檢查系統設定，關閉每個 Blokada 的電池及記憶體優化。 非常不巧的，在每個系統都不一樣，所以我們無法講要在哪裡做。 請檢查你的手機設定。 這種行爲的起因，可能是你使用記憶體清理程式。 請把 Blokada 設定在白名單中或排除清單中。 如果這些步驟無法協助你的情形，請回報錯誤（看下方如何去做）。</p>
+
+<h4><a name="abplists">我無法匯入 EasyList/AdBlock Plus 清單到 Blokada 中。</a></h4>
+<p>若您試圖匯入您電腦上運作良好的 AdBlock Plus 附加元件清單（例如 EasyList），Blokada 會回報錯誤訊息。 這是因為 Blokada 使用了其他方法來阻擋廣告。 當 ABP 阻擋並隱藏元素或網頁的一部份時，Blokada 沒辦法這樣做，因為它不是瀏覽器的外掛程式，而是將到廣告伺服器的存取重新導向到不在路由上的地址 (0.0.0.0)，因此它需要一份主機名稱對 IP 的清單。</p>
+
+<h4><a name="howitworks">Blokada 如何運作？</a></h4>
+<p>Blokada 是介於您手機及你使用的應用程式之間網路介面（WiFi 或行動網路）的一個薄層。 要過濾所有外連的流量，它會建立本機（不會使用第三方服務）VPN 連線，並透過簡單的方式阻擋任何在黑名單過濾器中定義的主機發出的請求。 阻擋是藉由重定向完成的，廣告網站的 IP 位址將會被手機解析為不可路由的中繼位址，對 0.0.0.0 來說，因為沒有執行任何網路服務，因此也就不會顯示任何內容。 有了這點，Blokada 節省了你的數據用量及電池壽命。 過濾器會自動更新，並包含了廣告服務、追蹤、垃圾郵件、惡意軟體及其他不想要或危險內容的主機。 為了確保你想用的服務不被阻擋及不遭遇任何中斷，你可以使用自己自訂的過濾器及白名單來設定 Blokada。</p>
+
+<h4><a name="vpn">我可以在 Blokada 開啟時使用其他 VPN 嗎？</a></h4>
+<p>很遺憾沒辦法，這是系統限制；你同時只能有一個啟用的 VPN 連線。 如果你加入其他服務，Blokada 將會退出。</p>
+
+<h4><a name="options">Blokada 中有哪些選項？</a></h4>
+<p>正如你所見，Blokada 在主畫面有一些選項，在一開始沒有詳細說明。 請讓我們現在就做。 你可以看到下方：</p>
+<p><ul>
+    <li><b>黑名單</b>：這是包含要阻擋的伺服器主機清單。 請注意，使用多個清單可能會影響網路及系統速度。</li>
+    <li><b>白名單</b>：白名單是例外清單，在這裡你可以定義不被封鎖的主機，或 Blokada 不過濾網址的應用程式。 Blokada 預設安裝幾個白名單應用程式。</li>
+    <li><b>保持連線</b>：此選項用於確保系統不會暫停或停止 Blokada。 請注意，系統可以覆蓋此選項，確定設定會讓 Blokada 在背景中執行。</li>
+    <li><b>通知</b>：啟用後，當阻擋廣告時將會通知你。 這個選項預設是開啟，但如果你收到許多通知，請關閉它。</li>
+    <li><b>看門狗</b>：啟用且未連線到網路時 Blokada 將會退出，且當連線到網路時 Blokada 將重新啟動。 如果停用，Blokada 將一直在背景執行（即使沒有網路可用）。 請注意，此選項也許無法適用每個裝置。</li>
+    <li><b>在開機時啟動</b>：啟用後，Blokada 會在系統啟動後開始。 請注意，此選項有系統層級的設定，因此，這無法保證 Blokada 可以在開機時啟動。 這種情況下，請檢查你的手機設定。 預設設定已啟用，如果你想要手動啟動 Blokada，請停用此選項。</li>
+    <li><b>DNS</b>：如果你懷疑有些網站或服務被阻擋，或你假設網路供應商，蒐集關於你的網路使用資訊，請從清單中選擇安全的 DNS 機器。 預設情況下，Blokada 使用與系統相同的 DNS 伺服器。</li>
+</ul></p>
+
+<p>不可設定的東西：</p>
+<p><ul>
+    <li><b>最新的</b>：如果你看見它，則正在運作最新版本的 Blokada。 因為，應用程式有一些錯誤及更多功能，請保持應用程式更新！</li>
+    <li><b># 廣告已阻擋</b>：自 Blokada 第一次啟動以來已阻擋的不需要的內容數量</li>
+    <li><b># 主機</b>：伺服器數目，提供廣告、惡意軟體及其他可能有害的內容</li>
+</ul></p>
+
+<h4><a name="ads">如果我仍然看到一些廣告，我該怎麼辦？</a></h4>
+<p>一些廣告會通過 Android 上任何的廣告阻擋器。 特別是 Youtube 廣告或一些全螢幕彈跳廣告很難阻擋。 如果你認為比以前還多的廣告通過，嘗試這些步驟：</p>
+<p><ul>
+    <li>檢查 VPN 密鑰圖示是否顯示在上方的狀態列。 如果沒有，開啟 Blokada。</li>
+    <li>開啟 Blokada 並檢查它是否已經啟動並且沒有傳達任何錯誤。</li>
+    <li>檢查主機計數器是否等於零。 如果是，選擇一些黑名單過濾器，以便可以阻擋廣告。 若計數器仍為 0，請在「系統設定」→「應用程式」→「Blokada」的應用程式權限中授予「儲存空間存取權限」，清除資料與快取後重新啟動裝置。</li>
+    <li>確定您的白名單內沒有太多應用程式 - 也許這就是為什麼您看到廣告的原因。</li>
+    <li>試著重置您的過濾器(進入黑名單畫面，並從上方的快速動作選單中選取<i>恢復預設值</i>)</li>
+    <li>如果您在瀏覽器中看到廣告，在瀏覽器的設定，停用任何類型的流量壓縮或最佳化。</li>
+    <li>停用 Blokada，請將其關閉 ( 由最近存取的畫面上滑出來)，然後重新開啟它。</li>
+    <li>如果你最近更改設定（過濾器、白名單等），記住，在新設定開始工作之前需要一段時間。 給它一些時間。</li>
+    <li>清除 Blokada 的應用程式資料 ( 在系統設定裡 ) 或重新安裝。</li>
+    <li>重新開啟您的裝置。</li>
+    <li>也許不支援你的裝置。 請檢查<a href="http://go.blokada.org/issue_device">裝置資料庫</a>。</li>
+    <li>如果這些步驟都沒有幫助，請回報錯誤(請參閱下文)。</li>
+</ul></p>
+
+ <h4><a name="DNS">什麼是 DNS，我該選擇哪一個？</a></h4>
+ <p>縮寫 DNS 代表網域名稱系統，而此伺服器負責解析網域名稱（例如：<i>myexample.com</i>）成 IP 位址，IP 位址則用做電腦之間的溝通。 你的網路服務提供商擁有自己的 DNS 伺服器；Blokada 設定使用系統預設值。 如果你懷疑 ISP 蒐集你的網路使用紀錄、擔心一些隱私風險，或者有些網站或服務被阻擋，那就使用在此清單內的電腦吧。 這並沒有「最好的」，一切都取決與你的偏好及位置，因此，如果你想要使用自訂的 DNS 伺服器，請看看它們的描述、在網路上搜尋並閱讀回饋的意見。</p>
+
+<h4><a name="update">我無法安裝更新，我該怎麼辦？</a></h4>
+<p>首先，請檢查你的 Android 版本是否為 5 或更新版本。 Blokada 3.0 及更新的版本不支援 Android 4 及更舊的版本。 要檢查版本，前往手機的設定，滑到<i>關於手機</i>並搜尋 <i>Android 版本</i></p>
+<p>如果你的手機運行 Android 5 或更新的版本，請重新啟動手機。 這聽起來很奇怪，但有時候會有幫助。 如果無法解決此問題，請解除安裝 Blokada 並再重新安裝。 也可能是不支援你的裝置。 請檢查<a href="http://go.blokada.org/issue_device">裝置資料庫</a>。</p>
+<p>如果這些步驟都沒有幫助，請上 <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> 加入我們的 Telegram 聊天，來取得協助或回報問題（請參閱下面）。</p>
+
+<h4><a name="notification">我能隱藏 VPN 通知嗎？</a></h4>
+<p>非常遺憾沒辦法。當 VPN 啟動時，有些裝置也許會顯示惱人的 VPN 通知（金鑰圖示），而這無法隱藏起來。 由於較新的 Android 版本沒有狀態回報，如果可以的話，試著將你的裝置更新到 Android 8 (Oreo)。</p>
+
+<h4><a name="bug">我該如何回報問題、想法或建議？</a></h4>
+<p>如果你遇到問題，請在 <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> 加入我們的 Telegram 聊天，我們的社群在那裡很樂於協助你。 另外，從右上角選單中選擇反映選項，來依照指示。 請盡可能提供足夠的資訊及重現相同問題的步驟－這對解決你的問題有很大的幫助！ 如果你是專業使用者，你可以直接前往 Github 的問題追蹤。</p>
+
+<h4><a name="private">Blokada 能看到我的隱私資料嗎？</a></h4>
+<p>不會。 Blokada 不會讀取或竄改你的私密資訊，只有監控裝置正在向哪些主機發出請求，並阻擋與過濾器符合的主機。 每次 Blokada 阻擋任何請求，你會看到通知（你可以關閉）。 Blokada 不會存取你的加密流量。</p>
+
+<h4><a name="battery">Blokada 會不會使用很多電力？</a></h4>
+<p>不會。 取決你的設定，對電池的影響很小，而且大部分裝置，特別在 Marshmallow (Android 6.0) 或更新版本，你不會注意到任何的電池消耗。 然而，一些不幸運的裝置也許會增加電池消耗。 詳細請參考<a href="http://go.blokada.org/issue_device">裝置資料庫</a>。</p>
+
+<h4><a name="speed">Blokada 會拖慢我的裝置嗎？</a></h4>
+<p>不會。 取決於你的設定，Blokada 可以運作得相當有效率。 實際上，因為 Blokada 幫助你避免下載及處理不需要或不在意的內容，這對裝置性能與電池壽命可能有明顯的改善。 然而，舊裝置的使用者也許會遇到效能降低。 詳細請參考<a href="http://go.blokada.org/issue_device">裝置資料庫</a>。</p>
+
+<h4><a name="free">Blokada 真的是免費使用嗎？</a></h4>
+<p>是的！ Blokada 開始是我愛好的專案，仍然主要由我開發。 這是我回饋社群的方式。 Blokada 是完全開放原始碼，並且永遠免費。 這樣說，開發花費很多時間，所以，請考慮以任何你可以的方式來支持這個專案（參與下面）。</p>
+
+<h4><a name="contribute">Blokada 很棒，我該如何協助這個專案？</a></h4>
+<p>有許多方式能支持 Blokada，財務上或其他方式。 所有的協助方式都對專案存在非常重要。 <a href="contribute.html">更多資訊，請前往此頁面</a>，或來<a href="http://go.blokada.org/chat">參與聊天</a>。</p>
+
+<h4><a name="other">我有其他的問題，何處可以詢問？</a></h4>
+<p>如果你有任何在這裡無法獲得回答的問題，請加入我們在 <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> 連結的 Telegram 聊天頻道，我們的社群在那裡很樂於協助你。 如果這對你不方便，使用在上方選單的反映選項，或如果你有技術上的問題，請直接前往 Github 上的問題追蹤。</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Ayuda para el DNS de Blokada</h3>
+<p>Este sitio está estructurado en dos secciones diferentes. La primera te ayuda con problemas comunes con los que puedes encontrarte, mientras que la segunda te da información para preguntas frecuentes.</p>
+
+<h4>Problemas comunes</h4>
+<ol>
+  <li><a href="#whitelist">Una aplicación no funciona correctamente.</a></li>
+  <li><a href="#unsupported">No puedo iniciar Blokada tras haberlo instalado.</a></li>
+  <li><a href="#kill">Blokada deja de funcionar tras un tiempo.</li>
+</ol>
+
+<h4>Preguntas frecuentes</h4>
+<ol>
+  <li><a href="#howitworks">¿Cómo funciona Blokada?</a></li>
+  <li><a href="#vpn">¿Puedo usar otra VPN mientras que Blokada esté activado?</a></li>
+  <li><a href="#options">¿Cuáles son las funciones de Blokada?</a></li>
+  <li><a href="#kill">¿Qué puedo hacer si Blokada deja de funcionar tras un tiempo?</a></li>
+  <li><a href="#update">No puedo instalar una actualización. ¿Qué puedo hacer?</a></li>
+  <li><a href="#notification">¿Puedo ocultar la notificación de la VPN?</a></li>
+  <li><a href="#bug">¿Cómo reporto un problema o una idea?</a></li>
+  <li><a href="#private">¿Puede Blokada acceder a mi información personal?</a></li>
+  <li><a href="#battery">¿Blokada gasta mucha batería?</a></li>
+  <li><a href="#speed">¿Blokada ralentizará mi dispositivo?</a></li>
+  <li><a href="#free">¿Es Blokada realmente libre de usar?</a></li>
+  <li><a href="#contribute">Me gusta Blokada. ¿Cómo puedo apoyar al proyecto?</a></li>
+  <li><a href="#other">Tengo otra duda, ¿dónde puedo preguntar?</a></li>
+</ol>
+
+<h4><a name="whitelist">Una aplicación no funciona correctamente.</a></h4>
+<p>Si ves que una aplicación no funciona bien, no carga su contenido o algo parecido, ve a la pantalla principal, elige <i>Lista blanca</i>, en la parte inferior de la pantalla pulsa sobre el signo +, elige <i>App</i> y escribe su nombre. Toca <i>Guardar</i> al final. Al hacerlo, Blokada no filtrará las conexiones de esa aplicación.</p>
+
+<h4><a name="unsupported">No puedo iniciar Blokada tras haberlo instalado.</a></h4>
+<p>Existen dos causas comunes para tal situación. En primer lugar, comprueba si tienes una conexión VPN activa y si está habilitada la opción <i>VPN siempre activada</i>. Para ello, ve a la Configuración de tu dispositivo, busca VPN en la sección de red y toca el engranaje junto a la VPN existente. Deshabilítala (si está activada), desconéctate de esa VPN e intentar reiniciar Blokada.</p>
+
+<p>Si no tienes otra VPN, comprueba en Blokada si está habilitada la opción <i>Solo en línea</i> y, en caso afirmativo, comprueba si estás conectado a Internet mediante WiFi o datos móviles. Blokada no se iniciará si la opción <i>Solo en línea</i> está habilitada y no tienes conexión a Internet.</p>
+
+<p>Si tampoco sirve, reinicia el teléfono. A veces también ayuda.</p>
+
+<h4><a name="kill">Blokada deja de funcionar tras un tiempo.</h4>
+<p>En primer lugar, activa la opción <i>Mantener activo</i> en Blokada. Blokada intentará mantenerse operativo, pero ten en cuenta que el sistema todavía puede influir en este comportamiento. Si lo configuras y ves que Blokada continúa deteniéndose, comprueba la configuración de tu sistema y desactiva todas las optimizaciones de batería y memoria que afecten a Blokada. Desafortunadamente, esta opción es distinta en cada sistema, por lo que no podemos ayudarte en este aspecto. Prueba a buscar en la Configuración de tu dispositivo. Otra causa de este comportamiento puede ser el uso de un limpiador de memoria. En ese caso, incluye Blokada en la lista blanca o en la lista de exclusión. Si ninguno de estos pasos te ha servido, por favor reporta un fallo (ve abajo cómo hacerlo).</p>
+
+<h4><a name="howitworks">¿Cómo funciona Blokada?</a></h4>
+<p>Blokada es una fina capa entre la interfaz de red (wifi o móvil) de tu dispositivo y las aplicaciones que utilizas. Para poder cambiar la dirección DNS de los servidores de tu dispositivo, este genera una conexión VPN. Blokada no envía tus datos a ninguna parte, la VPN solo se utiliza para crear una conexión local que haga pensar a las aplicaciones que deben utilizar servidores DNS diferentes. El DNS de Blokada no filtra tu conexión de ninguna manera, pero dependiendo del servidor DNS que elijas, sí pueden.</p>
+
+<h4><a name="vpn">¿Puedo usar otra VPN mientras que Blokada esté activado?</a></h4>
+<p>Lamentablemente no, es una limitación del sistema; solo puede haber una conexión VPN activa a la vez. Si te conectas a otro servicio, Blokada se desactivará.</p>
+
+<h4><a name="options">¿Cuáles son las funciones de Blokada?</a></h4>
+<p>Como ya habrás podido comprobar, Blokada tiene algunas opciones en la pantalla principal que no se detallan durante el primer inicio. Por favor, permítenos hacerlo ahora. Puedes ver lo siguiente:</p>
+<p><ul>
+    <li><b>Lista blanca</b>: la lista blanca es la lista de excepciones, aquí puedes definir las aplicaciones para las que Blokada no cambiará el DNS. Blokada se instala con varias aplicaciones en la lista blanca de forma predeterminada.</li>
+    <li><b>Mantener activo</b>: esta opción es para asegurar que Blokada no se interrumpa o sea detenido por el sistema. Por favor, ten en cuenta que el sistema puede sobrescribir este ajuste. Asegúrate de que tu configuración permita que Blokada se ejecute en segundo plano.</li>
+    <li><b>Solo en línea</b>: cuando está habilitado, Blokada se desactivará si no hay una conexión activa, y volverá a iniciarse cuando vuelva la conexión. Si está desactivado, Blokada siempre funcionará en segundo plano (incluso si no hay ninguna red disponible). Recuerda que esta opción puede no funcionar en todos los dispositivos.</li>
+    <li><b>Arrancar al inicio</b>: cuando está habilitado, Blokada se iniciará después de que el sistema se inicie. Existen configuraciones de nivel de sistema para esta opción, por lo que no se puede garantizar que Blokada pueda iniciarse automáticamente. En ese caso, comprueba la configuración del dispositivo. Por defecto, está habilitada. Si deseas iniciar Blokada manualmente, deshabilita esta opción.</li>
+</ul></p>
+
+<p>Ajustes no configurables:</p>
+<p><ul>
+    <li><b>Actualizado</b>: si lo ves, es que estás utilizando la versión más reciente. ¡Mantener la aplicación actualizada añade más funcionalidades y reduce los fallos!</li>
+</ul></p>
+
+<h4><a name="update">No puedo instalar una actualización. ¿Qué puedo hacer?</a></h4>
+<p>Primero, comprueba si la versión de Android que tienes es la 5 o más reciente. Android 4 y versiones anteriores no son compatibles con Blokada 3.0 y versiones más recientes. Para ello, ve a la Configuración de tu dispositivo, desplázate hasta <i>Acerca de dispositivo</i> y busca <i>Versión Android</i>.</p>
+<p>Si tu dispositivo funciona con Andriod 5 o posterior, reinicia el dispositivo. Suena extraño, pero a veces ayuda. Si esto no soluciona el problema, desinstala Blokada e instálalo de nuevo. Es posible que tu dispositivo no sea compatible. Por favor comprueba la <a href="http://go.blokada.org/issue_device">Base de Datos de Dispositivos</a>.</p>
+<p>Si ninguno de estos pasos te han ayudado, por favor únete a nuestro chat de Telegram en <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> para preguntar, o informa de un error (ver abajo).</p>
+
+<h4><a name="notification">¿Puedo ocultar la notificación de la VPN?</a></h4>
+<p>Desafortunadamente no. Es posible que algunos dispositivos muestren una molesta notificación VPN mientras la VPN está activa, y no es posible ocultarla. Si puedes, intenta actualizar tu dispositivo. Las últimas versiones (a partir de Android 8), no tienen este problema.</p>
+
+<h4><a name="bug">¿Cómo reporto un problema o una idea?</a></h4>
+<p>Si tienes problemas, por favor únete a nuestro chat de Telegram en <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, donde nuestra comunidad estará encantada de ayudarte. También puedes elegir la opción Comentarios en el menú de la esquina superior derecha y seguir las instrucciones. Por favor, proporciona toda la información que puedas y los pasos a seguir para reproducir el mismo problema (¡ayuda mucho a la hora de solucionarlo!). Si eres un usuario avanzado, puedes ir directamente al gestor de incidencias de GitHub.</p>
+
+<h4><a name="private">¿Puede Blokada acceder a mi información personal?</a></h4>
+<p>No. Blokada no lee ni altera tu información personal. El DNS de Blokada no supervisa tus datos de ninguna manera, simplemente hace que tu aplicación piense que debería utilizar diferentes servidores DNS. Blokada no tiene acceso a tu tráfico cifrado.</p>
+
+<h4><a name="battery">¿Blokada gasta mucha batería?</a></h4>
+<p>No. Dependiendo de tu configuración, el impacto en la batería es mínimo, y en la mayoría de los dispositivos nuevos, especialmente en Marshmallow (Android 6) o posteriores, no notarás ningún consumo de batería. Sin embargo, algunos desafortunados dispositivos pueden experimentar un aumento en la carga de la batería. Consulta la <a href="http://go.blokada.org/issue_device">Base de Datos de Dispositivos</a> para más detalles.</p>
+
+<h4><a name="speed">¿Blokada ralentizará mi dispositivo?</a></h4>
+<p>No. Dependiendo de tu configuración, Blokada puede ser bastante eficiente. De hecho, tanto el rendimiento del dispositivo como la duración de la batería pueden mejorar visiblemente, ya que Blokada evita que el dispositivo descargue y procese contenido innecesario. Sin embargo, los usuarios con dispositivos más antiguos pueden experimentar una disminución del rendimiento. Consulta la <a href="http://go.blokada.org/issue_device">Base de Datos de Dispositivos</a> para más detalles.</p>
+
+<h4><a name="free">¿Es Blokada realmente libre de usar?</a></h4>
+<p>¡Sí! Blokada comenzó como mi hobby, y sigue siendo desarrollado en su mayoría por mí. Es mi manera de agradecérselo a la comunidad. Blokada es totalmente de código abierto y seguirá siendo gratuito para siempre. Dicho esto, su desarrollo lleva mucho tiempo, así que por favor considera apoyar al proyecto de cualquier manera que puedas (ver abajo).</p>
+
+<h4><a name="contribute">Me gusta Blokada. ¿Cómo puedo apoyar al proyecto?</a></h4>
+<p>Existen muchas formas de apoyar a Blokada, ya sea financieramente o de otra forma. Todas las formas de ayuda son muy importantes para la existencia del proyecto. <a href="contribute.html">Por favor ve a esta página para más información</a>, o simplemente <a href="http://go.blokada.org/chat">únete a nuestro chat</a>.</p>
+
+<h4><a name="other">Tengo otra duda, ¿dónde la puedo preguntar?</a></h4>
+<p>Si no encuentras respuesta a tu pregunta aquí, puedes unirte a nuestro chat de Telegram en el enlace <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>. Nuestra comunidad estará ahí para ayudarte. Si no quieres, puedes usar la opción Comentarios del menú superior, o si tienes una pregunta más técnica, ve directamente al rastreador de GitHub.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

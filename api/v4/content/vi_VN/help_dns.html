@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Trợ giúp cho Blokada DNS</h3>
+<p>Trang web này được xây dựng với hai phần khác nhau. Phần đầu sẽ trợ giúp cho bạn trước những vấn đề thường gặp, còn phần sau sẽ đưa ra các thông tin hữu ích cho các câu hỏi.</p>
+
+<h4>Những vấn đề thường gặp</h4>
+<ol>
+  <li><a href="#whitelist">Một ứng dụng không hoạt động như mong đợi.</a></li>
+  <li><a href="#unsupported">Tôi không thể chạy Blokada sau khi cài.</a></li>
+  <li><a href="#kill">Blokada dừng hoạt động sau một thời gian.</li>
+</ol>
+
+<h4>Câu hỏi chung</h4>
+<ol>
+  <li><a href="#howitworks">Blokada hoạt động như thế nào?</a></li>
+  <li><a href="#vpn">Tôi có thể sử dụng một VPN khác khi đang bật Blokada được không?</a></li>
+  <li><a href="#options">Có những tùy chọn gì trong Blokada?</a></li>
+  <li><a href="#kill">Tôi phải làm gì nếu Blokada dừng họat động sau một lúc?</a></li>
+  <li><a href="#update">Tôi không thể cài đặt bản cập nhật, phải làm gì đây?</a></li>
+  <li><a href="#notification">Tôi có thể ẩn thông báo VPN được chứ?</a></li>
+  <li><a href="#bug">Có cách nào để báo cáo một vấn đề hay ý tưởng?</a></li>
+  <li><a href="#private">Blokada có thể xem thông tin riêng tư của tôi không?</a></li>
+  <li><a href="#battery">Sử dụng Blokada có tốn nhiều pin?</a></li>
+  <li><a href="#speed">Blokada có làm chậm thiết bị của tôi?</a></li>
+  <li><a href="#free">Blokada có thật sự miễn phí?</a></li>
+  <li><a href="#contribute">Tuyệt đấy, tôi có thể giúp gì cho dự án?</a></li>
+  <li><a href="#other">Tôi có câu hỏi khác, tôi phải hỏi ở đâu?</a></li>
+</ol>
+
+<h4><a name="whitelist">Một ứng dụng không hoạt động như mong đợi.</a></h4>
+<p>Nếu bạn có thể thấy rằng một ứng dụng không làm việc như mong đợi, hãy đi đến màn hình chính, chọn <i>Danh sách trắng</i>, ở dưới cùng của màn hình máy nhấn dấu +, chọn <i>Ứng dụng</i> và gõ tên của nó. Nhấn <i>Lưu</i>. Với việc này, Blokada sẽ không lọc URL trong ứng dụng này.</p>
+
+<h4><a name="unsupported">Tôi không thể chạy Blokada sau khi cài.</a></h4>
+<p>Có hai nguyên nhân phổ biến cho tình huống như vậy. Trước tiên, hãy kiểm tra xem nếu bạn đang có một kết nối VPN hoạt động và nếu tùy chọn <i>Luôn luôn trên VPN</i> được kích hoạt. Để làm điều đó, đến cài đặt điện thoại của bạn, tìm kiếm các VPN trong phần Mạng, nhấn vào biểu tượng bánh răng bên cạnh VPN hiện có. Vô hiệu hóa nó, ngắt kết nối từ các kết nối VPN đang hoạt động và thử khởi động lại Blokada.</p>
+
+<p>Nếu bạn không có kết nối VPN, kiểm tra trong Blokada nếu <i>Chỉ online</i> được kích hoạt, và nếu có, hãy kiểm tra nếu bạn đang kết nối internet với wifi hoặc với dữ liệu di động. Blokada sẽ không bắt đầu nếu <i>Chỉ online</i> được kích hoạt và bạn không có kết nối internet.</p>
+
+<p>Nếu nó không giúp ích, hãy khởi động lại điện thoại của bạn, đôi khi nó cũng có thể giúp.</p>
+
+<h4><a name="kill">Blokada dừng hoạt động sau một thời gian.</h4>
+<p>Bước đầu tiên, bật <i>Giữ kích hoạt</i> trong Blokada. Trong trường hợp này, Blokada sẽ cố gắng hoạt động liên tục, nhưng hãy nhớ, hệ điều hành vẫn có thể can thiệp. Nếu bạn bật nó, và bạn vẫn thấy Blokada dừng lại sau một thời gian, kiểm tra cài đặt hệ thống của bạn và tắt tất cả các tùy chọn tối ưu pin và bộ nhớ cho Blokada. Thật không may, điều này khác nhau ở mỗi hệ thống, do đó chúng tôi không thể nói nơi để làm điều đó. Xin vui lòng kiểm tra cài đặt điện thoại của bạn. Nguyên nhân khác gây ra tình trạng này có thể là một phần mềm dọn bộ nhớ. Xin vui lòng thêm Blokada vào danh sách trắng hoặc danh sách loại trừ. Nếu không bước nào ở trên hữu ích trong trường hợp của bạn, xin vui lòng báo cáo lỗi (xem bên dưới).</p>
+
+<h4><a name="howitworks">Blokada hoạt động như thế nào?</a></h4>
+<p>Blokada là một lớp mỏng giữa giao diện mạng (wifi hoặc mạng di động của bạn) và ứng dụng bạn sử dụng. Để có thể thay đổi máy chủ DNS bạn dùng, nó tạo ra một kết nối VPN. Blokada không gửi dữ liệu của bạn đi đâu cả, kết nối VPN chỉ làm cho những ứng dụng của bạn nghĩ rằng chúng nên dùng máy chủ DNS khác. Blokada DNS không lọc kết nối của bạn trong bất kỳ cách nào, nhưng tùy theo cài đặt DNS của bạn, máy chủ DNS có thể làm vậy.</p>
+
+<h4><a name="vpn">Tôi có thể sử dụng một VPN khác khi đang bật Blokada được không?</a></h4>
+<p>Thật không may là không, nó là một hạn chế của hệ thống; bạn chỉ có thể có một kết nối VPN hoạt động tại một thời điểm. Nếu bạn sử dụng một dịch vụ VPN khác, Blokada sẽ tự thoát.</p>
+
+<h4><a name="options">Có những tùy chọn gì trong Blokada?</a></h4>
+<p>Như bạn chắc chắn đã thấy, Blokada có một số tùy chọn trên màn hình chính. Xin vui lòng cho chúng tôi giải thích. Bạn có thể thấy như sau:</p>
+<p><ul>
+    <li><b>Danh sách trắng</b>: đây là danh sách ngoại lệ, ở đây bạn có thể xác định những ứng dụng mà Blokada sẽ không thay đổi máy chủ DNS. Blokada được cài đặt với vài ứng dụng mặc định trong danh sách trắng.</li>
+    <li><b>Giữ kích hoạt</b>: tùy chỉnh này sẽ giúp Blokada không bị dừng bởi hệ điều hành. Lưu ý rằng hệ thống của bạn vẫn có thể vượt qua nó, nên hãy chắc rằng cài đặt hệ thống của bạn cho phép Blokada hoạt động trong nền.</li>
+    <li><b>Chỉ online</b>: khi tùy chọn này được kích hoạt, Blokada sẽ tự thoát nếu không có kết nối mạng, và khởi động lại khi có kết nối trở lại. Nếu bị vô hiệu hoá, Blokada sẽ luôn luôn chạy dưới nền (ngay cả khi không có mạng). Lưu ý rằng tùy chọn này có thể không hoạt động với một số thiết bị.</li>
+    <li><b>Bắt đầu khi khởi động</b>: khi tùy chọn này được kích hoạt, Blokada sẽ khởi động sau khi thiết bị khởi động. Xin vui lòng lưu ý hệ thống có thể điều khiển tùy chọn này, do đó nó không thể đảm bảo Blokada có thể khởi động ngay khi thiết bị được bật. Trong trường hợp này, xin vui lòng kiểm tra cài đặt của điện thoại. Tùy chọn này được bật theo mặc định, nếu bạn muốn tự bật Blokada một cách thủ công, hãy tắt nó.</li>
+</ul></p>
+
+<p>Những cài đặt không thể cấu hình:</p>
+<p><ul>
+    <li><b>Bản mới nhất</b>: nếu bạn nhìn thấy nó, bạn đang chạy phiên bản mới nhất của Blokada. Luôn cập nhật ứng dụng bởi vì nó có ít lỗi và thêm nhiều tính năng!</li>
+</ul></p>
+
+<h4><a name="update">Tôi không thể cài đặt bản cập nhật, phải làm gì đây?</a></h4>
+<p>Trước hết, xin vui lòng kiểm tra xem nếu phiên bản Android bạn có là 5 hoặc mới hơn. Android 4 và phiên bản cũ hơn không được hỗ trợ trong Blokada 3.0 và phiên bản mới hơn. Để làm điều đó, hãy đến phần Cài đặt điện thoại của bạn, di chuyển đến phần <i>Về điện thoại</i> và tìm kiếm <i>Phiên bản Android</i></p>
+<p>Nếu điện thoại của bạn chạy Android 5 hoặc mới hơn, vui lòng khởi động lại thiết bị của bạn. Nghe có vẻ lạ, nhưng đôi khi nó giúp. Nếu nó không giải quyết vấn đề, gỡ cài đặt Blokada và cài đặt nó một lần nữa. Hoặc có thể là, thiết bị của bạn không được hỗ trợ. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a>.</p>
+<p>Nếu những bước trên không giúp, xin vui lòng tham gia Telegram với chúng tôi trên <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> để được giúp đỡ, hoặc thông báo lỗi (xem bên dưới).</p>
+
+<h4><a name="notification">Tôi có thể ẩn thông báo VPN được chứ?</a></h4>
+<p>Rất tiếc là không. Một số thiết bị có thể hiển thị một thông báo VPN khó chịu trên thanh status (hình chìa khóa), và không thể ẩn thông báo này. Nếu bạn có thể, hãy thử cập nhật thiết bị lên Android (Oreo), phiên bản Android mới không hiển thị trạng thái này.</p>
+
+<h4><a name="bug">Có cách nào để báo cáo một vấn đề hay ý tưởng?</a></h4>
+<p>Nếu bạn đang gặp vấn đề, hãy tham gia Telegram và chat cùng chúng tôi trên <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, nơi cộng đồng luôn sẵn lòng giúp đỡ bạn. Hoặc bạn cũng có thể chọn tùy chọn Phản hồi từ menu ở góc trên bên phải màn hình và làm theo chỉ dẫn. Vui lòng cung cấp tất cả thông tin bạn có thể và những bước để tái hiện vấn đề đó - nó sẽ giúp rất nhiều trong quá trình sửa chữa vấn đề của bạn! Nếu bạn là người dùng chuyên nghiệp, bạn có thể trực tiếp theo dõi vấn đề tại GitHub.</p>
+
+<h4><a name="private">Blokada có thể xem thông tin riêng tư của tôi không?</a></h4>
+<p>Không. Blokada không đọc hay thay đổi thông tin riêng tư của bạn. Blokada không theo dõi dữ liệu của bạn trong bất kỳ cách nào, nó chỉ đơn giản khiến ứng dụng của bạn nghĩ rằng chúng nên dùng máy chủ DNS khác. Blokada hoàn toàn không thể truy cập đường truyền mã hóa của bạn.</p>
+
+<h4><a name="battery">Sử dụng Blokada có tốn nhiều pin?</a></h4>
+<p>Không. Tùy thuộc vào cài đặt của bạn, tác động pin là tối thiểu, và trên các thiết bị mới nhất, đặc biệt là Marshmallow (Android 6) hoặc mới hơn, bạn sẽ không nhận thấy bất kỳ ảnh hưởng nào đến thời lượng pin. Tuy nhiên, một số thiết bị không may mắn có thể trải nghiệm tình trạng kiệt pin nhanh hơn. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a> để biết thêm chi tiết.</p>
+
+<h4><a name="speed">Blokada sẽ làm chậm thiết bị của tôi?</a></h4>
+<p>Không. Tùy thuộc vào cài đặt mà Blokada có thể khá hiệu quả. Trong thực tế, cả hiệu suất và tuổi thọ pin của thiết bị có thể được cải thiện rõ rệt, vì Blokada tiết kiệm điện từ bằng cách ngăn thiết bị tải về và xử lý các nội dung bạn không cần hay không quan tâm. Tuy nhiên, người sử dụng với một số thiết bị cũ có thể trải nghiệm việc giảm hiệu suẩt. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a> để biết thêm chi tiết.</p>
+
+<h4><a name="free">Blokada có thật sự miễn phí?</a></h4>
+<p>Có! Blokada bắt đầu như một dự án tiêu khiển của tôi, và vẫn chủ yếu được phát triển bởi tôi. Đây là cách để tôi cống hiến cho cộng đồng. Blokada có mã nguồn mở hoàn toàn và nó sẽ miễn phí mãi mãi. Nhưng, phát triển nó mất rất nhiều thời gian, vì vậy xin vui lòng xem xét việc hỗ trợ dự án này bằng bất kỳ cách nào bạn có thể (xem bên dưới).</p>
+
+<h4><a name="contribute">Tuyệt đấy, tôi có thể giúp gì cho dự án?</a></h4>
+<p>Có rất nhiều cách để hỗ trợ Blokada, tài chính hoặc khác. Tất cả các sự trợ giúp là rất quan trọng đối với dự án này để tồn tại. <a href="contribute.html">Xin vui lòng đi đến trang này để biết thêm thông tin</a>, hoặc <a href="http://go.blokada.org/chat">tham gia trò chuyện cùng chúng tôi</a>.</p>
+
+<h4><a name="other">Tôi có câu hỏi khác, tôi phải hỏi ở đâu?</a></h4>
+<p>Nếu câu hỏi của bạn không được trả lời ở đây, xin vui lòng tham gia với chúng tôi kênh chat Telegram trên liên kết <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, cộng đồng của chúng tôi sẽ ở đó để giúp bạn. Nếu nó không tiện cho bạn, hãy sử dụng tùy chọn Phản hồi trong menu ở trên đầu màn hình, hoặc nếu bạn có một câu hỏi liên quan đến kỹ thuật, xin vui lòng trực tiếp theo dõi tại GitHub.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

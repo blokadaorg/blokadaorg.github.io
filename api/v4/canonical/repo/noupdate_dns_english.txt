@@ -1,0 +1,5 @@
+https://blokada.org/api/v3/content_dns
+en
+0
+0
+http://localhost

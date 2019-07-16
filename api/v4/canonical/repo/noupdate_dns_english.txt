@@ -1,4 +1,4 @@
-https://blokada.org/api/v3/content_dns
+https://blokada.org/api/v4/content_dns
 en
 0
 0

@@ -12,7 +12,12 @@ h1, h2, h3, h4 {
 }
 
 body {
-  background-color: #0e0e0e;
+  width: 100%;
+  height: 100%;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background: linear-gradient(to bottom, #242523 0%, #262F37 100%);
+}
 }
 
 .content {

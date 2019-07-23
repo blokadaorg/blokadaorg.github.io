@@ -26,12 +26,26 @@ ipv4
 1.1.1.1;1.0.0.1
 https://1.1.1.1/
 
+20
+tenta
+inactive
+ipv4
+99.192.182.100;99.192.182.101
+https://tenta.com/dns-setup-guides
+
 30
 dnswatch
 inactive
 ipv4
 84.200.69.80;84.200.70.40
 https://dns.watch/
+
+40
+freenom
+inative
+ipv4
+80.80.80.80;80.80.81.81
+https://www.freenom.world
 
 45
 fooldns

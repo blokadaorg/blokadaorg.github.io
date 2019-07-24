@@ -42,7 +42,7 @@ https://dns.watch/
 
 40
 freenom
-inative
+inactive
 ipv4
 80.80.80.80;80.80.81.81
 https://www.freenom.world

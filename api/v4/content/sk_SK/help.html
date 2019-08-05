@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<link rel="stylesheet" href="css/poole.css">
-<link rel="stylesheet" href="css/syntax.css">
-<link rel="stylesheet" href="css/hyde.css">
-<link rel="stylesheet" href="css/theme.css">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<link href="//block.blokada.org/favicon.png" rel="icon">
+  <link rel="stylesheet" href="css/poole.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/hyde.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link href="//block.blokada.org/favicon.png" rel="icon">
 
-<title>Nápoveda a pomoc: Blokada</title>
+  <title>Nápoveda a pomoc: Blokada</title>
 </head>
+
 <body class="theme-base-theme1 layout-reverse">
 
 <div class="content">
@@ -21,37 +22,87 @@
         <section id="main">
 
 <h3>Nápoveda</h3>
-<p>Táto stránka je rozdelená na dve rôzne sekcie. Prvá obsahuje pomoc so základnými problémami, ktorým môžete čeliť, zatiaľ čo druhá poskytuje informácie o všeobecných otázkach.</p>
+<a href="#allowlist"></a>
+<a href="#blocklist"></a>
+
+<p>Táto stránka vám pomôže s bežnými otázkami a zhrnie, aké sú súčasné možnosti v Blokade v4.</p>
+
+<h4>Dostupné funkcie</h4>
+<ol>
+  <li><a href="#adblock">Blokovanie reklám</a></li>
+  <li><a href="#vpn">VPN</a></li>
+  <li><a href="#dns">Zmena DNS</a></li>
+  <li><a href="#settings">Nastavenia</a></li>
+</ol>
 
 <h4>Známe situácie</h4>
 <ol>
+  <li><a href="#startup">Blokada sa nedá po nainštalovaní spustiť.</a></li>
   <li><a href="#refresh">Blokada blokuje menej reklám.</a></li>
-  <li><a href="#whitelist">Aplikácia nefunguje podľa očakávania.</a></li>
-  <li><a href="#blacklist">Chcem zablokovat danú webovú stránku.</a></li>
+  <li><a href="#chrome">Blokada neblokuje reklamy v Chrome.</a></li>
   <li><a href="#youtube">Reklamy na YouTube nie sú blokované!</a></li>
-  <li><a href="#unsupported">Blokada sa nedá po nainštalovaní spustiť.</a></li>
   <li><a href="#kill">Blokada prestane po chvíli pracovať.</li>
   <li><a href="#abplists">Nemôžem importovať zoznamy EasyList/AdBlock Plus do Blokady.</a></li>
 </ol>
 
 <h4>Všeobecné otázky</h4>
 <ol>
-  <li><a href="#howitworks">Ako funguje Blokada?</a></li>
-  <li><a href="#vpn">Môžem použiť inú VPN sieť pri zapnutej Blokada?</a></li>
-  <li><a href="#options">Aké možnosti ponúka Blokada?</a></li>
   <li><a href="#ads">Čo môžem urobiť, pokiaľ sa stále zobrazujú nejaké reklamy?</a></li>
-  <li><a href="#DNS">Čo je to DNS a ktorú vybrať?</a></li>
   <li><a href="#kill">Čo môžem urobiť, ak Blokada prestane po chvíli fungovať?</a></li>
   <li><a href="#update">Nemôžem nainštalovať aktualizáciu, čo mám robiť?</a></li>
   <li><a href="#notification">Môžem skryť oznámenia o VPN?</a></li>
   <li><a href="#bug">Ako nahlásim problém, nápad alebo návrh?</a></li>
   <li><a href="#private">Môže Blokada vidieť moje súkromné údaje?</a></li>
-  <li><a href="#battery">Má Blokada veľkú spotrebu batérie?</a></li>
+  <li><a href="#battery">Má Blokada veľkú spotrebu energie?</a></li>
   <li><a href="#speed">Bude Blokada spomaľovať moje zariadenie?</a></li>
   <li><a href="#free">Je Blokada naozaj zadarmo?</a></li>
   <li><a href="#contribute">Blokada je skvelá, ako môžem pomôcť projektu?</a></li>
   <li><a href="#other">Mám ďalšie otázky, kde sa môžem spýtať?</a></li>
 </ol>
+
+
+<h4><a name="adblock">Blokovanie reklám</a></h4>
+  <p>Blokovanie reklám je najznámejšou funkciou Blokady. Je to tenká vrstva medzi sieťovým rozhraním (WiFi alebo dáta) vášho zariadenia a aplikáciami, ktoré používate. Aby mohla filtrovať všetky odchádzajúce prenosy, využíva VPN API vášho zariadenia, a jednoducho blokuje všetky požiadavky definované vo filtroch čiernej listiny. Keď sa aplikácia pokúsi o prístup k hostiteľovi, ktorý je zablokovaný, Blokada tejto aplikácii nahlási, že názov hostiteľa sa nenašiel. Vďaka tomu Blokada šetrí vaše mobilné dáta, životnosť batérie a čas: nedochádza k presmerovaniu. Filtre sa aktualizujú automaticky. Blokadu môžete nakonfigurovať aj pomocou vlastných filtrov a Zoznamu povolených, aby ste zaistili, že služby, ktoré chcete používať, nebudú zablokované a nezažijete žiadne prerušenia.<br>
+  Táto funkcia je k dispozícii zadarmo, a zadarmo aj ostane. Užívajte si Blokadu!</p>
+  <p><a name="allowlist"></a>Pokiaľ niektorá aplikácia nefunguje podľa očakávaní, nenačíta sa jej obsah, alebo sa vyskytne nejaký iný problém, otvorte prosím menu Blokady potiahnutím prstom nahor, dotknite sa položky <i>Blokovanie reklám</i>, vyberte <i>Povolené hosty</i>, dotknite sa znamienka + hore a pridajte jeden názov hostu alebo súbor obsahujúci zoznam všetkých hostov, ktorých nechcete filtrovať.</p>
+  <p><a name="blocklist"></a> Môžete zablokovať aj jednotlivé webové stránky, ktoré nie sú na host liste. Prejdite do menu Blokady potiahnutím prstom nahor, dotknite sa položky <i>Blokovanie reklám</i>, vyberte <i>Zablokované hosty</i> a dotknite sa znamienka + v hornej časti. Tu môžete pridať jeden názov hostu alebo súbor obsahujúci zoznam všetkých hostov, ktorých chcete blokovať.</p>
+
+<h4><a name="vpn">VPN</a></h4>
+  <p>V Blokade v4 je zavedená nová služba, vlastné VPN od Blokady. Táto služba bola vytvorená pre vás, pre zaistenie vašej bezpečnosti a anonymity na internete bez ohľadu na to, kde sa nachádzate a čo robíte. Viac informácií o tejto funkcii nájdete v <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">článku</a> na našom blogu.<br>
+  Táto služba stojí 5€/mesiac. Pred zaregistrovaním si prosím prečítajte naše <a href="https://vpn.blocka.net/tos.html">Podmienky služby</a> a <a href="https://vpn.blocka.net/privacy.html">Zásady ochrany osobných údajov</a>.
+  V tejto sekcii budete môcť spravovať svoj VPN účet. Odtiaľto budete môcť:</p>
+  <p><ul>
+    <li>Aktivovať účet</li>
+    <li>Obnoviť účet</li>
+    <li>Vybrať sieťovú bránu, ku ktorej sa chcete pripojiť</li>
+  </ul></p>
+  <p>Pokiaľ ide o platobný mechanizmus, využívame službu Stripe a informácie uložené v tomto procese sú využívané iba k overeniu platieb a uchovávaniu dostatočného množstva informácii pre aktiváciu účtu, a taktiež k umožneniu bezpečnej správy vášho predplatného.</p>
+
+<h4><a name="dns">Zmena DNS</a></h4>
+  <p>Ďalšou bežné používanou funkciou v Blokade je zmena DNS servera. Aplikácia vám poskytne zoznam preddefinovaných DNS serverov, z ktorých si môžete vybrať.<br>
+  Akronym DNS znamená Domain Name System, a tieto servery sú zodpovedné za priradzovanie doménových mien (napríklad: <i>myexample.com</i>) ku IP adresám, ktoré sú používané medzi zariadeniami na komunikáciu. Váš poskytovateľ internetových služieb má svoje vlastné DNS servery; Blokada je nakonfigurovaná, aby používala systémom predvolené hodnoty. Servery v tomto zozname by mali byť použité, ak máte podozrenie, že váš ISP zhromažďuje záznamy o vašom používaní internetu, máte strach z ohrozenia súkromia, alebo ak sú pre vás niektoré stránky alebo služby zablokované. Neexistuje žiadny "najlepší" z nich, všetko záleží na vašich preferenciách a polohe, preto pokiaľ by ste chceli využívať vlastné DNS servery, prečítajte si prosím ich popis, vyhľadajte ich na internete a prečítajte si spätnú väzbu.<br>
+  Táto DNS sekcia funguje s aktívnym, no aj bez aktívneho VPN, takže DNS, ktoré si vyberiete, bude použité vždy, s aj bez VPN služby. Berte prosím do úvahy, že vo verzii v4 Blokada zatiaľ nepodporuje DoH/DoT, no táto funkcia bude implementovaná krátko po vydaní verzie v4.
+</p>
+
+<h4><a name="settings">Aké nastavenia sú dostupné v Blokade?</a></h4>
+<p>Ako ste si iste všimli, Blokada má na obrazovke Nastavení zopár možností. Môžete vidieť nasledovné:</p>
+<p><ul>
+    <li><b>Upozornenia</b>: ak sú zapnuté, po každom zablokovaní reklamy vám príde upozornenie. Predvolene sú zapnuté, ale ak dostávate priveľa upozornení, vypnite ich.</li>
+    <li><b>Spustiť pri štarte</b>: ak je zapnuté, Blokada sa spustí pri štarte systému. Upozorňujeme, že pre túto možnosť existujú nastavenia na úrovni systému, preto nemožno zaručiť, že sa Blokada pri štarte môže spustiť. V takomto prípade skontrolujte nastavenia vášho zariadenia. Predvolene je táto možnosť zapnutá, ak chcete spúšťať Blokadu manuálne, vypnite túto možnosť.</li>
+    <li><b>Umiestnenie nastavení</b>: kde chcete ukladať konfiguráciu: do interného alebo externého úložiska? Ak si zvolíte externé, súbory budú dostupné v priečinku /Download/Blokada.</li>
+    <li><b>Animácia pozadia</b>: môžete zapnúť alebo vypnúť animácie na pozadí, zobrazujúce vlny. Biele vlny predstavujú povolené požiadavky, zatiaľčo oranžové sú tie blokované.</li>
+    <li><b>Zapisovač žiadostí</b>: ak je zapnutý, Blokada vygeneruje CSV súbor a bude zapisovať požiadavky, ktoré boli povolené a/alebo zablokované aplikáciou.</li>
+    <li><b>Udržať aktívne</b>: táto možnosť zaistí, že Blokada nebude systémom pozastavená alebo zastavená. Váš systém však môže túto možnosť prepísať, uistite sa, že vaše nastavenia umožnia Blokade byť spustená na pozadí.</li>
+    <li><b>Strážny pes</b>: ak je zapnutý a nemáte žiadne pripojenie k internetu, Blokada sa ukončí, a po opätovnom pripojení sa znova spustí. Ak je vypnuté, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
+    <li><b>Agresívne prebudenie</b>: túto možnosť zapnite, ak vaše zariadenie zastavuje alebo ukončuje Blokadu kvôli systémovej funkcií úspory energie. Aj napriek tomu, že cieľom tejto možnosti je udržať Blokadu aktívnu na väčšine zariadení, systém bude mať vždy vyššiu prioritu a aplikáciu môže zastaviť, pokiaľ nie je vynechaná z optimalizácie pamäte alebo batérie.
+</ul></p>
+
+<h4><a name="startup">Blokada sa nedá po nainštalovaní spustiť.</a></h4>
+<p>Pre takúto situáciu existujú dve najčastejšie príčíny. Najprv prosím skontrolujte, či máte aktívne VPN pripojenie a či je zapnutá možnosť <i>Vždy zapnutá VPN</i>. Prejdite do nastavení vášho zariadenia, nájdite položku VPN v nastaveniach sietí, a ťuknite na ozubené koleso vedľa existujúceho VPN. Ak je zapnutá, vypnite ju, odpojte sa od aktívneho VPN pripojenia a skúste reštartovať Blokadu.</p>
+
+<p>Ak nemáte žiadne iné VPN pripojenie, skontrolujte, či je v Blokade v rozšírených nastaveniach zapnutý <i>Strážny pes</i>, a ak áno, skontrolujte, či ste pripojení na internet, prostredníctvom wifi alebo mobilných dát. Ak je <i>Strážny pes</i> zapnutý a nemáte pripojenie na internet, Blokada sa nespustí.</p>
+
+<p>Ak to nepomôže, reštartujte vaše zariadenie, niekedy to môže pomôcť.</p>
 
 <h4><a name="refresh">Blokada blokuje menej reklám.</a></h4>
 <p>Ak máte podozrenie, že Blokada blokuje menej reklám ako kedysi, obnovte prosím svoje zoznamy. Môžete to urobiť ťuknutím na <i>Čierna listina</i>, potom v pravom hornom rohu na ikonu ekvalizéra, vyberte <i>Obnoviť filtre</i> a ťuknite na <i>Pokračovať</i>. Obyčajne sa to stáva, pretože k existujúcim serverom sú pridané nové, ktoré (zatiaľ) nie sú identifikované a pridané do čiernych listín, alebo tieto nové listiny nie sú stiahnuté do vášho zariadenia, a tým pádom (zatiaľ) nie sú blokované.<br>
@@ -59,52 +110,26 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
 
 <p>Upozorňujeme, že Blokada používa zoznamy tretích strán, ak teda samotná aplikácia kedysi fungovala a blokovala reklamy, bez zmien by sa mala správať rovnako.</p>
 
-<h4><a name="whitelist">Aplikácia nefunguje podľa očakávania.</a></h4>
-<p>Ak narazíte na aplikáciu, ktorá po zablokovaní reklám nefunguje podľa očakávaní, nenačíta jej obsah alebo nastane nejaký iný problém, prosím prejdite na hlavnú obrazovku, vyberte možnosť <i>Biela listina</i>, ťuknite na znak + v dolnej časti obrazovky, vyberte <i>Aplikácia</i> a zadajte jej názov. Na záver ťuknite na <i>Uložiť</i>. Vďaka tomuto, Blokada nebude filtrovať URL adresy v tejto aplikácii.</p>
-
-<p>Berte prosím na vedomie, že Blokada vo verzii 3.4 a starších obsahovala chybu, kvôli ktorej čerstvo nainštalované aplikácie neboli rozpoznané, a preto nemohli byť pridané na <i>Bielu listinu</i>. Táto chyba je opravená vo verzii 3.5 a novších.</p>
-
-<h4><a name="blacklist">Chcem zablokovat danú webovú stránku.</a></h4>
-<p>Môžete zablokovať aj jednotlivé webové stránky, ktoré nie sú na host liste. Môžete to urobiť prejdením na <i>Čiernu listinu</i> na hlavnej stránke, následne ťuknite na znak + v dolnej časti obrazovky, ťuknite na <i>Host</i> a zadajte hostname webovej stránky, ktorú chcete zablokovať, bez http a www (napríklad: <i>myexample.com</i>).</p>
+<h4><a name="chrome">Blokada neblokuje reklamy v Chrome.</a></h4>
+<p>Ak používate Google Chrome, musíte vypnúť Šetrič dát a Async DNS. Google tieto dve technológie používa predvolene, a to prekáža blokovaniu hostov v Blokade.<br>
+1. Pre vypnutie Šetriča dát sa v prehliadači Google Chrome dotknite troch zvislých bodiek, prejdite do Nastavení, nájdite "šetrič dát" alebo "zjednodušený režim" a vypnite ho.<br>
+2. Pre vypnutie Async DNS, otvorte vo vašom prehliadači stránku "chrome://flags", vyhľadajte DNS a vypnite funkciu Asynchrónneho DNS.<br>
+3. V zariadení prejdite do Nastavení -> Aplikácie -> Chrome -> Úložisko a vymažte vyrovnávaciu pamäť.<br>
+4. Reštartujte zariadenie!</p>
 
 <h4><a name="youtube">Reklamy na YouTube nie sú blokované!</a></h4>
 <p>Blokovanie reklám na YT je veľmi náročné, pretože Google na poskytovanie reklám používa šifrovanie a náhodne generovaných hosts. Z tohto dôvodu je oveľa jednoduchšie blokovať reklamy v YT aplikácii samotnej, než s externým nástrojom (ako Blokada). Výbornými alternatívami oficiálnej YouTube aplikácie sú NewPipe a YouTube Vanced, vyberte si tú, ktorá vám viac vyhovuje.</p>
 
-<h4><a name="unsupported">Blokada sa nedá po nainštalovaní spustiť.</a></h4>
-<p>Pre takúto situáciu existujú dve najčastejšie príčíny. Najprv prosím skontrolujte, či máte aktívne VPN pripojenie a či je zapnutá možnosť <i>Vždy zapnutá VPN</i>. Prejdite do nastavení vášho zariadenia, nájdite položku VPN v nastaveniach sietí, a ťuknite na ozubené koleso vedľa existujúceho VPN. Ak je zapnutá, vypnite ju, odpojte sa od aktívneho VPN pripojenia a skúste reštartovať Blokadu.</p>
-
-<p>Ak nemáte žiadne iné VPN pripojenie, skontrolujte, či je v Blokade v rozšírených nastaveniach zapnutý <i>Strážny pes</i>, a ak áno, skontrolujte, či ste pripojení na internet, prostredníctvom wifi alebo mobilných dát. Ak je <i>Strážny pes</i> zapnutý a nemáte pripojenie na internet, Blokada sa nespustí.</p>
-
-<p>Ak to nepomôže, reštartujte vaše zariadenie, niekedy to môže pomôcť.</p>
-
 <h4><a name="kill">Blokada prestane po chvíli pracovať.</a></h4>
-<p>V prvom rade zapnite v Blokade funkciu <i>Udržať aktívne</i>. V tomto prípade sa Blokada bude snažiť ostať online, no berte prosím na vedomie, že váš systém môže toto správanie stále ovplyvniť. Ak sa po nastavení bude Blokada stále čas od času zastavovať, skontrolujte nastavenia vášho systému a vypnite všetky optimalizácie batérie či pamäte pre Blokadu. Bohužiaľ je to iné v každom systéme, preto nedokážeme presne povedať ako na to. Skontrolujte prosím nastavenia vášho zariadenia. Ďalším zdrojom takéhoto správania môže byť fakt, že používate nejaký čistič pamäte. Pridajte prosím Blokadu do bielej listiny alebo do zoznamu výnimiek. Ak ani jeden z týchto krokov nepomohol, prosíme o nahlásenie chyby (návod nižšie).</p>
+<p>V prvom rade zapnite v Blokade funkciu <i>Udržať aktívne</i>. V tomto prípade sa Blokada bude snažiť ostať online, no berte prosím na vedomie, že váš systém môže toto správanie stále ovplyvniť. Ak sa po nastavení bude Blokada stále čas od času zastavovať, skontrolujte nastavenia vášho systému a vypnite všetky optimalizácie batérie či pamäte pre Blokadu. Bohužiaľ je to iné v každom systéme, preto nedokážeme presne povedať ako na to. Skontrolujte prosím nastavenia vášho zariadenia. Ďalším zdrojom takéhoto správania môže byť fakt, že používate nejaký čistič pamäte. Pridajte prosím Blokadu do bielej listiny alebo do zoznamu výnimiek. Ak ani jeden z týchto krokov nepomohol, prosíme o nahlásenie chyby (<a href="#other">návod nižšie</a>).</p>
 
 <h4><a name="abplists">Nemôžem importovať zoznamy EasyList/AdBlock Plus do Blokady.</a></h4>
-<p>Ak sa pokúsite importovať zoznam (napríklad EasyList), ktorý funguje veľmi dobre s rozšírením AdBlock Plus na vašom PC alebo notebooku, Blokáda ohlási chybové hlásenie. Stane sa tak preto, lebo Blokada využíva inú metódu na blokovanie reklám. Kým ABP blokuje a skrýva prvky alebo časti webových stránok, Blokada to nemôže urobiť, pretože nie je plugin v prehliadači a funguje na príncípe presmerovania prístupov k reklamným serverom na nesmerovateľnú adresu (0.0.0.0), tým pádom potrebuje hostname-IP zoznam.</p>
-
-<h4><a name="howitworks">Ako funguje Blokada?</a></h4>
-<p>Blokada je tenká vrstva medzi sieťovým rozhraním (wifi alebo dáta) vášho zariadenia a aplikáciami, ktoré používate. Aby mohla filtrovať všetky odchádzajúce prenosy, vytvorí miestne (nevyužíva žiadne služby tretích strán) VPN pripojenie a jednoducho blokuje všetky požiadavky definované vo filtroch čiernej listiny. Toto blokovanie funguje pomocou presmerovania, IP adresa webovej stránky, ktorá poskytuje reklamu bude zariadením presmerovaná na non-routable meta-adresu 0.0.0.0, kde nebeží žiadna webová služba, a tým pádom sa nič nezobrazí. Blokada týmto šetrí vaše dáta a zároveň zlepšuje aj výdrž batérie. Filtre sú aktualizované automaticky a obsahujú hostov, ktorí sú známi poskytovaním reklám, sledovaním, spamom, malvérom a iným nežiadúcim či nebezpečným obsahom. Do Blokady môžete pridať aj vaše vlastné filtre a biele listiny, aby sa zaručilo, že služba, ktorú chcete používať nebude zablokovaná a nezažijete žiadne prerušenia.</p>
-
-<h4><a name="vpn">Môžem použiť inú VPN sieť pri zapnutej Blokada?</a></h4>
-<p>Bohužiaľ nie, je to systémové obmedzenie; súčasne môže byť aktívne iba jedno VPN pripojenie. Ak sa pripojíte k inej službe, Blokada sa ukončí.</p>
-
-<h4><a name="options">Aké možnosti ponúka Blokada?</a></h4>
-<p>Ako ste určite videli, Blokada má na hlavnej obrazovke zopár nastavení, ktoré nie sú pri prvom spustení vysvetlené. Dovoľte nám to urobiť teraz. Môžete vidieť nasledovné:</p>
-<p><ul>
-    <li><b>Čierna listina</b>: toto je zoznam host súborov, ktoré obsahujú servery na zablokovanie. Upozorňujeme, že používanie viacerých zoznamov môže mať vplyv na rýchlosť systému a siete.</li>
-    <li><b>Biela listina</b>: biela listina je zoznam výnimiek, tu môžete definovať hostov, ktorí by nemali byť zablokovaní, alebo aplikácie, v ktorých Blokada nebude filtrovať URL adresy. Zopár aplikácii je v tejto listine hneď po inštalácii Blokady.</li>
-    <li><b>Udržať aktívne</b>: táto možnosť je na zabezpečenie toho, aby systém nepozastavoval alebo nezastavoval Blokadu. Váš systém však môže túto možnosť prepísať, uistite sa, že vaše nastavenia umožnia Blokade byť spustená na pozadí.</li>
-    <li><b>Upozornenia</b>: ak sú zapnuté, po každom zablokovaní reklamy vám príde upozornenie. Predvolene sú zapnuté, ale ak dostávate priveľa upozornení, vypnite ich.</li>
-    <li><b>Strážny pes</b>: ak je zapnutý a nemáte žiadne pripojenie k internetu, Blokada sa ukončí, a po opätovnom pripojení sa znova spustí. Ak je vypnutý, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
-    <li><b>Spustiť pri štarte</b>: ak je zapnuté, Blokada sa spustí pri štarte systému. Upozorňujeme, že pre túto možnosť existujú nastavenia na úrovni systému, preto nemožno zaručiť, že sa Blokada pri štarte môže spustiť. V takomto prípade skontrolujte nastavenia vášho zariadenia. Predvolene je táto možnosť zapnutá, ak chcete spúšťať Blokadu manuálne, vypnite túto možnosť.</li>
-    <li><b>DNS</b>: ak máte podozrenie, že niektoré webové stránky alebo služby sú pre vás zablokované, alebo predpokladáte, že váš poskytovateľ internetových služieb zhromažďuje informácie o vašom používaní internetu, vyberte si zo zoznamu nový, bezpečný DNS stroj. Predvolene Blokada používa rovnaký/é DNS server/y ako váš systém.</li>
-</ul></p>
+<p>Ak sa pokúsite importovať zoznam (napríklad EasyList), ktorý funguje veľmi dobre s rozšírením AdBlock Plus na vašom PC alebo notebooku, Blokáda ohlási chybové hlásenie. Stane sa tak preto, lebo Blokada využíva inú metódu na blokovanie reklám. Zatiaľčo Adblock Plus blokuje a skrýva prvky alebo časti webu, Blokada toto robiť nemôže, pretože nie je doplnok v prehliadači, pracuje na nižšej úrovni a blokuje prístup k hostiteľovi.</p>
 
 <p>Nenastaviteľné veci:</p>
 <p><ul>
     <li><b>Aktuálne</b>: ak to vidíte, používate najnovšiu verziu Blokady. Udržujte aplikáciu aktualizovanú pre opravy chýb a nové funkcie!</li>
-    <li><b># reklám zablokovaných</b>: počet nežiadúceho obsahu, ktorého Blokada zablokovala od kedy bola spustená po prvý krát</li>
+    <li><b># reklám zablokovaných</b>: počet nežiadúceho obsahu, ktorý Blokada zablokovala od jej prvého spustenia</li>
     <li><b># hostov</b>: počet serverov, ktoré poskytujú reklamy, malvér a iný nežiadúci obsah</li>
 </ul></p>
 
@@ -114,23 +139,20 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
     <li>Skontrolujte, či vidíte ikonu VPN kľúča v stavovom riadku v hornej časti obrazovky. Ak nie, spustite Blokadu.</li>
     <li>Otvorte Blokadu a skontrolujte, či je aktívna a nehlási žiadne chyby.</li>
     <li>Skontrolujte, či počítadlo hostov nezobrazuje nulu. Ak áno, vyberte si niektoré filtre čiernej listiny, aby mohli byť reklamy zablokované. Ak je na počítadle stále nula, udeľte aplikácii prístup k úložisku v systémových nastaveniach - Aplikácie - Blokada, potom vymažte dáta a vyrovnávaciu pamäť a reštartujte zariadenie.</li>
-    <li>Uistite sa, že nemáte v bielej listine príliš veľa aplikácii - to môže byť dôvod, prečo ste videli reklamy.</li>
-    <li>Skúste resetovať filtre (choďte do čiernej listiny a vyberte <i>Obnoviť predvolené</i> z menu rýchlych akcii na vrchu).</li>
+    <li>Uistite sa, že nemáte v zozname povolených príliš veľa aplikácii - to môže byť dôvod, prečo vidíte reklamy.</li>
+    <li>Skúste zresetovať filtre: prejdite na 'Blokovanie reklám', následne do 'Nastavení zoznamu', dotknite sa položky 'Zoznam filtrov' (nie Synchronizovať) a zvoľte ZAHODIŤ.</li>
     <li>Ak vidíte reklamy vo vašom prehliadači, deaktivujte akúkoľvek kompresiu či optimalizáciu dát v nastavení prehliadača.</li>
     <li>Deaktivujte Blokadu, zavrite ju (potiahnutím preč z obrazovky nedávnych aplikácii) a znova ju zapnite.</li>
-    <li>Ak ste nedávno zmenili nastavenia (filtre, biela listina, atď.), pamätajte, že chvíľu trvá kým tieto nové nastavenia začnú fungovať. Dajte tomu chvíľu času.</li>
+    <li>Ak ste nedávno zmenili nastavenia (filtre, zoznam povolených, atď.), pamätajte, že chvíľu trvá kým tieto nové nastavenia začnú fungovať. Dajte tomu chvíľu času.</li>
     <li>Vymažte dáta pre Blokadu (v nastaveniach systému), alebo ju preinštalujte.</li>
     <li>Reštartujte vaše zariadenie.</li>
-    <li>Vaše zariadenie možno nie je podporované. Prosím skontrolujte <a href="http://go.blokada.org/issue_device">Databázu zariadení</a>.</li>
     <li>Ak nepomohol ani jeden z týchto krokov, nahláste prosím chybu (návod nižšie).</li>
 </ul></p>
 
- <h4><a name="DNS">Čo je to DNS a ktorú vybrať?</a></h4>
- <p>Akronym DNS znamená Domain Name System, a tieto servery sú zodpovedné za priradzovanie doménových mien (napríklad: <i>myexample.com</i>) ku IP adresám, ktoré sú používané medzi zariadeniami na komunikáciu. Váš poskytovateľ internetových služieb má svoje vlastné DNS servery; Blokada je nakonfigurovaná, aby používala systémom predvolené hodnoty. Servery v tomto zozname by mali byť použité, ak máte podozrenie že váš ISP zhromažďuje záznamy o vašom používaní internetu, máte strach o ohrozenie súkromia, alebo ak sú pre vás niektoré stránky alebo služby zablokované. Neexistujú žiadne "najlepšie", všetko závisí od vašich preferencii a polohy, preto, ak by ste chceli používať iný DNS server, prečítajte si prosím jeho popis, vyhľadajte si ho na internete a prečítajte si spätnú väzbu.</p>
-
 <h4><a name="update">Nemôžem nainštalovať aktualizáciu, čo mám robiť?</a></h4>
 <p>V prvom rade skontrolujte, či máte Android vo verzii 5 alebo novšej. Blokada 3.0 a novšie verzie už Android 4 a staršie verzie nepodporuje. Môžete to urobiť prejdením do nastavení zariadenia, následne prejdite do <i>Informácii o telefóne</i> a nájdite údaj o <i>Verzii systému Android</i></p>
-<p>Ak vaše zariadenie beží na Androide 5 alebo novšom, reštartujte vaše zariadenie. Znie to zvláštne, ale niekedy to pomôže. Ak to problém nevyriešilo, odinštalujte Blokadu a znova ju nainštalujte. Môže to byť aj tým, že vaše zariadenie nie je podporované. Prosím skontrolujte <a href="http://go.blokada.org/issue_device">Databázu zariadení</a>.</p>
+<p>Ak na zariadení beží Android 5 alebo novší, skontrolujte, či sa nepokúšate nainštalovať aktualizáciu z iného zdroja, než z ktorého ste Blokadu inštalovali pôvodne. Rôzne úložiská pridávajú svoje podpisové kľúče a preto môže aktualizácia zlyhať.</p>
+<p>Reštartujte vaše zariadenie. Znie to zvláštne, ale niekedy to môže pomôcť. Ak to problém nevyriešilo, odinštalujte Blokadu a znova ju nainštalujte.
 <p>Ak nepomohol ani jeden z týchto krokov, pripojte sa prosím na náš Telegram chat na <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> na získanie pomoci, alebo nahláste chybu (návod nižšie).</p>
 
 <h4><a name="notification">Môžem skryť oznámenia o VPN?</a></h4>
@@ -140,16 +162,16 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
 <p>Ak sa vyskytnú problémy, pripojte sa prosím k nášmu Telegram chatu na <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, a naša komunita vám s radosťou pomôže. Prípadne vyberte možnosť spätnej väzby z ponuky v pravom hornom rohu a postupujte podľa pokynov. Poskytnite prosím čo najviac informácii a krokov na reprodukciu problému - výrazne to pomôže pri riešení vášho problému! Ak ste pokročilý užívateľ, môžete ísť priamo do issue trackera na GitHube.</p>
 
 <h4><a name="private">Môže Blokada vidieť moje súkromné údaje?</a></h4>
-<p>Nie. Blokada nečíta ani nemanipuluje s vašimi súkromnými informáciami, len monitoruje, ktorým hostom vaše zariadenie posiela požiadavky a blokuje tie, ktoré sa zhodujú s filtrami. Zakaždým, keď Blokada niečo zablokuje dostanete upozornenie (čo môžete aj vypnúť). Blokada nemá prístup k vašim šifrovaným dátam.</p>
+<p>Nie. Blokada nečíta ani nemanipuluje s vašimi súkromnými informáciami, len monitoruje, ktorým hostom vaše zariadenie posiela požiadavky a blokuje tie, ktoré sa zhodujú s filtrami. Zakaždým, keď Blokada niečo zablokuje, dostanete upozornenie (čo môžete aj vypnúť). Blokada nemá prístup k vašim šifrovaným dátam.</p>
 
 <h4><a name="battery">Má Blokada veľkú spotrebu batérie?</a></h4>
-<p>Nie. Vplyv na výdrž batérie závisí od vašich nastavení, mal by byť minimálny, a na väčšine nových zariadení, hlavne s Androidom 6 (Marshmallow) alebo novším si ho ani nevšimnete. Avšak, na niektorých nešťastných zariadeniach sa zvýšená spotreba batérie môže vyskytnúť. Skontrolujte <a href="http://go.blokada.org/issue_device">Databázu zariadení</a> pre podrobnosti.</p>
+<p>Nie. Vplyv na výdrž batérie závisí od vašich nastavení, mal by byť minimálny, a na väčšine nových zariadení, hlavne s Androidom 6 (Marshmallow) alebo novším si ho ani nevšimnete. Avšak, na niektorých nešťastných zariadeniach sa zvýšená spotreba batérie môže vyskytnúť.
 
 <h4><a name="speed">Bude Blokada spomaľovať moje zariadenie?</a></h4>
-<p>Nie. V závislosti od vašich nastavení môže byť Blokada pomerne efektívna. Výkon a výdrž batérie vášho zariadenia sa môže naopak viditeľne zlepšiť, pretože Blokada šetrí vaše zariadenie od sťahovania a spracúvavania nepotrebného obsahu. U používateľov so staršími zariadeniami sa však pokles výkonu môže prejaviť. Skontrolujte <a href="http://go.blokada.org/issue_device">Databázu zariadení</a> pre podrobnosti.</p>
+<p>Nie. V závislosti od vašich nastavení môže byť Blokada pomerne efektívna. Výkon a výdrž batérie vášho zariadenia sa môže naopak viditeľne zlepšiť, pretože Blokada šetrí vaše zariadenie od sťahovania a spracúvavania nepotrebného obsahu. U používateľov so staršími zariadeniami sa však pokles výkonu môže prejaviť.</p>
 
 <h4><a name="free">Je Blokada naozaj zadarmo?</a></h4>
-<p>Áno! Blokada začala ako môj hobby projekt, je preto stále prevažne vyvíjaná iba mnou. Je to môj spôsob, ako sa odvďačiť komunite. Blokada je plne open source, a ostane zadarmo už navždy. Jej vývoj však zaberá veľa času, takže prosím zvážte tento projekt podporiť, akýmkoľvek možným spôsobom (viď nižšie).</p>
+<p>Áno! Blokada začala ako hobby projekt, je to spôsob, ako niečo vrátiť komunite. Aplikácia je open source, funkcia filtrovania reklám je zadarmo, a takto to zostane už navždy. Jej vývoj však zaberá veľa času, preto prosím zvážte podporu projektu akýmkoľvek možným spôsobom (<a href="#contribute">viď nižšie</a>).</p>
 
 <h4><a name="contribute">Blokada je skvelá, ako môžem pomôcť projektu?</a></h4>
 <p>Existuje mnoho spôsobov, ako podporiť Blokadu, či už finančne, alebo aj inak. Každá pomoc je pre tento projekt veľmi dôležitá. <a href="contribute.html">Prosím prejdite na túto stránku pre viac informácií</a>, alebo sa <a href="http://go.blokada.org/chat">pripojte do nášho chatu </a>.</p>

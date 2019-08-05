@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<link rel="stylesheet" href="css/poole.css">
-<link rel="stylesheet" href="css/syntax.css">
-<link rel="stylesheet" href="css/hyde.css">
-<link rel="stylesheet" href="css/theme.css">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<link href="//block.blokada.org/favicon.png" rel="icon">
+  <link rel="stylesheet" href="css/poole.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/hyde.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link href="//block.blokada.org/favicon.png" rel="icon">
 
-<title>Giúp đỡ: Blokada</title>
+  <title>Giúp đỡ: Blokada</title>
 </head>
+
 <body class="theme-base-theme1 layout-reverse">
 
 <div class="content">
@@ -21,141 +22,162 @@
         <section id="main">
 
 <h3>Trợ giúp</h3>
-<p>Trang web này được xây dựng với hai phần khác nhau. Phần đầu sẽ trợ giúp cho bạn trước những vấn đề thường gặp, còn phần sau sẽ đưa ra các thông tin hữu ích cho các câu hỏi.</p>
+<a href="#allowlist"></a>
+<a href="#blocklist"></a>
 
-<h4>Những vấn đề thường gặp</h4>
+<p>This site will help you with the common questions and summarises what are the current options in Blokada v4.</p>
+
+<h4>Available features</h4>
 <ol>
-  <li><a href="#refresh">Blokada chặn quảng cáo ít hơn.</a></li>
-  <li><a href="#whitelist">Một ứng dụng không hoạt động như mong đợi.</a></li>
-  <li><a href="#blacklist">Tôi muốn chặn một website.</a></li>
-  <li><a href="#youtube">Quảng cáo trong YouTube không bị chặn!</a></li>
-  <li><a href="#unsupported">Tôi không thể chạy Blokada sau khi cài.</a></li>
-  <li><a href="#kill">Blokada dừng hoạt động sau một thời gian.</li>
-  <li><a href="#abplists">Tôi không thể thêm danh sách EasyList/AdBlock Plus vào Blokada.</a></li>
+  <li><a href="#adblock">Ad blocking</a></li>
+  <li><a href="#vpn">VPN</a></li>
+  <li><a href="#dns">Changing DNS</a></li>
+  <li><a href="#settings">Settings</a></li>
 </ol>
 
-<h4>Câu hỏi thường gặp</h4>
+<h4>Known situations</h4>
 <ol>
-  <li><a href="#howitworks">Blokada hoạt động như thế nào?</a></li>
-  <li><a href="#vpn">Tôi có thể sử dụng một VPN khác khi đang bật Blokada được không?</a></li>
-  <li><a href="#options">Có những tùy chọn gì trong Blokada?</a></li>
-  <li><a href="#ads">Tôi nên làm gì nếu quảng cáo vẫn được hiển thị?</a></li>
-  <li><a href="#DNS">DNS là gì và tôi nên chọn cái nào?</a></li>
-  <li><a href="#kill">Tôi phải làm gì nếu Blokada dừng họat động sau một lúc?</a></li>
-  <li><a href="#update">Tôi không thể cài đặt bản cập nhật, phải làm gì đây?</a></li>
-  <li><a href="#notification">Tôi có thể ẩn thông báo VPN được không?</a></li>
-  <li><a href="#bug">Có cách nào để báo cáo một vấn đề hay ý tưởng?</a></li>
-  <li><a href="#private">Blokada có thể xem thông tin riêng tư của tôi không?</a></li>
-  <li><a href="#battery">Sử dụng Blokada có tốn nhiều pin?</a></li>
-  <li><a href="#speed">Blokada có làm chậm thiết bị của tôi?</a></li>
-  <li><a href="#free">Blokada có thật sự miễn phí?</a></li>
-  <li><a href="#contribute">Tuyệt đấy, tôi có thể giúp gì cho dự án?</a></li>
-  <li><a href="#other">Tôi có câu hỏi khác, tôi phải hỏi ở đâu?</a></li>
+  <li><a href="#startup">I cannot start Blokada after I installed it.</a></li>
+  <li><a href="#refresh">Blokada blocks less ads.</a></li>
+  <li><a href="#chrome">Blokada doesn't block ads in Chrome.</a></li>
+  <li><a href="#youtube">Ads in YouTube aren't blocked!</a></li>
+  <li><a href="#kill">Blokada stops to function/work after a while.</li>
+  <li><a href="#abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></li>
 </ol>
 
-<h4><a name="refresh">Blokada chặn quảng cáo ít hơn.</a></h4>
-<p>Nếu bạn nghi ngờ rằng Blokada chặn quảng cáo ít hơn so với trước đó, xin vui lòng cập nhật các danh sách của bạn. Để làm điều đó, bấm vào <i>Danh sách đen</i>, sau đó ở góc trên bên phải, chọn <i>Làm mới bộ lọc</i> và nhấp vào <i>Tiếp tục</i>. Thông thường điều này xảy ra bởi vì những quảng cáo mới được thêm vào những bộ lọc của bạn hoặc bộ lọc mới chưa được cập nhật đến điện thoại của bạn, do đó chúng không (chưa) bị chặn. <br>
-Bạn cũng có thể cho phép nhiều bộ lọc hoạt động hoặc thêm các hạn chế mới ngoài các bộ lọc trong menu <i>Danh sách đen</i>.</p>
+<h4>General questions</h4>
+<ol>
+  <li><a href="#ads">What can I do if I still see some ads?</a></li>
+  <li><a href="#kill">What can I do if Blokada stops working after a while?</a></li>
+  <li><a href="#update">I cannot install an update, what can I do?</a></li>
+  <li><a href="#notification">Can I hide the VPN notification?</a></li>
+  <li><a href="#bug">How do I report a problem, idea or suggestion?</a></li>
+  <li><a href="#private">Can Blokada see my private data?</a></li>
+  <li><a href="#battery">Does Blokada use a lot of battery?</a></li>
+  <li><a href="#speed">Will Blokada slow down my device?</a></li>
+  <li><a href="#free">Is Blokada really free to use?</a></li>
+  <li><a href="#contribute">Blokada is great, how can I help the project?</a></li>
+  <li><a href="#other">I have another question, where can I ask it?</a></li>
+</ol>
 
-<p>Xin lưu ý rằng Blokada sử dụng các bộ lọc bên thứ 3, do đó nếu ứng dụng đã làm việc hiệu quả trước đó, nêu không có thay đổi nó sẽ vẫn vận hành như vậy.</p>
 
-<h4><a name="whitelist">Một ứng dụng không hoạt động như mong đợi.</a></h4>
-<p>Nếu bạn có thể thấy rằng một ứng dụng không làm việc như mong đợi, hãy đi đến màn hình chính, chọn <i>Danh sách trắng</i>, ở dưới cùng của màn hình máy nhấn dấu +, chọn <i>Ứng dụng</i> và gõ tên của nó. Nhấn <i>Lưu </i> sau khi hoàn thành. Với việc này, Blokada sẽ không lọc URL trong ứng dụng này.</p>
+<h4><a name="adblock">Ad blocking</a></h4>
+  <p>Blokada's most known feature is ad blocking. It is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it uses the VPN API of the device you use, and simply blocks all requests towards the hosts defined in the blocklist filters. This blocking is done with a simple "Hostname not found" report for the application is tries to access a hostname that is blocked. With this, Blokada saves both your data plan, battery life and time: no redirection is done. The filters are updated automatically. You can configure Blokada with your own custom filters and allowlists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.<br>
+  This feature is available for free, and it will stay free. Enjoy using Blokada!</p>
+  <p><a name="allowlist"></a>If an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please open Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Allowed Hosts</i>, tap the + sign at the top and add a single hostname or a list file containing all the hosts you want to bypass filtering.</p>
+  <p><a name="blocklist"></a> You can block individual website what isn't on a host list. To do it, go to Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Blocked Hosts</i> and tap the + sign at the top of the screen. Here, you can add a single hostname or a list file containing all the hosts you want to block.</p>
 
-<p>Xin vui lòng lưu ý rằng Blokada 3.4 và những bản cập nhật trước đó đã có một lỗi nhỏ rằng một ứng dụng mới cài đặt sẽ không được nhận ra bởi Blokada, do đó chúng không thể được thiết lập vào <i>Danh sách trắng</i>. Lỗi này đã được sửa trong phiên bản 3.5 và mới hơn.</p>
+<h4><a name="vpn">VPN</a></h4>
+  <p>In Blokada v4 a new service is introduced, it is Blokada's own VPN. This service is brought to you to ensure your security and anonymity on the internet, no matter where you are, what you are doing. Please refer to our blog article <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">here</a> to know more about this feature.<br>
+  This service costs 5€/month. Please read our Terms of Service <a href="https://vpn.blocka.net/tos.html">here</a> and Privacy Policy <a href="https://vpn.blocka.net/privacy.html">here</a> before signing up.
+  In this section you’ll be able to manage your VPN account. From here you’ll be able to:</p>
+  <p><ul>
+    <li>Activate an account</li>
+    <li>Restore your account</li>
+    <li>Select the gateway to connect to</li>
+  </ul></p>
+  <p>As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your subscription safely.</p>
 
-<h4><a name="blacklist">Tôi muốn chặn một website.</a></h4>
-<p>Bạn có thể chặn riêng một trang web không có trong các bộ lọc. Để làm điều đó, hãy vào <i>Danh sách đen</i> trên menu chính, nhấn dấu + ở dưới cùng màn hình, nhấn <i>Máy chủ</i> và gõ tên trang web, mà không có phần http và www (ví dụ: <i>myexample.com</i>).</p>
+<h4><a name="dns">Changing DNS</a></h4>
+  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
+  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
+  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+</p>
 
-<h4><a name="youtube">Quảng cáo trong YouTube không bị chặn!</a></h4>
-<p>Chặn quảng cáo trên YT là rất khó bởi vì Google sử dụng cơ chế mã hóa và ngẫu nhiên tạo ra các máy chủ để phục vụ quảng cáo. Vì vậy, nó là dễ dàng hơn nhiều để ngăn chặn các quảng cáo ngay trong ứng dụng YT hơn là sử dụng công cụ bên ngoài (như Blokada). NewPipe và YouTube Vanced là các lựa chọn tuyệt vời để thay thế ứng dụng YouTube chính thức, hãy thử xem chúng có phù hợp hơn cho bạn.</p>
-
-<h4><a name="unsupported">Tôi không thể chạy Blokada sau khi cài.</a></h4>
-<p>Có hai nguyên nhân phổ biến cho tình huống như vậy. Trước tiên, hãy kiểm tra xem nếu bạn đang có một kết nối VPN hoạt động và nếu tùy chọn <i>Luôn luôn trên VPN</i> được kích hoạt. Để làm điều đó, đến cài đặt điện thoại của bạn, tìm kiếm các VPN trong phần Mạng, nhấn vào biểu tượng bánh răng bên cạnh VPN hiện có. Vô hiệu hóa nó, ngắt kết nối từ các kết nối VPN đang hoạt động và thử khởi động lại Blokada.</p>
-
-<p>Nếu bạn không có các kết nối VPN khác, kiểm tra trong Blokada nếu <i>Chỉ online</i> được kích hoạt, và nếu có, hãy kiểm tra nếu bạn đang kết nối tới Internet bằng WiFi hoặc dữ liệu di động. Blokada sẽ không khởi động nếu <i>Chỉ online</i> đang được kích hoạt và bạn không có kết nối Internet.</p>
-
-<p>Nếu nó không giúp ích, hãy khởi động lại điện thoại của bạn, đôi khi nó cũng có thể giúp.</p>
-
-<h4><a name="kill">Blokada dừng hoạt động sau một thời gian.</a></h4>
-<p>Bước đầu tiên, bật <i>Giữ kích hoạt</i> trong Blokada. Trong trường hợp này, Blokada sẽ cố gắng hoạt động liên tục, nhưng hãy nhớ, hệ điều hành vẫn có thể can thiệp. Nếu bạn bật nó, và bạn vẫn thấy Blokada dừng lại sau một thời gian, kiểm tra cài đặt hệ thống của bạn và tắt tất cả các tùy chọn tối ưu pin và bộ nhớ cho Blokada. Thật không may, điều này khác nhau ở mỗi hệ thống, do đó chúng tôi không thể nói nơi để làm điều đó. Xin vui lòng kiểm tra cài đặt điện thoại của bạn. Nguyên nhân khác gây ra tình trạng này có thể là một phần mềm dọn bộ nhớ. Xin vui lòng thêm Blokada vào danh sách trắng hoặc danh sách loại trừ. Nếu không bước nào ở trên hữu ích trong trường hợp của bạn, xin vui lòng báo cáo lỗi (xem bên dưới).</p>
-
-<h4><a name="abplists">Tôi không thể thêm danh sách EasyList/AdBlock Plus vào Blokada.</a></h4>
-<p>Nếu bạn thử thêm một bộ lọc hoạt động trên máy tính với AdBlock Plus (ví dụ như EasyList), Blokada sẽ báo lỗi. Đó là bởi vì Blokada sử dụng phương pháp khác để chặn quảng cáo. Trong khi ABP chặn và ẩn các yếu tố hoặc các bộ phận của trang web, Blokada không thể làm điều đó bởi vì nó không phải là một plugin trong trình duyệt, thay vào đó nó chuyển hướng các đường dẫn truy cập đến máy chủ quảng cáo đến một địa chỉ không thể chuyển hướng (0.0.0.0), vì vậy nó cần một danh sách tên miền máy chủ-IP.</p>
-
-<h4><a name="howitworks">Blokada hoạt động như thế nào?</a></h4>
-<p>Blokada là một lớp mỏng giữa giao diện mạng (wifi hoặc mạng di động của bạn) và ứng dụng bạn sử dụng. Để lọc tất cả các dữ liệu, nó tạo ra một kết nối VPN và chặn tất cả các yêu cầu đến những máy chủ trong các danh sách bộ lọc. Việc chặn này được thực hiện với một chuyển hướng, các địa chỉ IP của trang web phục vụ quảng cáo sẽ được giải quyết bằng thiết bị của bạn, chuyển hướng tới địa chỉ không thể chuyển hướng (0.0.0.0), nơi không có dịch vụ web chạy, do đó không có gì sẽ được hiển thị. Với điều này, Blokada tiết kiệm dữ liệu mạng của bạn và tuổi thọ pin. Các bộ lọc được cập nhật tự động và chứa các máy chủ được biết đến để phục vụ quảng cáo, theo dõi, thư rác, phần mềm độc hại và các nội dung khác không mong muốn hoặc nguy hiểm. Bạn có thể cấu hình Blokada với bộ lọc tuỳ chỉnh và danh sách trắng của riêng bạn, để đảm bảo các dịch vụ mà bạn muốn sử dụng không bị chặn và bạn không gặp phải bất kỳ sự gián đoạn nào.</p>
-
-<h4><a name="vpn">Tôi có thể sử dụng một VPN khác khi đang bật Blokada được không?</a></h4>
-<p>Thật không may là không, nó là một hạn chế của hệ thống; bạn chỉ có thể có một kết nối VPN hoạt động tại một thời điểm. Nếu bạn sử dụng một dịch vụ VPN khác, Blokada sẽ tự thoát.</p>
-
-<h4><a name="options">Có những tùy chọn gì trong Blokada?</a></h4>
-<p>Như bạn chắc chắn đã thấy, Blokada có một số tùy chọn trên màn hình chính. Xin vui lòng cho chúng tôi giải thích. Bạn có thể thấy như sau:</p>
+<h4><a name="settings">What are the available settings in Blokada?</a></h4>
+<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
 <p><ul>
-    <li><b>Danh sách đen</b>: đây là danh sách các máy chủ cần chặn. Xin lưu ý rằng việc sử dụng nhiều danh sách cùng lúc có thể gây ảnh hưởng đến tốc độ mạng và hệ thống.</li>
-    <li><b>Danh sách trắng</b>: đây là danh sách ngoại lệ, ở đây bạn có thể xác định những máy chủ không bị chặn hoặc các ứng dụng mà Blokada sẽ không lọc URL. Blokada được cài đặt với vài ứng dụng mặc định trong danh sách trắng.</li>
-    <li><b>Giữ kích hoạt</b>: tùy chỉnh này sẽ giúp Blokada không bị dừng bởi hệ điều hành. Lưu ý rằng hệ thống của bạn vẫn có thể vượt qua nó, nên hãy chắc rằng cài đặt hệ thống của bạn cho phép Blokada hoạt động trong nền.</li>
-    <li><b>Thông báo</b>: khi tùy chọn này được kích họat, bạn sẽ nhận được thông báo mỗi khi có quảng cáo bị chặn. Nó được bật theo mặc định, nhưng nếu bạn nhận được quá nhiều thông báo, hãy tắt nó đi.</li>
-    <li><b>Chỉ online</b>: Khi được kích hoạt. Blokada sẽ thoát nếu không có kết nối mạng, và tự khởi động lại khi có kết nối trở lại. Nếu bị vô hiệu hoá, Blokada sẽ luôn luôn chạy dưới nền (ngay cả khi không có mạng). Lưu ý rằng tùy chọn này có thể không hoạt động với một số thiết bị.</li>
-    <li><b>Bắt đầu khi khởi động</b>: khi tùy chọn này được kích hoạt, Blokada sẽ khởi động sau khi thiết bị khởi động. Xin vui lòng lưu ý hệ thống có thể điều khiển tùy chọn này, do đó nó không thể đảm bảo Blokada có thể khởi động ngay khi thiết bị được bật. Trong trường hợp này, xin vui lòng kiểm tra cài đặt của điện thoại. Tùy chọn này được bật theo mặc định, nếu bạn muốn tự bật Blokada một cách thủ công, hãy tắt nó.</li>
-    <li><b>DNS</b>: nếu bạn đang nghi ngờ rằng một số trang web hoặc dịch vụ bị chặn, hoặc bạn cho rằng nhà cung cấp mạng thu thập thông tin về việc sử dụng intenet của bạn, hãy lựa chọn một máy chủ DNS bảo mật từ danh sách. Theo mặc định, Blokada sử dụng máy chủ DNS mặc định theo hệ thống của bạn.</li>
+    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
+    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
+    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
+    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
+    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
+    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
+    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
 </ul></p>
 
-<p>Những cài đặt không thể cấu hình:</p>
+<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
+<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+
+<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+
+<h4><a name="refresh">Blokada blocks less ads.</a></h4>
+<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
+Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+
+<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+
+<h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
+<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
+1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
+2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
+3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
+4. Reboot!</p>
+
+<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+
+<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
+<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on allowlist or exclude list. If non of this steps helped in your case, please report a bug (<a href="#other">see below</a> how to do it).</p>
+
+<h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
+<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, works on a lower level, blocking host access.</p>
+
+<p>Not configurable things:</p>
 <p><ul>
-    <li><b>Bản mới nhất</b>: nếu bạn nhìn thấy nó, bạn đang chạy phiên bản mới nhất của Blokada. Luôn cập nhật ứng dụng bởi vì nó có ít lỗi và thêm nhiều tính năng!</li>
-    <li><b># quảng cáo bị chặn</b>: số nội dung không mong muốn mà Blokada đã chặn kể từ khi nó được khởi động lần đầu tiên</li>
-    <li><b># host</b>: số lượng máy chủ phục vụ quảng cáo, phần mềm độc hại và các nội dung khác không mong muốn</li>
+    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
+    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
 </ul></p>
 
-<h4><a name="ads">Tôi nên làm gì nếu quảng cáo vẫn được hiển thị?</a></h4>
-<p>Một số quảng cáo sẽ luôn hiện với bất kỳ trình chặn quảng cáo trên Android. Đặc biệt, quảng cáo YouTube hoặc một số quảng cáo bật lên toàn màn hình rất khó để chặn. Nếu bạn nghĩ rằng nhiều quảng cáo hiện lên hơn so với trước đây, hãy thử các bước sau:</p>
+<h4><a name="ads">What can I do if I still see some ads?</a></h4>
+<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
 <p><ul>
-    <li>Kiểm tra xem biểu tượng VPN có hiển thị ở thanh status hay không. Nếu không, khởi động Blokada.</li>
-    <li>Mở Blokada và chắc chắn nó đang hoạt động và không báo cáo lỗi nào.</li>
-    <li>Kiểm tra nếu bộ đếm máy chủ không phải là bằng 0. Nếu đúng là như vậy, chọn thêm một số danh sách bộ lọc. Nếu bộ đếm vẫn bằng không, hãy cho phép quyền truy cập bộ nhớ trong Cài đặt - Ứng dụng - Blokada, sau đó xoá dữ liệu và bộ nhớ đệm và khởi động lại thiết bị.</li>
-    <li>Chắc chắn bạn không có quá nhiều ứng dụng ở danh sách trắng - có lẽ đó là lý do bạn thấy quảng cáo đấy.</li>
-    <li>Thử đặt lại bộ lọc của bạn (đến màn hình Danh sách đen và chọn <i>Khôi phục mặc định</i> từ menu Hành động nhanh ở đầu trang).</li>
-    <li>Nếu bạn thấy quảng cáo trong trình duyệt của bạn, tắt bất kỳ loại lưu lượng truy cập nén hoặc tối ưu hóa trong thiết lập của trình duyệt.</li>
-    <li>Tắt Blokada, đóng nó (vuốt nó ra khỏi màn hình ứng dụng ngầm) và bật lại.</li>
-    <li>Nếu bạn mới thay đổi cài đặt của bạn (bộ lọc, danh sách trắng, vv), hãy nhớ rằng phải mất một chút thời gian trước khi cài đặt mới bắt đầu làm việc. Cho nó một thời gian.</li>
-    <li>Xóa dữ liệu ứng dụng cho Blokada (trong cài đặt hệ thống), hoặc cài đặt lại nó.</li>
-    <li>Khởi động lại thiết bị của bạn.</li>
-    <li>Thiết bị của bạn có thể không được hỗ trợ. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a>.</li>
-    <li>Nếu những bước trên không giúp, xin vui lòng báo cáo lỗi (xem bên dưới).</li>
+    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
+    <li>Open Blokada and check if it is active and not reporting any errors.</li>
+    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
+    <li>Make sure you don't have too many apps in the allow list - maybe that's why you are seeing ads.</li>
+    <li>Try resetting your filters: go to 'Ad blocking', there tap on 'List settings', tap on 'Filter lists' (not on Sync), choose DROP.</li>
+    <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
+    <li>Deactivate Blokada, close it (by swiping it out from the system's Recents screen), and turn it on again.</li>
+    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes time before new configuration start working. Give it some time.</li>
+    <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
+    <li>Restart your device.</li>
+    <li>If none of those steps helped, please report a bug (see below).</li>
 </ul></p>
-
- <h4><a name="DNS">DNS là gì và tôi nên chọn cái nào?</a></h4>
- <p>DNS là viết tắt của Hệ thống Tên miền và những máy chủ này có trách nhiệm xử lý tên miền (ví dụ: <i>myexample.com</i>) thành địa chỉ IP, thứ được sử dụng giữa các máy tính để giao tiếp. Nhà cung cấp mạng của bạn có các máy chủ DNS của riêng mình; Blokada được cấu hình để sử dụng mặc định hệ thống. Các máy chủ trong danh sách này nên được sử dụng nếu bạn nghi ngờ rằng nhà cung cấp mạng đang lưu dữ liệu về những truy cập internet của bạn, bạn lo lắng về những vấn đề bảo mật hay bạn muốn truy cập một số trang web và dịch vụ đang bị chặn. Không có cái nào là "tốt nhất", tất cả mọi thứ phụ thuộc vào sở thích và vị trí của bạn, vì vậy nếu bạn muốn sử dụng máy chủ DNS tùy chỉnh, vui lòng đọc mô tả của họ, tìm kiếm họ trên internet và đọc các nhận xét phản hồi.</p>
 
 <h4><a name="update">Tôi không thể cài đặt bản cập nhật, hãy làm sao đây?</a></h4>
-<p>Trước hết, xin vui lòng kiểm tra xem nếu phiên bản Android bạn có là 5 hoặc mới hơn. Android 4 và phiên bản cũ hơn không được hỗ trợ trong Blokada 3.0 và phiên bản mới hơn. Để làm điều đó, hãy đến phần Cài đặt điện thoại của bạn, di chuyển đến phần <i>Về điện thoại</i> và tìm kiếm <i>Phiên bản Android</i></p>
-<p>Nếu điện thoại của bạn chạy Android 5 hoặc mới hơn, vui lòng khởi động lại thiết bị của bạn. Nghe có vẻ lạ, nhưng đôi khi nó giúp. Nếu nó không giải quyết vấn đề, gỡ cài đặt Blokada và cài đặt nó một lần nữa. Hoặc có thể, thiết bị của bạn không được hỗ trợ. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a>.</p>
-<p>Nếu những bước trên không giúp, xin vui lòng tham gia Telegram với chúng tôi trên <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> để được giúp đỡ, hoặc thông báo lỗi (xem bên dưới).</p>
+<p>First of all, please check if the Android version you have is 5 or newer. Android 4 and older versions are not supported in Blokada 3.0 and newer versions. To do it, go to the Settings of your phone, scroll to <i>About phone</i> and search for <i>Android version</i></p>
+<p>If your phone runs Android 5 or newer, please ensure you try to install the update from the same source that you installed Blokada initially. Different repositories add their signature keys and therefore the update may fail.</p>
+<p>Restart your device. It sounds strange, but sometimes it helps. If that didn't solve the issue, uninstall Blokada and install it again.
+<p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
 
 <h4><a name="notification">Tôi có thể ẩn thông báo VPN được chứ?</a></h4>
-<p>Rất tiếc là không. Một số thiết bị có thể hiển thị một thông báo VPN khó chịu trên thanh status (hình chìa khóa), và không thể ẩn thông báo này. Nếu bạn có thể, hãy thử cập nhật thiết bị lên Android 8 (Oreo), phiên bản Android mới không hiển thị trạng thái này.</p>
+<p>Unfortunately no. Some devices may be displaying annoying VPN notification (a key icon) while VPN is active, and it is not possible to hide it. If you can, try updating your device to Android 8 (Oreo), since newer Android versions do not have this status report.</p>
 
 <h4><a name="bug">Có cách nào để báo cáo một vấn đề hay ý tưởng?</a></h4>
-<p>Nếu bạn đang gặp vấn đề, hãy tham gia Telegram và chat cùng chúng tôi trên <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, nơi cộng đồng luôn sẵn lòng giúp đỡ bạn. Hoặc bạn cũng có thể chọn tùy chọn Phản hồi từ menu ở góc trên bên phải màn hình và làm theo chỉ dẫn. Vui lòng cung cấp tất cả thông tin bạn có thể và những bước để tái hiện vấn đề đó - nó sẽ giúp rất nhiều trong quá trình sửa chữa vấn đề của bạn! Nếu bạn là người dùng chuyên nghiệp, bạn có thể trực tiếp theo dõi vấn đề tại GitHub.</p>
+<p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
 
 <h4><a name="private">Blokada có thể xem thông tin riêng tư của tôi?</a></h4>
-<p>Không. Blokada không đọc hay thay đổi thông tin riêng tư của bạn, nó chỉ theo dõi các máy chủ mà thiết bị của bạn đang kết nối đến và chặn những máy chủ trong bộ lọc. Mỗi lần Blokada chặn bất cứ thứ gì, bạn sẽ thấy một thông báo (mà bạn có thể tắt). Blokada hoàn toàn không thể truy cập đường truyền mã hóa của bạn.</p>
+<p>No. Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Every time Blokada blocks anything, you will see a notification (what you can turn off). Blokada has no access to your encrypted traffic.</p>
 
 <h4><a name="battery">Sử dụng Blokada có tốn nhiều pin?</a></h4>
-<p>Không. Tùy thuộc vào cài đặt của bạn, tác động pin là tối thiểu, và trên các thiết bị mới nhất, đặc biệt là Marshmallow (Android 6) hoặc mới hơn, bạn sẽ không nhận thấy bất kỳ ảnh hưởng nào đến thời lượng pin. Tuy nhiên, một số thiết bị không may mắn có thể trải nghiệm tình trạng kiệt pin nhanh hơn. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a> để biết thêm chi tiết.</p>
+<p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain.
 
-<h4><a name="speed">Blokada sẽ làm chậm thiết bị của tôi?</a></h4>
-<p>Không. Tùy thuộc vào cài đặt mà Blokada có thể khá hiệu quả. Trong thực tế, cả hiệu suất và tuổi thọ pin của thiết bị có thể được cải thiện rõ rệt, vì Blokada tiết kiệm điện từ bằng cách ngăn thiết bị tải về và xử lý các nội dung bạn không cần hay không quan tâm. Tuy nhiên, người sử dụng với một số thiết bị cũ có thể trải nghiệm việc giảm hiệu suẩt. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a> để biết thêm chi tiết.</p>
+<h4><a name="speed">Will Blokada slow down my device?</a></h4>
+<p>No. Depending on your settings Blokada can be quite efficient. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop.</p>
 
-<h4><a name="free">Blokada có thật sự miễn phí?</a></h4>
-<p>Tất nhiên! Blokada bắt đầu như một dự án tiêu khiển của tôi, và vẫn chủ yếu được phát triển bởi tôi. Đây là cách để tôi cống hiến cho cộng đồng. Blokada có mã nguồn mở hoàn toàn và nó sẽ miễn phí mãi mãi. Nhưng, phát triển nó mất rất nhiều thời gian, vì vậy xin vui lòng xem xét việc hỗ trợ dự án này bằng bất kỳ cách nào bạn có thể (xem bên dưới).</p>
+<h4><a name="free">Is Blokada really free to use?</a></h4>
+<p>Yes! Blokada started as a hobby project, it's a way of giving back to the community. The app is open source, the advertisement filtering functionality is free, and it will stay this way forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (<a href="#contribute">see below</a>).</p>
 
-<h4><a name="contribute">Tuyệt đấy, tôi có thể giúp gì cho dự án?</a></h4>
-<p>Có rất nhiều cách để hỗ trợ Blokada, tài chính hoặc khác. Tất cả các sự trợ giúp là rất quan trọng đối với dự án này để tồn tại. <a href="contribute.html">Xin vui lòng đi đến trang này để biết thêm thông tin</a>, hoặc <a href="http://go.blokada.org/chat">tham gia trò chuyện cùng chúng tôi</a>.</p>
+<h4><a name="contribute">Blokada is great, how can I help the project?</a></h4>
+<p>There are many ways to support Blokada, financially or else. All means of help are very important for the project to exist. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
 
-<h4><a name="other">Tôi có câu hỏi khác, tôi phải hỏi ở đâu?</a></h4>
-<p>Nếu câu hỏi của bạn không được trả lời ở đây, xin vui lòng tham gia với chúng tôi kênh chat Telegram trên liên kết <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, cộng đồng của chúng tôi sẽ ở đó để giúp bạn. Nếu nó không tiện cho bạn, hãy sử dụng tùy chọn Phản hồi trong menu ở trên đầu màn hình, hoặc nếu bạn có một câu hỏi liên quan đến kỹ thuật, xin vui lòng trực tiếp theo dõi tại GitHub.</p>
+<h4><a name="other">I have another question, where can I ask it?</a></h4>
+<p>If your question is not answered here, please join to our Telegram chat channel on the <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> link, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
         </section>
     </div>
 </div>

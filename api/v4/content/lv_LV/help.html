@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<link rel="stylesheet" href="css/poole.css">
-<link rel="stylesheet" href="css/syntax.css">
-<link rel="stylesheet" href="css/hyde.css">
-<link rel="stylesheet" href="css/theme.css">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<link href="//block.blokada.org/favicon.png" rel="icon">
+  <link rel="stylesheet" href="css/poole.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/hyde.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link href="//block.blokada.org/favicon.png" rel="icon">
 
-<title>Palīdzība: Blokada</title>
+  <title>Palīdzība: Blokada</title>
 </head>
+
 <body class="theme-base-theme1 layout-reverse">
 
 <div class="content">
@@ -21,141 +22,162 @@
         <section id="main">
 
 <h3>Palīdzība</h3>
-<p>Šī lapa ir veidota divās daļās. Pirmā palīdz atrisināt biežāk sastopamās problēmas, otrā sniedz atbildes uz vispārīgajiem jautājumiem.</p>
+<a href="#allowlist"></a>
+<a href="#blocklist"></a>
 
-<h4>Zināmas situācijas</h4>
+<p>This site will help you with the common questions and summarises what are the current options in Blokada v4.</p>
+
+<h4>Available features</h4>
 <ol>
-  <li><a href="#refresh">Blokada bloķē mazāk reklāmu.</a></li>
-  <li><a href="#whitelist">Lietotne nestrādā kā paredzēts.</a></li>
-  <li><a href="#blacklist">Es gribu nobloķēt konkrētu mājaslapu.</a></li>
-  <li><a href="#youtube">YouTube reklāmas netiek bloķētas!</a></li>
-  <li><a href="#unsupported">Pēc instalācijas nevaru aktivizēt Blokada.</a></li>
-  <li><a href="#kill">Blokada pārtrauc funkcionēt pēc kāda laika.</li>
-  <li><a href="#abplists">Es nevaru importēt EasyList/AdBlock Plus sarakstu iekš Blokada.</a></li>
+  <li><a href="#adblock">Ad blocking</a></li>
+  <li><a href="#vpn">VPN</a></li>
+  <li><a href="#dns">Changing DNS</a></li>
+  <li><a href="#settings">Settings</a></li>
 </ol>
 
-<h4>Vispārīgie jautājumi</h4>
+<h4>Known situations</h4>
 <ol>
-  <li><a href="#howitworks">Kā Blokada darbojas?</a></li>
-  <li><a href="#vpn">Vai es varu izmantot citu VPN vienlaikus ar Blokada?</a></li>
-  <li><a href="#options">Kādus uzstādījumus piedāvā Blokada?</a></li>
-  <li><a href="#ads">Ko darīt, ja es joprojām redzu dažas reklāmas?</a></li>
-  <li><a href="#DNS">Kas ir DNS un kuru no visiem man izvēlēties?</a></li>
-  <li><a href="#kill">Ko es varu darīt, ja Blokada pēc kāda laika pārstāj darboties?</a></li>
-  <li><a href="#update">Nevaru ieinstalēt atjauninājumu, kā man rīkoties?</a></li>
-  <li><a href="#notification">Vai es varu paslēpt paziņojumu par VPN?</a></li>
-  <li><a href="#bug">Kā es varu ziņot par problēmu, ideju vai ieteikumu?</a></li>
-  <li><a href="#private">Vai Blokada var redzēt manus privātos datus?</a></li>
-  <li><a href="#battery">Vai Blokada patērē daudz akumulatora resursu?</a></li>
-  <li><a href="#speed">Vai Blokada palēlinās manu ierīci?</a></li>
-  <li><a href="#free">Vai Blokada patiešām ir bezmaksas?</a></li>
-  <li><a href="#contribute">Blokada ir lieliska, kā es varu palīdzēt projektam?</a></li>
-  <li><a href="#other">Man ir cits jautājums, kur es varu to pajautāt?</a></li>
+  <li><a href="#startup">I cannot start Blokada after I installed it.</a></li>
+  <li><a href="#refresh">Blokada blocks less ads.</a></li>
+  <li><a href="#chrome">Blokada doesn't block ads in Chrome.</a></li>
+  <li><a href="#youtube">Ads in YouTube aren't blocked!</a></li>
+  <li><a href="#kill">Blokada stops to function/work after a while.</li>
+  <li><a href="#abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></li>
 </ol>
 
-<h4><a name="refresh">Blokada bloķē mazāk reklāmu.</a></h4>
-<p>Ja rodas aizdomas, ka Blokada bloķē mazāk reklāmu nekā iepriekš, lūdzu, atsvaidziniet sarakstus. Lai to izdarītu, spiediet uz <i>Melnais saraksts</i>, tad augšējā labajā stūrī uz ekvalaizera izvēlieties <i>Atsvaidzināt filtrus</i> un spiediet <i>Turpināt</i>. Parasti tas notiek, jo tiek pievienoti jauni serveri pie esošajiem, kas vēl nav identificēti un pievienoti melnajiem sarakstiem, vai ja jaunais saraksts nav lejupielādēts uz jūsu telefona, tādēļ tas nevar (pagaidām) tikt bloķēts.<br>
-Alternatīvi, jūs varat iespējot vairāk adrešu sarakstus vai pievienot vairāk ierobežojošus filtrus izvēlnē <i>Melnais saraksts</i>.</p>
+<h4>General questions</h4>
+<ol>
+  <li><a href="#ads">What can I do if I still see some ads?</a></li>
+  <li><a href="#kill">What can I do if Blokada stops working after a while?</a></li>
+  <li><a href="#update">I cannot install an update, what can I do?</a></li>
+  <li><a href="#notification">Can I hide the VPN notification?</a></li>
+  <li><a href="#bug">How do I report a problem, idea or suggestion?</a></li>
+  <li><a href="#private">Can Blokada see my private data?</a></li>
+  <li><a href="#battery">Does Blokada use a lot of battery?</a></li>
+  <li><a href="#speed">Will Blokada slow down my device?</a></li>
+  <li><a href="#free">Is Blokada really free to use?</a></li>
+  <li><a href="#contribute">Blokada is great, how can I help the project?</a></li>
+  <li><a href="#other">I have another question, where can I ask it?</a></li>
+</ol>
 
-<p>Ņemiet vērā, ka Blokada izmanto trešo pušu bloķējamos sarakstus, tādējādi, ja tā strādāja iepriekš un bloķēja reklāmas, tai vajadzētu uzvesties tāpat neveicot nekādas izmaiņas.</p>
 
-<h4><a name="whitelist">Lietotne nestrādā kā paredzēts.</a></h4>
-<p>Ja lietotne nestrādā kā paredzēts, neielādē tās saturu vai pieredzat kādu citu dīvainu uzvedību, dodieties uz sākuma ekrānu, spiediet uz <i>Baltais saraksts</i>, ekrāna lejasdaļā spiediet uz "+", izvēlieties <i>Lietotne</i> un ierakstiet šīs lietotnes nosaukumu. Beigās spiediet uz <i>Saglabāt</i>. Izmantojot šo pieeju, Blokada izvēlētajā lietotnē nefiltrēs adreses, ar kurām tiek veidots savienojums.</p>
+<h4><a name="adblock">Ad blocking</a></h4>
+  <p>Blokada's most known feature is ad blocking. It is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it uses the VPN API of the device you use, and simply blocks all requests towards the hosts defined in the blocklist filters. This blocking is done with a simple "Hostname not found" report for the application is tries to access a hostname that is blocked. With this, Blokada saves both your data plan, battery life and time: no redirection is done. The filters are updated automatically. You can configure Blokada with your own custom filters and allowlists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.<br>
+  This feature is available for free, and it will stay free. Enjoy using Blokada!</p>
+  <p><a name="allowlist"></a>If an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please open Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Allowed Hosts</i>, tap the + sign at the top and add a single hostname or a list file containing all the hosts you want to bypass filtering.</p>
+  <p><a name="blocklist"></a> You can block individual website what isn't on a host list. To do it, go to Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Blocked Hosts</i> and tap the + sign at the top of the screen. Here, you can add a single hostname or a list file containing all the hosts you want to block.</p>
 
-<p>Ņemiet vērā, ka Blokada 3.4 un vecākās versijās bija kļūda, kas noveda pie tā, ka Blokada neatpazina svaigi instalētās lietotnes, līdz ar to, tās nebija iespējams pievienot <i>Baltajā sarakstā</i>. Šī kļūda ir novērsta ar 3.5 un jaunākām versijām.</p>
+<h4><a name="vpn">VPN</a></h4>
+  <p>In Blokada v4 a new service is introduced, it is Blokada's own VPN. This service is brought to you to ensure your security and anonymity on the internet, no matter where you are, what you are doing. Please refer to our blog article <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">here</a> to know more about this feature.<br>
+  This service costs 5€/month. Please read our Terms of Service <a href="https://vpn.blocka.net/tos.html">here</a> and Privacy Policy <a href="https://vpn.blocka.net/privacy.html">here</a> before signing up.
+  In this section you’ll be able to manage your VPN account. From here you’ll be able to:</p>
+  <p><ul>
+    <li>Activate an account</li>
+    <li>Restore your account</li>
+    <li>Select the gateway to connect to</li>
+  </ul></p>
+  <p>As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your subscription safely.</p>
 
-<h4><a name="blacklist">Es gribu nobloķēt konkrētu mājaslapu.</a></h4>
-<p>Jūs varat nobloķēt konkrētu mājaslapu, kas nav adrešu sarakstā. Lai to izdarītu, dodieties uz <i>Melnais saraksts</i> sākumekrānā, spiediet uz + zīmes ekrāna apakšā, spiediet uz <i>Adreses</i> un rakstiet mājaslapas nosaukumu bez http un www daļas (piemēram: <i>piemērs.com</i>).</p>
+<h4><a name="dns">Changing DNS</a></h4>
+  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
+  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
+  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+</p>
 
-<h4><a name="youtube">YouTube reklāmas netiek bloķētas!</a></h4>
-<p>Bloķēt YouTube reklāmas ir ļoti sarežģīti, jo, lai piegādātu reklāmas, Google izmanto šifrētas un nejauši ģenerētas adreses. Līdz ar to, daudz vieglāk ir bloķēt reklāmas YouTube lietotnes ietvaros, nekā ar ārēju instrumentu (kā Blokada). NewPipe un YouTube Vanced ir lieliskas alternatīvas oficiālajai YouTube lietotnei, iesakām jums izmēģināt, kura no abām jums labāk der.</p>
-
-<h4><a name="unsupported">Pēc instalācijas nevaru aktivizēt Blokada.</a></h4>
-<p>Šajā situācijā ir divi biežāk sastopamie cēloņi. Pirmkārt, pārbaudiet, vai jums ir aktīvs VPN savienojums un, ka iestatījums <i>VPN vienmēr ieslēgts</i> ir iespējots. Lai to izdarītu, atveriet ierīces iestatījumus, tīkla sadaļā meklējiet VPN un atveriet esošā VPN iestatījumus. Atspējojiet to, atvienojieties no aktīvā VPN savienojuma un mēģiniet restartēt Blokada.</p>
-
-<p>Ja jums nav cita VPN savienojuma, pārbaudiet lietotnē, vai <i>Watchdog</i> ir iespējots. Tas atrodams "Papildus iestatījumos". Ja tas ir iespējots, pārbaudiet, vai esat savienoti ar interneti vai nu caur mobilajiem datiem, vai WiFi. Blokada neatvērsies, ja <i>Watchdog</i> ir iespējots un jums nav aktīva interneta savienojuma.</p>
-
-<p>Ja šie soļi neatrisina jūsu problēmu, restartējiet ierīci, reizēm tas palīdz.</p>
-
-<h4><a name="kill">Blokada pārtrauc funkcionēt pēc kāda laika.</a></h4>
-<p>Pirmkārt, iespējojiet uzstādījumu <i>Uzturēt dzīvu</i>. Šajā gadījumā Blokada centīsies palikt ieslēgta, taču ņemiet vērā, ka jūsu operētājsistēma šo uzstādījumu var ietekmēt. Ja pēc šī jūs joprojām redzat, ka Blokada ik pa laikam tiek apstādināta, pārbaudiet sistēmas iestatījumus un atspējojiet akumulatora un atmiņas optimizāciju priekš Blokada. Diemžēl katrā ierīcē tas ir izdarāms savādāk, tāpēc mēs nevaram sniegt norādes, kā to izdarīt. Lūdzu pārbaudiet savus ierīces iestatījumus. Cits šāda veida uzvedības avots var būt tas, ka jūs izmantojat atmiņas tīrītāju/optimizētāju. Tādā gadījumā nepieciešams pievienot Blokada izņēmuma sarakstam. Ja neviens no šiem soļiem jums nepalīdzēja, lūdzu ziņojiet par kļūdu (skatīt zemāk, kā to izdarīt).</p>
-
-<h4><a name="abplists">Es nevaru importēt EasyList/AdBlock Plus sarakstu iekš Blokada.</a></h4>
-<p>Ja mēginat importēt sarakstu (piemēram EasyList), kas darbojas ar jūsu reklāmu bloķēšanas paplašinājumu uz jūsu PC vai portatīvā datora, Blokada paziņos par kļūdu. Tas ir tāpēc, ka Blokada izmanto citu metodi, lai bloķētu reklāmas. Kamēr reklāmu bloķēšanas paplašinājums bloķē un paslēpj elementus vai lapas daļas, Blokada to nespēj izdarīt, jo tā nav pārlūkprogrammas paplašinājums, tā vietā reklāmas adrešu pieprasījumi tiek novirzīti uz nemaršrutētu adresi (0.0.0.0), tāpēc ir nepieciešams adrešu-IP saraksts.</p>
-
-<h4><a name="howitworks">Kā Blokada darbojas?</a></h4>
-<p>Blokada ir plāns slānis slānis starp jūsu ierīces tīkla interfeisu (wifi vai mobilā) un lietotnēm, ko izmantojat. Lai varētu filtrēt katru izejošo datu plūsmu, tiek ģenerēts lokāls (nevis trešo pušu serviss) VPN savienojums, kas attiecīgi bloķē visus pieprasījumus uz adresēm, kas ir melnajā sarakstā. Šī bloķēšana tiek veikta ar novirzīšanu - vietnes IP adrese, kas piegādā reklāmas, tiek novirzīta uz ierīces nemaršrutētu meta-adresi (0.0.0.0), kur nav aktīva interneta servisa, attiecīgi nekas netiek parādīts. Izmantojot šo, Blokada ietaupa gan jūsu iztērētos megabaitus, gan akumulatora lietošanas ilgumu. Melnā saraksta filtri tiek automātiski atjaunoti, tie satur adreses vietnēm, kas piegādā reklāmas, izsekošanas pakalpojumus, surogātpastu, vīrusus un citu bīstamu vai nevēlamu saturu. Jūs varat nokonfigurēt Blokada ar pēc jūsu vajadzībām pielāgotiem filtriem un balto sarakstu, lai būtu droši, ka serviss, ko vēlaties izmantot, netiek bloķēts, un jūs nepiedzīvojat kādus traucējumus.</p>
-
-<h4><a name="vpn">Vai es varu izmantot citu VPN vienlaikus ar Blokada?</a></h4>
-<p>Diemžēl nē, tas ir sistēmas ierobežojums; vienlaikus var būt tikai viens aktīvs VPN savienojums. Ja jūs pievienojaties kādam citam VPN savienojumam, Blokada vairs nebūs aktīva.</p>
-
-<h4><a name="options">Kādus uzstādījumus piedāvā Blokada?</a></h4>
-<p>Kā jūs jau redzējāt, Blokada sākuma ekrānā ir vairāki uzstādījumi, kas nav detalizēti paskaidroti. Izdarīsim to tagad. Jūs varat redzēt sekojošo:</p>
+<h4><a name="settings">What are the available settings in Blokada?</a></h4>
+<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
 <p><ul>
-    <li><b>Melnais saraksts</b>: šis ir saraksts ar failiem, kas satur bloķējamo serveru adreses. Ņemiet vērā, ka vairāku sarakstu izmantošana var ietekmēt tīkla un sistēmas veiktspēju.</li>
-    <li><b>Baltais saraksts</b>: šis ir izņēmuma saraksts, kur jūs varat iekļaut adreses vai lietotnes, kuras nevajag bloķēt. Blokada ir instalēta ar jau dažām baltajā sarakstā iekļautām lietotnēm.</li>
-    <li><b>Uzturēt dzīvu</b>: šī opcija nodrošina, ka ierīces sistēma nevarēs izslēgt vai apstādināt Blokada. Tomēr ņemiet vērā, ka sistēma var šo uzstādījumu pārrakstīt, pārliecinieties, ka ierīces uzstādījumos esat atļāvuši Blokada strādāt fonā.</li>
-    <li><b>Paziņojumi</b>: ja iespējots, jums paziņos, kad kāda reklāma tiek bloķēta. Pēc noklusējuma šis ir iespējots, taču, ja saņemat daudz paziņojumu, varat to atspējot.</li>
-    <li><b>Watchdog</b>: kad iespējots, Blokada aizvērsies, ja nav aktīva interneta savienojuma, un palaidīsies, kad tas parādīsies. Ja atspējots, Blokada vienmēr darbosies fonā (pat ja nav aktīva interneta savienojuma). Lūdzu ņemiet vērā, ka šis uzstādījums var nestrādāt korekti uz visām ierīcēm.</li>
-    <li><b>Sākt ar OS</b>: kad iespējots, Blokada sāks darboties līdz ar operētājsistēmas ieslēgšanos. Lūdzu ņemiet vērā, ka šī opcija ir sistēmas līmeņa konfigurācija, līdz ar to, nav iespējams garantēt to, ka Blokada varēs uzsākt darbu ierīci ieslēdzot. Šajā gadījumā, lūdzu, pārbaudiet ierīces sistēmas iestatījumus. Pēc noklusējuma šis uzstādījums ir iespējots, ja vēlaties Blokada ieslēgt manuāli, atspējojiet šo uzstādījumu.</li>
-    <li><b>DNS</b>: ja jums ir aizdomas, ka ir bloķētas vietnes vai servisi, kam nevajadzētu būt, vai arī, ja jūs pieņemat, ka jūsu interneta pakalpojumu sniedzējs apkopo informāciju par to kā jūs izmantojat internetu, izvēlieties drošu DNS no saraksta. Pēc noklusējuma Blokada izmanto tos pašus DNS serverus, ko jūsu sistēma.</li>
+    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
+    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
+    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
+    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
+    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
+    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
+    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
 </ul></p>
 
-<p>Uzstādījumi, kas nav maināmi:</p>
+<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
+<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+
+<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+
+<h4><a name="refresh">Blokada blocks less ads.</a></h4>
+<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
+Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+
+<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+
+<h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
+<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
+1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
+2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
+3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
+4. Reboot!</p>
+
+<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+
+<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
+<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on allowlist or exclude list. If non of this steps helped in your case, please report a bug (<a href="#other">see below</a> how to do it).</p>
+
+<h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
+<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, works on a lower level, blocking host access.</p>
+
+<p>Not configurable things:</p>
 <p><ul>
-    <li><b>Atjaunināts</b>: ja to redzat, jums ir jaunākā Blokada versija. Uzturiet lietotni atjauninātu, jo tā saturēs mazāk kļūdu un vairāk funkciju!</li>
-    <li><b># reklāmas nobloķētas</b>: daudzums, cik nevēlama satura nobloķēts kopš Blokada pirmo reizi aktivizēta</li>
-    <li><b># adreses</b>: skaits ar serveru adresēm, kas satur reklāmas, vīrusus un citu nevēlamu saturu</li>
+    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
+    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
 </ul></p>
 
-<h4><a name="ads">Ko darīt, ja es joprojām redzu dažas reklāmas?</a></h4>
-<p>Dažas reklāmas tiks cauri jebkurai Android reklāmu bloķēšanas lietotnei. Īpaši YouTube un citas pilnekrāna uznirstošās reklāmas ir sarežģīti nobloķēt. Ja jums šķiet, ka redzat vairāk reklāmu nekā iepriekš, izmēģiniet šos soļus:</p>
+<h4><a name="ads">What can I do if I still see some ads?</a></h4>
+<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
 <p><ul>
-    <li>Pārbaudiet, vai augšējā statusa joslā ir redzama VPN atslēgas ikona. Ja nav, aktivizējiet Blokada.</li>
-    <li>Atveriet Blokada un pārliecinieties, ka tā ir aktīva, un nav radusies kāda kļūda.</li>
-    <li>Pārbaudiet, vai bloķējamo adrešu skaits nav vienāds ar nulli. Ja tas ir, aktivizējiet melno sarakstu filtrus, lai reklāmas varētu tikt bloķētas. Ja skaitītajs joprojām rāda nulli, piešķiriet lietotnei atļauju piekļūt atmiņai. Sistēmas uzstādījumi - lietotnes - Blokada, tad notīriet tās datus un kešatmiņu un restartējiet ierīci.</li>
-    <li>Pārliecinieties, ka baltajā sarakstā nav iekļauts par daudz lietotņu - varbūt tieši tas ir iemesls, kādēļ redzat reklāmas.</li>
-    <li>Mēģiniet atiestatīt filtrus (dodieties uz Melnā saraksta uzstādījumiem Ātrajās darbībās, kas atrodas ekrāna augšdaļā un spiediet uz <i>Atjaunot noklusējumu</i>).</li>
-    <li>Ja redzat reklāmas pārlūkprogrammā, pārlūkprogrammas iestatījumos deaktivizējiet jebkāda veida datu saspiešanu vai optimizāciju.</li>
-    <li>Deaktivizējiet Blokada, aizveriet to (aizvelciet to prom no Nesen izmantoto lietotņu ekrāna), un mēģiniet to ieslēgt vēlreiz.</li>
-    <li>Ja nesen veicāt izmaiņas uzstādījumos (filtri, baltais sarakts, utt.), ņemiet vērā, ka tas prasa laiku līdz jaunā konfigurācija sāks strādāt. Kādu brīdi pagaidiet.</li>
-    <li>Notīriet Blokada lietotnes datus (jūsu sistēmas uzstādījumos), vai pārinstalējiet to.</li>
-    <li>Restartējiet ierīci.</li>
-    <li>Jūsu ierīca, iespējams, netiek atbalstīta. Lūdzu pārbaudiet to <a href="http://go.blokada.org/issue_device">Ierīču datubāzē</a>.</li>
-    <li>Ja neviens no šiem soļiem nelīdzēja, lūdzu ziņojiet par kļūdu (skatīt zemāk).</li>
+    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
+    <li>Open Blokada and check if it is active and not reporting any errors.</li>
+    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
+    <li>Make sure you don't have too many apps in the allow list - maybe that's why you are seeing ads.</li>
+    <li>Try resetting your filters: go to 'Ad blocking', there tap on 'List settings', tap on 'Filter lists' (not on Sync), choose DROP.</li>
+    <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
+    <li>Deactivate Blokada, close it (by swiping it out from the system's Recents screen), and turn it on again.</li>
+    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes time before new configuration start working. Give it some time.</li>
+    <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
+    <li>Restart your device.</li>
+    <li>If none of those steps helped, please report a bug (see below).</li>
 </ul></p>
-
- <h4><a name="DNS">Kas ir DNS un kuru no visiem man izvēlēties?</a></h4>
- <p>Saīsinājums DNS nozīmē Domēnu Nosaukumu Sistēma - šis protokols ir atbildīgs par domēna nosaukumu (piemēram: <i>piemērs.com</i>) pārveidošanu IP adresēs, kas tiek izmantots ierīču savstarpējā komunikācijā. Jūsu interneta pakalpojumu sniedzējam ir savi DNS serveri; Blokada ir konfigurēta izmantot sistēmas noklusējuma DNS serverus. Šie serveri izmantojami gadījumā, ja jums ir aizdomas, ka jūsu ISP ievāc informāciju par to kā jūs izmantojat internetu, uztraucaties par konfidencialitātes riskiem, vai ja kādas mājaslapas vai servisi priekš jums ir bloķēti. Nav tāda "labākā", viss atkarīgs no jūsu preferencēm un atrašanās vietas, tāpēc, ja vēlaties izmantot pielāgotus DNS serverus, izlasiet to aprakstus, sameklējiet par tiem informāciju un pārlasiet atsauksmes.</p>
 
 <h4><a name="update">Nevaru ieinstalēt atjauninājumu, kā man rīkoties?</a></h4>
-<p>Pirmkārt, pārbaudiet, vai jūsu Android versija ir 5 vai jaunāka. Blokada 3.0 un jaunākas versijas neatbalsta Android 4 un vecākas versijas. Lai pārbaudītu, dodieties uz ierīces iestatījumiem, sameklējiet <i>Par ierīci</i> un atrodiet <i>Android versija</i></p>
-<p>Ja jūsu ierīce strādā uz Android 5 vai jaunāka, mēģiniet ierīci restartēt. Tas izklausās dīvaini, taču dažreiz tas palīdz. Ja tas neatrisina problēmu, atinstalējiet Blokada un instalējiet to vēlreiz. Var būt, ka Blokada neatbalsta jūsu ierīci. Lūdzu pārbaudiet to <a href="http://go.blokada.org/issue_device">Ierīču datubāzē</a>.</p>
-<p>Ja neviens no soļiem nelīdz, pievienojieties mūsu Telegram sarakstei <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, lai saņemtu palīdzību, vai ziņojiet par kļūdu (skatīt zemāk).</p>
+<p>First of all, please check if the Android version you have is 5 or newer. Android 4 and older versions are not supported in Blokada 3.0 and newer versions. To do it, go to the Settings of your phone, scroll to <i>About phone</i> and search for <i>Android version</i></p>
+<p>If your phone runs Android 5 or newer, please ensure you try to install the update from the same source that you installed Blokada initially. Different repositories add their signature keys and therefore the update may fail.</p>
+<p>Restart your device. It sounds strange, but sometimes it helps. If that didn't solve the issue, uninstall Blokada and install it again.
+<p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
 
 <h4><a name="notification">Vai es varu paslēpt paziņojumu par VPN?</a></h4>
-<p>Diemžēl nē. Dažas ierīces var rādīt paziņojumu (atslēgas ikona), kamēr VPN savienojums ir aktīvs, taču to nevar paslēpt. Ja iespējams, mēģiniet atjaunināt jūsu ierīci uz Android 8 (Oreo), par cik jaunākās Android versijās šī īpatnība nav.</p>
+<p>Unfortunately no. Some devices may be displaying annoying VPN notification (a key icon) while VPN is active, and it is not possible to hide it. If you can, try updating your device to Android 8 (Oreo), since newer Android versions do not have this status report.</p>
 
 <h4><a name="bug">Kā es varu ziņot par problēmu, ideju vai ieteikumu?</a></h4>
-<p>Ja jūs sastopaties ar kādām problēmām, lūdzu pievienojieties mūsu Telegram sarakstei <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, kur mūsu kopiena labprāt jums palīdzēs. Varat izmantot opciju Atsauksmes, kas atrodas augšējās izvēlnes labajā stūrī, un sekojiet instrukcijai. Lūdzu sniedziet pēc iespējas vairāk informācijas, kā arī soļus, lai mēs varētu problēmu reproducēt – tas ievērojami palīdzēs jūsu problēmas novēršanai! Ja jūs esat advancēts lietotājs, aicinām izmantot "issue tracker" iekš GitHub.</p>
+<p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
 
 <h4><a name="private">Vai Blokada var redzēt manus privātos datus?</a></h4>
-<p>Nē. Blokada nelasa un neizmanto jūsu privāto informāciju, tā tikai pārrauga, uz kurām adresēm jūsu ierīce sūta pieprasījumus un bloķē tos, kuri atbilst filtriem. Katru reizi, kad Blokada ko nobloķē, jūs redzēsiet paziņojumu (ko var atspējot uzstādījumos). Blokada nevar piekļūt jūsu šifrētajai datu plūsmai.</p>
+<p>No. Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Every time Blokada blocks anything, you will see a notification (what you can turn off). Blokada has no access to your encrypted traffic.</p>
 
 <h4><a name="battery">Vai Blokada patērē daudz akumulatora resursu?</a></h4>
-<p>Nē. Atkarībā no jūsu iestatījumiem akumulatora ietekme ir minmāla un uz lielāko daļu jaunajām ierīcēm, īpaši uz Marshmallow (Android 6) vai jaunākām, jūs nepamanīsiet nekādu akumulatora patēriņu. Tomēr, dažas ierīces var piedzīvot palielinātu akumulatora patēriņu. Sīkāku informāciju skatiet <a href="http://go.blokada.org/issue_device">Ierīču datubāzē</a>.</p>
+<p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain.
 
-<h4><a name="speed">Vai Blokada palēlinās manu ierīci?</a></h4>
-<p>Nē. Atkarībā no jūsu iestatījumiem Blokada var būt diezgan efektīva. Patiesībā jūsu ierīces veikstpēja un akumulatora iespējamais lietošanas ilgums var redzami uzlaboties, jo Blokada pasargā ierīci no nevajadzīga satura ielādes. Tomēr vecāku ierīču lietotāji var izjust veikstpējas kritumu. Sīkāku informāciju skatiet <a href="http://go.blokada.org/issue_device">Ierīču datubāzē</a>.</p>
+<h4><a name="speed">Will Blokada slow down my device?</a></h4>
+<p>No. Depending on your settings Blokada can be quite efficient. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop.</p>
 
-<h4><a name="free">Vai Blokada patiešām ir bezmaksas?</a></h4>
-<p>Jā! Blokada aizsākās kā hobija projekts, un joprojām lielākoties to attīstu es. Tas ir mans veids, kā sniegt sabiedrībai labumu. Blokada ir pilnībā atvērtā koda un tā vienmēr būs bezmaksas. Tā attīstīšana aizņem daudz laika, tāpēc, lūdzu, apsveriet iespēju atbalstīt projektu kādā no veidiem (skatīt zemāk).</p>
+<h4><a name="free">Is Blokada really free to use?</a></h4>
+<p>Yes! Blokada started as a hobby project, it's a way of giving back to the community. The app is open source, the advertisement filtering functionality is free, and it will stay this way forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (<a href="#contribute">see below</a>).</p>
 
-<h4><a name="contribute">Blokada ir lieliska, kā es varu palīdzēt projektam?</a></h4>
-<p>Ir vairāki veidi, kā palīdzēt Blokada, financiāli vai savādāk. Visi centieni palīdzēt ir ļoti nozīmīgi, lai projekts eksistētu. <a href="contribute.html">Lūdzu dodieties uz šo mājaslapu papildus informācijai</a>, vai <a href="http://go.blokada.org/chat">pievienojieties sarakstei</a>.</p>
+<h4><a name="contribute">Blokada is great, how can I help the project?</a></h4>
+<p>There are many ways to support Blokada, financially or else. All means of help are very important for the project to exist. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
 
-<h4><a name="other">Man ir cits jautājums, kur es varu to pajautāt?</a></h4>
-<p>Ja jūs šeit neatradāt atbildi uz jūsu jautājumu, pievienojieties mūsu Telegram sarakstei <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, mūsu kopiena būs tur, lai jums palīdzētu. Ja jums tas nav ērti, izmantojiet opciju Atsauksmes no augšējās izvēlnes, vai, ja jums ir tehniskāks jautājums, lūdzu dodieties uz GitHub.</p>
+<h4><a name="other">I have another question, where can I ask it?</a></h4>
+<p>If your question is not answered here, please join to our Telegram chat channel on the <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> link, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
         </section>
     </div>
 </div>

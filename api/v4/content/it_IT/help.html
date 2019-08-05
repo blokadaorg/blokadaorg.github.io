@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<link rel="stylesheet" href="css/poole.css">
-<link rel="stylesheet" href="css/syntax.css">
-<link rel="stylesheet" href="css/hyde.css">
-<link rel="stylesheet" href="css/theme.css">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<link href="//block.blokada.org/favicon.png" rel="icon">
+  <link rel="stylesheet" href="css/poole.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/hyde.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link href="//block.blokada.org/favicon.png" rel="icon">
 
-<title>Aiuto: Blokada</title>
+  <title>Aiuto: Blokada</title>
 </head>
+
 <body class="theme-base-theme1 layout-reverse">
 
 <div class="content">
@@ -21,26 +22,32 @@
         <section id="main">
 
 <h3>Aiuto</h3>
-<p>Questa pagina presenta due distinte sezioni. La prima dà assistenza per problemi comuni nei quali potresti incorrere, la seconda fornisce informazioni utili a domande di carattere generale.</p>
+<a href="#allowlist"></a>
+<a href="#blocklist"></a>
+
+<p>Quest'area ti aiuterà con le domande più comuni e riassumerà le attuali opzioni in Blokada v4.</p>
+
+<h4>Funzioni disponibili</h4>
+<ol>
+  <li><a href="#adblock">Blocco pubblicità</a></li>
+  <li><a href="#vpn">VPN</a></li>
+  <li><a href="#dns">Cambio DNS</a></li>
+  <li><a href="#settings">Impostazioni</a></li>
+</ol>
 
 <h4>Problemi noti</h4>
 <ol>
+  <li><a href="#startup">Dopo averla installata, non riesco a far partire Blokada.</a></li>
   <li><a href="#refresh">Blokada blocca meno pubblicità.</a></li>
-  <li><a href="#whitelist">Un'app non funziona come dovrebbe.</a></li>
-  <li><a href="#blacklist">Voglio bloccare un sito web specifico.</a></li>
+  <li><a href="#chrome">Blokada non blocca le pubblicità su Chrome.</a></li>
   <li><a href="#youtube">Le pubblicità su YouTube non vengono bloccate!</a></li>
-  <li><a href="#unsupported">Dopo averla installata, non riesco a far partire Blokada.</a></li>
   <li><a href="#kill">Dopo un po', Blokada smette di funzionare.</li>
-  <li><a href="#abplists">Non riesco ad importare le liste di EasyList/AdBlock in Blokada.</a></li>
+  <li><a href="#abplists">Non riesco ad importare le liste di EasyList/AdBlock Plus in Blokada.</a></li>
 </ol>
 
 <h4>Domande generali</h4>
 <ol>
-  <li><a href="#howitworks">Come funziona Blokada?</a></li>
-  <li><a href="#vpn">Posso usare un'altra VPN mentre Blokada è attiva?</a></li>
-  <li><a href="#options">Quali sono le opzioni in Blokada?</a></li>
   <li><a href="#ads">Cosa posso fare se vedo ancora qualche pubblicità?</a></li>
-  <li><a href="#DNS">Cosa sono i DNS e quali dovrei scegliere?</a></li>
   <li><a href="#kill">Cosa posso fare se Blokada, ad un certo punto, smette di funzionare?</a></li>
   <li><a href="#update">Non riesco ad installare un aggiornamento, cosa posso fare?</a></li>
   <li><a href="#notification">Posso nascondere la notifica della VPN?</a></li>
@@ -53,52 +60,70 @@
   <li><a href="#other">Ho un'altra domanda, dove posso chiedere?</a></li>
 </ol>
 
-<h4><a name="refresh">Blokada blocca meno pubblicità.</a></h4>
-<p>Se sospetti che Blokada stia bloccando meno pubblicità di quante non facesse prima, per favore aggiorna le tue liste. Per farlo, clicca su <i>Blacklist</i>, poi nell'angolo in alto a destra sul simbolo dell'equalizzatore, scegli <i>Aggiorna filtri</i> e infine su <i>Continua</i>. In genere, questo accade perché sono stati aggiungi nuovi server nella lista preesistente che non sono (ancora) stati identificati e aggiunti alla blacklist, oppure la nuova lista non è stata scaricata correttamente sul tuo telefono, o perché non sono stati (ancora) bloccati.<br>In alternativa, puoi abilitare più liste o aggiungere filtri più restrittivi dal menù <i>Blacklist</i>.</p>
 
-<p>Nota bene: Blokada usa liste di terze parti, pertanto se inizialmente funzionava bene e bloccava le pubblicità, senza modifiche di alcun tipo dovrebbe funzionare allo stesso modo.</p>
+<h4><a name="adblock">Blocco pubblicità</a></h4>
+  <p>La funzione più nota di Blokada è il blocco delle pubblicità. Blokada è un sottile livello tra l'interfaccia network (WiFi o rete mobile) del tuo dispositivo e le applicazioni che utilizzi. Per poter filtrare tutto il traffico in uscita, Blokada genera una connessione VPN e blocca qualunque richiesta verso gli host definiti nei filtri della blacklist. Questo blocco è possibile tramite un semplice "Hostname non trovato" verso l'applicazione che cerca di accedere ad un hostname bloccato. Così facendo, Blokada salva sia il tuo piano dati, sia la durata della batteria che il tuo tempo: non viene effettuato alcun reindirizzamento. I filtri sono aggiornati automaticamente. Puoi configurare Blokada con i tuoi filtri personalizzati e whitelist, in modo da assicurarti che il servizio che vuoi utilizzare non venga bloccato e non si verifichi alcuna interruzione.<br>
+  Questa funzionalità è disponibile gratuitamente, e lo rimarrà sempre. Stai senza pensieri con Blokada!</p>
+  <p><a name="allowlist"></a>Se un'app non funziona come previsto, non carica i suoi contenuti o avviene qualcosa di simile, apri il menù di Blokada scorrendo verso l'alto, tocca <i>Blocco pubblicità</i>, scegli <i>Host consentiti</i>, tocca il segno + in alto e aggiungi un unico hostname o una lista contenente tutti gli host che desideri consentire.</p>
+  <p><a name="blocklist"></a> Puoi bloccare siti web specifici che non sono presenti in una lista host. Per farlo, vai al menù di Blokada scorrendo verso l'alto, tocca <i>Blocco pubblicità</i>, scegli <i>Host bloccati</i> e tocca il segno + in alto alla schermata. Qui puoi aggiungere un singolo nome host o una lista contenente tutti gli host che vuoi bloccare.</p>
 
-<h4><a name="whitelist">Un'app non funziona come dovrebbe.</a></h4>
-<p>Se noti che un'app non funziona come dovrebbe, non carica i suoi contenuti o qualcosa di simile, entra nella schermata principale, clicca su <i>Whitelist</i>, scrolla in basso fino al segno +, scegli <i>App</i> e inizia a digitare il nome dell'applicazione. Infine, clicca su <i>Salva</i>. Così facendo, Blokada non filtrerà gli URL di quell'app.</p>
+<h4><a name="vpn">VPN</a></h4>
+  <p>In Blokada v4 viene introdotto un nuovo servizio, la VPN di Blokada. Questo servizio è reso disponibile per garantire la tua sicurezza e anonimato su Internet, indipendentemente da dove ti trovi e cosa stai facendo. Si prega di fare riferimento al nostro articolo sul blog, <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">qui</a>, per saperne di più su questa funzionalità.<br>
+  Questo servizio costa 5€/mese. Per favore leggi i nostri Termini di Servizio <a href="https://vpn.blocka.net/tos.html">qui</a> e l'Informativa sulla Privacy <a href="https://vpn.blocka.net/privacy.html">qui</a> prima di iscriverti.
+  In questa sezione sarai in grado di gestire il tuo account VPN. Da qui potrai:</p>
+  <p><ul>
+    <li>Attivare un account</li>
+    <li>Ripristinare il tuo account</li>
+    <li>Selezionare il gateway al quale connettersi</li>
+  </ul></p>
+  <p>Come metodo di pagamento utilizziamo Stripe, le informazioni salvate nel processo vengono utilizzate unicamente per verificare i pagamenti e attivare l'account, e infine per permetterti di gestire il tuo abbonamento in modo sicuro.</p>
 
-<p>Nota bene: Blokada 3.4 e le versioni precedenti avevano un bug che causava, in app appena installate, il non riconoscimento su Blokada, pertanto non potevano essere inserite nella <i>Whitelist</i>. Questo bug è stato risolto a partire dalla versione 3.5 e successive.</p>
+<h4><a name="dns">Cambio DNS</a></h4>
+  <p>L'altra funzione comunemente utilizzata in Blokada è il cambio dei server DNS. L'applicazione fornisce un elenco di server DNS predefiniti tra cui puoi scegliere.<br>
+  L'acronimo DNS sta per Domain Name System e questi server servono per tradurre i nomi di dominio (ad esempio: <i>mioesempio.com</i>) in indirizzi IP, che vengono usati tra due macchine per comunicare. Il tuo provider internet utilizza i propri server DNS; Blokada è configurata per usare quelli predefiniti dal sistema. Se sospetti che alcuni siti o servizi vengono bloccati per te, o credi che il tuo ISP raccolga informazioni circa il tuo uso di internet, puoi scegliere dei DNS più sicuri da questa lista. Non ce n'è uno "migliore", tutto dipende dalle tue preferenze e posizione, quindi se vuoi utilizzare dei server DNS personalizzati, leggi la loro descrizione, cercali su internet e leggi le opinioni.<br>
+  Questa sezione DNS funzionerà con o senza VPN attiva, quindi il DNS di tua scelta sarà quello utilizzato con o senza il servizio VPN. Inoltre, considera che Blokada v4 non supporta ancora DoH/DoT, questi saranno implementati a breve dopo la versione 4.
+</p>
 
-<h4><a name="blacklist">Voglio bloccare un sito web specifico.</a></h4>
-<p>Puoi bloccare siti web specifici che non sono presenti in una lista host. Per farlo, clicca su <i>Blacklist</i> nella schermata principale, scrolla in basso fino al segno +, clicca su <i>Host</i> e digita o incolla il nome host del sito web, senza http né www (ad esempio: <i>mioesempio.com</i>).</p>
+<h4><a name="settings">Quali sono le impostazioni disponibili in Blokada?</a></h4>
+<p>Come sicuramente avrai notato, Blokada ha alcune opzioni nella schermata Impostazioni. Potrai notare le seguenti:</p>
+<p><ul>
+    <li><b>Notifiche</b>: se abilitata, riceverai una notifica ogni qual volta una pubblicità viene bloccata. L'opzione è attiva di default, ma se ricevi troppe notifiche puoi disabilitarla.</li>
+    <li><b>Avvia al boot</b>: se abilitata, Blokada si avvierà subito dopo l'avvio del sistema. Tuttavia, questa opzione dipende da alcuni livelli di configurazione del sistema, perciò non può essere garantito l'avvio automatico di Blokada al boot. Pertanto, controlla le impostazioni del tuo dispositivo. Per configurazione predefinita, questa opzione è abilitata, se desideri avviare manualmente Blokada, disabilitala.</li>
+    <li><b>Impostazioni posizione</b>: dove vuoi memorizzare la configurazione, nella memoria interna o esterna? Se scegli quella esterna, i file saranno disponibili nella cartella /Download/Blokada.</li>
+    <li><b>Animazione sfondo</b>: è possibile abilitare o disabilitare l'animazione dello sfondo, mostrando le onde. Le onde bianche rappresentano le richieste consentite dall'host mentre quelle arancioni sono quelle bloccate.</li>
+    <li><b>Richiesta logger</b>: quando abilitato, Blokada genererà un file CSV e le richieste di log che sono state consentite e/o bloccate dall'app.</li>
+    <li><b>Mantieni attivo</b>: questa opzione aiuta Blokada a non venire messa in pausa o bloccata dal sistema. Il tuo sistema potrebbe aggirare questa opzione, assicurati che le tue impostazioni permettano a Blokada di funzionare in background.</li>
+    <li><b>Watchdog</b>: quando è attiva, Blokada verrà disabilitata in assenza di connessioni attive e ripartirà non appena sarà nuovamente disponibile una connessione. Se disabilitata, Blokada continuerà a funzionare in background (anche in assenza di una connessione). Attenzione, questa opzione potrebbe non funzionare in ogni dispositivo.</li>
+    <li><b>Forza risveglio</b>: abilita questa opzione se il dispositivo blocca o chiude Blokada a causa della funzione di risparmio energetico del dispositivo. Anche se questa opzione mira a mantenere attiva Blokada sulla maggior parte dei dispositivi, il sistema avrà sempre una priorità maggiore e può fermare l'app se non è esclusa dall'ottimizzazione della memoria o della batteria.
+</ul></p>
 
-<h4><a name="youtube">Le pubblicità su YouTube non vengono bloccate!</a></h4>
-<p>Bloccare le pubblicità su YouTube è molto difficile, questo perché Google utilizza, per i suoi annunci, crittografia e host generati casualmente. Perciò, per bloccare le pubblicità, è molto più semplice bloccarle dall'interno dell'applicazione stessa e non tramite un'applicazione esterna (come Blokada). NewPipe e YouTube Vanced sono ottime applicazioni alternative a quella ufficiale di YouTube, ricche di funzioni, provale per vedere qual è quella più adatta alle tue esigenze.</p>
-
-<h4><a name="unsupported">Dopo averla installata, non riesco a far partire Blokada.</a></h4>
+<h4><a name="startup">Dopo averla installata, non riesco a far partire Blokada.</a></h4>
 <p>Comunemente, ci sono due possibili cause per questo problema. Anzitutto, controlla se hai una connessione VPN attiva e se un'opzione del tipo <i>VPN sempre attiva</i> è abilitata. Per farlo, vai nelle Impostazioni del tuo dispositivo, cerca "VPN" nella sezione wireless e reti, clicca sul simbolo dell'ingranaggio vicino al nome della VPN e disabilitala. A questo punto, scollega anche una eventuale VPN attiva e prova a far ripartire Blokada.</p>
 
 <p>Se non hai altre connessioni VPN, controlla se l'opzione <i>Watchdog</i> è attiva nelle Impostazioni Avanzate, se sì, controlla se sei connesso ad Internet tramite WiFi o Dati mobili. Blokada non entrerà in funzione se l'opzione <i>Watchdog</i> è attiva ma non sei connesso ad Internet.</p>
 
 <p>Se ciò non è stato d'aiuto, prova a riavviare il tuo dispositivo, certe volte aiuta.</p>
 
+<h4><a name="refresh">Blokada blocca meno pubblicità.</a></h4>
+<p>Se sospetti che Blokada stia bloccando meno pubblicità di quante non facesse prima, per favore aggiorna le tue liste. Per farlo, clicca su <i>Blacklist</i>, poi nell'angolo in alto a destra sul simbolo dell'equalizzatore, scegli <i>Aggiorna filtri</i> e infine su <i>Continua</i>. In genere, questo accade perché sono stati aggiungi nuovi server nella lista preesistente che non sono (ancora) stati identificati e aggiunti alla blacklist, oppure la nuova lista non è stata scaricata correttamente sul tuo telefono, o perché non sono stati (ancora) bloccati.<br>In alternativa, puoi abilitare più liste o aggiungere filtri più restrittivi dal menù <i>Blacklist</i>.</p>
+
+<p>Nota bene: Blokada usa liste di terze parti, pertanto se inizialmente funzionava bene e bloccava le pubblicità, senza modifiche di alcun tipo dovrebbe funzionare allo stesso modo.</p>
+
+<h4><a name="chrome">Blokada non blocca le pubblicità su Chrome.</a></h4>
+<p>Se stai usando Google Chrome, devi disabilitare la Modalità Lite e il DNS Async. Google utilizza queste due tecnologie per impostazione predefinita, ma queste interferiscono con il blocco degli host di Blokada.<br>
+1. Per disabilitare la Modalità Lite, tocca i tre punti verticali di Google Chrome, vai in Impostazioni, cerca "Risparmio Dati" o "Modalità Lite" e disabilitalo.<br>
+2. Per disabilitare il DNS Async, apri la pagina "chrome://flags" nel tuo browser, cerca il DNS e disabilita la funzionalità DNS Asynchronous.<br>
+3. Sul tuo dispositivo, vai su Impostazioni -> Applicazioni -> Chrome -> Spazio di archiviazione e Svuota cache.<br>
+4. Riavvia!</p>
+
+<h4><a name="youtube">Le pubblicità su YouTube non vengono bloccate!</a></h4>
+<p>Bloccare le pubblicità su YouTube è molto difficile, questo perché Google utilizza, per i suoi annunci, crittografia e host generati casualmente. Perciò, per bloccare le pubblicità, è molto più semplice bloccarle dall'interno dell'applicazione stessa e non tramite un'applicazione esterna (come Blokada). NewPipe e YouTube Vanced sono ottime applicazioni alternative a quella ufficiale di YouTube, ricche di funzioni, provale per vedere qual è quella più adatta alle tue esigenze.</p>
+
 <h4><a name="kill">Dopo un po', Blokada smette di funzionare.</a></h4>
-<p>Come prima cosa, abilita l'opzione <i>Mantieni attivo</i> dalla schermata principale. Così facendo, Blokada cercherà di restare attiva, ma attenzione, il tuo sistema può ancora interferire su questa impostazione. Se hai impostato l'opzione <i>Mantieni attivo</i> ma noti che Blokada continua a venire bloccata, controlla le tue impostazioni di sistema e disabilita ogni ottimizzazione della batteria e la memoria per Blokada. Sfortunatamente, la procedura è diversa in ogni sistema, pertanto non possiamo dirti come fare. Per favore, controlla le impostazioni del tuo dispositivo. Un'altra possibile causa per questo problema potrebbe essere l'utilizzo di app per la pulizia della memoria. Per favore, aggiungi Blokada alla whitelist di queste applicazioni o ad una lista esclusioni. Se nessuno di questi passaggi ti è stato d'aiuto, segnala un bug (come farlo è spiegato più giù).</p>
+<p>Come prima cosa, abilita l'opzione <i>Mantieni attivo</i> dalla schermata principale. Così facendo, Blokada cercherà di restare attiva, ma attenzione, il tuo sistema può ancora interferire su questa impostazione. Se hai impostato l'opzione <i>Mantieni attivo</i> ma noti che Blokada continua a venire bloccata, controlla le tue impostazioni di sistema e disabilita ogni ottimizzazione della batteria e la memoria per Blokada. Sfortunatamente, la procedura è diversa in ogni sistema, pertanto non possiamo dirti come fare. Per favore, controlla le impostazioni del tuo dispositivo. Un'altra possibile causa per questo problema potrebbe essere l'utilizzo di app per la pulizia della memoria. Per favore, aggiungi Blokada alla whitelist di queste applicazioni o ad una lista esclusioni. Se nessuno di questi passaggi ti è stato d'aiuto, segnala un bug (come farlo è spiegato <a href="#other">più giù</a>).</p>
 
-<h4><a name="abplists">Non riesco ad importare le liste di EasyList/AdBlock in Blokada.</a></h4>
-<p>Se provi ad importare una lista (come EasyList) che funziona senza problemi con la tua estensione di AdBlock sul tuo PC o notebook, Blokada riporterà un messaggio d'errore. Questo perché Blokada utilizza un altro metodo per bloccare le pubblicità. Mentre ABP blocca e nasconde elementi o parti di un sito web, Blokada non può farlo perché non è un plugin di un browser, al contrario reindirizza gli accessi al server pubblicitario verso un indirizzo non instradabile (0.0.0.0), pertanto richiede una lista di host o indirizzi IP.</p>
-
-<h4><a name="howitworks">Come funziona Blokada?</a></h4>
-<p>Blokada è un sottile livello tra l'interfaccia network (WiFi o rete mobile) del tuo dispositivo e le applicazioni che utilizzi. Per poter filtrare tutto il traffico in uscita, Blokada genera una connessione VPN in locale (senza l'uso di alcun servizio di terze parti) e semplicemente blocca ogni richiesta verso gli host definiti tra i filtri della blacklist. Questo blocco è possibile tramite un reindirizzamento: l'indirizzo IP del sito che offre la pubblicità viene risolto dal tuo dispositivo verso un meta-indirizzo non instradabile, a 0.0.0.0, dove nessun servizio web è in esecuzione, pertanto non verrà mostrata nessuna pubblicità. In questo modo, Blokada preserva sia il tuo piano dati che la tua batteria. I filtri vengono aggiornati automaticamente e contengono host conosciuti per servizi pubblicitari, di tracciamento, spam, malware e altri contenuti non desiderati o potenzialmente pericolosi. Puoi configurare Blokada con i tuoi filtri personalizzati e whitelist, in modo da assicurarti che il servizio che vuoi utilizzare non venga bloccato e non si verifichi alcuna interruzione.</p>
-
-<h4><a name="vpn">Posso usare un'altra VPN quando Blokada è attiva?</a></h4>
-<p>Sfortunatamente no, è una limitazione di sistema; puoi avere solo una VPN attiva alla volta. Se attivi un'altra VPN, Blokada si disattiverà.</p>
-
-<h4><a name="options">Quali sono le opzioni in Blokada?</a></h4>
-<p>Come certamente avrai notato, Blokada ha un certo numero di opzioni nella schermata principale che al primo avvio non vengono descritte. Lasciaci rimediare adesso. Potrai notare le seguenti:</p>
-<p><ul>
-    <li><b>Blacklist</b>: questa è la lista dei file host che contengono i server da bloccare. Attenzione, usare più liste potrebbe interferire sulla rete e la velocità del sistema.</li>
-    <li><b>Whitelist</b>: la whitelist è la lista eccezioni, qui potrai definire gli host che non vuoi siano bloccati o applicazioni per le quali Blokada non filtrerà gli URL. All'installazione, di default Blokada avrà già diverse applicazioni in questa lista.</li>
-    <li><b>Mantieni attivo</b>: questa opzione aiuta Blokada a non venire messa in pausa o bloccata dal sistema. Il tuo sistema potrebbe aggirare questa opzione, assicurati che le tue impostazioni permettano a Blokada di funzionare in background.</li>
-    <li><b>Notifiche</b>: se abilitata, riceverai una notifica ogni qual volta una pubblicità viene bloccata. L'opzione è attiva di default, ma se ricevi troppe notifiche puoi disabilitarla.</li>
-    <li><b>Watchdog</b>: quando è attiva, Blokada verrà disabilitata in assenza di connessioni attive e ripartirà non appena sarà nuovamente disponibile una connessione. Se disabilitata, Blokada continuerà a funzionare in background (anche in assenza di una connessione). Attenzione, questa opzione potrebbe non funzionare in ogni dispositivo.</li>
-    <li><b>Avvia al boot</b>: se abilitata, Blokada si avvierà subito dopo l'avvio del sistema. Tuttavia, questa opzione dipende da alcuni livelli di configurazione del sistema, perciò non può essere garantito l'avvio automatico di Blokada al boot. Pertanto, controlla le impostazioni del tuo dispositivo. Per configurazione predefinita, questa opzione è abilitata, se desideri avviare manualmente Blokada, disabilitala.</li>
-    <li><b>DNS</b>: se sospetti che alcuni siti o servizi vengono bloccati per te, o credi che il tuo ISP raccolga informazioni circa il tuo uso di internet, puoi scegliere dei DNS più sicuri da questa lista. Di default, Blokada utilizza gli stessi server DNS del tuo sistema.</li>
-</ul></p>
+<h4><a name="abplists">Non riesco ad importare le liste di EasyList/AdBlock Plus in Blokada.</a></h4>
+<p>Se provi ad importare una lista (come EasyList) che funziona senza problemi con la tua estensione di AdBlock sul tuo PC o notebook, Blokada riporterà un messaggio d'errore. Questo perché Blokada utilizza un altro metodo per bloccare le pubblicità. Mentre ABP blocca e nasconde elementi o parti del sito web, Blokada non può farlo perché non è un plugin nel browser, funziona a un livello inferiore, bloccando l'accesso agli host.</p>
 
 <p>Opzioni non configurabili:</p>
 <p><ul>
@@ -114,47 +139,44 @@
     <li>Apri Blokada e controlla se è attiva e non dà alcun errore.</li>
     <li>Controlla se la conta degli host è pari a zero. Se è così, seleziona alcune liste dai filtri della blacklist, in modo da bloccare le pubblicità. Se il contatore rimane a zero, concedi l'autorizzazione all'Archiviazione nelle Impostazioni di Sistema > Applicazioni > Blokada, poi cancella la cache e riavvia il dispositivo.</li>
     <li>Assicurati di non avere troppe applicazioni nella whitelist, potrebbe essere la causa del perché vedi troppe pubblicità.</li>
-    <li>Prova a reimpostare i tuoi filtri (vai su Blacklist e scegli <i>Ripristina predefinite</i> dal menù delle Opzioni Veloci in alto a destra).</li>
+    <li>Prova a reimpostare i filtri: vai su 'Blocco pubblicità', premi su 'Impostazioni lista', premi su 'Lista filtri' (non su Sincronizza), scegli ELIMINA.</li>
     <li>Se vedi pubblicità nel tuo browser, disattiva ogni tipo di compressione o ottimizzazione del traffico dati dalle impostazioni del browser.</li>
     <li>Disattiva Blokada, chiudila (trascinandola fuori dalla schermata Recenti), e riaprila.</li>
     <li>Se di recente hai cambiato alcune impostazioni (filtri, whitelist, ecc), ricorda che potrebbe volerci un po' perché la nuova configurazione inizi a funzionare. Dagli del tempo.</li>
     <li>Pulisci i dati dell'applicazione di Blokada (dalle impostazioni di sistema), o reinstallala.</li>
     <li>Riavvia il tuo dispositivo.</li>
-    <li>Il tuo dispositivo potrebbe non essere supportato. Controlla la <a href="http://go.blokada.org/issue_device">Lista dei Dispositivi</a>.</li>
     <li>Se nessuno di questi suggerimenti è stato d'aiuto, segnala un bug (vedi sotto).</li>
 </ul></p>
 
- <h4><a name="DNS">Cosa sono i DNS e quali dovrei scegliere?</a></h4>
- <p>L'acronimo DNS sta per Domain Name System e questi server servono per tradurre i nomi di dominio (ad esempio: <i>mioesempio.com</i>) in indirizzi IP, che vengono usati tra due macchine per comunicare. Il tuo provider internet utilizza i propri server DNS; Blokada è configurata per usare quelli predefiniti dal sistema. Se sospetti che alcuni siti o servizi vengono bloccati per te, o credi che il tuo ISP raccolga informazioni circa il tuo uso di internet, puoi scegliere dei DNS più sicuri da questa lista. Non ce ne sono di "migliori", tutto dipende dalle tue preferenze e posizione; pertanto, se vuoi utilizzare dei DNS personalizzati, per favore leggi la loro descrizione, documentati su internet e leggi i feedback.</p>
-
 <h4><a name="update">Non riesco ad installare un aggiornamento, cosa posso fare?</a></h4>
 <p>Per prima cosa, controlla se la tua versione di Android è la 5 o superiore. Android 4 e le versioni precedenti non sono supportate da Blokada 3.0 e le versioni più recenti. Per farlo, vai nelle Impostazioni del telefono, scorri fino a <i>Info sul telefono</i> e controlla la tua <i>Versione di Android</i>.</p>
-<p>Se il tuo telefono ha Android 5 o superiore, prova a riavviare il dispositivo. Sembra strano, ma certe volte aiuta. Se il problema persiste, disinstalla Blokada e installala nuovamente. Il tuo dispositivo potrebbe anche non essere supportato. Controlla la <a href="http://go.blokada.org/issue_device">Lista dei Dispositivi</a>.</p>
+<p>Se il tuo telefono è aggiornato ad Android 5 o più recente, assicurati di provare ad installare l'aggiornamento dalla stessa fonte dalla quale hai installato Blokada all'inizio. I diversi store aggiungono le loro firme digitali e pertanto l'aggiornamento potrebbe fallire.</p>
+<p>Riavvia il tuo dispositivo. Sembra strano, ma certe volte aiuta. Se il problema persiste, disinstalla Blokada e installala nuovamente.
 <p>Se nessuno di questi suggerimenti è stato d'aiuto, entra nella nostra chat Telegram su <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> (in lingua inglese) per ottenere aiuto o segnalare un bug (vedi sotto).</p>
 
 <h4><a name="notification">Posso nascondere la notifica della VPN?</a></h4>
 <p>Purtroppo no. Alcuni dispositivi visualizzano una notifica di VPN (l'icona di una chiave) e non è possibile nasconderla. Se è possibile, prova ad aggiornare il tuo dispositivo ad Android 8 (Oreo), poiché le versioni più recenti di Android non hanno questa icona.</p>
 
 <h4><a name="bug">Come posso segnalare un problema, un'idea o un suggerimento?</a></h4>
-<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti (in lingua inglese). In alternativa, basta scegliere l'opzione di Feedback dal menù in alto a destra e seguire le istruzioni. Ti preghiamo di fornire quante più informazioni possibili e i passaggi per riprodurre lo stesso problema - ci aiuta notevolmente a risolvere il tuo problema! Se sei un utente avanzato, puoi andare direttamente al tracker issue di GitHub.</p>
+<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti. In alternativa, basta scegliere l'opzione di Feedback dal menù in alto a destra e seguire le istruzioni. Ti preghiamo di fornire quante più informazioni possibili e i passaggi per riprodurre lo stesso problema - ci aiuta notevolmente a risolvere il tuo problema! Se sei un utente avanzato, puoi andare direttamente al tracker issue di GitHub.</p>
 
 <h4><a name="private">Blokada può accedere ai miei dati privati?</a></h4>
-<p>No. Blokada non legge le informazioni private, controlla solo se il dispositivo sta facendo richieste verso gli host e blocca quelli corrispondenti ai filtri. Ogni volta che Blokada blocca qualcosa, verrà visualizzata una notifica (che è possibile disattivare). Blokada non ha accesso al tuo traffico criptato.</p>
+<p>No. Blokada non legge né manomette le informazioni private, controlla solo se il dispositivo sta facendo richieste verso gli host e blocca quelli corrispondenti ai filtri. Ogni volta che Blokada blocca qualcosa, verrà visualizzata una notifica (che è possibile disattivare). Blokada non ha accesso al tuo traffico criptato.</p>
 
 <h4><a name="battery">Blokada consuma molta batteria?</a></h4>
-<p>No. A prescindere dalle tue impostazioni, l'impatto sulla batteria è minimo e sulla maggior parte dei nuovi dispositivi, soprattutto quelli da Marshmallow (Android 6) in poi, non avrai alcun consumo anomalo. Tuttavia, su alcuni sfortunati dispositivi si potrebbe verificare un consumo maggiore della batteria. Controlla la <a href="http://go.blokada.org/issue_device">Lista dei Dispositivi</a>.</p>
+<p>No. A prescindere dalle tue impostazioni, l'impatto sulla batteria è minimo e sulla maggior parte dei nuovi dispositivi, soprattutto quelli da Marshmallow (Android 6) in poi, non avrai alcun consumo anomalo. Tuttavia, alcuni sfortunati dispositivi potrebbero avere un consumo maggiore di batteria.
 
 <h4><a name="speed">Blokada rallenterà il mio dispositivo?</a></h4>
-<p>No. A seconda delle impostazioni, Blokada può essere molto efficiente. Infatti, sia le prestazioni del dispositivo che la durata della batteria possono migliorare visibilmente, questo perché Blokada evita l'elaborazione del contenuto non necessario, risparmiando risorse. Tuttavia, gli utenti con alcuni dispositivi meno recenti potrebbero verificare cali prestazionali. Controlla la <a href="http://go.blokada.org/issue_device">Lista dei Dispositivi</a>.</p>
+<p>No. A seconda delle impostazioni, Blokada può essere molto efficiente. Infatti, sia le prestazioni del dispositivo che la durata della batteria possono migliorare visibilmente, questo perché Blokada evita l'elaborazione del contenuto non necessario, risparmiando risorse. Tuttavia, gli utenti con alcuni dispositivi meno recenti potrebbero verificare cali prestazionali.</p>
 
 <h4><a name="free">Blokada è veramente gratuita?</a></h4>
-<p>Sì! Blokada è iniziata come un progetto, per mio hobby, ed è ancora in larga parte sviluppata da me. È il mio modo di ricambiare la comunità. Blokada è completamente open source e rimarrà gratuita per sempre. Ciò detto, svilupparla occupa un sacco di tempo, quindi se ti è possibile ti chiedo di supportare il progetto come puoi (vedi sotto).</p>
+<p>Sì! Blokada è iniziato come un hobby, un modo per ripagare la comunità. L'app è open source, la funzionalità di filtraggio delle pubblicità è gratuita e rimarrà tale per sempre. Ciò detto, svilupparla occupa un sacco di tempo, quindi se ti è possibile ti chiedo di supportare il progetto come puoi (<a href="#contribute">vedi sotto</a>).</p>
 
 <h4><a name="contribute">Blokada è fantastica, come posso sostenere il progetto?</a></h4>
 <p>Ci sono molti modi per sostenere Blokada, finanziariamente o in altra maniera. Tutte le varie tipologie di aiuto sono molto importanti per mantenere in vita il progetto. <a href="contribute.html">Per favore, vai a questa pagina per ulteriori informazioni</a> o, semplicemente, <a href="http://go.blokada.org/chat">unisciti alla nostra chat</a>.</p>
 
 <h4><a name="other">Ho un'altra domanda, dove posso chiedere?</a></h4>
-<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti (in lingua inglese). Se non ti è comodo, utilizza l'opzione di Feedback dal menu in alto, o se hai una domanda più tecnica, vai direttamente al tracker issue di GitHub.</p>
+<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti. Se non ti è comodo, utilizza l'opzione di Feedback dal menu in alto, o se hai una domanda più tecnica, vai direttamente al tracker issue di GitHub.</p>
         </section>
     </div>
 </div>

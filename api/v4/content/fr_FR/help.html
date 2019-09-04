@@ -37,7 +37,7 @@
 
 <h4>Problèmes courants</h4>
 <ol>
-  <li><a href="#startup">Blokada ne démarre paq après l'installation.</a></li>
+  <li><a href="#startup">Blokada ne démarre pas après l'installation.</a></li>
   <li><a href="#refresh">Blokada bloque moins de publicités.</a></li>
   <li><a href="#chrome">Blokada ne bloque pas les publicités dans Chrome.</a></li>
   <li><a href="#youtube">Les publicités sur YouTube ne sont pas bloquées !</a></li>
@@ -68,8 +68,8 @@
   <p><a name="blocklist"></a> Vous pouvez bloquer de manière individuelle un site qui n'est pas sur une liste noire. Pour ce faire, accédez au menu de Blokada en balayant l'écran vers le haut, appuyez sur <i>Blocage des publicités</i>, choisissez <i>Hôtes bloqués</i> et appuyez sur le signe + en haut de l'écran. Ici, vous pouvez ajouter un domaine ou un fichier contenant une liste de tous les domaines que vous désirez bloquer.</p>
 
 <h4><a name="vpn">VPN</a></h4>
-  <p>Dans Blokada v4, un nouveau service est introduit: il s’agit du VPN de Blokada. Ce service vous permet d'assurer votre sécurité et la confidentialité de vos données sur Internet, quel que soit le lieu où vous vous trouvez ou quoi que vous fassiez. Veuillez consulter notre article <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">ici</a> pour en savoir plus sur cette fonctionnalité.<br>
-  Ce service coûte 5€ par mois. Avant de vous inscrire, veuillez lire nos conditions d'utilisation <a href="https://vpn.blocka.net/tos.html">ici</a> et notre politique de confidentialité <a href="https://vpn.blocka.net/privacy.html">ici</a> avant de vous inscrire.
+  <p>Une nouvelle fonctionnalité importante a été introduite avec Blokada v4, il s'agit de Blokada VPN. Ce service vous permet d'assurer votre sécurité et la confidentialité de vos données sur Internet, quel que soit le lieu où vous vous trouvez ou quoi que vous fassiez. Veuillez consulter notre article <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">ici</a> pour en savoir plus sur cette fonctionnalité.<br>
+  Ce service coûte 5€ par mois. Avant de vous inscrire, veuillez lire nos conditions d'utilisation <a href="https://vpn.blocka.net/tos.html">ici</a> et notre politique de confidentialité <a href="https://vpn.blocka.net/privacy.html">ici</a>.
   Dans cette section, vous pourrez gérer votre compte VPN. À partir de là, vous pourrez :</p>
   <p><ul>
     <li>Activer un compte</li>
@@ -78,20 +78,20 @@
   </ul></p>
   <p>En ce qui concerne le mécanisme de paiement, nous utilisons Stripe, les informations enregistrées ne servent qu’à vérifier les paiements, à activer votre compte et vous permettre de gérer votre abonnement en toute sécurité.</p>
 
-<h4><a name="dns">Changement de DNS</a></h4>
+<h4><a name="dns">Changer de DNS</a></h4>
   <p>L'autre fonction couramment utilisée dans Blokada est la modification du serveur DNS. L'application fournit une liste de serveurs DNS prédéfinis parmi lesquels vous pouvez choisir celui qui vous convient le mieux.<br>
- L’acronyme DNS signifie Domain Name System. Les serveurs DNS sont responsables de la résolution des noms de domaine (par exemple: <i>myexample.com</i>) en adresses IP. Votre fournisseur de services Internet a ses propres serveurs DNS. Blokada est configuré pour utiliser les paramètres par défaut du système. Les machines de cette liste devraient être utilisées si vous pensez que votre fournisseur de services Internet collecte des journaux sur votre utilisation d'Internet, si vous craignez un risque pour la confidentialité ou si certains sites Web ou services sont bloqués pour vous. Il n'y a pas de "meilleur", tout dépend de son emplacement et de vos préférences. Par conséquent, si vous souhaitez utiliser des serveurs DNS personnalisés, veuillez les rechercher sur Internet, lire leur description et les commentaires.<br>
-  Cette section de DNS fonctionnera avec ou sans VPN actif. Ainsi le DNS de votre choix sera celui qui est utilisé, avec ou sans le service VPN. Tenez également compte que la version 4 de Blokada ne prend pas encore en charge DoH / DoT, mais cela sera mis en œuvre peu de temps après sa publication.
+ L’acronyme DNS signifie Domain Name System. Les serveurs DNS sont responsables de la résolution des noms de domaine (par exemple: <i>myexample.com</i>) en adresses IP. Votre fournisseur de services Internet a ses propres serveurs DNS. Blokada est configuré pour utiliser les paramètres par défaut du système. Les DNS proposés dans notre liste peuvent être utilisés si vous soupçonnez que votre FAI surveille votre utilisation d'Internet, si vous avez peur pour votre vie privée ou si certains services ou sites web sont bloqués chez vous. Aucun des DNS de la liste n'est le "meilleur". Le choix de votre DNS dépend de vos besoins, de vos préférences et de votre location Vous avez également la possibilité de définir des DNS personnalisés.<br>
+  Le choix du DNS fonctionnera que le VPN soit actif ou non. Blokada v4 ne supporte pas encore le DoH/DoT, mais cette fonctionnalité arrivera sous peu.
 </p>
 
-<h4><a name="settings">Quels sont les paramètres disponibles dans Blokada?</a></h4>
-<p>Comme vous l'avez sûrement vu, Blokada propose des options sur l'écran Paramètres. Vous pouvez voir les éléments suivants :</p>
+<h4><a name="settings">Quelles sont les différentes options de la section “paramètres” Blokada ?</a></h4>
+<p>Comme vous l'avez sûrement remarqué, Blokada propose différentes options dans la section Paramètres. Vous pouvez voir les éléments suivants :</p>
 <p><ul>
-    <li><b>Notifications</b>: lorsque cette option est activée, vous serez averti dès qu'une publicité est bloquée. Elle est activée par défaut, mais si vous recevez beaucoup de notifications, désactivez-la.</li>
-    <li><b>Démarrer à l'amorçage</b>: lorsque cette option est activée, Blokada démarrera après l'initialisation du système. Veuillez noter qu'il existe des configurations de niveau système pour cette option. Par conséquent, il ne peut pas être garanti que Blokada puisse démarrer à l'amorçage. Dans ce cas, veuillez vérifier les paramètres de votre téléphone. La configuration par défaut est activée. Si vous souhaitez démarrer Blokada manuellement, désactivez cette option.</li>
-    <li><b>Emplacement de paramètres</b> : où voulez-vous stocker la configuration : sur le disque interne ou externe? Si vous choisissez externe, les fichiers sont disponibles dans le répertoire /Download/Blokada.</li>
-    <li><b>Animation en arrière-plan</b>: vous pouvez activer ou désactiver les animations en arrière-plan, affichant les ondes. Les ondes blanches représentent les requêtes autorisées sur les hôtes tandis que les ondes oranges sont les requêtes bloquées.</li>
-    <li><b>Enregistreur de demandes</b>: lorsqu'il est activé, Blokada génère un fichier CSV et enregistre les demandes autorisées et / ou bloquées par l'application.</li>
+    <li><b>Notifications</b> : lorsque cette option est activée, vous serez averti dès qu'un domaine est bloqué. Elle est activée par défaut, mais si vous recevez trop de notifications, désactivez-la.</li>
+    <li><b>Activer au démarrage</b> : lorsque cette option est activée, Blokada s'activera au démarrage du système. Veuillez noter que le système de votre appareil doit permettre ce lancement, par conséquent, il n'est pas garanti que Blokada puisse se lancer au démarrage. Dans ce cas, veuillez vérifier les paramètres de votre appareil. Cette option est activée par défaut, si vous désirez démarrer Blokada manuellement, désactivez ce paramètre.</li>
+    <li><b>Emplacement des paramètres</b> : où voulez-vous stocker vos paramètres : sur la mémoire interne ou externe ? Si vous choisissez externe, les fichiers sont disponibles dans le répertoire /Download/Blokada.</li>
+    <li><b>Animation de fond</b>: vous pouvez activer ou désactiver les animations en arrière-plan, affichant des ondes. Les ondes blanches représentent les requêtes autorisées tandis que les ondes orange sont les requêtes bloquées.</li>
+    <li><b>Historique des requêtes</b>: lorsque cette option est activée, Blokada génère un fichier CSV et enregistre les demandes autorisées et / ou bloquées par l’application.</li>
     <li><b>Maintenir en vie</b>: cette option permet d’assurer que Blokada n’est ni mis en pause ni arrêté par le système. Veuillez noter que votre système peut l'écraser. Assurez-vous que vos paramètres permettront à Blokada de fonctionner en arrière-plan.</li>
     <li><b>Chien de garde</b>: lorsque cette option est activée, Blokada se ferme s'il n'y a pas de connexion active et redémarre à chaque fois que la connexion est rétablie. Si elle est désactivée, Blokada sera toujours exécuté en arrière-plan (même si aucun réseau n'est disponible). Veuillez noter que cette option peut ne pas fonctionner sur tous les appareils.</li>
     <li><b>Réveil agressif</b>: activez cette option si votre appareil arrête ou tue Blokada en raison de la fonction d'économie d'énergie du système. Même si cette option vise à maintenir Blokada en vie sur la plupart des appareils, le système aura toujours une priorité plus élevée et peut arrêter l'application si elle n'est pas exclue pour l'optimisation de la mémoire ou de la batterie.

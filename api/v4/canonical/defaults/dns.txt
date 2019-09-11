@@ -26,12 +26,26 @@ ipv4
 1.1.1.1;1.0.0.1
 https://1.1.1.1/
 
+20
+tenta
+inactive
+ipv4
+99.192.182.100;99.192.182.101
+https://tenta.com/
+
 30
 dnswatch
 inactive
 ipv4
 84.200.69.80;84.200.70.40
 https://dns.watch/
+
+40
+freenom
+inactive
+ipv4
+80.80.80.80;80.80.81.81
+https://www.freenom.world
 
 45
 fooldns
@@ -60,6 +74,13 @@ inactive
 ipv4
 176.9.62.58;176.9.62.62
 https://github.com/Magisk-Modules-Repo/Systemless-keweon-DNS-Manager
+
+60
+digitalcourage
+inactive
+ipv4
+46.182.19.48
+https://digitalcourage.de/support/zensurfreier-dns-server
 
 90
 opendns

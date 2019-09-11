@@ -79,7 +79,7 @@ https://github.com/Magisk-Modules-Repo/Systemless-keweon-DNS-Manager
 digitalcourage
 inactive
 ipv4
-46.182.19.48
+46.182.19.48;46.182.19.48
 https://digitalcourage.de/support/zensurfreier-dns-server
 
 60

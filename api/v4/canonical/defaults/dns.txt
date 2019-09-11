@@ -82,6 +82,13 @@ ipv4
 46.182.19.48
 https://digitalcourage.de/support/zensurfreier-dns-server
 
+70
+quad101
+inactive
+ipv4
+101.101.101.101;101.102.103.104
+https://101.101.101.101/index_en.html
+
 90
 opendns
 inactive

@@ -112,8 +112,7 @@ blacklist
 inactive
 https://github.com/StevenBlack/hosts
 link
-https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/social/hosts
-
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 
 80
 b_mining

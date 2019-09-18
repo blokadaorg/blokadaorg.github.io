@@ -87,18 +87,18 @@
 <h4><a name="settings">Blokada'da mevcut ayarlar nelerdir?</a></h4>
 <p>Kesinlikle gördüğünüz gibi, Blokada’nın Ayarlar ekranında bazı seçenekleri var. Aşağıdakileri görebilirsiniz:</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Bildirimler</b>: etkinleştirildiğinde, bir reklam engellendiğinde size bilgi verilir. Varsayılan olarak açıktır, ancak çok fazla bildirim alırsanız kapatın.</li>
+    <li><b>Açılışta başla</b>: etkinleştirildiğinde, Blokada sistem açıldıktan sonra başlayacaktır. Lütfen, bu seçenek için sistem düzeyinde konfigürasyonların bulunduğunu unutmayın, bu nedenle Blokada'nın açılışta başlaması garanti edilemez. Bu durumda, lütfen telefonunuzun ayarlarını kontrol edin. Varsayılan yapılandırma etkindir, Blokada'yı manuel olarak başlatmak istiyorsanız bu seçeneği devre dışı bırakın.</li>
+    <li><b>Ayarlar yeri</b>: yapılandırmayı nerede saklamak istiyorsunuz: dahili veya harici depolamada? Harici seçerseniz, dosyalar /İndir/Blokada dizininde bulunur.</li>
+    <li><b>Arka plan animasyonu</b>: dalgaları gösteren arka plan animasyonlarını etkinleştirebilir veya devre dışı bırakabilirsiniz. Beyaz dalgalar izin verilen host sorgularını temsil ederken turuncu olanlar engellenenlerdir.</li>
+    <li><b>İstek günlüğü isteme</b>: etkinleştirildiğinde, Blokada bir CSV dosyası oluşturur ve uygulama tarafından izin verilen ve/veya engellenen istekleri günlüğe kaydeder.</li>
+    <li><b>Sürekli çalış</b>: bu seçenek, Blokada'nın sistem tarafından duraklatılmamasını veya durdurulmamasını sağlamaktır. Lütfen sisteminizin üzerine yazabileceğini, ayarlarınızın Blokada'nın arka planda çalışmasına izin vereceğinden emin olun.</li>
+    <li><b>Watchdog</b>: etkinleştirildiğinde, etkin bir bağlantı yoksa Blokada çıkacak ve bağlantı geri geldiğinde tekrar başlayacaktır. Devre dışı bırakılırsa, Blokada her zaman arka planda çalışır (ağ olmasa bile). Lütfen bu seçeneğin her cihazda çalışmayabileceğini unutmayın.</li>
+    <li><b>Agresif uyandırma</b>: cihazınızın durması veya sistemin güç tasarrufu özelliği nedeniyle Blokada'yı sonlandırması durumunda bu seçeneği etkinleştirin. Bu seçenek Blokada'yı cihazların çoğunda sürekli çalışmasını amaçlasa da, sistem her zaman daha yüksek önceliğe sahip olacak ve hafıza veya batarya optimizasyonu için hariç tutulmadığı takdirde uygulamayı durdurabilir.
 </ul></p>
 
-<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<h4><a name="startup">Kurduktan sonra Blokada'yı başlatamıyorum.</a></h4>
+<p>Böyle bir durumun ortak iki nedeni vardır. Öncelikle, aktif bir VPN bağlantınız olup olmadığını ve bunun <i>Her Zaman Açık VPN</i> seçeneğinin etkin olup olmadığını kontrol edin. Bunu yapmak için, telefonunuzun Ayarlar bölümüne gidin, şebeke bölümünde VPN'i arayın, mevcut VPN'in yanındaki donanıma dokunun. Devre dışı bırakın, etkin VPN bağlantısından çıkarın ve Blokada'yı yeniden başlatmayı deneyin.</p>
 
 <p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 

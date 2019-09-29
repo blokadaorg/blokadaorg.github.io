@@ -1,5 +1,7 @@
 {
     "shouldAnnounce": true,
+    "showForSubscribers": false,
+    "showNotification": true,
     "index": 6,
     "id": "stellar",
     "contentUrl": "cta.html",

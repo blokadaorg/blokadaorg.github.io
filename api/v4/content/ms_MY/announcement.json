@@ -1,5 +1,5 @@
 {
-    "shouldAnnounce": true,
+    "shouldAnnounce": false,
     "showForSubscribers": false,
     "showNotification": true,
     "index": 6,

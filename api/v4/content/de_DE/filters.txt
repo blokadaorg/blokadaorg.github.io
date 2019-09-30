@@ -124,6 +124,24 @@ link
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
 
+90
+b_xiaomi
+blacklist
+inactive
+https://github.com/jerryn70/GoodbyeAds
+link
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+
+
+95
+b_mat
+blacklist
+inactive
+https://github.com/jawz101/MobileAdTrackers
+link
+https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts
+
+
 20
 b_app_vending
 whitelist

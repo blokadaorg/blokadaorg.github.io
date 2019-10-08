@@ -1,8 +1,8 @@
 {
     "shouldAnnounce": true,
-    "showForSubscribers": false,
-    "showNotification": false,
-    "index": 7,
+    "showForSubscribers": true,
+    "showNotification": true,
+    "index": 8,
     "id": "20discount",
     "contentUrl": "cta.html",
     "title": "20% off for you and your friend",

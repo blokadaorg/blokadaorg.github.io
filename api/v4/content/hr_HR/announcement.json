@@ -1,10 +1,10 @@
 {
-    "shouldAnnounce": false,
+    "shouldAnnounce": true,
     "showForSubscribers": false,
-    "showNotification": true,
-    "index": 6,
-    "id": "stellar",
+    "showNotification": false,
+    "index": 7,
+    "id": "20discount",
     "contentUrl": "cta.html",
-    "title": "Blokada VPN for free?",
-    "tagline": "Yes! You can get a free subscription now. Tap for details!"
+    "title": "20% off for you and your friend",
+    "tagline": "Check our new Blokada VPN campaign"
 }

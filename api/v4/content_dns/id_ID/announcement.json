@@ -1,7 +1,7 @@
 {
     "shouldAnnounce": true,
     "showForSubscribers": true,
-    "showNotification": true,
+    "showNotification": false,
     "index": 8,
     "id": "20discount",
     "contentUrl": "cta.html",

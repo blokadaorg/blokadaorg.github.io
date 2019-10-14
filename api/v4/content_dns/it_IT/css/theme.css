@@ -16,8 +16,7 @@ body {
   height: 100%;
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background: linear-gradient(to bottom, #242523 0%, #262F37 100%);
-}
+  background: linear-gradient(to bottom, #242523 0%, #262F37 100%) fixed;
 }
 
 .content {

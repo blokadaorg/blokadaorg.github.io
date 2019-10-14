@@ -16,7 +16,7 @@ link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
 
 
-13
+15
 b_energized_basic
 blacklist
 inactive
@@ -25,16 +25,7 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts
 
 
-14
-b_energized_blu
-blacklist
-active
-https://github.com/AdroitAdorKhan/Energized
-link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts
-
-
-15
+16
 b_energized_blu_go
 blacklist
 inactive
@@ -43,7 +34,16 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts
 
 
-16
+17
+b_energized_blu
+blacklist
+active
+https://github.com/AdroitAdorKhan/Energized
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts
+
+
+18
 b_energized_spark
 blacklist
 inactive
@@ -52,7 +52,7 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
 
 
-18
+20
 b_goodbyeads
 blacklist
 inactive
@@ -61,7 +61,7 @@ link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 
 
-20
+25
 b_hphosts
 blacklist
 inactive
@@ -79,7 +79,7 @@ link
 http://winhelp2002.mvps.org/hosts.txt
 
 
-40
+35
 b_adaway
 blacklist
 inactive
@@ -88,7 +88,7 @@ link
 https://adaway.org/hosts.txt
 
 
-50
+40
 b_danpollock
 blacklist
 inactive
@@ -97,7 +97,7 @@ link
 https://someonewhocares.org/hosts/hosts
 
 
-60
+45
 b_pgl
 blacklist
 inactive
@@ -106,7 +106,7 @@ link
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0
 
 
-70
+50
 b_social
 blacklist
 inactive
@@ -115,7 +115,7 @@ link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 
 
-80
+55
 b_mining
 blacklist
 inactive
@@ -124,7 +124,7 @@ link
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
 
-90
+60
 b_xiaomi
 blacklist
 inactive
@@ -133,7 +133,7 @@ link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 
 
-95
+65
 b_mat
 blacklist
 inactive

@@ -47,13 +47,6 @@ ipv4
 80.80.80.80;80.80.81.81
 https://www.freenom.world
 
-35
-fooldns
-inactive
-ipv4
-87.118.111.215;213.187.11.62
-http://www.fooldns.com/fooldns-community/english-version/
-
 40
 fdn
 inactive

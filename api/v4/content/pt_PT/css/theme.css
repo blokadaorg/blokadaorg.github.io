@@ -11,6 +11,10 @@ h1, h2, h3, h4 {
   color: #eaeaea;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   width: 100%;
   height: 100%;

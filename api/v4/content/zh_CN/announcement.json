@@ -1,10 +1,10 @@
 {
-    "shouldAnnounce": false,
+    "shouldAnnounce": true,
     "showForSubscribers": true,
     "showNotification": false,
-    "index": 8,
-    "id": "20discount",
+    "index": 9,
+    "id": "airdrop201911",
     "contentUrl": "cta.html",
-    "title": "New feature announcement",
-    "tagline": "Check our new Blokada VPN campaign"
+    "title": "Keybase for a fully encrypted chat",
+    "tagline": "Stay secure + enjoy Blokada Tunnel for free"
 }

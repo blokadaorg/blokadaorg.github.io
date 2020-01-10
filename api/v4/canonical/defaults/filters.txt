@@ -110,9 +110,9 @@ https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0
 b_social
 blacklist
 inactive
-https://github.com/StevenBlack/hosts
+https://github.com/AdroitAdorKhan/Energized
 link
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
+https://raw.githubusercontent.com/EnergizedProtection/block/master/extensions/social/formats/hosts
 
 
 55

@@ -110,9 +110,9 @@ https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0
 b_social
 blacklist
 inactive
-https://github.com/StevenBlack/hosts
+https://github.com/AdroitAdorKhan/Energized
 link
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
+https://raw.githubusercontent.com/EnergizedProtection/block/master/extensions/social/formats/hosts
 
 
 55
@@ -347,5 +347,32 @@ active
 https://blokada.org
 app
 com.android.carrierconfig
+
+
+175
+b_app_threema
+whitelist
+active
+https://blokada.org
+app
+ch.threema.app
+
+
+176
+b_app_threemawork
+whitelist
+active
+https://blokada.org
+app
+ch.threema.app.work
+
+
+177
+b_app_xiaomiupdate
+whitelist
+active
+https://blokada.org
+app
+com.xiaomi.discover
 
 

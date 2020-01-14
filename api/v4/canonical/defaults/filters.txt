@@ -367,3 +367,12 @@ app
 ch.threema.app.work
 
 
+177
+b_app_xiaomiupdate
+whitelist
+active
+https://blokada.org
+app
+com.xiaomi.discover
+
+

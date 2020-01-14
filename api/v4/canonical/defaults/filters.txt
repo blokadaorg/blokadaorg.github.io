@@ -349,3 +349,21 @@ app
 com.android.carrierconfig
 
 
+175
+b_app_threema
+whitelist
+active
+https://blokada.org
+app
+ch.threema.app
+
+
+176
+b_app_threemawork
+whitelist
+active
+https://blokada.org
+app
+ch.threema.app.work
+
+

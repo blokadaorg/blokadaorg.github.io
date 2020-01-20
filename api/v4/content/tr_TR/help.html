@@ -80,8 +80,8 @@
 
 <h4><a name="dns">DNS değiştiriliyor</a></h4>
   <p>Blokada'da yaygın olarak kullanılan diğer bir işlev ise DNS sunucusunu değiştirmektir. Uygulama, aralarından seçim yapabileceğiniz önceden tanımlanmış DNS sunucularının bir listesini sağlar.<br>
-  DNS kısaltması Etki Alanı Adı Sistemi anlamına gelir ve bu sunucular etki alanı adlarını (örneğin: <i>myexample.com</i>) IP adreslerine, makinelerin iletişim kurmak için kullandıklarına çözümlemekten sorumludur. İnternet servis sağlayıcınızın kendi DNS sunucuları vardır. Blokada sistem varsayılanlarını kullanacak şekilde yapılandırılmıştır. ISP'nizin internet kullanımınızla ilgili günlükleri topladığından şüpheleniyorsanız, bazı gizlilik risklerinden korkuyorsanız veya bazı web siteleri veya hizmetler sizin için engelleniyorsa, bu listedeki makineler kullanılmalıdır. "En iyisi" yoktur, her şey tercihlerinize ve bulunduğunuz yere bağlıdır, bu nedenle özel DNS sunucuları kullanmak istiyorsanız, lütfen açıklamalarını okuyun, internetten arayın ve geri bildirimleri okuyun.<br>
-  Bu DNS bölümü aktif veya VPN olmadan çalışır, bu nedenle seçtiğiniz DNS, VPN servisi ile veya VPN servisi olmadan kullanılacaktır. Ayrıca v4 sürümünden itibaren Blokada'nın DoH/DoT'yi henüz desteklemediğini düşünün. Ancak bu v4'ün piyasaya sürülmesinden kısa bir süre sonra uygulanacaktır.
+  DNS kısaltması, Etki Alanı Adı Sistemi anlamına gelir. Bu sunucular, iletişim kurmak için makineler arasında kullanılan alan adlarını (örneğin: <i>myexample.com</i>) IP adreslerine çözmekle sorumludur. İnternet servis sağlayıcınızın kendi DNS sunucuları vardır. Blokada sistem varsayılanlarını kullanacak şekilde yapılandırılmıştır. ISS'nizin internet kullanımınızla ilgili günlükleri topladığından şüpheleniyorsanız, bazı gizlilik risklerinden korkuyorsanız veya bazı web siteleri ya da hizmetler sizin için engelleniyorsa, bu listedeki makineler kullanılmalıdır. "En iyi" yoktur, her şey tercihlerinize ve konumunuza bağlıdır. Bu nedenle özel DNS sunucularını kullanmak istiyorsanız, lütfen açıklamalarını okuyun, internette arayın ve geri bildirimleri okuyun.<br>
+  Bu DNS bölümü, VPN etkin olsa da veya etkin olmasa da çalışacak. Bu nedenle, seçtiğiniz DNS, VPN hizmeti ile veya VPN hizmeti olmadan kullanılacaktır. Ayrıca v4 sürümünden itibaren Blokada'nın DoH/DoT'yi henüz desteklemediğini düşünün. Ancak bu v4'ün piyasaya sürülmesinden kısa bir süre sonra uygulanacaktır.
 </p>
 
 <h4><a name="settings">Blokada'daki kullanılabilir ayarlar nelerdir?</a></h4>
@@ -90,11 +90,11 @@
     <li><b>Bildirimler</b>: etkinleştirildiğinde, bir reklam engellendiğinde bildirim alırsınız. Varsayılan olarak etkindir. Ancak çok fazla bildirim alırsanız kapatın.</li>
     <li><b>Önyüklemede başla</b>: Etkinleştirildiğinde, sistem önyüklendikten sonra Blokada başlayacaktır. Bu seçenek için, sistem düzeyinde yapılandırmalar gerektiğini lütfen unutmayın. Bu nedenle Blokada'nın önyüklemede başlatılabileceği garanti edilemez. Bu durumda, lütfen cihaz ayarlarınızı kontrol edin. Varsayılan yapılandırma etkindir. Blokada'yı elle başlatmak istiyorsanız, bu seçeneği devre dışı bırakın.</li>
     <li><b>Ayarlar konumu</b>: Yapılandırmayı nerede saklamak istiyorsunuz: Dahili ya da harici depolama? Harici depolama seçeneğini belirlerseniz, dosyalar /Download/Blokada dizininde bulunur.</li>
-    <li><b>Arka plan animasyonu</b>: Dalgaları gösteren arka plan animasyonlarını etkinleştirebilir veya devre dışı bırakabilirsiniz. Beyaz dalgalar izin verilen ana makine sorgularını temsil ederken, turuncu dalgalar engellenenlerdir.</li>
-    <li><b>İstek günlüğü isteme</b>: etkinleştirildiğinde, Blokada bir CSV dosyası oluşturur ve uygulama tarafından izin verilen ve/veya engellenen istekleri günlüğe kaydeder.</li>
-    <li><b>Sürekli çalış</b>: bu seçenek, Blokada'nın sistem tarafından duraklatılmamasını veya durdurulmamasını sağlamaktır. Lütfen sisteminizin üzerine yazabileceğini, ayarlarınızın Blokada'nın arka planda çalışmasına izin vereceğinden emin olun.</li>
-    <li><b>Watchdog</b>: etkinleştirildiğinde, etkin bir bağlantı yoksa Blokada çıkacak ve bağlantı geri geldiğinde tekrar başlayacaktır. Devre dışı bırakılırsa, Blokada her zaman arka planda çalışır (ağ olmasa bile). Lütfen bu seçeneğin her cihazda çalışmayabileceğini unutmayın.</li>
-    <li><b>Agresif uyandırma</b>: cihazınızın durması veya sistemin güç tasarrufu özelliği nedeniyle Blokada'yı sonlandırması durumunda bu seçeneği etkinleştirin. Bu seçenek Blokada'yı cihazların çoğunda sürekli çalışmasını amaçlasa da, sistem her zaman daha yüksek önceliğe sahip olacak ve hafıza veya batarya optimizasyonu için hariç tutulmadığı takdirde uygulamayı durdurabilir.
+    <li><b>Arka plan animasyonu</b>: Dalgaları gösteren arka plan animasyonlarını etkinleştirebilir veya devre dışı bırakabilirsiniz. Beyaz dalgalar izin verilen host sorgularını temsil ederken, turuncu dalgalar engellenenlerdir.</li>
+    <li><b>Kayıt günlüğü iste</b>: Etkinleştirildiğinde, Blokada bir CSV dosyası oluşturur ve uygulama tarafından izin verilen veya engellenen günlük istekleri oluşturur.</li>
+    <li><b>Sürekli çalış</b>: Bu seçenek, Blokada'nın sistem tarafından duraklatılmamasını veya durdurulmamasını sağlamak içindir. Sisteminizin üzerine yazabileceğini lütfen unutmayın. Ayarlarınızın Blokada'nın arka planda çalışmasına izin verdiğinden emin olun.</li>
+    <li><b>Watchdog</b>: Etkinleştirildiğinde, etkin bir bağlantı yoksa Blokada'dan çıkacak ve bağlantı geri geldiğinde Blokada yeniden başlayacaktır. Devre dışı bırakılırsa, etkin bağlantı olmadığında bile Blokada arka planda çalışacaktır. Lütfen bu seçeneğin her cihazda çalışmayabileceğini unutmayın.</li>
+    <li><b>Agresif uyandırma</b>: Sisteminizin güç koruma özelliği nedeniyle cihazınız Blokada'yı durdurur veya sonlandırırsa bu seçeneği etkinleştirin. Bu seçenek, Blokada'nın çoğu cihazda sürekli çalışmasını amaçlasa da, sistem her zaman daha yüksek önceliğe sahip olacak ve bellek veya pil optimizasyonu için hariç tutulmazsa uygulamayı durdurabilir.
 </ul></p>
 
 <h4><a name="startup">Yükledikten sonra Blokada'yı başlatamıyorum.</a></h4>
@@ -105,54 +105,54 @@
 <p>Eğer işe yaramadıysa, telefonunuzu yeniden başlatın. Bu bazen işe yarar.</p>
 
 <h4><a name="refresh">Blokada eskisine göre daha az reklam engelliyor.</a></h4>
-<p>Blokada'nın öncekinden daha az reklamı engellediğinden şüpheleniyorsanız, lütfen listelerinizi yenileyin. Bunu yapmak için <i>Kara liste</i> üzerine dokunun, ardından ekolayzırın sağ üst köşesindeki <i>Filtreleri yenile</i> seçeneğini seçin ve <i>Devam et</i> tuşuna dokunun. Genelde, yeni sunucuların (henüz) tanımlanmamış ve kara listeye eklenmiş olan sunuculara eklenmesi veya yeni listenin telefonunuza indirilmediğinden, bu nedenle (henüz) engellenmediğinden olur.<br>
-Alternatif olarak, <i>Kara liste</i> menüsünde daha fazla host listesini etkinleştirebilir veya daha fazla kısıtlayıcı filtre ekleyebilirsiniz.</p>
+<p>Blokada'nın öncekinden daha az reklamı engellediğinden şüpheleniyorsanız, lütfen listelerinizi yenileyin. Bunu yapmak için <i>Kara liste</i> üzerine dokunun, ardından ekolayzırın sağ üst köşesindeki <i>Filtreleri yenile</i> seçeneğini seçin ve <i>Devam et</i> tuşuna dokunun. Genellikle bu, varolan (henüz) tanımlanmamış ve kara listelere eklenen yeni sunucuların eklenmesi nedeniyle olur veya yeni liste telefonunuza indirilmez, bu nedenle (henüz) engellenmez.<br>
+Alternatif olarak, <i>Kara Liste</i> menüsünden daha fazla host listesini etkinleştirebilir veya daha kısıtlayıcı filtreler ekleyebilirsiniz.</p>
 
-<p>Lütfen Blokada'nın 3. taraf listelerini kullandığını unutmayın; bu nedenle, uygulamanın kendisi daha önce çalışmış ve reklamları engellemişse, değişiklik yapmadan aynı şekilde davranması gerekir.</p>
+<p>Blokada'nın 3.taraf listelerini kullandığını ve bu nedenle, uygulamanın kendisi daha önce çalıştıysa ve reklamları engellediyse, değişiklik yapmadan aynı şekilde davranması gerektiğini lütfen unutmayın.</p>
 
 <h4><a name="chrome">Blokada, Chrome'daki reklamları engellemez.</a></h4>
-<p>Google Chrome kullanıyorsanız, Veri Tasarrufu ve Eşzamansız DNS'i devre dışı bırakmanız gerekir. Google varsayılan olarak bu iki teknolojiyi kullanır ve Blokada'nın ana bilgisayar engellemesine müdahale eder.<br>
+<p>Google Chrome kullanıyorsanız, Veri Tasarrufu ve Eşzamansız DNS'i devre dışı bırakmanız gerekir. Google varsayılan olarak bu iki teknolojiyi kullanır ve Blokada'nın host engellemesine müdahale eder.<br>
 1. Veri Tasarrufu'nu devre dışı bırakmak için Google Chrome'daki üç dikey noktaya dokunun, Ayarlar'a gidin, "veri tasarrufu" veya "lite modu" için arama yapın ve devre dışı bırakın.<br>
 2. Eşzamansız DNS'i devre dışı bırakmak için, tarayıcınızda "chrome://flags" sayfasını açın, DNS'i arayın ve Eşzamansız DNS özelliğini devre dışı bırakın.<br>
 3. Cihazınızda Ayarlar -> Uygulamalar -> Chrome -> Depolama bölümüne gidin ve önbelleği temizleyin.<br>
 4. Yeniden başlatın!</p>
 
 <h4><a name="youtube">YouTube'daki reklamlar engellenmez!</a></h4>
-<p>YouTube'daki reklamları engellemek çok zordur çünkü Google, reklamları sunmak için şifreleme ve rastgele oluşturulmuş hostlar kullanmaktadır. Bu nedenle, reklamları bir YouTube uygulaması içinde bloklamak, harici bir araçla (Blokada gibi) bloklamaktan çok daha kolaydır. NewPipe ve YouTube Vanced, resmi YouTube uygulamasının daha özellikli, harika alternatiflerdir. Lütfen hangisinin sizin için daha uygun olduğuna bakın.</p>
+<p>Google, reklamları sunmak için şifreleme ve rastgele oluşturulmuş hostlar kullandığından YouTube'daki reklamları engellemek çok zordur. Bu nedenle, bir YouTube uygulamasındaki reklamları engellemek, harici bir araç ile (Blokada gibi) çok daha kolaydır. NewPipe ve YouTube Vanced, resmi YouTube uygulamasının daha özellikli, harika alternatiflerdir. Lütfen hangisinin sizin için daha uygun olduğuna bakın.</p>
 
 <h4><a name="kill">Blokada bir süre sonra çalışmayı durduruyor.</a></h4>
-<p>İlk olarak, Blokada'da <i>Sürekli çalış</i> seçeneğini etkinleştirin. Bu durumda, Blokada çevrimiçi kalmaya çalışacaktır, ancak lütfen sisteminizin hala bu davranışı etkileyebileceğini unutmayın. Ayarladıysanız ve Blokada'nın zaman zaman durduğunu görüyorsanız, sisteminizin ayarlarını kontrol edin ve Blokada için tüm pil ve bellek optimizasyonunu kapatın. Ne yazık ki, her sistemde farklıdır, bu yüzden nerede yapılacağını söyleyemeyiz. Lütfen telefonunuzun ayarlarını kontrol edin. Bu tür davranışların bir başka kaynağı da bir bellek temizleyici kullanıyor olabilirsiniz. Lütfen Blokada'yı izinli listesine yerleştirin veya listeden çıkartın. Bu adımların hiçbiri sizin durumunuza yardımcı olmadıysa, lütfen bir hata bildirin (nasıl yapılacağını <a href="#other">aşağıya bakın</a>).</p>
+<p>İlk adım olarak, Blokada'dan <i>Sürekli çalış</i> seçeneğini açın. Bu durumda, Blokada çevrimiçi kalmaya çalışacaktır. Ancak lütfen sisteminizin bu davranışı hala etkileyebileceğini unutmayın. Ayarladıysanız ve Blokada'nın zaman zaman durduğunu görüyorsanız, sisteminizin ayarlarını kontrol edin ve Blokada için tüm pil ve bellek optimizasyonunu kapatın. Ne yazık ki, her sistemde farklıdır, bu yüzden nerede yapılacağını söyleyemeyiz. Lütfen telefonunuzun ayarlarını kontrol edin. Bu tür davranışların bir başka kaynağı da bir bellek temizleyici kullanıyor olabilirsiniz. Lütfen Blokada'yı izinli listesine yerleştirin veya listeden çıkartın. Bu adımların hiçbiri sizin durumunuza yardımcı olmadıysa, lütfen bir hata bildirin (nasıl yapılacağını <a href="#other">aşağıya bakın</a>).</p>
 
-<h4><a name="abplists">EasyList/AdBlock Plus listesini Blokada'ya aktaramam.</a></h4>
-<p>PC'nizde veya dizüstü bilgisayarınızda AdBlock Plus uzantınızla çok iyi çalışan bir liste (örneğin EasyList) almaya çalışırsanız, Blokada bir hata mesajı verecektir. Çünkü Blokada, reklamları engellemek için başka bir yöntem kullanıyor. ABP web sitelerinin öğelerini veya bölümlerini engellerken ve gizlerken, Blokada bunu yapamaz çünkü tarayıcıdaki bir eklenti değildir, daha düşük seviyede çalışır ve sunucu erişimini engeller.</p>
+<h4><a name="abplists">EasyList/AdBlock Plus listesini Blokada'ya aktaramıyorum.</a></h4>
+<p>Bilgisayarınızdaki veya dizüstü bilgisayarınızda AdBlock Plus eklentinizle çok iyi çalışan bir listeyi (örneğin EasyList) içe aktarmayı denerseniz, Blokada bir hata mesajı verecektir. Bunun nedeni Blokada'nın reklamları engellemek için başka bir yöntem kullanmasıdır. ABP web sitesinin öğelerini veya bölümlerini engeller ve gizlerken, Blokada tarayıcıda bir eklenti olmadığı için bunu yapamaz. Daha düşük bir seviyede çalışır ve host erişimini engeller.</p>
 
-<p>Yapılandırılamaz şeyler:</p>
+<p>Yapılandırılamayan şeyler:</p>
 <p><ul>
-    <li><b>Güncel</b>: Eğer görürseniz, Blokada'nın en yeni sürümünü kullanıyorsunuzdur. Uygulamayı güncel tutun çünkü daha az hata ve daha fazla özellik var!</li>
-    <li><b># reklamlar engellendi</b>: Blokada'nın ilk defa başlatılmasından bu yana engellenen istenmeyen içeriğin sayısı</li>
-    <li><b># hosts</b>: reklamlara, kötü amaçlı yazılımlara ve diğer istenmeyen içeriklere hizmet eden sunucu sayısı</li>
+    <li><b>Güncel</b>: Eğer bunu görüyorsanız Blokada'nın son sürümüne sahipsiniz demektir. Uygulamanızı güncel tutmanız daha az hata ve daha çok özellik demektir!</li>
+    <li><b># engellenen reklamlar</b>: Blokada ilk çalıştırıldığından bu yana engellenen istenmeyen içerik sayısı</li>
+    <li><b># hosts</b>: reklamlar, kötü amaçlı yazılımlar ve diğer istenmeyen içerikleri sunan sunucuların sayısı</li>
 </ul></p>
 
 <h4><a name="ads">Hala bazı reklamları görüyorum, ne yapabilirim?</a></h4>
-<p>Bazı reklamlar, Android’deki herhangi bir reklam engelleyiciyle birlikte gelir. Özellikle YouTube reklamlarının veya bazı tam ekran açılır pencere reklamlarının engellenmesi zordur. Öncesine göre daha fazla reklam geldiğini düşünüyorsanız şu adımları deneyin:</p>
+<p>Bazı reklamlar Android'deki herhangi bir reklam engelleyiciyle gelir. Özellikle YouTube reklamlarının veya bazı tam ekran açılır pencere reklamlarının engellenmesi zordur. Öncesine göre daha fazla reklam geldiğini düşünüyorsanız şu adımları deneyin:</p>
 <p><ul>
     <li>Üstteki durum çubuğunda VPN anahtar simgesinin bulunup bulunmadığını kontrol edin. Değilse, Blokada'yı başlatın.</li>
-    <li>Blokada'yı açın ve aktif olup olmadığını ve herhangi bir hata bildirmediğini kontrol edin.</li>
-    <li>Host sayacının sıfıra eşit olmadığını kontrol edin. Öyleyse, reklamların engellenmesi için bazı kara liste filtreleri seçin. Sayaç hala sıfırsa, Sistem Ayarları - Uygulamalar - Blokada'da depolama erişim izni verin, ardından verileri ve önbelleği temizleyin ve cihazı yeniden başlatın.</li>
+    <li>Blokada'yı açıp etkin olup olmadığını ve herhangi bir hata bildirmediğini kontrol edin.</li>
+    <li>Host sayacının sıfıra eşit olup olmadığını kontrol edin. Öyleyse, reklamların engellenebilmesi için bazı kara liste filtreleri seçin. Sayaç hala sıfırsa, Sistem Ayarları - Uygulamalar - Blokada'da depolama erişim izni verin, ardından verileri ve önbelleği temizleyin ve cihazı yeniden başlatın.</li>
     <li>İzin verilenler listesinde çok fazla uygulamanız olmadığından emin olun - bu nedenle reklamları görüyorsunuz.</li>
     <li>Filtrelerinizi sıfırlamayı deneyin: 'Reklam engelleme' seçeneğine gidin, orada 'Liste ayarları' üzerine dokunun, 'Filtre listeleri'ne dokunun (Senkronizasyonda değil), DROP'u seçin.</li>
     <li>Tarayıcınızda reklamlar görürseniz, tarayıcı ayarlarında her türlü trafik sıkıştırmasını veya optimizasyonunu devre dışı bırakın.</li>
     <li>Blokada'yı devre dışı bırakın, kapatın (sistemin Son kullanılanlar ekranından kaydırarak) ve tekrar açın.</li>
-    <li>Ayarlarınızı yakın zamanda değiştirdiyseniz (filtreler, izin listesi, vb.), Yeni yapılandırmaya başlamadan önce zaman alacağını unutmayın. Biraz zaman ver.</li>
+    <li>Ayarlarınızı yakın zamanda değiştirdiyseniz (filtreler, izin listesi, vb.), Yeni yapılandırmaya başlamadan önce zaman alacağını unutmayın. Biraz zaman tanıyın.</li>
     <li>Blokada için uygulama verilerini temizleyin (sistem ayarlarında) veya yeniden yükleyin.</li>
     <li>Cihazınızı yeniden başlatın.</li>
     <li>Bu adımların hiçbiri yardımcı olmadıysa, lütfen bir hata bildirin (aşağıya bakın).</li>
 </ul></p>
 
 <h4><a name="update">Güncellemeyi yükleyemiyorum, ne yapabilirim?</a></h4>
-<p>Her şeyden önce, sahip olduğunuz Android sürümünün 5 veya daha yeni olup olmadığını kontrol edin. Android 4 ve daha eski sürümler Blokada 3.0 ve daha yeni sürümlerde desteklenmemektedir. Bunu yapmak için, telefonunuzun Ayarlar bölümüne gidin, <i>Telefon hakkında</i> seçeneğine ilerleyin ve <i>Android sürümünü</i> arayın</p>
+<p>Her şeyden önce, lütfen sahip olduğunuz Android sürümünün 5 veya daha yeni olup olmadığını kontrol edin. Android 4.0 ve daha eski sürümleri Blokada 3.0 ve daha yeni sürümlerini desteklememektedir. Bunu yapmak için, telefonunuzun Ayarlar bölümünden, <i>Telefon hakkında</i> öğesine gidin ve <i> Android sürümünü</i> arayın</p>
 <p>Telefonunuz Android 5 veya daha yeni bir sürüm kullanıyorsa, lütfen güncellemeyi ilk olarak Blokada'yı yüklediğiniz kaynaktan yüklemeyi denediğinizden emin olun. Farklı depolar imza anahtarlarını ekler ve bu nedenle güncelleme başarısız olabilir.</p>
-<p>Cihazınızı yeniden başlatın. Garip gelebilir, fakat bazen işe yarar. Bu sorunu çözmediyse, Blokada'yı kaldırın ve tekrar kurun.
+<p>Cihazınızı yeniden başlatın. Kulağa garip gelebilir, ama bazen yardımcı oluyor. Bu sorunu çözmediyse, Blokada'yı kaldırın ve tekrar yükleyin.
 <p>Bu adımların hiçbiri yardımcı olmadıysa, lütfen yardım almak için <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> adresindeki Telegram sohbetimize katılın veya bir hatayı bildirin (aşağıya bakın).</p>
 
 <h4><a name="notification">VPN bildirimini gizleyebilir miyim?</a></h4>
@@ -162,7 +162,7 @@ Alternatif olarak, <i>Kara liste</i> menüsünde daha fazla host listesini etkin
 <p>Sorun yaşıyorsanız, lütfen topluluğumuzun size yardımcı olmaktan mutluluk duyacağı <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> adresindeki Telegram sohbetimize katılın. Alternatif olarak, sadece sağ üst köşedeki menüden Geribildirim seçeneğini seçin ve talimatları izleyin. Lütfen elinizden geldiğince fazla bilgi verin ve aynı sorunu yeniden oluşturma adımları - sorununuzu çözmede büyük ölçüde yardımcı olur! Profesyonel bir kullanıcıysanız, doğrudan GitHub'daki sorun izleyicisine gidebilirsiniz.</p>
 
 <h4><a name="private">Blokada özel verilerimi görebilir mi?</a></h4>
-<p>Hayır. Blokada özel bilgilerinizi okumaz veya tahrif etmez, yalnızca cihazınızın hangi host isteklerde bulunduğunu izler ve filtrelerle eşleşenleri engeller. Blokada bir içeriği her engellediğinde bildirim alacaksınız (bunu devre dışı bırakabilirsiniz). Blokada şifrelenmiş veri trafiğinize erişim sağlamaz.</p>
+<p>Hayır. Blokada özel verilerinizi okumaz ya da müdahale etmez. Sadece cihaz host isteklerini takip eder ve filtrelerdekiler ile uyuşanları engeller. Blokada bir içeriği her engellediğinde bildirim alacaksınız (bunu devre dışı bırakabilirsiniz). Blokada şifrelenmiş veri trafiğinize erişim sağlamaz.</p>
 
 <h4><a name="battery">Blokada çok fazla pil tüketiyor mu?</a></h4>
 <p>Hayır. Ayarlarınıza bağlı olarak, pil etkisi en düşük düzeydedir. Çoğu yeni cihazda, özellikle Marshmallow (Android 6) veya daha yeni sürümlerde, pil tüketimini fark etmeyeceksiniz. Yine de bazı şanssız cihazlarda daha fazla pil tüketimi gözlenebilir.

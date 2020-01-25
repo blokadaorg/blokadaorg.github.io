@@ -1,0 +1,6 @@
+# A whitelist of hosts needed for userreport.com feedback form to work.
+
+127.0.0.1 userreport.com
+127.0.0.1 cdn.userreport.com
+127.0.0.1 tag.userreport.com
+127.0.0.1 www.google-analytics.com

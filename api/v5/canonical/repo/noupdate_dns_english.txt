@@ -1,0 +1,11 @@
+{
+  "contentPath": "https://blokada.org/api/v5/content_dns",
+  "locales": [
+    "en"
+  ],
+  "newestVersionCode": 0,
+  "newestVersionName": "0",
+  "downloadLinks": [
+    "http://localhost"
+  ]
+}

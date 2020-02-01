@@ -1,6 +1,6 @@
 https://blokada.org/api/v4/content
 en pl_PL hu_HU ru_RU es_ES hi_IN tr_TR fr_FR ms_MY uk_UA de_DE cs_CZ it_IT pt_BR nb_NO zh_TW id_ID zh_CN bg_BG lv_LV ca_ES pt_PT ar_SA sk_SK iw_IL zu_Z
-405000001
-4.5.1
-https://bitbucket.org/blokada/blokada/downloads/blokada-v4.5.1.apk
-https://github.com/blokadaorg/blokada/releases/download/4.5.1/blokada-v4.5.1.apk
+405000002
+4.5.2
+https://bitbucket.org/blokada/blokada/downloads/blokada-v4.5.2.apk
+https://github.com/blokadaorg/blokada/releases/download/4.5.2/blokada-v4.5.2.apk

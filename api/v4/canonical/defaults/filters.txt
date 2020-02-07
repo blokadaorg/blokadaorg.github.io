@@ -250,15 +250,6 @@ app
 org.kde.kdeconnect_tp
 
 
-110
-b_app_waze
-whitelist
-active
-https://blokada.org
-app
-com.waze
-
-
 120
 b_app_xda
 whitelist

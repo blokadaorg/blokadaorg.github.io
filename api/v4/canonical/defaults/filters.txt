@@ -13,6 +13,15 @@ blacklist
 inactive
 https://github.com/StevenBlack/hosts
 link
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts
+
+
+12
+b_unified_fngp
+blacklist
+inactive
+https://github.com/StevenBlack/hosts
+link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
 
 

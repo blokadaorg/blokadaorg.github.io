@@ -250,6 +250,15 @@ app
 org.kde.kdeconnect_tp
 
 
+90
+b_app_samsungmail
+whitelist
+active
+https://blokada.org
+app
+com.samsung.android.email.provider
+
+
 120
 b_app_xda
 whitelist

@@ -70,6 +70,15 @@ link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 
 
+21
+b_samsung
+blacklist
+inactive
+https://github.com/jerryn70/GoodbyeAds
+link
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+
+
 25
 b_hphosts
 blacklist

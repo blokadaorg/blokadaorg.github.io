@@ -66,7 +66,7 @@ keweon
 inactive
 ipv4
 176.9.62.58;176.9.62.62
-https://github.com/Magisk-Modules-Repo/Systemless-keweon-DNS-Manager
+http://keweon.com
 
 55
 digitalcourage

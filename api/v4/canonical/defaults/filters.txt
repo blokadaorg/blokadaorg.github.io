@@ -52,6 +52,15 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
 
 
+19
+b_energized_regional
+blacklist
+inactive
+https://github.com/AdroitAdorKhan/Energized
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/extensions/regional/formats/hosts
+
+
 20
 b_goodbyeads
 blacklist

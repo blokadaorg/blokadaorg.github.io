@@ -34,15 +34,6 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts
 
 
-16
-b_energized_blu_go
-blacklist
-inactive
-https://github.com/AdroitAdorKhan/Energized
-link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts
-
-
 17
 b_energized_blu
 blacklist

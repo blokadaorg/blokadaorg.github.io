@@ -34,15 +34,6 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts
 
 
-16
-b_energized_blu_go
-blacklist
-inactive
-https://github.com/AdroitAdorKhan/Energized
-link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts
-
-
 17
 b_energized_blu
 blacklist
@@ -61,6 +52,15 @@ link
 https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
 
 
+19
+b_energized_regional
+blacklist
+inactive
+https://github.com/AdroitAdorKhan/Energized
+link
+https://raw.githubusercontent.com/EnergizedProtection/block/master/extensions/regional/formats/hosts
+
+
 20
 b_goodbyeads
 blacklist
@@ -77,6 +77,15 @@ inactive
 https://github.com/jerryn70/GoodbyeAds
 link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+
+
+22
+b_youtube
+blacklist
+inactive
+https://github.com/jerryn70/GoodbyeAds
+link
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
 
 
 25

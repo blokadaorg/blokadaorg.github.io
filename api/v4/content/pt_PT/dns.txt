@@ -124,3 +124,10 @@ ipv4
 64.6.64.6;64.6.65.6
 https://www.verisign.com/en_US/security-services/public-dns/index.xhtml
 
+95
+opendnsfamily
+inactive
+ipv4
+208.67.220.123;208.67.222.123
+https://www.opendns.com/setupguide/#familyshield
+

@@ -1,6 +1,6 @@
 0
 adguard
-inactive
+active
 ipv4
 176.103.130.130;176.103.130.131
 https://adguard.com/en/adguard-dns/overview.html

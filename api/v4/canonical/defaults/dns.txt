@@ -97,18 +97,18 @@ ipv4
 https://www.opennic.org/
 
 70
-quad101
-inactive
-ipv4
-101.101.101.101;101.102.103.104
-https://101.101.101.101/index_en.html
-
-75
 quad9
 inactive
 ipv4
 9.9.9.9;149.112.112.112
 https://www.quad9.net/
+
+75
+quad101
+inactive
+ipv4
+101.101.101.101;101.102.103.104
+https://101.101.101.101/index_en.html
 
 80
 tenta

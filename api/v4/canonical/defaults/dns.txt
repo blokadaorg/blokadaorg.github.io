@@ -47,84 +47,84 @@ ipv4
 80.80.80.80;80.80.81.81
 https://www.freenom.world
 
-40
+35
 fdn
 inactive
 ipv4
 80.67.169.12;80.67.169.40
 https://www.fdn.fr/
 
-45
+40
 google
 inactive
 ipv4
 8.8.8.8;8.8.4.4
 https://developers.google.com/speed/public-dns/
 
-50
+45
 keweon
 inactive
 ipv4
 176.9.62.58;176.9.62.62
 http://keweon.com
 
-55
+50
 opendns
 inactive
 ipv4
 208.67.222.222;208.67.220.220
 https://www.opendns.com/
 
-60
+55
 opendnsfamily
 inactive
 ipv4
 208.67.220.123;208.67.222.123
 https://www.opendns.com/setupguide/#familyshield
 
-65
+60
 openniceu
 inactive
 ipv4
 82.141.39.32;50.3.82.162
 https://www.opennic.org/
 
-70
+65
 opennicusa
 inactive
 ipv4
 63.231.92.27;66.187.76.16
 https://www.opennic.org/
 
-75
+70
 quad101
 inactive
 ipv4
 101.101.101.101;101.102.103.104
 https://101.101.101.101/index_en.html
 
-80
+75
 quad9
 inactive
 ipv4
 9.9.9.9;149.112.112.112
 https://www.quad9.net/
 
-85
+80
 tenta
 inactive
 ipv4
 99.192.182.100;99.192.182.101
 https://tenta.com/
 
-90
+85
 uncensored
 inactive
 ipv4
 91.239.100.100;89.233.43.71
 https://blog.uncensoreddns.org/
 
-95
+90
 verisign
 inactive
 ipv4

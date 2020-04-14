@@ -88,6 +88,15 @@ link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
 
 
+25
+b_phishingarmy
+blacklist
+inactive
+https://phishing.army/
+link
+https://phishing.army/download/phishing_army_blocklist_extended.txt
+
+
 30
 b_mvps
 blacklist

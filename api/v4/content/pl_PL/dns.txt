@@ -27,11 +27,11 @@ ipv4
 https://1.1.1.1/
 
 20
-tenta
+digitalcourage
 inactive
 ipv4
-99.192.182.100;99.192.182.101
-https://tenta.com/
+46.182.19.48;46.182.19.48
+https://digitalcourage.de/support/zensurfreier-dns-server
 
 25
 dnswatch
@@ -47,68 +47,75 @@ ipv4
 80.80.80.80;80.80.81.81
 https://www.freenom.world
 
-40
+35
 fdn
 inactive
 ipv4
 80.67.169.12;80.67.169.40
 https://www.fdn.fr/
 
-45
+40
 google
 inactive
 ipv4
 8.8.8.8;8.8.4.4
 https://developers.google.com/speed/public-dns/
 
-50
+45
 keweon
 inactive
 ipv4
 176.9.62.58;176.9.62.62
 http://keweon.com
 
-55
-digitalcourage
-inactive
-ipv4
-46.182.19.48;46.182.19.48
-https://digitalcourage.de/support/zensurfreier-dns-server
-
-60
-quad101
-inactive
-ipv4
-101.101.101.101;101.102.103.104
-https://101.101.101.101/index_en.html
-
-65
+50
 opendns
 inactive
 ipv4
 208.67.222.222;208.67.220.220
 https://www.opendns.com/
 
-70
-opennicusa
+55
+opendnsfamily
 inactive
 ipv4
-63.231.92.27;66.187.76.16
-https://www.opennic.org/
+208.67.220.123;208.67.222.123
+https://www.opendns.com/setupguide/#familyshield
 
-75
+60
 openniceu
 inactive
 ipv4
 82.141.39.32;50.3.82.162
 https://www.opennic.org/
 
-80
+65
+opennicusa
+inactive
+ipv4
+63.231.92.27;66.187.76.16
+https://www.opennic.org/
+
+70
 quad9
 inactive
 ipv4
 9.9.9.9;149.112.112.112
 https://www.quad9.net/
+
+75
+quad101
+inactive
+ipv4
+101.101.101.101;101.102.103.104
+https://101.101.101.101/index_en.html
+
+80
+tenta
+inactive
+ipv4
+99.192.182.100;99.192.182.101
+https://tenta.com/
 
 85
 uncensored
@@ -123,11 +130,4 @@ inactive
 ipv4
 64.6.64.6;64.6.65.6
 https://www.verisign.com/en_US/security-services/public-dns/index.xhtml
-
-95
-opendnsfamily
-inactive
-ipv4
-208.67.220.123;208.67.222.123
-https://www.opendns.com/setupguide/#familyshield
 

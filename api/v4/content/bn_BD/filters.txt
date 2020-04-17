@@ -89,12 +89,12 @@ https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAd
 
 
 25
-b_hphosts
+b_phishingarmy
 blacklist
 inactive
-https://hosts-file.net/?s=Download
+https://phishing.army/
 link
-https://hosts-file.net/ad_servers.txt
+https://phishing.army/download/phishing_army_blocklist_extended.txt
 
 
 30

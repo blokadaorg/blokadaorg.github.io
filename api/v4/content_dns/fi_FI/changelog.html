@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+<title>Changelog: Blokada</title>
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Changelog</h3>
+
+<p class="comment" style="display:none;">For the roadmap and long term plans, <a href="http://go.blokada.org/boards">tap here</a>.</p>
+
+<h4>Blokada v4.5 (January, 2020)</h4>
+<p>This is a maintenance release with various improvements to app stability and UX.</p>
+<ul>
+  <li>Improvements to Smart Lists (by Faedrak)</li>
+  <li>Implement alternative DNS query method for ColorOS devices (by Faedrak)</li>
+  <li>Optimisations to memory use when loading lists (by rpeter)</li>
+  <li>Streamline descriptions for some options (by rpeter)</li>
+  <li>Automatically start update when tapped notification</li>
+  <li>Fix master switch placement on small screens</li>
+  <li>Add easier access to send logs to support</li>
+  <li>Update translations</li>
+  <li>Stability fixes</li>
+</ul>
+
+<h4>Blokada v4.4 (November, 2019)</h4>
+<p>This is a feature release with wildcard support, smart lists, and improvements to UX.</p>
+<ul>
+  <li>Add support for wildcards in filter rules (beta)</li>
+  <li>Add Smart List feature (beta)</li>
+  <li>Introduce Blokada Tunnel partner gateways (beta)</li>
+  <li>Add block counter to standard notification</li>
+  <li>Improved updater (shows download progress)</li>
+  <li>Rebrand Blokada VPN to Blokada Tunnel for avoiding confusion with VPN api</li>
+  <li>Reorganise user account screen</li>
+  <li>Redesign home screen with master switch for more intuitive design</li>
+  <li>Fix confusing 'account expired' message</li>
+  <li>Fix various UI bugs and confusing app behaviour</li>
+  <li>Add legal info to the app</li>
+  <li>Update translations</li>
+  <li>Stability fixes</li>
+</ul>
+
+<h4>Blokada v4.3 (October, 2019)</h4>
+<p>This is another maintenance release of v4 for the most part. We have continued code refactoring process, higher stability of tunnel management code.</p>
+<ul>
+  <li>Add basic support for Tasker intents (switch on / off)</li>
+  <li>Add file import for filters (by Faedrak)</li>
+  <li>Decrease app size through optimising .png file size (by PeterDaveHello)</li>
+  <li>Code refactor stage 2: improve tunnel management for higher stability and speed</li>
+  <li>Improve UI feedback on errors and switching app state</li>
+  <li>Fix VPN account problems (resetting account)</li>
+  <li>Fix over 15 bugs <a href="https://github.com/blokadaorg/blokada/milestone/13">listed here</a></li>
+  <li>Update translations</li>
+  <li>Stability fixes</li>
+</ul>
+<p>Additional changes in 4.3.5:</p>
+<ul>
+  <li>Fix "device not supported" for Firestick and some other devices</li>
+  <li>Fix watchdog behavior</li>
+  <li>Bring back old behaviour of the Keep Alive notification</li>
+  <li>Introduce Blokada Slim, a no-adblocking variant of Blokada meant for Google Play</li>
+  <li>Improve account handling for new users and non-VPN users</li>
+  <li>Improve logging (add wireguard library logs)</li>
+  <li>Improve handling of VPN permissions revoked case</li>
+  <li>Improve displaying of snackbar messages</li>
+</ul>
+
+<h4>Blokada v4.2 (September, 2019)</h4>
+<p>This is a maintenance release of v4 aiming for stability improvements. We have started code refactoring process, aiming for better quality, less bugs, and more contribution-friendly code. This will be continued in the coming releases.</p>
+<ul>
+  <li>Fix local networking when VPN is on (and Chromecast)</li>
+  <li>Introduce beta of multi device VPN support</li>
+  <li>Support x86 devices</li>
+  <li>Code refactor stage 1: remove unused resources and unnecessary dependencies</li>
+  <li>Introduce Paypal payments and better account management</li>
+  <li>Update translations</li>
+  <li>Stability fixes</li>
+</ul>
+
+<h4>Blokada v4.1 (July 16, 2019)</h4>
+<p>This is a second release of v4 aiming to improve the UI and intuitiveness of the app.</p>
+<ul>
+  <li>Redesign home screen dashboard for a quick and easy overview of Blokada state</li>
+  <li>Redesign menu for an intuitive access of all Blokada features and configuration</li>
+  <li>Add the ability to add custom DNS servers</li>
+  <li>Update translations</li>
+  <li>Stability fixes</li>
+</ul>
+
+<h4>Blokada v4.0 (June 24th, 2019)</h4>
+<p>This is a major release with plenty of new features and fixes.</p>
+<ul>
+  <li>Brand new UI supporting Android TV and all form factors</li>
+  <li>Introduce beta of Blokada VPN</li>
+  <li>Add hosts log (blocking history) with search</li>
+  <li>Add widgets (by Faedrak)</li>
+  <li>Add request logger (by Faedrak)</li>
+  <li>Update translations</li>
+  <li>Stability fixes</li>
+</ul>
+
+<h4>Blokada v3.7 (February 19th, 2019)</h4>
+<p>This is a maintenance release with a fix for some reported problems with connectivity.</p>
+<ul>
+  <li>Fix #284 traffic is blocked on some WiFi networks</li>
+  <li>Add support for DNS port (by ant9000)</li>
+  <li>Add a switch for DNS address fallback</li>
+  <li>Fix #323 Add a switch for reporting and sending logs</li>
+  <li>Merge #325 QS Tile long press</li>
+  <li>Merge #288 basic IPv6 support</li>
+  <li>Update translations</li>
+</ul>
+
+<h4>Blokada v3.6 (October 11th, 2018)</h4>
+<p>This is a maintenance release with a rewrite of tunnel code for robustness and stability.</p>
+<ul>
+  <li>Improve general tunnel stability</li>
+  <li>Rewrite of tunnel code for more predictable behaviour</li>
+  <li>Improve reliability of the new filters handling code from v3.5</li>
+  <li>Decrease data usage by downloading only lists which have too old cache</li>
+  <li>Add new Advanced Settings screen</li>
+  <li>Add a setting to prevent the system to stop Blokada when power saving</li>
+  <li>Add a setting for "only on wifi" for list updates</li>
+  <li>The "Online Only" setting is now called "Watchdog" and is off by default</li>
+  <li>Ask for storage permissions when exporting settings to external storage</li>
+  <li>Update translations</li>
+</ul>
+
+<h4>Blokada v3.5 (June 20th, 2018)</h4>
+<p>This is a maintenance release with a rewrite of filter handling code for robustness and stability.</p>
+<ul>
+  <li>Rewrite of filters code using Kotlin coroutines for more predictable concurrency</li>
+  <li>More granular caching (lists are now cached independently for avoiding unnecessary downloads)</li>
+  <li>Fix #170 Blacklist can get reset after reboot</li>
+  <li>Fix #185 Whitelist ignored in some scenarios</li>
+  <li>Fix #180 Detect freshly installed apps</li>
+  <li>Fix #144 import / export settings to external storage</li>
+  <li>Increase logcat size for better debugging</li>
+  <li>Update translations</li>
+</ul>
+
+<h4>Blokada v3.4 (May 10th, 2018)</h4>
+<p>This is a maintenance release with stability improvements and bugfixes.</p>
+<ul>
+  <li>Fix #196 crash when opening</li>
+  <li>Fix some other crashes from bug reports</li>
+  <li>Rework versioning (no version.gradle) to simplify builds</li>
+  <li>Remove library dependency to simplify builds</li>
+  <li>Lower the limit for ACRA bug reports</li>
+</ul>
+
+<h4>Blokada v3.3 (April 19th, 2018)</h4>
+<p>This is a maintenance release with stability improvements and bugfixes. New ACRA bug reporting is introduced in order to simplify the process and remove non-free dependencies.</p>
+<ul>
+  <li>Add languages: cs_CZ, it_IT, pt_BR, zh_TW, id_ID, nb_NO, zh_CN</li>
+  <li>Fix #169 Locale handling doesn't work for some corner cases</li>
+  <li>Fix #176 default filters come back after I delete them</li>
+  <li>Fix #177 blokada wont let to add new tlds like .digital</li>
+  <li>Fix #171 no dot in IP address field</li>
+  <li>Add ACRA for bug reporting</li>
+  <li>Remove Google Play Services, Crashlytics</li>
+  <li>Dont show dialogs again even if Continue was not clicked</li>
+</ul>
+
+<h4>Blokada v3.2 (April 4th, 2018)</h4>
+<p>This is a maintenance release focusing on stability and performance.</p>
+<ul>
+  <li>Refactor filters and welcome flow for lower memory use</li>
+  <li>Refactor core for performance and reliability</li>
+  <li>Refactor filter cache loading for performance</li>
+  <li>Add restart on crash for app resiliency</li>
+  <li>Fix Start on Boot</li>
+  <li>Fix ads counter persistence (old counter is back)</li>
+  <li>Improve logging and log sharing</li>
+  <li>Change icon to the refreshed shield (non-adaptive)</li>
+  <li>Introduce Beta Channel for Blokada Insiders</li>
+  <li>Fix #149 in-app updater problems</li>
+  <li>Make blacklist / whitelist / dns refresh Quick Action fetch new defaults (without overwriting custom settings)</li>
+  <li>Phase out Blokada Patron</li>
+  <li>Add Google Play Games to whitelist defaults</li>
+  <li><a href="https://translate.blokada.org">Migrate translations to Crowdin</a></li>
+  <li>Include translations from the new platform for: pl_PL hu_HU ru_RU es_ES hi_IN tr_TR fr_FR ms_MY uk_UA de_DE</li>
+</ul>
+
+<h4>Blokada v3.1.1 (March 21th, 2018)</h4>
+<p>This is a feature release introducing custom DNS servers and fixing several common problems. Please note that translations haven't been updated because of some issues with the currently used translation platform.</p>
+<ul>
+  <li>Introduce DNS servers configurability with built in defaults</li>
+  <li>Introduce Blokada DNS available on Google Play (without adblocking functionality)</li>
+  <li>Introduce log sharing for easier bug reporting (beta)</li>
+  <li>Fix a problem with too aggressive Wake Lock</li>
+  <li>Fix #126, problems with starting up when back online</li>
+  <li>Fix #102, can't add apps to whitelist</li>
+  <li>Decrease filter cache time to 1 day</li>
+  <li>Add more lists to defaults and change default blacklist to AdZHosts</li>
+  <li>Improve Help and intro screens (Peter)</li>
+  <li>Rework onboarding (welcome flow) to decrease the amount of dialog windows</li>
+  <li>Revert some design changes from v2</li>
+</ul>
+
+<h4>Blokada v3.0.0 (March 2nd, 2018)</h4>
+<p>This is the first stable v3 release with many important changes. Check the notes on preview versions below for detailed changelog. Additional changes:</p>
+<ul>
+  <li>Introduce "Chip In", a periodic Call to Action mechanism to engage the userbase and help make community decisions.</li>
+</ul>
+
+<h4>Blokada v3.0.0-preview2 (February 27th, 2018)</h4>
+<p>This is another preview of the 3.0.0 release with many important changes. It's mostly ready, however it's mostly meant for the translators to review their translations.</p>
+<ul>
+  <li>Fix KeepAlive to prevent Android from closing the app</li>
+  <li>Fix Start on Boot</li>
+  <li>Include (also partial) translations for: cs de es fr hu it ms nl pl ru zh_TW tr hr pt-BR pt-PT</li>
+  <li>Change chat platform to Telegram</li>
+</ul>
+
+<h4>Blokada v3.0.0-preview (February 20th, 2018)</h4>
+<p>This is a major release with many important changes. Please note it's a preview release, meaning you may want to wait for the next stable release. This release is English-only.</p>
+<ul>
+  <li>Introduce HTTPS to secure website, API and the update process</li>
+  <li>Drop support for Android 4</li>
+  <li>Introduce Blokada Patron</li>
+  <li>Introduce <a href="http://go.blokada.org/chat">Blokada Chat</a> with icon in the topbar</li>
+  <li>Introduce API v3 for simpler, unified and more flexible code</li>
+  <li>Simplify translations by removing superficial strings and pluralisation</li>
+  <li>Fix #64, whitelist constantly cleared</li>
+  <li>Fix #78, update and expand Help screen to answer the most common questions</li>
+  <li>Fix #84, add Coin Blocker list against Bitcoin mining</li>
+  <li>Fix #91, add Social filter to Blacklist</li>
+  <li>Fix #86, stop deactivating on hotspot</li>
+  <li>Fix #71, update website with F-Droid button</li>
+  <li>Fix #92, introduce adaptive launcher icon</li>
+  <li>Redo localisation to support dynamic language change (stage 1)</li>
+  <li>Refresh branding and improve contrast</li>
+  <li>Simplify Home screen by removing less important icons and putting them to top menu</li>
+  <li>Remove ability to edit home screen icons</li>
+  <li>Replace Bug Report and Feedback screens with simplified Feedback / Contact screen</li>
+  <li>Redo Welcome flow to be more informative and flexible</li>
+  <li>Update Donate, Contribute, and other information screens</li>
+  <li>Simplify Update screen</li>
+  <li>Introduce Changelog screen for a more clear release history</li>
+  <li>Introduce Open in Browser button for most web screens</li>
+  <li>Remove User Report and corresponding Default Whitelist</li>
+  <li>Simplify codebase (stage 1) by refactoring libraries and packages</li>
+  <li>Introduce gscore library as common app framework</li>
+  <li>Remove unused assets and resources to decrease app size</li>
+  <li>Minimise app threading to eliminate concurrency bugs (stage 1)</li>
+</ul>
+
+<h4>Blokada v2.2.3 adblocker for Android</h4>
+<p>This is a small maintenance release that fixes GPL compliance, updates translations and introduces several new languages:</p>
+<ul>
+  <li>Indonesian</li>
+  <li>Croatian</li>
+  <li>Hungarian</li>
+  <li>Russian</li>
+  <li>Chinese (Simplified)</li>
+  <li>Chinese (Traditional)</li>
+</ul>
+
+<h4>Blokada v2.2.2 adblocker for Android</h4>
+<p>This is a maintenance release that fixes some problems discovered in 2.2:</p>
+<ul>
+  <li>Fix unnecessary reload web view for static pages</li>
+  <li>Always whitelist Google Play</li>
+  <li>Update translations</li>
+</ul>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

@@ -402,4 +402,10 @@ https://blokada.org
 app
 com.xiaomi.discover
 
-
+178
+b_app_conversations
+whitelist
+active
+https://blokada.org
+app
+eu.siacs.conversations

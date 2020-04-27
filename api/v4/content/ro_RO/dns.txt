@@ -82,6 +82,13 @@ ipv4
 208.67.220.123;208.67.222.123
 https://www.opendns.com/setupguide/#familyshield
 
+58
+opennicasia
+inactive
+ipv4
+139.162.24.92;172.105.220.183
+https://www.opennic.org/
+
 60
 openniceu
 inactive

@@ -1,7 +1,7 @@
 10
 b_unified
 blacklist
-active
+inactive
 https://github.com/StevenBlack/hosts
 link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
@@ -29,36 +29,36 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-g
 b_energized_basic
 blacklist
 inactive
-https://github.com/AdroitAdorKhan/Energized
+https://energized.pro/
 link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts
+https://gitlab.com/energized-protection/block/-/raw/master/basic/formats/hosts
 
 
 17
 b_energized_blu
 blacklist
-inactive
-https://github.com/AdroitAdorKhan/Energized
+active
+https://energized.pro/
 link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts
+https://gitlab.com/energized-protection/block/-/raw/master/blu/formats/hosts
 
 
 18
 b_energized_spark
 blacklist
 inactive
-https://github.com/AdroitAdorKhan/Energized
+https://energized.pro/
 link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts
+https://gitlab.com/energized-protection/block/-/raw/master/spark/formats/hosts
 
 
 19
 b_energized_regional
 blacklist
 inactive
-https://github.com/AdroitAdorKhan/Energized
+https://energized.pro/
 link
-https://raw.githubusercontent.com/EnergizedProtection/block/master/extensions/regional/formats/hosts
+https://gitlab.com/energized-protection/block/-/raw/master/extensions/regional/formats/hosts
 
 
 20
@@ -401,5 +401,23 @@ active
 https://blokada.org
 app
 com.xiaomi.discover
+
+
+178
+b_app_conversations
+whitelist
+active
+https://blokada.org
+app
+eu.siacs.conversations
+
+
+179
+b_app_jitsimeet
+whitelist
+active
+https://blokada.org
+app
+org.jitsi.meet
 
 

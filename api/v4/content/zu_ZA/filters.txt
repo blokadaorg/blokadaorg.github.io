@@ -1,7 +1,7 @@
 10
 b_unified
 blacklist
-inactive
+active
 https://github.com/StevenBlack/hosts
 link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
@@ -37,7 +37,7 @@ https://gitlab.com/energized-protection/block/-/raw/master/basic/formats/hosts
 17
 b_energized_blu
 blacklist
-active
+inactive
 https://energized.pro/
 link
 https://gitlab.com/energized-protection/block/-/raw/master/blu/formats/hosts

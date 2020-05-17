@@ -37,7 +37,7 @@ https://block.energized.pro/basic/formats/hosts
 17
 b_energized_blu
 blacklist
-inactive
+active
 https://energized.pro/
 link
 https://block.energized.pro/blu/formats/hosts

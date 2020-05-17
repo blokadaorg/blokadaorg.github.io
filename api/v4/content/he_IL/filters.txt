@@ -31,16 +31,16 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://gitlab.com/energized-protection/block/-/raw/master/basic/formats/hosts
+https://block.energized.pro/basic/formats/hosts
 
 
 17
 b_energized_blu
 blacklist
-inactive
+active
 https://energized.pro/
 link
-https://gitlab.com/energized-protection/block/-/raw/master/blu/formats/hosts
+https://block.energized.pro/blu/formats/hosts
 
 
 18
@@ -49,7 +49,7 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://gitlab.com/energized-protection/block/-/raw/master/spark/formats/hosts
+https://block.energized.pro/spark/formats/hosts
 
 
 19
@@ -58,7 +58,7 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://gitlab.com/energized-protection/block/-/raw/master/extensions/regional/formats/hosts
+https://block.energized.pro/extensions/regional/formats/hosts
 
 
 20

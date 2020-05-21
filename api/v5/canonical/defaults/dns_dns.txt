@@ -216,24 +216,6 @@
     "comment": null
   },
   {
-    "index": 58,
-    "id": "opennicasia",
-    "active": false,
-    "usesIpv6": false,
-    "servers": [
-      {
-        "ip": "139.162.24.92",
-        "dot": null
-      },
-      {
-        "ip": "172.105.220.183",
-        "dot": null
-      }
-    ],
-    "credit": "https://www.opennic.org/",
-    "comment": null
-  },
-  {
     "index": 60,
     "id": "openniceu",
     "active": false,

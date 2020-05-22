@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Blokada DNS için Yardım!</h3>
+<p>Bu sayfa iki farklı bölümden oluşmaktadır. İlki karşılaşabileceğiniz bilindik sorunlar hakkında yardım sağlarken ikinci kısım genel sorular üzerine bilgiler içerir.</p>
+
+<h4>Bilindik durumlar!</h4>
+<ol>
+  <li><a href="#whitelist">Bir uygulama beklendiği gibi çalışmıyor.</a></li>
+  <li><a href="#unsupported">Yükledikten sonra Blokada'yı başlatamıyorum.</a></li>
+  <li><a href="#kill">Blokada bir süre sonra çalışmayı durduruyor.</li>
+</ol>
+
+<h4>Genel sorular!</h4>
+<ol>
+  <li><a href="#howitworks">Blokada nasıl çalışır?</a></li>
+  <li><a href="#vpn">Blokada açıkken başka bir VPN kullanabilir miyim?</a></li>
+  <li><a href="#options">Blokada'daki seçenekler neler?</a></li>
+  <li><a href="#kill">Blokada bir süre sonra çalışmayı bırakırsa ne yapabilirim?</a></li>
+  <li><a href="#update">Güncellemeyi yükleyemiyorum, ne yapabilirim?</a></li>
+  <li><a href="#notification">VPN bildirimini gizleyebilir miyim?</a></li>
+  <li><a href="#bug">Bir sorunu, fikri veya öneriyi nasıl bildirebilirim?</a></li>
+  <li><a href="#private">Blokada özel verilerimi görebilir mi?</a></li>
+  <li><a href="#battery">Blokada çok şarj harcar mı?</a></li>
+  <li><a href="#speed">Blokada cihazımı yavaşlatır mı?</a></li>
+  <li><a href="#free">Blokada'yı kullanmak gerçekten ücretsiz mi?</a></li>
+  <li><a href="#contribute">Blokada harika, projeye nasıl yardım edebilirim?</a></li>
+  <li><a href="#other">Başka bir sorum var, nereden sorabilirim?</a></li>
+</ol>
+
+<h4><a name="whitelist">Bir uygulama beklendiği gibi çalışmıyor.</a></h4>
+<p>Eğer bir uygulama beklendiği gibi çalışmıyor veya açtığınızda boş sayfa gösterip içeriği yüklenmiyorsa, ana ekranda <i>Beyaz Liste</i> seçeneğine dokunun, alt kısımda yer alan + işaretine basıp <i>Uygulama</i> sekmesinden sorun yaşadığınız uygulamayı seçiniz. Son olarak <i>Kaydet</i> düğmesine basınız. Bu sayede uygulamada yer alan URL'ler Blokada tarafından filtrelenmeyecektir.</p>
+
+<h4><a name="unsupported">Yükledikten sonra Blokada'yı başlatamıyorum.</a></h4>
+<p>Böyle bir durumun iki genel nedeni vardır. İlk olarak, etkin bir VPN bağlantısı var mı ve bu <i>Daima-açık VPN</i> olarak etkinleştirilmiş mi kontrol ediniz. Bunu yapmak için cihazınızın Ayarlar bölümüne girip Bağlantı sekmesinden VPN seçeneğini bularak devre dışı bırakınız. Aktif VPN bağlantısını sonlandırmanizin ardından Blokada'yı yeniden başlatınız.</p>
+
+<p>Eğer başka bir VPN bağlantınız yoksa, Blokada ana ekranından <i>Sadece Çevrimiçi</i> seçeneği aktif mi kontrol edin, eğer öyleyse, Wi-Fi veya mobil veri aracılığıyla internete bağlı olduğunuzdan emin olun. <i>Sadece Çevrimiçi</i> seçeneği aktifse ve internet bağlantısı yoksa Blokada çalışmayacaktır.</p>
+
+<p>Eğer işe yaramadıysa, telefonunuzu yeniden başlatın, bu bazen işe yarar..</p>
+
+<h4><a name="kill">Blokada bir süre sonra çalışmayı durdurur.</h4>
+<p>İlk olarak, <i>Sürekli Çalış</i> seçeneğini aktifleştirin. Bu durumda, Blokada çevrimiçi kalmaya çalışacaktır, ama unutmayın ki bu davranışı sisteminiz yine de etkileyebilir. Eğer bu şekilde ayarlamanıza rağmen bir süre sonra Blokada çalışmayı durduruyorsa, cihaz ayarlarınızdan pil veya bellek optimizasyonlarını Blokada için devre dışı bırakınız. Maalesef her sistemde bu ayarların yeri farklı olduğundan, nereden yapacağınızı söyleyemiyoruz. Lütfen cihaz ayarlarınızı kontrol edin. Bunun bir başka nedeni ise bellek temizleyici uygulama kullanmanız olabilir. Lütfen Blokada'yı beyaz listeye ekleyin veya hariç tutun. Bu adımlardan hiçbiri yardımcı olmadıysa lütfen hata raporu bildiriminde bulununuz (aşağıya bakın).</p>
+
+<h4><a name="howitworks">Blokada nasıl çalışır?</a></h4>
+<p>Blokada cihazınızın bağlantı arayüzü (Wi-Fi veya mobil veri) ile uygulamalar arasında ince bir katmandır. Cihazınıza ait DNS adreslerini değiştirmek icin VPN bağlantısı kullanır. Blokada hiçbir şekilde verilerinizi başkalarına göndermez, VPN sadece uygulamaların farklı DNS adresleri kullanabilmesi için yerel bağlantı oluşturur. Blokada DNS uygulaması bağlantınızı hiçbir şekilde filtrelemez. Fakat kullandığınız DNS sunucularına bağlı, onlar bunu yapıyor olabilir.</p>
+
+<h4><a name="vpn">Blokada açıkken başka bir VPN kullanabilir miyim?</a></h4>
+<p>Maalesef hayır, bu bir sistem kısıtlamasıdır; aynı anda sadece bir adet aktif VPN bağlantısı kullanabilirsiniz. Eğer başka bir hizmeti aktifleştirirseniz, Blokada kapanacaktır.</p>
+
+<h4><a name="options">Blokada'daki seçenekler neler?</a></h4>
+<p>Açıkça gördüğünüz üzere Blokada ana ekranında ilk etapta bahsetmediğimiz seçenekler var. Şimdi sizi bilgilendirelim. Aşağıdaki listeyi inceleyiniz:</p>
+<p><ul>
+    <li><b>Beyaz Liste</b>: bu hariç tutulanlar listesidir. Buradan DNS değiştirilmeyecek uygulamaları seçebilirsiniz. Blokada ilk etapta hariç tutulmuş birkaç uygulama ile gelir.</li>
+    <li><b>Sürekli Çalış</b>: bu seçenek Blokada'nın sistem tarafından durdurulmadığını garanti etmek içindir. Lütfen sistemin bunu geçersiz kılma ihtimalini unutmayın ve Blokada'nın arka planda çalışması için gerekli ayarları yaptığınızdan emin olun.</li>
+    <li><b>Sadece Çevrimiçi</b>: aktifse, Blokada bir etkin bağlantı olmadığında kapanacak, bağlantı sağlandığı zaman kendiliğinden çalışacaktır. Devre dışı ise, etkin bağlantı olmadığında bile Blokada arka planda çalışacaktır. Lütfen bu özelliğin bazı cihazlarda çalışmayabileceğini unutmayın.</li>
+    <li><b>Önyüklemede başla</b>: Etkinleştirildiğinde, sistem önyüklendikten sonra Blokada başlayacaktır. Bu seçenek için, sistem düzeyinde yapılandırmalar gerektiğini lütfen unutmayın. Bu nedenle Blokada'nın önyüklemede başlatılabileceği garanti edilemez. Bu durumda lütfen cihaz ayarlarınızı kontrol ediniz. Varsayılan olarak bu seçenek aktiftir, kendiniz Blokada'yı çalıştırmak isterseniz devre dışı bırakabilirsiniz.</li>
+</ul></p>
+
+<p>Yapılandırılamayan şeyler:</p>
+<p><ul>
+    <li><b>Güncel</b>: Eğer bunu görüyorsanız Blokada'nın son sürümüne sahipsiniz demektir. Uygulamanızı güncel tutmanız daha az hata ve daha çok özellik demektir!</li>
+</ul></p>
+
+<h4><a name="update">Güncellemeyi yükleyemiyorum, ne yapabilirim?</a></h4>
+<p>İlk olarak Android sürümünüzün 5 ve sonrası olduğunu teyit edin. Android 4.0 ve daha eski sürümleri Blokada 3.0 ve daha yeni sürümlerini desteklememektedir. Bilgi için, cihazınızın Ayarlar kısmına gelip <i>Telefon hakkında</i>'yı bulunuz ve <i>Android sürümü</i> kısmını kontrol ediniz.</p>
+<p>Eğer cihazınız Android 5.0 ve sonrası bir sürüme sahipse lütfen cihazınızı yeniden başlatınız. Garip gelebilir, fakat çoğu zaman işe yarar. Eğer sorun çözülmezse, Blokada'yı cihazınızdan kaldırıp tekrar yüklemeyi deneyiniz. Cihazınız desteklenmiyor da olabilir. Lütfen <a href="http://go.blokada.org/issue_device">Cihaz Veritabanı</a>'na bakınız.</p>
+<p>Eğer yukarıdaki adımların hiçbiri işe yaramadıysa yardım için lütfen Telegram grubumuza katılın <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> yada hata raporu gönderin(aşağıya bakınız),</p>
+
+<h4><a name="notification">VPN bildirimini gizleyebilir miyim?</a></h4>
+<p>Maalesef hayır. Bazı cihazlarda rahatsız edici VPN bildirimi aktifken görüntülenecektir ve bunu gizlemek mümkün değildir. Bu bildirim ancak; Oreo (Android 8) sonrası sürümlerde gizlenebilir. Cihazınızı güncellemeyi deneyiniz.</p>
+
+<h4><a name="bug">Bir sorunu, fikri veya öneriyi nasıl bildirebilirim?</a></h4>
+<p>Eğer aradığınız soruya yanıt bulamadıysanız <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> adresinden Telegram chat kanalımıza dahil olabilirsiniz, topluluğumuz size yardım etmeye daima hazırdır. Eğer bu sizin için uygun değilse sağ üst köşedeki menüden "Geri Bildirim" seçeneğini kullanabilirsiniz. Lütfen paylaşabildiğiniz kadar çok bilgi sağlayınız ve aynı sorunu gözlemleyebilmemiz için gerekli adımları bildiriniz. Bu sorunun düzeltilmesinde önemli rol oynar! Daha teknik konular için lütfen GitHub sayfamızı ziyaret ediniz.</p>
+
+<h4><a name="private">Blokada özel verilerimi görebilir mi?</a></h4>
+<p>Hayır. Blokada özel bilgilerinizi okumaz veya müdahale etmez. Blokada DNS hiçbir şekilde verilerinizi gözlemlemez, basitçe uygulamanızın farklı DNS sunucuları kullanmasını sağlar. Blokada şifrelenmiş veri trafiğinize erişim sağlamaz.</p>
+
+<h4><a name="battery">Blokada çok şarj harcar mı?</a></h4>
+<p>Hayır. Ayarlarınıza bağlı olarak pil ömrüne etkisi minimal düzeydedir ve pek çok yeni cihazda, özellikle Marshmallow (Android 6) ve daha yeni sürümlerde herhangi bir tüketim gözlenmeyecektir. Yine da bazı şanssız cihazlarda daha fazla pil tüketimi gözlenebilir. Detaylar için <a href="http://go.blokada.org/issue_device">Cihaz Veritabanı</a>'na bakınız.</p>
+
+<h4><a name="speed">Blokada cihazımı yavaşlatır mı?</a></h4>
+<p>Hayır. Ayarlarınıza bağlı olmak koşuluyla Blokada çok verimli olabilir. Aslında Blokade şarj ve cihaz performansınıza olumlu etki edebilir, çünkü çok sayıda gereksiz ve işinize yaramayacak dosyanın indirilmesinin önüne geçer. Buna rağmen bazı eski cihazlarda performans düşüşleri gözlenebilir. Lütfen <a href="http://go.blokada.org/issue_device">Cihaz Veritabanı</a>'na bakınız.</p>
+
+<h4><a name="free">Blokada'yı kullanmak gerçekten ücretsiz mi?</a></h4>
+<p>Evet! Blokada bir hobi olarak başladı ve çoğunlukla hala benim tarafımdan geliştiriliyor. Bu benim topluma bir şekilde katkı seçimim. Blokada tamamen açık kaynak kodlu ve sonsuza kadar ücretsiz olacak. Söylemek gerekirse geliştirme çok zaman alan bir iş. Lütfen projeyi nasıl destekleyebileceğinizi görmek için aşağıdaki maddeye bakınız.</p>
+
+<h4><a name="contribute">Blokada harika, projeye nasıl yardım edebilirim?</a></h4>
+<p>Blokada'yı desteklemenin maddi veya pek çok başka yolu vardır. Projenin sürdürülebilirliği için her tür yardım çok önemlidir. <a href="contribute.html">Daha fazla bilgi için lütfen bu sayfayı ziyaret ediniz</a>, veya <a href="http://go.blokada.org/chat">Chat'e katılın</a>.</p>
+
+<h4><a name="other">Başka bir sorum var, nereden sorabilirim?</a></h4>
+<p>Eğer aradığınız soruya yanıt bulamadıysanız <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> adresinden Telegram chat kanalımıza dahil olabilirsiniz, topluluğumuz size yardım etmeye daima hazırdır. Eğer bu sizin için uygun değilse sağ üst köşedeki menüden "Geri Bildirim" seçeneğini kullanabilirsiniz, daha teknik konular için lütfen GitHub sayfamızı ziyaret ediniz.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

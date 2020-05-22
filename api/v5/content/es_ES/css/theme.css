@@ -1,0 +1,131 @@
+/*
+ * Hyde theme
+ */
+.theme-base-theme1 p, .theme-base-theme1 ul, .theme-base-theme1 ol {
+  text-align: justify;
+  color: #eaeaea;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0.1rem;
+  color: #eaeaea;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background: linear-gradient(to bottom, #242523 0%, #262F37 100%) fixed;
+}
+
+.content {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.theme-base-theme1 .comment {
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.theme-base-theme1 .sidebar {
+  background-color: #f1f1f1;
+  border-left: 1px #E4E4E4 solid;
+  color: #717171;
+  padding: 1rem 1rem;
+}
+.theme-base-theme1 .content a,
+.theme-base-theme1 .related-posts li a:hover,
+.theme-base-theme1 .sidebar a {
+  color: #ff5f00;
+}
+
+.theme-base-theme1 .content a:hover,
+.theme-base-theme1 .sidebar a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.theme-base-theme1 .content h2 a {
+  background: none !important;
+  border: none !important;
+}
+
+.theme-base-theme1 .sidebar-about h1 {
+  font-family: "Russo One", serif;
+  color: #2B2B2B;
+}
+
+@media (min-width: 48rem) {
+	.theme-base-theme1 .sidebar {
+		width: 14rem;
+	}
+
+	.theme-base-theme1 .sidebar-sticky {
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.theme-base-theme1 .content {
+		margin-right: 16rem;
+	}
+}
+
+@media (min-width: 64rem) {
+	.theme-base-theme1 .content {
+		margin-right: 18rem;
+	}
+}
+
+.feedback {
+  position: relative;
+  float: right;
+  padding: 8px;
+}
+
+table.credits {
+  width: 100%;
+  border: 0;
+  color: #eaeaea;
+}
+
+.credits td {
+  width: 50%;
+  vertical-align: top;
+  padding: 5px 5px 0 15px;
+  border: none;
+}
+
+.credits td.role, .credits td.category {
+  padding: 5px 15px 0 5px;
+  text-align: right;
+}
+
+.credits td.category {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.credits td.role {
+}
+
+.credits td.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.credits tbody tr:nth-child(odd) td {
+  background: none;
+}
+
+.credits-footer {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 80px;
+}

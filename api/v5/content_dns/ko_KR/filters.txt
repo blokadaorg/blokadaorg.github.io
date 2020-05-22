@@ -1,0 +1,158 @@
+[
+  {
+    "id": "b_app_vending",
+    "source": {
+      "id": "app",
+      "source": "com.android.vending"
+    },
+    "whitelist": true,
+    "active": true,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_downloads",
+    "source": {
+      "id": "app",
+      "source": "com.android.providers.downloads"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_allo",
+    "source": {
+      "id": "app",
+      "source": "com.google.android.apps.fireball"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_authenticator",
+    "source": {
+      "id": "app",
+      "source": "com.google.android.apps.authenticator2"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_gdocs",
+    "source": {
+      "id": "app",
+      "source": "com.google.android.apps.docs"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_duo",
+    "source": {
+      "id": "app",
+      "source": "com.google.android.apps.tachyon"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_gmail",
+    "source": {
+      "id": "app",
+      "source": "com.google.android.gm"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_gphotos",
+    "source": {
+      "id": "app",
+      "source": "com.google.android.apps.photos"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_signal",
+    "source": {
+      "id": "app",
+      "source": "org.thoughtcrime.securesms"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_plex",
+    "source": {
+      "id": "app",
+      "source": "com.plexapp.android"
+    },
+    "whitelist": true,
+    "active": true,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_kdeconnect",
+    "source": {
+      "id": "app",
+      "source": "org.kde.kdeconnect_tp"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_waze",
+    "source": {
+      "id": "app",
+      "source": "com.waze"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_xda",
+    "source": {
+      "id": "app",
+      "source": "com.xda.labs"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "http://blokada.org",
+    "name": null,
+    "comment": null
+  }
+]

@@ -1,7 +1,7 @@
 10
 b_unified
 blacklist
-active
+inactive
 https://github.com/StevenBlack/hosts
 link
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts

@@ -65,7 +65,7 @@
   <p>Blokada 最显著的功能就是广告屏蔽。 它是手机的网络接口(WiFi或手机) 与您使用的应用程序之间的薄层。 为了能够过滤每个字节的传出流量，它会建立一个VPN连接，然后拦截所有在黑名单中定义的主机所发出的请求。 当应用尝试访问被屏蔽的主机名时，应用会收到一个简单的“未找到主机名”报告，于是屏蔽工作完成了。 与此同时，Blokada 减少了数据使用、延长了电池寿命和使用时间。 过滤器自动更新。 您可以使用您自己的自定义过滤器和允许名单来配置Blokada，以确保您要使用的服务不会被阻止，并且您不会遇到任何中断。<br>
   此功能是免费提供的，它将保持免费。 享受使用Blokada！</p>
   <p><a name="allowlist"></a>如果某个应用无法按预期运行，不加载其内容或遇到类似的不当行为， 请滑动打开Blokada菜单，点击<i>广告屏蔽</i>， 选择 <i>允许的Hosts</i>， 点击顶部的+登录并添加一个单个hostname或一个包含您想要绕过过滤的所有hosts的列表文件。</p>
-  <p><a name="blocklist"></a> 您可以屏蔽不在host列表上的单个网站。 要做到这一点，请向Blokada的菜单滑动，点击<i>广告屏蔽</i>， 选择 <i>被屏蔽的主机</i> 并点击屏幕顶部的 + 签字。 在这里，您可以添加一个单个主机名或一个包含您想要屏蔽的所有主机的列表文件。</p>
+  <p><a name="blocklist"></a> You can block an individual website what isn't on a host list. 要做到这一点，请向Blokada的菜单滑动，点击<i>广告屏蔽</i>， 选择 <i>被屏蔽的主机</i> 并点击屏幕顶部的 + 签字。 在这里，您可以添加一个单个主机名或一个包含您想要屏蔽的所有主机的列表文件。</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>在Blokada v4中引入了一项新的服务，它是Blokada自己的VPN。 此服务被带到您身上，以确保您在互联网上的安全和匿名性，无论您在哪里干什么。 请参阅我们的博客文章<a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">这里</a>以了解更多关于此功能的信息。<br>
@@ -89,7 +89,7 @@
 <p><ul>
     <li><b>通知</b>：启用后，您会在广告被屏蔽时收到通知。 默认开启，但如果您收到太多通知，可以关掉它。</li>
     <li><b>开机启动</b>: 启用后， Blokada 将会在系统启动后自动开启。 请注意，此选项有系统级配置。因此，无法保证 Blokada 可以开机启动。 在这种情况下，请检查您手机的设置。 默认配置已启用，如果您想手动启动Blokada，请禁用此选项。</li>
-    <li><b>设置位置</b>：您想要在哪里储存配置：在内部或外部存储？ 如果您选择外部存储，文件可以在 /Download/Blokada 目录中找到。</li>
+    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storage? 如果您选择外部存储，文件可以在 /Download/Blokada 目录中找到。</li>
     <li><b>背景动画</b>：您可以启用或禁用背景动画及波浪显示。 白色波浪代表被允许的主机查询，而橙色的波浪则代表被拦截的查询。</li>
     <li><b>请求日志记录器</b>：启用时， Blokada 将生成一个 CSV 文件并记录被应用允许或拦截的请求。</li>
     <li><b>保持存活</b>：此选项用于确保 Blokada 不会被系统暂停或停止。 请注意您的系统可以覆盖它，确保您的设置可以让 Blokada 在后台运行。</li>
@@ -98,7 +98,7 @@
 </ul></p>
 
 <h4><a name="startup">安装后无法启动 Blokada。</a></h4>
-<p>造成这种情况通常有两个原因。 首先，请检查您是否有活动的VPN连接，以及是否启用了<i>VPN永久在线</i>选项。 要做到这一点，请转到手机的设置，在网络部分搜索 VPN ，点击现有 VPN 旁边的设备。 将其禁用，断开与活动VPN的连接并尝试重新启动 Blokada 。</p>
+<p>造成这种情况通常有两个原因。 首先，请检查您是否有活动的VPN连接，以及是否启用了<i>VPN永久在线</i>选项。 To do it, go to your phone's Settings and search for VPN in the network section, tap on the gear next to the existing VPN. 将其禁用，断开与活动VPN的连接并尝试重新启动 Blokada 。</p>
 
 <p>如果您没有其他 VPN 连接，请在 Blokada 的高级设置中检查 <i>看门狗</i>是否启用，如果已经启用，请检查您是否已通过无线网络或移动数据连接到互联网。 如果<i>看门狗</i> 已被启用而您没有网络连接，Blokada 不会启动。</p>
 
@@ -127,7 +127,7 @@
 
 <p>不可配置的东西：</p>
 <p><ul>
-    <li><b>已是最新版本</b>：如果你看到它，代表你正在运行最新版本的 Blokada 。 保持应用程序最新，因为它具有更少的错误和更多的功能！</li>
+    <li><b>Up to date</b>: if you see this, you are running the most recent version of Blokada. 保持应用程序最新，因为它具有更少的错误和更多的功能！</li>
     <li><b># 广告被屏蔽</b>：自首次启动以来 Blokada 阻止的不想要的内容数量</li>
     <li><b># 主机</b>：服务广告、恶意软件和其他不想要的内容的服务器数量</li>
 </ul></p>
@@ -142,7 +142,7 @@
     <li>尝试重置您的过滤器：前往”广告拦截“，点击”列表设置“，点击”过滤列表“(不在同步)，选择丢弃。</li>
     <li>如果您在浏览器中看到广告，请在浏览器设置中停用任何类型的流量压缩或优化。</li>
     <li>停用 Blokada ，关闭它（通过从系统最近任务屏幕上划出它），然后重新打开它。</li>
-    <li>如果您最近更改了您的设置（过滤器、允许列表等），请记住，需要一些时间才能让新配置生效。 给它一些时间。</li>
+    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes some time before the new configuration starts to take effect. 给它一些时间。</li>
     <li>清除 Blokada 的应用数据（在系统设置中），或重新安装它。</li>
     <li>重新启动您的设备。</li>
     <li>如果这些步骤都没有帮助，请报告错误(请参阅下文)。</li>
@@ -161,7 +161,7 @@
 <p>如果您遇到问题，请加入我们在 <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> Telegram 的聊天室，我们的社区很乐意为您提供帮助。 或者，只需从右上角的菜单中选择反馈选项，然后按照说明进行操作。 请提供尽可能多的信息以及重现相同问题的步骤 - 它可以帮助解决您的问题！ 如果您是专业用户，则可以直接转到GitHub上的问题跟踪器。</p>
 
 <h4><a name="private">Blokada 能看到我的私人数据吗？</a></h4>
-<p>不能。 Blokada不会读取或篡改您的私人信息，它只会监控您的设备向哪些主机发送请求，并阻止与过滤器匹配的主机。 每当Blokada阻止任何事情时，您会看到一个通知(您可以关闭)。 Blokada无法访问您的加密流量。</p>
+<p>不能。 Blokada不会读取或篡改您的私人信息，它只会监控您的设备向哪些主机发送请求，并阻止与过滤器匹配的主机。 Every time Blokada blocks anything, you will see a notification (that you can turn off). Blokada无法访问您的加密流量。</p>
 
 <h4><a name="battery">Blokada是否消耗很多电量？</a></h4>
 <p>不会。 根据您的设置，电池的影响是最小的，在大多数新设备上，尤其是在棉花糖(Android 6.0) 或更新的设备上，您不会注意到电量的消耗。 然而一些不幸运的设备可能会增加电池消耗。
@@ -176,7 +176,7 @@
 <p>有许多方式能支持 Blokada，经济上或其他方式。 任何方式的帮助对于项目的存在都非常重要。 <a href="contribute.html">请转到此页面以获取更多信息</a>，或者<a href="http://go.blokada.org/chat">加入我们的聊天</a>。</p>
 
 <h4><a name="other">我还有另一个问题，我可以在哪里问？</a></h4>
-<p>如果您的问题没有在这里得到解答，请加入我们的电报聊天频道 <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> ，我们的社区将在那里为您提供帮助。 如果对您不方便，请使用顶级菜单中的“反馈”选项，或者如果您有更多技术问题，请直接转到GitHub的跟踪器。</p>
+<p>If your question is not answered here, please join our Telegram chat channel, our community will be there to help you. 如果对您不方便，请使用顶级菜单中的“反馈”选项，或者如果您有更多技术问题，请直接转到GitHub的跟踪器。</p>
         </section>
     </div>
 </div>

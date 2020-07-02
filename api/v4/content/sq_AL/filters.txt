@@ -97,6 +97,15 @@ link
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 
 
+26
+b_ddgtrackerradar
+blacklist
+inactive
+https://go.blokada.org/ddgtrackerradar
+link
+https://blokada.org/blocklists/ddgtrackerradar/standard/hosts.txt
+
+
 30
 b_mvps
 blacklist

@@ -65,7 +65,7 @@
   <p>Blokadas bekannteste Funktion ist das Blockieren von Werbung. Es richtet zwischen der Netzwerkschnittstelle (WLAN oder Mobilfunknetz) deines Geräts und den Anwendungen, die du verwendest, eine Zwischenebene ein. Um jeden ausgehenden Datenverkehr filtern zu können, wird eine lokale VPN-Verbindung aufgebaut, über die alle Anfragen, die in den Filterlisten oder auf deiner Blacklist stehen, einfach blockiert werden. Erreicht wird diese Blockade durch eine einfache "Hostname nicht gefunden"-Meldung an die Anwendung, die versucht, auf einen blockierten Hostnamen zuzugreifen. Damit spart Blokada sowohl Datenvolumen als auch Akkukapazität und Zeit, da keine Weiterleitung durchgeführt wird. Die Filter werden automatisch aktualisiert. Du kannst Blokada mit deinen eigenen benutzerdefinierten Filtern und Whitelists konfigurieren, um sicherzustellen, dass der Dienst, den du verwenden möchtest, nicht blockiert wird und keine Unterbrechungen auftreten.<br>
  Diese Funktion steht kostenlos zur Verfügung und wird kostenlos bleiben. Viel Spaß mit Blokada!</p>
   <p><a name="allowlist"></a>Wenn eine App nicht wie erwartet funktioniert, Inhalte nicht lädt oder ein ähnliches Fehlverhalten auftritt, öffne bitte das Menü, indem du von unten nach oben wischst, tippe dann auf <i>Werbeblocker</i>, wähle <i>Erlaubte Hosts</i>, tippe auf das +-Zeichen und füge einen einzelnen Hostnamen oder eine Listendatei hinzu, die alle Hosts enthält, die an der Filterung vorbeigeleitet werden sollen.</p>
-  <p><a name="blocklist"></a> Du kannst einzelne Webseiten blockieren, die auf keiner der Hostlisten stehen. Dafür öffne das Menu von Blokada, indem du von unten nach oben wischst, tippe auf <i>Werbeblocker</i>, dann auf <i>Blockierte Hosts</i> und schließlich auf das +-Zeichen. Dort kannst du dann einzelne Hosts oder eine Liste mit mehreren Hosts, die du blockieren möchtest, hinzufügen.</p>
+  <p><a name="blocklist"></a> Du kannst einzelne Webseiten blockieren, die sich nicht auf einer Hostliste befinden. Dafür öffne das Menu von Blokada, indem du von unten nach oben wischst, tippe auf <i>Werbeblocker</i>, dann auf <i>Blockierte Hosts</i> und schließlich auf das +-Zeichen. Dort kannst du dann einzelne Hosts oder eine Liste mit mehreren Hosts, die du blockieren möchtest, hinzufügen.</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>Seit Blokada Version 4 gibt es einen neuen Service, ein von Blokada bereitgestelltes VPN. Dieser Service wird dir zur Verfügung gestellt, um deine Sicherheit und Anonymität im Internet zu gewährleisten, unabhängig davon, wo du dich befindest und was du tust. Bitte besuche unseren Blog-Artikel <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">hier</a>, um mehr über diese Funktion zu erfahren.<br>
@@ -98,7 +98,7 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
 </ul></p>
 
 <h4><a name="startup">Ich kann Blokada nicht starten, nachdem ich es installiert habe.</a></h4>
-<p>Für diese Situation gibt es zwei mögliche Ursachen. Überprüfe zuerst, ob du eine aktive VPN-Verbindung hast und ob die Option <i>Durchgehend aktives VPN</i> aktiviert ist. Um dies zu tun, gehe in die Einstellungen deines Telefons, suche im Bereich Verbindungen nach VPN und tippe auf das Zahnrad neben dem vorhandenen VPN. Trenne die aktive VPN-Verbindung und versuche Blokada neu zu starten.</p>
+<p>Für diese Situation gibt es zwei mögliche Ursachen. Überprüfe zuerst, ob du eine aktive VPN-Verbindung hast und ob die Option <i>Durchgehend aktives VPN</i> aktiviert ist. Um dies zu tun, geh zu den Einstellungen deines Telefons und suchen im Netzwerkbereich nach VPN, tippen dann auf die Einstellungen neben dem vorhandenen VPN. Trenne die aktive VPN-Verbindung und versuche Blokada neu zu starten.</p>
 
 <p>Wenn du keine andere VPN-Verbindung hast, kannst du in den Blokada-Einstellungen überprüfen, ob <i>Watchdog</i> aktiviert ist. Falls das der Fall ist, überprüfe bitte, ob du mit dem Internet (WLAN oder mobile Daten) verbunden bist. Blokada kann nicht starten, wenn <i>Watchdog</i> aktiviert ist und du keine Internetverbindung hast.</p>
 
@@ -140,7 +140,7 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
     <li>Versuche deine Filter zurückzusetzen: Gehe zu 'Werbeblocker', tippe dort auf 'Listeneinstellungen', tippe auf 'Filterlisten' (nicht auf 'Synchronisieren'), wähle 'Verwerfen'.</li>
     <li>Wenn du Anzeigen in deinem Browser siehst, deaktiviere jegliche Art von Traffic-Komprimierung oder -Optimierung in den Browsereinstellungen.</li>
     <li>Deaktiviere Blokada, schließe es (indem du es aus dem Bildschirm "Letzte" streichst), und schalte es erneut ein.</li>
-    <li>Wenn du kürzlich deine Einstellungen geändert hast (Filter, Whitelist, usw.), denke daran, dass es Zeit braucht, bis die neue Konfiguration umgesetzt ist. Gib ihr etwas Zeit.</li>
+    <li>Wenn du kürzlich deine Einstellungen geändert hast (Filter, Zulassungsliste, usw.), denke daran, dass es einige Zeit dauert, bis die neue Konfiguration in Kraft tritt. Gib ihr etwas Zeit.</li>
     <li>Lösche die App-Daten für Blokada (in den Systemeinstellungen) oder installiere es neu.</li>
     <li>Starte dein Gerät neu.</li>
     <li>Wenn keiner dieser Schritte geholfen hat, melde bitte den Fehler (siehe unten).</li>
@@ -174,7 +174,7 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
 <p>Es gibt viele Möglichkeiten, Blokada finanziell oder anderweitig zu unterstützen. Jede Art der Hilfe ist sehr wichtig für das Projekt. <a href="contribute.html">Besuche diese Seite, um weitere Informationen zu erhalten</a> oder <a href="http://go.blokada.org/chat">nimm einfach an unserem Chat teil</a>.</p>
 
 <h4><a name="other">Ich habe eine andere Frage, wo kann ich diese stellen?</a></h4>
-<p>Wenn deine Frage hier nicht beantwortet wird, schließe dich über den Link <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> unserem Telegram-Chat-Kanal an, unsere Community wird dir bestimmt gerne helfen. Wenn du das nicht möchtest, verwende die Feedback-Option im oberen Menü. Wenn du eine eher technische Frage hast, geh bitte direkt zum Tracker von GitHub.</p>
+<p>Wenn deine Frage hier nicht beantwortet wird, trete bitte unseren Telegram-Chat-Kanal damit unsere Community dir vielleicht dabei helfen kann. Wenn du das nicht möchtest, verwende die Feedback-Option im oberen Menü. Wenn du eine eher technische Frage hast, geh bitte direkt zum Tracker von GitHub.</p>
         </section>
     </div>
 </div>

@@ -65,7 +65,7 @@
   <p>Blokada's most known feature is ad blocking. It is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it uses the VPN API of the device you use, and simply blocks all requests towards the hosts defined in the blocklist filters. This blocking is done with a simple "Hostname not found" report for the application is tries to access a hostname that is blocked. With this, Blokada saves both your data plan, battery life and time: no redirection is done. The filters are updated automatically. You can configure Blokada with your own custom filters and allowlists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.<br>
   This feature is available for free, and it will stay free. Enjoy using Blokada!</p>
   <p><a name="allowlist"></a>If an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please open Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Allowed Hosts</i>, tap the + sign at the top and add a single hostname or a list file containing all the hosts you want to bypass filtering.</p>
-  <p><a name="blocklist"></a> You can block individual website what isn't on a host list. To do it, go to Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Blocked Hosts</i> and tap the + sign at the top of the screen. Here, you can add a single hostname or a list file containing all the hosts you want to block.</p>
+  <p><a name="blocklist"></a> You can block an individual website what isn't on a host list. To do it, go to Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Blocked Hosts</i> and tap the + sign at the top of the screen. Here, you can add a single hostname or a list file containing all the hosts you want to block.</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>In Blokada v4 a new service is introduced, it is Blokada's own VPN. This service is brought to you to ensure your security and anonymity on the internet, no matter where you are, what you are doing. Please refer to our blog article <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">here</a> to know more about this feature.<br>
@@ -89,7 +89,7 @@
 <p><ul>
     <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
     <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
+    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storage? If you choose external, the files are available in /Download/Blokada directory.</li>
     <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
     <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
     <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
@@ -98,7 +98,7 @@
 </ul></p>
 
 <h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to your phone's Settings and search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
 <p>Če nimate aktivne kakšne druge povezave VPN, preverite če je <i>Varovanje</i> v Naprednih nastavitvah omogočeno, in če je, preverite svojo wifi ali podatkovno povezavo. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
@@ -128,7 +128,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 
 <p>Not configurable things:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+    <li><b>Up to date</b>: if you see this, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
     <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
     <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
 </ul></p>
@@ -143,7 +143,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
     <li>Try resetting your filters: go to 'Ad blocking', there tap on 'List settings', tap on 'Filter lists' (not on Sync), choose DROP.</li>
     <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
     <li>Deactivate Blokada, close it (by swiping it out from the system's Recents screen), and turn it on again.</li>
-    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes time before new configuration start working. Give it some time.</li>
+    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes some time before the new configuration starts to take effect. Give it some time.</li>
     <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
     <li>Restart your device.</li>
     <li>If none of those steps helped, please report a bug (see below).</li>
@@ -162,7 +162,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
 
 <h4><a name="private">Ali Blokada vidi moje zasebne podatke?</a></h4>
-<p>No. Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Ob vsakem blokiranju vsebine boste videlo opozorilo (ki ga lahko izključite). Blokada has no access to your encrypted traffic.</p>
+<p>No. Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Every time Blokada blocks anything, you will see a notification (that you can turn off). Blokada has no access to your encrypted traffic.</p>
 
 <h4><a name="battery">Ali Blokada porabi veliko baterije?</a></h4>
 <p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain.
@@ -177,7 +177,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p>There are many ways to support Blokada, financially or else. All means of help are very important for the project to exist. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
 
 <h4><a name="other">I have another question, where can I ask it?</a></h4>
-<p>If your question is not answered here, please join to our Telegram chat channel on the <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> link, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
+<p>If your question is not answered here, please join our Telegram chat channel, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
         </section>
     </div>
 </div>

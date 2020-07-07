@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2020-07-02 10:50:39.503016
+# Generated at 2020-07-07 14:32:51.859232
 # Made by Blokada
 
 try.abtasty.com
@@ -2505,8 +2505,6 @@ geolocation.onetrust.com
 cdn-ukwest.onetrust.com
 rp.gwallet.com
 rs.gwallet.com
-aws1.discourse-cdn.com
-sjc3.discourse-cdn.com
 rr.shutterflycdn.com
 cld.shutterflycdn.com
 servedby.flashtalking.com

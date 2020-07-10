@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2020-07-07 14:32:51.859232
+# Generated at 2020-07-10 10:39:01.249193
 # Made by Blokada
 
 try.abtasty.com
@@ -104,7 +104,6 @@ secure.spox.com
 static.chrono24.com
 cdn3.chrono24.com
 dt.cobaltgroup.com
-upload.wikimedia.org
 streamate.icfcdn.com
 prebid-stag.setupad.net
 t.myvisualiq.net
@@ -686,7 +685,6 @@ dev.fandom.com
 seal.globalsign.com
 amatravel.tstllc.net
 hub.tstllc.net
-i.creativecommons.org
 sync-tm.everesttech.net
 rtd-tm.everesttech.net
 cm.everesttech.net
@@ -1146,7 +1144,6 @@ mk0aktiennetvh83w1k8.kinstacdn.com
 mk0mapleholistij9o2t.kinstacdn.com
 ads.stickyadstv.com
 ads.madcheddar.com
-cmp-cdn.cookielaw.org
 ei.rdtcdn.com.sds.rncdn7.com
 fs.ypncdn.com.sds.rncdn7.com
 cdn1-s-ha-e15.mdhcdn.com.sds.rncdn7.com
@@ -1283,13 +1280,6 @@ log.mmstat.com
 domains.smugmug.com
 photos.smugmug.com
 served-by.pixfuture.com
-quantcast.mgr.consensu.org
-c.sharethis.mgr.consensu.org
-cmp.faktor.mgr.consensu.org
-static.quantcast.mgr.consensu.org
-consentmanager.mgr.consensu.org
-cdn.consentmanager.mgr.consensu.org
-spolecznosci.mgr.consensu.org
 a.publir.com
 fundraisers.publir.com
 swa.and.co.uk
@@ -2299,7 +2289,6 @@ pmadvertising-delivery.aquaplatform.com
 proxibid-delivery.aquaplatform.com
 file-thumb.mangapark.net
 a.sportradarserving.com
-consent.cookiebot.com
 ads.adfox.ru
 banners.adfox.ru
 sheinsz.ltwebstatic.com
@@ -2501,8 +2490,6 @@ secure-sg.imrworldwide.com
 vlive-static.pstatic.net
 ads.avct.cloud
 pool.journalmedia.ie
-geolocation.onetrust.com
-cdn-ukwest.onetrust.com
 rp.gwallet.com
 rs.gwallet.com
 rr.shutterflycdn.com

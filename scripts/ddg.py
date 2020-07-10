@@ -39,7 +39,7 @@ def main(argv):
         "output": "ddghosts",
         "minResources": 3,
         "minResourcesPerSubdomain": 3,
-        "whitelistedCategories": ["CDN", "Online Payment"],
+        "whitelistedCategories": ["CDN", "Online Payment", "Non-Tracking"],
         "whitelistedSubdomains": ["www", "api", "cdn"]
     }
 

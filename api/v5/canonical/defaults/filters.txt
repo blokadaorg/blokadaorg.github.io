@@ -3,10 +3,10 @@
     "id": "b_unified",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
     },
     "whitelist": false,
-    "active": false,
+    "active": true,
     "credit": "https://github.com/StevenBlack/hosts",
     "name": null,
     "comment": null
@@ -15,7 +15,19 @@
     "id": "b_unified_porn",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
+    },
+    "whitelist": false,
+    "active": false,
+    "credit": "https://github.com/StevenBlack/hosts",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_unified_fngp",
+    "source": {
+      "id": "link",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"
     },
     "whitelist": false,
     "active": false,
@@ -27,23 +39,11 @@
     "id": "b_energized_basic",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts"
+      "url": "https://block.energized.pro/basic/formats/hosts"
     },
     "whitelist": false,
     "active": false,
-    "credit": "https://github.com/AdroitAdorKhan/Energized",
-    "name": null,
-    "comment": null
-  },
-  {
-    "id": "b_energized_blu_go",
-    "source": {
-      "id": "link",
-      "source": "https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts"
-    },
-    "whitelist": false,
-    "active": false,
-    "credit": "https://github.com/AdroitAdorKhan/Energized",
+    "credit": "https://energized.pro/",
     "name": null,
     "comment": null
   },
@@ -51,11 +51,11 @@
     "id": "b_energized_blu",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts"
+      "url": "https://block.energized.pro/blu/formats/hosts"
     },
     "whitelist": false,
     "active": false,
-    "credit": "https://github.com/AdroitAdorKhan/Energized",
+    "credit": "https://energized.pro/",
     "name": null,
     "comment": null
   },
@@ -63,11 +63,23 @@
     "id": "b_energized_spark",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/EnergizedProtection/block/master/spark/formats/hosts"
+      "url": "https://block.energized.pro/spark/formats/hosts"
     },
     "whitelist": false,
     "active": false,
-    "credit": "https://github.com/AdroitAdorKhan/Energized",
+    "credit": "https://energized.pro/",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_energized_regional",
+    "source": {
+      "id": "link",
+      "url": "https://block.energized.pro/extensions/regional/formats/hosts"
+    },
+    "whitelist": false,
+    "active": false,
+    "credit": "https://energized.pro/",
     "name": null,
     "comment": null
   },
@@ -75,7 +87,7 @@
     "id": "b_goodbyeads",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt"
+      "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt"
     },
     "whitelist": false,
     "active": false,
@@ -84,14 +96,38 @@
     "comment": null
   },
   {
-    "id": "b_hphosts",
+    "id": "b_samsung",
     "source": {
       "id": "link",
-      "source": "https://hosts-file.net/ad_servers.txt"
+      "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt"
     },
     "whitelist": false,
     "active": false,
-    "credit": "https://hosts-file.net/?s=Download",
+    "credit": "https://github.com/jerryn70/GoodbyeAds",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_youtube",
+    "source": {
+      "id": "link",
+      "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt"
+    },
+    "whitelist": false,
+    "active": false,
+    "credit": "https://github.com/jerryn70/GoodbyeAds",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_phishingarmy",
+    "source": {
+      "id": "link",
+      "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt"
+    },
+    "whitelist": false,
+    "active": false,
+    "credit": "https://phishing.army/",
     "name": null,
     "comment": null
   },
@@ -99,7 +135,7 @@
     "id": "b_mvps",
     "source": {
       "id": "link",
-      "source": "http://winhelp2002.mvps.org/hosts.txt"
+      "url": "http://winhelp2002.mvps.org/hosts.txt"
     },
     "whitelist": false,
     "active": false,
@@ -111,7 +147,7 @@
     "id": "b_adaway",
     "source": {
       "id": "link",
-      "source": "https://adaway.org/hosts.txt"
+      "url": "https://adaway.org/hosts.txt"
     },
     "whitelist": false,
     "active": false,
@@ -123,7 +159,7 @@
     "id": "b_danpollock",
     "source": {
       "id": "link",
-      "source": "https://someonewhocares.org/hosts/hosts"
+      "url": "https://someonewhocares.org/hosts/hosts"
     },
     "whitelist": false,
     "active": false,
@@ -135,7 +171,7 @@
     "id": "b_pgl",
     "source": {
       "id": "link",
-      "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0"
+      "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0"
     },
     "whitelist": false,
     "active": false,
@@ -147,11 +183,11 @@
     "id": "b_social",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
+      "url": "https://block.energized.pro/extensions/social/formats/hosts"
     },
     "whitelist": false,
     "active": false,
-    "credit": "https://github.com/StevenBlack/hosts",
+    "credit": "https://energized.pro/",
     "name": null,
     "comment": null
   },
@@ -159,7 +195,7 @@
     "id": "b_mining",
     "source": {
       "id": "link",
-      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts"
+      "url": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts"
     },
     "whitelist": false,
     "active": false,
@@ -171,7 +207,7 @@
     "id": "b_xiaomi",
     "source": {
       "id": "link",
-      "source": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt"
+      "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt"
     },
     "whitelist": false,
     "active": false,
@@ -180,22 +216,10 @@
     "comment": null
   },
   {
-    "id": "b_mat",
-    "source": {
-      "id": "link",
-      "source": "https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts"
-    },
-    "whitelist": false,
-    "active": false,
-    "credit": "https://github.com/jawz101/MobileAdTrackers",
-    "name": null,
-    "comment": null
-  },
-  {
     "id": "b_app_vending",
     "source": {
       "id": "app",
-      "source": "com.android.vending"
+      "url": "com.android.vending"
     },
     "whitelist": true,
     "active": false,
@@ -207,7 +231,7 @@
     "id": "b_app_downloads",
     "source": {
       "id": "app",
-      "source": "com.android.providers.downloads"
+      "url": "com.android.providers.downloads"
     },
     "whitelist": true,
     "active": false,
@@ -219,7 +243,7 @@
     "id": "b_app_allo",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.fireball"
+      "url": "com.google.android.apps.fireball"
     },
     "whitelist": true,
     "active": false,
@@ -231,7 +255,7 @@
     "id": "b_app_authenticator",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.authenticator2"
+      "url": "com.google.android.apps.authenticator2"
     },
     "whitelist": true,
     "active": false,
@@ -243,7 +267,7 @@
     "id": "b_app_gdocs",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.docs"
+      "url": "com.google.android.apps.docs"
     },
     "whitelist": true,
     "active": false,
@@ -255,7 +279,7 @@
     "id": "b_app_duo",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.tachyon"
+      "url": "com.google.android.apps.tachyon"
     },
     "whitelist": true,
     "active": false,
@@ -267,7 +291,7 @@
     "id": "b_app_gmail",
     "source": {
       "id": "app",
-      "source": "com.google.android.gm"
+      "url": "com.google.android.gm"
     },
     "whitelist": true,
     "active": false,
@@ -279,7 +303,7 @@
     "id": "b_app_gphotos",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.photos"
+      "url": "com.google.android.apps.photos"
     },
     "whitelist": true,
     "active": false,
@@ -291,7 +315,7 @@
     "id": "b_app_playgames",
     "source": {
       "id": "app",
-      "source": "com.google.android.play.games"
+      "url": "com.google.android.play.games"
     },
     "whitelist": true,
     "active": false,
@@ -303,10 +327,10 @@
     "id": "b_app_signal",
     "source": {
       "id": "app",
-      "source": "org.thoughtcrime.securesms"
+      "url": "org.thoughtcrime.securesms"
     },
     "whitelist": true,
-    "active": false,
+    "active": true,
     "credit": "https://blokada.org",
     "name": null,
     "comment": null
@@ -315,7 +339,7 @@
     "id": "b_app_plex",
     "source": {
       "id": "app",
-      "source": "com.plexapp.android"
+      "url": "com.plexapp.android"
     },
     "whitelist": true,
     "active": false,
@@ -327,19 +351,19 @@
     "id": "b_app_kdeconnect",
     "source": {
       "id": "app",
-      "source": "org.kde.kdeconnect_tp"
+      "url": "org.kde.kdeconnect_tp"
     },
     "whitelist": true,
-    "active": true,
+    "active": false,
     "credit": "https://blokada.org",
     "name": null,
     "comment": null
   },
   {
-    "id": "b_app_waze",
+    "id": "b_app_samsungmail",
     "source": {
       "id": "app",
-      "source": "com.waze"
+      "url": "com.samsung.android.email.provider"
     },
     "whitelist": true,
     "active": false,
@@ -351,7 +375,7 @@
     "id": "b_app_xda",
     "source": {
       "id": "app",
-      "source": "com.xda.labs"
+      "url": "com.xda.labs"
     },
     "whitelist": true,
     "active": false,
@@ -363,7 +387,7 @@
     "id": "b_app_incallui",
     "source": {
       "id": "app",
-      "source": "com.android.incallui"
+      "url": "com.android.incallui"
     },
     "whitelist": true,
     "active": false,
@@ -375,7 +399,7 @@
     "id": "b_app_phone",
     "source": {
       "id": "app",
-      "source": "com.android.phone"
+      "url": "com.android.phone"
     },
     "whitelist": true,
     "active": false,
@@ -387,7 +411,7 @@
     "id": "b_app_telephony",
     "source": {
       "id": "app",
-      "source": "com.android.providers.telephony"
+      "url": "com.android.providers.telephony"
     },
     "whitelist": true,
     "active": false,
@@ -399,7 +423,7 @@
     "id": "b_app_hwsysmanager",
     "source": {
       "id": "app",
-      "source": "com.huawei.systemmanager"
+      "url": "com.huawei.systemmanager"
     },
     "whitelist": true,
     "active": false,
@@ -411,10 +435,10 @@
     "id": "b_app_rcsserviceapp",
     "source": {
       "id": "app",
-      "source": "com.android.service.ims.RcsServiceApp"
+      "url": "com.android.service.ims.RcsServiceApp"
     },
     "whitelist": true,
-    "active": false,
+    "active": true,
     "credit": "https://blokada.org",
     "name": null,
     "comment": null
@@ -423,7 +447,7 @@
     "id": "b_app_carriersetup",
     "source": {
       "id": "app",
-      "source": "com.google.android.carriersetup"
+      "url": "com.google.android.carriersetup"
     },
     "whitelist": true,
     "active": false,
@@ -435,10 +459,10 @@
     "id": "b_app_carrierservice",
     "source": {
       "id": "app",
-      "source": "com.google.android.ims"
+      "url": "com.google.android.ims"
     },
     "whitelist": true,
-    "active": true,
+    "active": false,
     "credit": "https://blokada.org",
     "name": null,
     "comment": null
@@ -447,7 +471,7 @@
     "id": "b_app_cafservice",
     "source": {
       "id": "app",
-      "source": "com.codeaurora.ims"
+      "url": "com.codeaurora.ims"
     },
     "whitelist": true,
     "active": false,
@@ -459,7 +483,67 @@
     "id": "b_app_carrierconfig",
     "source": {
       "id": "app",
-      "source": "com.android.carrierconfig"
+      "url": "com.android.carrierconfig"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "https://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_threema",
+    "source": {
+      "id": "app",
+      "url": "ch.threema.app"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "https://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_threemawork",
+    "source": {
+      "id": "app",
+      "url": "ch.threema.app.work"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "https://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_xiaomiupdate",
+    "source": {
+      "id": "app",
+      "url": "com.xiaomi.discover"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "https://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_conversations",
+    "source": {
+      "id": "app",
+      "url": "eu.siacs.conversations"
+    },
+    "whitelist": true,
+    "active": false,
+    "credit": "https://blokada.org",
+    "name": null,
+    "comment": null
+  },
+  {
+    "id": "b_app_jitsimeet",
+    "source": {
+      "id": "app",
+      "url": "org.jitsi.meet"
     },
     "whitelist": true,
     "active": false,

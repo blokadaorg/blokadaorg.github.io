@@ -26,9 +26,10 @@
     "ar_SA",
     "sk_SK",
     "iw_IL",
-    "zu_Z"
+    "zu_ZA",
+    "sl_SI"
   ],
-  "newestVersionCode": 404000004,
+  "newestVersionCode": 405000002,
   "newestVersionName": "Beta",
   "downloadLinks": [
     "http://go.blokada.org/apk4_beta"

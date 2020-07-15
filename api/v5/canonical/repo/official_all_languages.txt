@@ -28,10 +28,10 @@
     "iw_IL",
     "zu_Z"
   ],
-  "newestVersionCode": 404000004,
-  "newestVersionName": "4.4.4",
+  "newestVersionCode": 405000002,
+  "newestVersionName": "4.5.2",
   "downloadLinks": [
-    "https://github.com/blokadaorg/blokada/releases/download/4.4.4/blokada-v4.4.4.apk",
-    "https://bitbucket.org/blokada/blokada/downloads/blokada-v4.4.4.apk"
+    "https://github.com/blokadaorg/blokada/releases/download/4.5.2/blokada-v4.5.2.apk",
+    "https://bitbucket.org/blokada/blokada/downloads/blokada-v4.5.2.apk"
   ]
 }

@@ -3,7 +3,7 @@
     "id": "b_app_vending",
     "source": {
       "id": "app",
-      "source": "com.android.vending"
+      "url": "com.android.vending"
     },
     "whitelist": true,
     "active": true,
@@ -15,7 +15,7 @@
     "id": "b_app_downloads",
     "source": {
       "id": "app",
-      "source": "com.android.providers.downloads"
+      "url": "com.android.providers.downloads"
     },
     "whitelist": true,
     "active": false,
@@ -27,7 +27,7 @@
     "id": "b_app_allo",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.fireball"
+      "url": "com.google.android.apps.fireball"
     },
     "whitelist": true,
     "active": false,
@@ -39,7 +39,7 @@
     "id": "b_app_authenticator",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.authenticator2"
+      "url": "com.google.android.apps.authenticator2"
     },
     "whitelist": true,
     "active": false,
@@ -51,7 +51,7 @@
     "id": "b_app_gdocs",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.docs"
+      "url": "com.google.android.apps.docs"
     },
     "whitelist": true,
     "active": false,
@@ -63,7 +63,7 @@
     "id": "b_app_duo",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.tachyon"
+      "url": "com.google.android.apps.tachyon"
     },
     "whitelist": true,
     "active": false,
@@ -75,7 +75,7 @@
     "id": "b_app_gmail",
     "source": {
       "id": "app",
-      "source": "com.google.android.gm"
+      "url": "com.google.android.gm"
     },
     "whitelist": true,
     "active": false,
@@ -87,7 +87,7 @@
     "id": "b_app_gphotos",
     "source": {
       "id": "app",
-      "source": "com.google.android.apps.photos"
+      "url": "com.google.android.apps.photos"
     },
     "whitelist": true,
     "active": false,
@@ -99,7 +99,7 @@
     "id": "b_app_signal",
     "source": {
       "id": "app",
-      "source": "org.thoughtcrime.securesms"
+      "url": "org.thoughtcrime.securesms"
     },
     "whitelist": true,
     "active": false,
@@ -111,7 +111,7 @@
     "id": "b_app_plex",
     "source": {
       "id": "app",
-      "source": "com.plexapp.android"
+      "url": "com.plexapp.android"
     },
     "whitelist": true,
     "active": true,
@@ -123,7 +123,7 @@
     "id": "b_app_kdeconnect",
     "source": {
       "id": "app",
-      "source": "org.kde.kdeconnect_tp"
+      "url": "org.kde.kdeconnect_tp"
     },
     "whitelist": true,
     "active": false,
@@ -135,7 +135,7 @@
     "id": "b_app_waze",
     "source": {
       "id": "app",
-      "source": "com.waze"
+      "url": "com.waze"
     },
     "whitelist": true,
     "active": false,
@@ -147,7 +147,7 @@
     "id": "b_app_xda",
     "source": {
       "id": "app",
-      "source": "com.xda.labs"
+      "url": "com.xda.labs"
     },
     "whitelist": true,
     "active": false,

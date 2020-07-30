@@ -31,7 +31,7 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://block.energized.pro/basic/formats/hosts
+https://blokada.org/mirror/v5/energized/basic/hosts.txt
 
 
 17
@@ -40,7 +40,7 @@ blacklist
 active
 https://energized.pro/
 link
-https://block.energized.pro/blu/formats/hosts
+https://blokada.org/mirror/v5/energized/blu/hosts.txt
 
 
 18
@@ -49,7 +49,7 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://block.energized.pro/spark/formats/hosts
+https://blokada.org/mirror/v5/energized/spark/hosts.txt
 
 
 19
@@ -58,7 +58,7 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://block.energized.pro/extensions/regional/formats/hosts
+https://blokada.org/mirror/v5/energized/regional/hosts.txt
 
 
 20
@@ -148,7 +148,7 @@ blacklist
 inactive
 https://energized.pro/
 link
-https://block.energized.pro/extensions/social/formats/hosts
+https://blokada.org/mirror/v5/energized/social/hosts.txt
 
 
 55

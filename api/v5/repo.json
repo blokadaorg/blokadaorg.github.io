@@ -9,11 +9,13 @@
         {
             "name": "The official blokada.org release",
             "forBuild": "fullOfficial",
-            "checkForUpdate": true,
-            "mirrors": [
-                "https://github.com/blokadaorg/blokada/releases/download/$version/blokada-v$version.apk"
-            ],
-            "newest": "4.8.2"
+            "update": {
+                "infoUrl": "https://blokada.org/#download",
+                "mirrors": [
+                    "https://github.com/blokadaorg/blokada/releases/download/$version/blokada-v$version.apk"
+                ],
+                "newest": "4.8.2"
+            }
         },
         {
             "name": "F-Droid or XDA",
@@ -24,15 +26,17 @@
             "name": "Beta channel",
             "forBuild": "fullBeta",
             "checkForUpdate": true,
-            "mirrors": [
-                "https://go.blokada.org/apk5_beta"
-            ],
-            "newest": "5.1.123"
+            "update": {
+                "infoUrl": "https://community.blokada.org/t/blokada-v5-for-android-community-beta/1941/42",
+                "mirrors": [
+                    "https://go.blokada.org/apk5_beta"
+                ],
+                "newest": "5.1.123"
+            }
         },
         {
             "name": "Google Play (Slim)",
-            "forBuild": "googleOfficial",
-            "checkForUpdate": false
+            "forBuild": "googleOfficial"
         }
     ]
 }

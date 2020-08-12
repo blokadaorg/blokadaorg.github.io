@@ -1,0 +1,38 @@
+{
+    "syntaxVersion": 500,
+    "common": {
+        "name": "common",
+        "forBuild": "*",
+        "supportedLanguages": ["en", "pl", "de"]
+    },
+    "buildConfigs": [
+        {
+            "name": "The official blokada.org release",
+            "forBuild": "fullOfficial",
+            "checkForUpdate": true,
+            "mirrors": [
+                "https://github.com/blokadaorg/blokada/releases/download/$version/blokada-v$version.apk"
+            ],
+            "newest": "4.8.2"
+        },
+        {
+            "name": "F-Droid or XDA",
+            "forBuild": "communityRelease",
+            "checkForUpdate": false
+        },
+        {
+            "name": "Beta channel",
+            "forBuild": "fullBeta",
+            "checkForUpdate": true,
+            "mirrors": [
+                "https://go.blokada.org/apk5_beta"
+            ],
+            "newest": "5.0.3"
+        },
+        {
+            "name": "Google Play (Slim)",
+            "forBuild": "googleOfficial",
+            "checkForUpdate": false
+        }
+    ]
+}

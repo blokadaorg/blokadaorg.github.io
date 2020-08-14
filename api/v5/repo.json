@@ -27,7 +27,7 @@
             "forBuild": "fullBeta",
             "checkForUpdate": true,
             "update": {
-                "infoUrl": "https://community.blokada.org/t/blokada-v5-for-android-community-beta/1941",
+                "infoUrl": "https://blokada.org/#download",
                 "mirrors": [
                     "https://go.blokada.org/apk5_beta"
                 ],

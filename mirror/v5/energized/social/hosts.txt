@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 20.07.184
-# Release: 184
+# Version: 20.08.237
+# Release: 237
 # Entries: 6,820
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Thu, 02 Jul 20 12:09:19
+# Updated: Mon, 24 Aug 20 12:00:02
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -107,6 +107,7 @@
 0.beta.freebasics.com
 0.com.0.freebasics.com
 0.dev.freebasics.com
+0.discoverapp.com
 0-edge-chat.facebook.com
 0.facebook.com
 0.fbsbx.com
@@ -1531,6 +1532,7 @@ direct.musical.ly
 direct.static.tagged.com
 direct.www.tagged.com
 discordapp.com
+discoverapp.com
 discover.viber.com
 discovery-aus.snapfish.com
 discovery.snapfish.com
@@ -3116,8 +3118,6 @@ link.ask.fm
 linkedin.com
 linkedinforgood.linkedin.com
 link.medium.com
-	<link rel="stylesheet" href="check.css">
-	<link rel="stylesheet" href="w3.css">
 linksalpha.com
 link.staging.ask.fm
 link-stg.ask.fm
@@ -3439,6 +3439,7 @@ mobi.freebasics.com
 mobile.asafziv.sb.freebasics.com
 mobile.beta.facebook.com
 mobile-blog.line.me
+mobile.discoverapp.com
 mobile.facebook.com
 mobile.freebasics.com
 mobile.internet.org
@@ -3804,7 +3805,6 @@ nwebopedia.internet.org
 nwebpass.internet.org
 nwidget.networkedblogs.com
 nz-1-scontent.fpoa10-1.fna.fbcdn.net
-nz-1-video.fszb1-1.fna.fbcdn.net
 nzain.internet.org
 nzero.facebook.com.internet.org
 nzero.freebasics.com
@@ -4853,6 +4853,7 @@ scontent-zrh1-1.cdninstagram.com
 scotiabank.m.facebook.com
 screen.weibo.com
 sc.renren.com
+    <script>
 sdkapp.uve.weibo.com
 sdk.e.qq.com
 sdkreport.gslb.yy.com
@@ -6694,7 +6695,6 @@ z-p3-scontent.fskg1-1.fna.fbcdn.net
 z-p3-scontent.fsub1-1.fna.fbcdn.net
 z-p3-scontent.fsub2-2.fna.fbcdn.net
 z-p3-scontent.fsub4-1.fna.fbcdn.net
-z-p3-scontent.fszb1-1.fna.fbcdn.net
 z-p3-scontent.ftij1-1.fna.fbcdn.net
 z-p3-scontent.ftij3-1.fna.fbcdn.net
 z-p3-scontent.ftpa1-1.fna.fbcdn.net

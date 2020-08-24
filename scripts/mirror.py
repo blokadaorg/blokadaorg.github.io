@@ -123,6 +123,18 @@ def main(argv):
                         "urls": [
                             "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt"
                         ]
+                    },
+                    {
+                        "name": "samsung",
+                        "urls": [
+                            "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt"
+                        ]
+                    },
+                    {
+                        "name": "xiaomi",
+                        "urls": [
+                            "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt"
+                        ]
                     }
                 ]
             },

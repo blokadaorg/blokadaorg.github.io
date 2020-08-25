@@ -7,7 +7,7 @@
     },
     "buildConfigs": [
         {
-            "name": "The official blokada.org release",
+            "name": "Blokada 5: official channel",
             "forBuild": "fullOfficial",
             "update": {
                 "infoUrl": "https://blokada.org/#download",
@@ -23,7 +23,7 @@
             "checkForUpdate": false
         },
         {
-            "name": "Beta channel",
+            "name": "Blokada 5: beta channel",
             "forBuild": "fullBeta",
             "checkForUpdate": true,
             "update": {
@@ -35,8 +35,12 @@
             }
         },
         {
-            "name": "Google Play (Slim)",
+            "name": "Blokada 5 Slim: Google Play",
             "forBuild": "googleOfficial"
+        },
+        {
+            "name": "Blokada 5 Slim: Google Play (beta)",
+            "forBuild": "googleBeta"
         }
     ]
 }

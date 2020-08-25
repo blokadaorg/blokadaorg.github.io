@@ -1,7 +1,7 @@
 {
     "syntaxVersion": 500,
     "common": {
-        "name": "common",
+        "name": "Unauthorized Blokada build. Download one from https://blokada.org",
         "forBuild": "*",
         "supportedLanguages": ["en", "pl", "de"]
     },

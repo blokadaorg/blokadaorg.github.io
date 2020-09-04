@@ -32,11 +32,6 @@
                     "https://go.blokada.org/apk5_beta"
                 ],
                 "newest": "5.0.9"
-            },
-            "payload": {
-                "action": "dns",
-                "param1": "adguard",
-                "param2": "2"
             }
         },
         {

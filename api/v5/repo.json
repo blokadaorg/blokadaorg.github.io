@@ -36,7 +36,10 @@
         },
         {
             "name": "Blokada 5 Slim: Google Play",
-            "forBuild": "googleOfficial"
+            "forBuild": "googleOfficial",
+            "payload": {
+                "cmd": "dns/adguard"
+            }
         },
         {
             "name": "Blokada 5 Slim: Google Play (beta)",

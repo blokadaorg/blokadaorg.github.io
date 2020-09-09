@@ -8,19 +8,14 @@
     "buildConfigs": [
         {
             "name": "Blokada 5: official channel",
-            "forBuild": "fullOfficial",
+            "forBuild": "fullRelease",
             "update": {
                 "infoUrl": "https://blokada.org/#download",
                 "mirrors": [
-                    "https://github.com/blokadaorg/blokada/releases/download/$version/blokada-v$version.apk"
+                    "https://go.blokada.org/apk5"
                 ],
-                "newest": "4.8.2"
+                "newest": "5.1.0"
             }
-        },
-        {
-            "name": "F-Droid or XDA",
-            "forBuild": "communityRelease",
-            "checkForUpdate": false
         },
         {
             "name": "Blokada 5: beta channel",
@@ -31,12 +26,17 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_beta"
                 ],
-                "newest": "5.0.11"
+                "newest": "5.1.0"
             }
         },
         {
+            "name": "F-Droid or XDA",
+            "forBuild": "communityRelease",
+            "checkForUpdate": false
+        },
+        {
             "name": "Blokada 5 Slim: Google Play",
-            "forBuild": "googleOfficial"
+            "forBuild": "googleRelease"
         },
         {
             "name": "Blokada 5 Slim: Google Play (beta)",
@@ -44,11 +44,11 @@
         },
         {
             "name": "Blokada 5: escaped from Google Play",
-            "forBuild": "escapedOfficial"
+            "forBuild": "escapedRelease"
         },
         {
             "name": "Blokada 5: escaped from Google Play (beta)",
-            "forBuild": "escapedBeta"
+            "forBuild": "escapedRelease"
         }
     ]
 }

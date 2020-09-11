@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.09.253
-# Release: 253
-# Entries: 39,771
+# Version: 20.09.255
+# Release: 255
+# Entries: 39,749
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 09 Sep 20 18:05:21
+# Updated: Fri, 11 Sep 20 12:05:08
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -1698,7 +1698,6 @@ ad0be.ga
 ad0.bigmir.net
 ad.103092804.com
 ad10.focalink.com
-ad10.play3.de
 ad11.focalink.com
 ad11p.adfarm1.adition.com
 ad12.focalink.com
@@ -1816,7 +1815,6 @@ adactive-ads.aimatch.com
 adacts.com
 adacus-cdn.placelocal.com
 ad.ad24.ru
-ad.adapter.kaffnet.com
 ad.adcash.com
 ad.adc-serv.net
 ad.admitad.com
@@ -1859,7 +1857,6 @@ ad.api.ateam-ad.jp
 ad-api.ehawk.com
 adapi.flipboard.com
 adapi.inlcorp.com
-ad.api.kaffnet.com
 ad.appier.net
 ad.apsalar.com
 adaptersdepot.com
@@ -2440,7 +2437,6 @@ admedit.net
 admedo.com
 admeld.adnxs.com
 admeld.com
-admention.adspirit.de
 admeridianads.com
 admeta.com
 admex.com
@@ -11478,7 +11474,6 @@ country.yepshare.com
 count-server.sharethis.com
 counts.yieldlab.net
 count.taobao.com
-count.yandeg.ru
 coupling-media.de
 couponchief.122.2o7.net
 couponsaustria.com
@@ -12335,7 +12330,6 @@ dawarnix.de
 dawnnationaladvertiser.com
 daydream-wellnessmassagen.de
 dayenotomasyon.com
-daylogs.com
 daylongtemps.com
 dayu-img.uc.cn
 db14a56766c5e1a1c2.com
@@ -13997,7 +13991,6 @@ epost.122.2o7.net
 epp.bih.net.ba
 eprice.demdex.net
 eproof.com
-eps-analyzer.de
 epsiulpa.com
 epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com
 ep-uswest.ifc.inmobi.com
@@ -15870,7 +15863,6 @@ gethoneyseal.com
 getintent.com
 getiton.com
 getmailcounter.com
-get.mirando.de
 getmyads.com
 get.mycounter.com.ua
 get.mycounter.ua
@@ -17880,7 +17872,6 @@ ihmevshz.bid
 ihre-hausverwalter.de
 ihvmcqojoj.com
 iialqejeka.com
-i.icomoon.io
 i.idio.co
 iikhhkwryiqq.bid
 i-i.lt
@@ -20312,7 +20303,6 @@ lichth.goodusales.com
 lickbylick.com
 lick.startappservice.com
 liczniki.org
-lidlretargeting.adspirit.de
 l-idsync.rlcdn.com
 lie2anyone.com
 liebehaus.de
@@ -20760,6 +20750,8 @@ logs2.appsflyer.com
 logs.81plug.com
 logs.amap.com
 logs.api.vungle.com
+logs.datadoghq.com
+logs.datadoghq.eu
 logsdk.qq.com
 log.sdk.zadn.vn
 logs.ereality.org
@@ -24665,7 +24657,6 @@ opbneuozwyuvpk.com
 ope.gds.tanx.com
 openads.dimcab.com
 openads.friendfinder.com
-openads.motorrad-net.at
 openadsnetwork.com
 openads.org
 openads.smithmag.net
@@ -28095,7 +28086,6 @@ redirect.caline.adtdp.com
 redirect.click2net.com
 redirect.clickshield.net
 redirect.com
-redirectcpv.com
 redirect.datahc.com
 redirect.ero-advertising.com
 redirect.fool.com
@@ -31447,7 +31437,6 @@ static.nectarads.com
 static.netadclick.com
 static.nitropay.com
 static.olymptrade.com
-static.openads.motorrad-net.at
 static.outbrain.com
 static.parkingpanel.com
 static.parsely.com
@@ -31597,7 +31586,6 @@ stats.cliqz.com
 stats.concierge.com
 stats.coronalabs.com
 stats.data2.ero-advertising.com
-stats.datahjaelp.net
 stats.datawrapper.de
 stats.defense.gov
 stats.dice.com
@@ -31684,7 +31672,6 @@ stats.vk-portal.net
 stats.vocento.com.edgekey.net
 stats.voyages-sncf.com
 stats.vulture.com
-stats.warenform.de
 stats.webleads-tracker.com
 stats.wired.com
 stats.wp.com
@@ -32508,7 +32495,6 @@ taukibreez.iad-03.braze.com
 taverna-ikaros.at
 tawdryson.com
 tawnymayer.com
-taz.adspirit.de
 tb4.sb-cd.com
 tbaffiliate.com
 t.bawafx.com
@@ -32721,7 +32707,6 @@ test-script.dotmetrics.net
 testsieger-handys.de
 testtradedeskmve.s.moatpixel.com
 test-user-sync.adhese.com
-test.wiredminds.de
 test-www.content.ad
 testyourluck32.club
 tetsqz.edvfwlacluo.com
@@ -36761,7 +36746,6 @@ win3.studynerdz.com
 win4.studynerdz.com
 win5.studynerdz.com
 win.ad-stir.com
-winappcenter.total-secure.info
 winariss.com
 winbuyer.com
 win.chairoons.com
@@ -36826,7 +36810,6 @@ wlmarketing.com
 wlneteller.adsrv.eacdn.com
 wltoys.co
 wlxrk.lovenights.net
-wmapp.wiredminds.de
 w.masky.biddingx.com
 wm.baidu.com
 wm.banners.sextracker.com
@@ -36834,7 +36817,6 @@ wm-dornbirn2017.at
 wmedia-track.uc.cn
 wmg.112.2o7.net
 wmgmulti.112.2o7.net
-wm-goldenclick.ru
 wmikrut.com
 wmirk.ru
 wmmediacorp.com
@@ -36846,7 +36828,6 @@ wms-in.amazon-adsystem.com
 wms-na.amazon-adsystem.com
 wms-tools.com
 w.m.taobao.com
-wm.wiredminds.de
 wnp.com
 wn.pos.baidu.com
 wnprot.com
@@ -37612,7 +37593,6 @@ www.blender3d.fr
 www.blockadsnot.com
 www.blog.addthis.com
 www.blogads.com
-www.blogads.de
 www.blog.adspaces.ero-advertising.com
 www.blog.ero-advertising.com
 www.blog.intext.ero-advertising.com
@@ -38673,7 +38653,6 @@ www.silvercash.com
 www.simpli.fi
 www.sin.ero-advertising.com
 www.singlesadnetwork.com
-www.sitecounter.be
 www.sitestats.com
 www.sitestatslive.com
 www.sitetracker.com
@@ -38977,7 +38956,6 @@ www.webtraxs.com
 www.webtrends.net
 www.webwise.org
 wwwweinesportsga.imageshack.host
-www.weitclick.de
 www.weknow.ac
 www.westreclameadvies.nl
 www.whalecashads.com

@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 20.09.255
-# Release: 255
+# Version: 20.10.276
+# Release: 276
 # Entries: 6,820
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 11 Sep 20 12:06:10
+# Updated: Fri, 02 Oct 20 12:06:46
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #

@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.10.290
-# Release: 290
-# Entries: 39,022
+# Version: 20.10.297
+# Release: 297
+# Entries: 39,037
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 16 Oct 20 06:05:34
+# Updated: Fri, 23 Oct 20 12:06:00
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -807,6 +807,7 @@
 3wxm70.edvfwlacluo.com
 3xtraffic.com
 3zvw1.bemobtrk.com
+400.route.to.adtracker.network
 403.hqhost.net
 404.online.net
 404.xxxymovies.com
@@ -866,7 +867,6 @@
 4702fb341ddf276d.com
 4706.api.swrve.com
 4706.content.swrve.com
-47361.ns1.dns-info.tk
 4753.api.swrve.com
 4753.content.swrve.com
 4768.api.swrve.com
@@ -1490,7 +1490,6 @@ acc.magixite.com
 accountreview.outbrain.com
 account-settings.appsflyer.com
 accounts.longmusic.com
-accountsx.bounceme.net
 accuen.optout.agkn.com
 acdn.adnxs.com
 a.cdn.intentmedia.net
@@ -1709,6 +1708,7 @@ ad999.biz
 ad.a-ads.com
 ad.abcnews.com
 ad.about.co.kr
+adabra.com
 ad.abum.com
 adacado.com
 adaction.de
@@ -2430,6 +2430,7 @@ adn.impactradius.com
 adn.insight.ucweb.com
 adnium.com
 ad.nl.doubleclick.net
+adn.lrb.co.uk
 adnmore.co.kr
 adnoble.com
 ad.no.doubleclick.net
@@ -4334,6 +4335,7 @@ ad.yieldmanager.com
 a.dynad.net
 adyoulike.com
 adywind.com
+adz2you.com
 ad.za.doubleclick.net
 ad.zanox.com
 adzbazar.com
@@ -4598,7 +4600,6 @@ aiprvqqnhm.com
 aiqua-sdk.c.appier.net
 airbrake.io
 aircovid19virus.com
-airjaldinet.ml
 airmaxshopschweiz.com
 airplaypro-de.com
 airpodsdirekt.de
@@ -7153,6 +7154,7 @@ azgyimccolyyo.com
 azjmp.com
 azlm-25.cdnamz.com
 aznfyqgrbgy.com
+azoaltou.com
 a.zog.link
 azoogleads.com
 azpresearch.club
@@ -7732,9 +7734,11 @@ be.sponsorpay.com
 best2017games.com
 best2019-games-web1.com
 best2019-games-web4.com
+best2020-games-web1.com
 bestadbid.com
 bestanimegame.com
 bestappinstalls.com
+bestaryua.com
 bestboundary.com
 bestbuycanada.demdex.net
 bestbuydeals2019.com
@@ -8376,6 +8380,7 @@ br.com.tapps.analytics.s3.amazonaws.com
 breadapp.com
 breakingfeedz.com
 breakthroughtrend.com
+breaktime.com.tw
 brealtime.com
 breasxy.gq
 b-rec.de
@@ -9341,6 +9346,7 @@ cdn.ayads.co
 cdn.bannersnack.com
 cdn.batmobi.net
 cdn.beaconpush.com
+cdn.betgorebysson.club
 cdn.bidadx.com
 cdn.bidgear.com
 cdn.bitmedianetwork.com
@@ -10245,6 +10251,7 @@ clickupto.com
 clickwallads.s3.amazonaws.com
 clickwinks.com
 clickxchange.com
+clickyab.com
 clickz.com
 client.addthis.com
 clientcdn.pushengage.com
@@ -10675,7 +10682,6 @@ collector.doordash.com
 collector.effectivemeasure.net
 collector.eqads.com
 collector.githubapp.com
-collector-medium.lightstep.com
 collector.newrelic.com
 collector.placelocal.com
 collector-pool.newrelic.com
@@ -12154,6 +12160,7 @@ deepintent.com
 deepmetrix.com
 deezer.deliveryengine.adswizz.com
 default.ads.justpremium.com
+def.dev-nano.com
 defectivesun.com
 defpush.com
 degitlwfezpe.com
@@ -12478,6 +12485,7 @@ direct.yandex.com
 di.rlcdn.com
 dirtyrhino.com
 dirtytalk101com.skimlinks.com
+disapprovalaccusedirt.com
 dis.as.criteo.com
 disccglobal.112.2o7.net
 disccstats.112.2o7.net
@@ -13004,7 +13012,6 @@ dyykxositkqt.bid
 dz0k1b.edvfwlacluo.com
 dz4ad.com
 dz.ads.justpremium.com
-dzairads.com
 dzitech.net
 dzl.baidu.com
 dzlj06v4g249i.cloudfront.net
@@ -13312,7 +13319,6 @@ efebafmqn.com
 efekvyyynwd.com
 effectivemeasure.com
 effectivemeasure.net
-effectstorestream8.live
 efficaciouscactus.com
 efhabjaabgfbbegjacj.ru
 e-find.co
@@ -19819,6 +19825,7 @@ lflplmckcncj.com
 lfqocbhv.com
 lfscpttracking.com
 lfstmedia.com
+lftqch650apz.com
 lftracker.leadfeeder.com
 l.funzone.by
 lfzbgckyctztj.bid
@@ -21148,6 +21155,7 @@ mb-cdn.stocard.de
 mbdg.waptrick.org
 mbe-cdn.fyber.com
 m.benaughty.com
+mbermorn.top
 mbid.marfeelrev.com
 mbixofultnnd.com
 m.blogads.com
@@ -22061,7 +22069,6 @@ mngiyhnat.112.2o7.net
 mngiyrkdr.112.2o7.net
 mn.moatads.com
 mnoa6ez1eq.com
-mnp.nkr.am
 mnrktyxs.bid
 mntz.life
 mntzr-january2019.com
@@ -25025,7 +25032,6 @@ pdx-1-xcp.go.sonobi.com
 pdx.amazon-adsystem.com
 pdx-col.eum-appdynamics.com
 pe1.intentiq.com
-peacelist.ignorelist.com
 pe.ads.justpremium.com
 peakclick.com
 pearlfeet.de
@@ -26199,6 +26205,7 @@ pr1.rat.xxx
 pr1.zbporn.com
 pr3nt.mdhok.pro
 p.raasnet.com
+practeddagek.club
 pracuj.adocean.pl
 pracuj.hit.gemius.pl
 praddpro.de
@@ -26604,12 +26611,14 @@ ptcdn.mbicash.nl
 ptclassic.com
 p.teads.tv
 ptedgovern.info
+pteenoum.com
 pt.fiksu.com
 ptgiweiu.com
 pt-gmtdmp.mookie1.com
 ptigjkkds.com
 ptimeinc.chartbeat.net
 ptiniretm.com
+ptirgaux.com
 pt.ispot.tv
 ptkgzsqf.com
 ptlbzqzveii.com
@@ -26774,6 +26783,7 @@ push-ad.com
 pushad.metajoy.services
 push.adright.co
 pushads.popcash.net
+pushagim.com
 pushails.com
 pushalert.co
 pushame.com
@@ -27646,6 +27656,7 @@ remistrainew.club
 remodelingonlinecom.112.2o7.net
 remotead.cnet.com
 remotead-internal.cnet.com
+remove-ads.xyz
 remox.com
 renaissanto.com
 renderer.apester.com
@@ -28523,6 +28534,7 @@ salesforcecom.demdex.net
 sales.idio.co
 salesnleads.com
 sales.outbrain.com
+saletrybest.su
 salewa-rucksack.de
 s.alitui.weibo.com
 salomonschoenensale.com
@@ -29483,7 +29495,6 @@ shakesmobi.com
 shakesuggestion.com
 shakytaste.com
 shallowsmile.com
-shangri-la.gq
 shanta-jos.com
 shapado.com
 shapzwwy.com
@@ -29609,6 +29620,7 @@ show-s.mediav.com
 showyoursite.com
 shoxhome.com
 shrek.6.cn
+shrimpsqueezed.com
 shrink-service.it
 shscrypto.net
 shushoku-seiko.com
@@ -30018,6 +30030,7 @@ smwww.112.2o7.net
 sn00.net
 snack-media.com
 snagajob.122.2o7.net
+snammar-jumntal.com
 snapabug.appspot.com
 snapfish.112.2o7.net
 snapmobile.asia
@@ -32206,7 +32219,6 @@ think.unbounce.com
 thirdpresence-inv-eu.admixer.net
 thirdrespect.com
 third-tracking.com
-thirdwx.qlogo.cn
 thirstytwig.com
 thirtydaychange.com
 thiscdn.com
@@ -32259,6 +32271,7 @@ tiads.people.com
 tiads.timeinc.net
 tia.timeinc.net
 t.iaudienc.com
+tic.filmstoon.cam
 tic.googlesyndication.com
 ticker.api.prd.innopage.com
 ticklesign.com
@@ -34530,7 +34543,6 @@ unagrancompra.com
 unarmedindustry.com
 unclebillswv.com
 uncoached-d.openx.net
-unconf.adkmob.com
 uncumlzowtkn.com
 undaylilyshop.com
 underclick.ru
@@ -34556,6 +34568,7 @@ unionslot.lau1.uae.uc.cn
 uniquefarfit.de
 unique-print.de
 unit.content.ad
+unitdotto.club
 unitus.synergy-e.com
 unityads.unity3d.com
 unity-east-bidder.manage.com
@@ -35763,6 +35776,7 @@ webanalyticsnossl.websense.com
 webanalytics.tm00.com
 web.analytics.yahoo.com
 webassembly.stream
+web-bars.com
 webbizwild.com
 web.btncdn.com
 webcams.h-bid.com
@@ -36292,6 +36306,7 @@ ww1510.smartadserver.com
 ww1692.smartadserver.com
 ww1772.smartadserver.com
 ww1894.smartadserver.com
+ww1.flashx.net
 ww1.smartadserver.com
 ww2026.smartadserver.com
 ww2060-sgp.smartadserver.com
@@ -37089,7 +37104,6 @@ www.displaybrowser.com
 www.displayvertising.com
 www.dntx.com
 www.dobreprogramy.pro
-www.dobre-programy.xyz
 www.dogecoinfaucets.info
 www.dolanadserver.com
 www.domain.name
@@ -37771,6 +37785,7 @@ www.premieropinion.com
 www.presidency.site
 www.press-here-to-continue.com
 www.pressurespot.com
+www.prioritisemyhealth.com
 www.privatamateure.com
 www.prize-mania.mobi
 www.prizes-sg.com
@@ -38053,7 +38068,6 @@ www.thatsphucked.com
 www.theadgateway.com
 www.theannoyingsite.com
 www.the-binary-options-guide.com
-www.thecounter.com
 www.theexgirlfriends.com
 www.thehomo.org
 www.thepounder.com
@@ -38178,6 +38192,7 @@ www.us.ads.justpremium.com
 www.usemax.de
 www.usenetjunction.com
 www.users.ero-advertising.com
+www.user-shield.com
 www.usersonlinecounter.com
 www.validview.com
 www.valueclick.com

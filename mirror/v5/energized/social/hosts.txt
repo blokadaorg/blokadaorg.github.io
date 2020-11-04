@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 20.10.304
-# Release: 304
-# Entries: 6,820
+# Version: 20.11.309
+# Release: 309
+# Entries: 6,813
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 30 Oct 20 12:06:39
+# Updated: Wed, 04 Nov 20 12:06:50
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -2318,34 +2318,27 @@ fna-fbcdn-shv-02-fdet1.fbcdn.net
 fna-fbcdn-shv-02-fsnc1.fbcdn.net
 fna-fbcdn-video-shv-01-ffjr1.fbcdn.net
 fna-fbcdn-z-m-shv-01-fapa1.fbcdn.net
-fna-fbcdn-z-m-shv-01-fbna1.fbcdn.net
 fna-fbcdn-z-m-shv-01-fgla1.fbcdn.net
 fna-fbcdn-z-m-shv-01-fkwi11.fbcdn.net
 fna-fbcdn-z-m-shv-01-fmaa1.fbcdn.net
 fna-fbcdn-z-m-shv-01-fmia1.fbcdn.net
-fna-fbcdn-z-m-shv-02-fbed1.fbcdn.net
-fna-fbcdn-z-m-shv-02-fbna1.fbcdn.net
 fna-fbcdn-z-m-shv-02-fmaa1.fbcdn.net
 fna-fbcdn-z-m-shv-02-fmia1.fbcdn.net
 fna-fbcdn-z-m-shv-03-fmaa1.fbcdn.net
 fna-fbcdn-z-m-shv-04-fmaa1.fbcdn.net
 fna-fbcdn-z-p3-shv-01-fapa1.fbcdn.net
-fna-fbcdn-z-p3-shv-01-fbna1.fbcdn.net
 fna-fbcdn-z-p3-shv-01-fgla1.fbcdn.net
 fna-fbcdn-z-p3-shv-01-fmaa1.fbcdn.net
 fna-fbcdn-z-p3-shv-01-fmia1.fbcdn.net
-fna-fbcdn-z-p3-shv-02-fbna1.fbcdn.net
 fna-fbcdn-z-p3-shv-02-fmaa1.fbcdn.net
 fna-fbcdn-z-p3-shv-02-fmia1.fbcdn.net
 fna-fbcdn-z-p3-shv-03-fmaa1.fbcdn.net
 fna-fbcdn-z-p3-shv-04-fmaa1.fbcdn.net
 fna-fbcdn-z-p4-shv-01-fapa1.fbcdn.net
-fna-fbcdn-z-p4-shv-01-fbna1.fbcdn.net
 fna-fbcdn-z-p4-shv-01-fgla1.fbcdn.net
 fna-fbcdn-z-p4-shv-01-fmaa1.fbcdn.net
 fna-fbcdn-z-p4-shv-01-fmia1.fbcdn.net
 fna-fbcdn-z-p4-shv-01-foma1.fbcdn.net
-fna-fbcdn-z-p4-shv-02-fbna1.fbcdn.net
 fna-fbcdn-z-p4-shv-02-fmaa1.fbcdn.net
 fna-fbcdn-z-p4-shv-02-fmia1.fbcdn.net
 fna-fbcdn-z-p4-shv-03-fmaa1.fbcdn.net
@@ -4922,6 +4915,7 @@ shaildhar2.in.expresswifi.com
 shaildhar-expresswifi-com.shaildhar.in.expresswifi.com
 shaildhar.in.expresswifi.com
 shaildharqa.in.expresswifi.com
+shaildharqa.in.xwf.internet.org
 shareaholic.com
 share.api.viber.com
 share.baidu.com
@@ -6655,7 +6649,6 @@ z-p3-scontent.flim1-1.fna.fbcdn.net
 z-p3-scontent.flos1-1.fna.fbcdn.net
 z-p3-scontent.flpb2-1.fna.fbcdn.net
 z-p3-scontent.fltn2-1.fna.fbcdn.net
-z-p3-scontent.fmba1-1.fna.fbcdn.net
 z-p3-scontent.fmba2-1.fna.fbcdn.net
 z-p3-scontent.fmct2-2.fna.fbcdn.net
 z-p3-scontent.fmct3-2.fna.fbcdn.net

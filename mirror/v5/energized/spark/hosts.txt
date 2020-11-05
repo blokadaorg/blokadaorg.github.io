@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.11.309
-# Release: 309
+# Version: 20.11.310
+# Release: 310
 # Entries: 41,050
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 04 Nov 20 12:05:37
+# Updated: Thu, 05 Nov 20 12:05:37
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #

@@ -88,6 +88,15 @@ link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
 
 
+23
+b_goodbyeads_spotify
+blacklist
+inactive
+https://github.com/jerryn70/GoodbyeAds
+link
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt
+
+
 25
 b_phishingarmy
 blacklist
@@ -104,6 +113,24 @@ inactive
 https://go.blokada.org/ddgtrackerradar
 link
 https://blokada.org/blocklists/ddgtrackerradar/standard/hosts.txt
+
+
+28
+b_blacklist
+blacklist
+inactive
+https://github.com/anudeepND/blacklist
+link
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+
+
+29
+b_blacklist_facebook
+blacklist
+inactive
+https://github.com/anudeepND/blacklist
+link
+https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
 
 
 30

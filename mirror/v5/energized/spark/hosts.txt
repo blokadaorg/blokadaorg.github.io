@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.11.310
-# Release: 310
-# Entries: 41,050
+# Version: 20.11.311
+# Release: 311
+# Entries: 41,025
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Thu, 05 Nov 20 12:05:37
+# Updated: Fri, 06 Nov 20 12:05:40
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -5919,7 +5919,6 @@ a.ns.ish.atdmt.com
 anstrex.com
 answerhub.com
 answers-d.openx.net
-answers.nielsen.com
 answerstedhctbek.onion.pet
 antenna-apse.ayads.co
 antenna.ayads.co
@@ -6046,7 +6045,6 @@ aopxnvrugx.com
 aoqvovzrtlpn.bid
 aoredi.com
 aos.gop1.co
-aos.opt8.co
 aos.wall.youmi.net
 ap2.adriver.ru
 apac.analytics.yahoo.com
@@ -6718,7 +6716,6 @@ apprefaculty.pro
 app.reflectivedata.com
 ap.prizenotifications.com
 app.roximity.com
-apps2.outfit7.com
 apps.adjust.io
 apps.admob.com
 apps.applift.com
@@ -6772,7 +6769,6 @@ appservice5-7.omniture.com
 appservice5-8.omniture.com
 appservice5-9.omniture.com
 appservice5.omniture.com
-apps-ext.outfit7.com
 appsfire.com
 appsflyer.com
 appsflyer.com.akamaized.net
@@ -9939,7 +9935,6 @@ cdn.ftd.agency
 cdn.g5e.com
 cdn.gameads.io
 cdn-gcp.siftscience.com
-cdn-gcs.outfit7.com
 cdn.getsmartcontent.com
 cdn.gimbal.tech
 cdn.gladly.com
@@ -10037,7 +10032,6 @@ cdn.nearbyad.com
 cdn.notifyvisitors.com
 cdn.nsimg.net
 cdn.o333o.com
-cdn-o7.outfit7.com
 cdn.oas-c17.adnxs.com
 cdn.oas-c18.adnxs.com
 cdn.oas-eu1.adnxs.com
@@ -10052,7 +10046,6 @@ cdn.optmd.com
 cdn-otf-cas.adperfect.com
 cdn-otf-cas.prfct.cc
 cdn.otherlevels.com
-cdn.outfit7.com
 cdnp1.yieldoptimizer.com
 cdnpa.bidvertiser.com
 cdn.pardot.com
@@ -10099,7 +10092,6 @@ cdn.rubiconproject.com
 cdn.runative-syndicate.com
 cdn.run-syndicate.com
 cdn-s2s.buysellads.net
-cdn-safe.outfit7.com
 cdn.sagent.io
 cdn.sail-horizon.com
 cdn.sailthru.com
@@ -14661,9 +14653,7 @@ events3.adcolony.com
 events3alt.adcolony.com
 events.adwidecenter.com
 eventsalt30.adcolony.com
-events-api-ew1.outfit7.com
 events-api.otherlevels.com
-events-api.outfit7.com
 events.api.vungle.com
 events.appsflyer.com
 events.attentivemobile.com
@@ -16304,7 +16294,6 @@ geol.startbundlingnow.com
 geo.moatads.com
 geo.moatads.comgeo.moatads.com
 geonorwayes.online
-geo.opt8.co
 geoplugin.net
 geopolice.com
 geo.qualaroo.com
@@ -18059,7 +18048,6 @@ hyperbrainz-inv-wus.admixer.net
 hyperion.adtech.us
 hyperlinksecure.com
 hyperpromote.com
-hypertext.service.newrelic.com
 hypertracker.com
 hyperurl.co
 hypervre.com
@@ -18694,7 +18682,6 @@ img.netwrix.com
 imgn.marketgid.com
 imgn.mgid.com
 img.nui.media
-img.opt8.co
 img-origin.trafficshop.com
 img-peco.ucweb.com
 img.prohardver.hu
@@ -21225,6 +21212,7 @@ locator1.corevm.com
 locatorpp.corevm.com
 lochjol.com
 locjzfoh.com
+locked4.com
 lockerdomecdn.com
 lockerdome.com
 lockersamsungs8.r.xoxknct.com
@@ -22204,10 +22192,6 @@ mastermind.com
 mastermining.net
 mastertag.effiliation.com
 masture.mobi
-match7-as-s1.outfit7.com
-match7-eu-w1.outfit7.com
-match7-so-e1.outfit7.com
-match7-us-c1.outfit7.com
 match.ads.betweendigital.com
 match.adsrvr.org
 matchadsrvr.yieldmo.com
@@ -24943,7 +24927,6 @@ o3.outbound.crashlytics.com
 o3sndvzo25.com
 o4uxrk33.com
 o5w51.bemobtrk.com
-o7hb.outfit7.com
 oacw.de
 o.addthis.com
 o.adgear.com
@@ -25423,7 +25406,6 @@ openxmarket.asia
 openx.mercatormedia.com
 openx.net
 openx.omniton.net
-openx.org
 openx-server.thinknearhub.com
 openx.skinet.cz
 openx.smcaen.fr
@@ -25441,7 +25423,6 @@ opfrjkmmvqmm.com
 ophttps.rayjump.com
 opienetwork.com
 opinion.inmobi.com
-opinionstage.com
 opknogsela.bid
 opmnstr.com
 oppcgcqytazs.com
@@ -25704,12 +25685,6 @@ oxado.com
 oxanehlscsry.com
 oxcash.com
 oxcpvsxgegd.com
-ox-delivery-prod-1-asia-northeast1.openx.net
-ox-delivery-prod-1-asia-southeast1.openx.net
-ox-delivery-prod-1-europe-west1.openx.net
-ox-delivery-prod-1-us-central1.openx.net
-ox-delivery-prod-1-us-east1.openx.net
-ox-delivery-prod-1-us-west1.openx.net
 oxen.hillcountrytexas.com
 ox-i.zenoviagroup.com
 ox.pxl.ace.advertising.com
